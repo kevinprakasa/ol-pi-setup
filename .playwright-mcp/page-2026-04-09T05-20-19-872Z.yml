@@ -1,0 +1,308 @@
+- generic [active] [ref=e1]:
+  - button "Skip to main content" [ref=e3] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - link "OpenLearning" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img [ref=e11]
+        - generic [ref=e12]: OpenLearning
+      - text: 
+      - generic [ref=e14]:
+        - button "Institutions" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Institutions
+          - img [ref=e18]: 
+        - button "Courses" [ref=e21] [cursor=pointer]:
+          - generic [ref=e22]: Courses
+          - img [ref=e23]: 
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - button "Notifications" [ref=e28] [cursor=pointer]:
+          - img [ref=e29]: 
+          - generic [ref=e31]: Notifications
+        - generic: 
+      - generic [ref=e32]:
+        - button "superadmin superuser" [ref=e33] [cursor=pointer]:
+          - img "superadmin" [ref=e36]
+          - generic [ref=e37]: superuser
+        - generic:         
+      - 'button "Selected language: English (EN)" [ref=e39] [cursor=pointer]':
+        - generic [ref=e40]: EN
+  - generic [ref=e41]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - heading "Social Learning Built for Your Career Portfolio" [level=1] [ref=e45]
+          - paragraph [ref=e46]: We connect learners, institutions, and employers in one space – turning education progress into public, career-shaping proof through an AI-powered learning management system.
+          - generic [ref=e47]:
+            - link "FOR INSTITUTIONS" [ref=e48] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com
+              - generic [ref=e50]: FOR INSTITUTIONS
+            - button "FOR LEARNERS" [ref=e51] [cursor=pointer]:
+              - generic [ref=e52]: FOR LEARNERS
+        - generic:
+          - img "person-engaging-in-a-social-learning-activity"
+        - img "openlearning-review-certificate-module"
+      - generic [ref=e54]:
+        - heading "Join The Global Community Shaping Futures That Last" [level=2] [ref=e55]
+        - generic [ref=e56]:
+          - generic [ref=e57]:
+            - generic [ref=e58]:
+              - generic [ref=e59]: 5M
+              - generic [ref=e60]: +
+            - generic [ref=e61]: Learners
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - generic [ref=e64]: "250"
+              - generic [ref=e65]: +
+            - generic [ref=e66]: Institutions
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]: 20K
+              - generic [ref=e70]: +
+            - generic [ref=e71]: Courses
+          - generic [ref=e72]:
+            - generic [ref=e73]:
+              - generic [ref=e74]: "58"
+              - generic [ref=e75]: +
+            - generic [ref=e76]: Employers
+      - generic [ref=e78]:
+        - link "Western Sydney University" [ref=e79] [cursor=pointer]:
+          - /url: https://www.openlearning.com/courses/?filters=%7B%22institutions%22%3A%5B%22westernsydney%22%2C%22wsu%22%5D%2C%22sortBy%22%3A%5B%22relevance%22%5D%7D
+          - img "Western Sydney University" [ref=e80]
+        - link "Australian Catholic University" [ref=e81] [cursor=pointer]:
+          - /url: https://www.openlearning.com/acu/?utm_source=OLmarketplace&utm_medium=platform&utm_campaign=OLmarketplace_AU
+          - img "Australian Catholic University" [ref=e82]
+        - link "UNSW Sydney" [ref=e83] [cursor=pointer]:
+          - /url: https://www.openlearning.com/unswshortcourses/?utm_source=OLmarketplace&utm_medium=platform&utm_campaign=OLmarketplace_AU
+          - img "UNSW Sydney" [ref=e84]
+        - link "Sunway University" [ref=e85] [cursor=pointer]:
+          - /url: https://www.openlearning.com/courses/?filters=%7B%22query%22%3A%22sunway%22%2C%22sortBy%22%3A%5B%22relevance%22%5D%2C%22qualificationSortBy%22%3A%5B%22relevance%22%5D%7D&utm_source=OLmarketplace&utm_medium=platform&utm_campaign=OLmarketplace_AU
+          - img "Sunway University" [ref=e86]
+        - link "University of Wollongong" [ref=e87] [cursor=pointer]:
+          - /url: https://www.openlearning.com/university-of-wollongong/?utm_source=OLmarketplace&utm_medium=platform&utm_campaign=OLmarketplace_AU
+          - img "University of Wollongong" [ref=e88]
+        - link "Universiti Sains Malaysia" [ref=e89] [cursor=pointer]:
+          - /url: https://learning4life.usm.my/?utm_source=OLmarketplace&utm_medium=platform&utm_campaign=OLmarketplace_AU
+          - img "Universiti Sains Malaysia" [ref=e90]
+      - generic [ref=e91]:
+        - heading "Because Education Deserves More Than Slides" [level=2] [ref=e92]:
+          - text: Because Education Deserves
+          - text: More Than Slides
+        - img [ref=e93]
+        - generic [ref=e94]:
+          - article "Peer-Powered Motivation" [ref=e95]:
+            - img "Learners collaborating online" [ref=e97]
+            - heading "Peer-Powered Motivation" [level=3] [ref=e98]
+            - paragraph [ref=e99]:
+              - strong [ref=e100]: Most learning is a lonely journey.
+              - text: We make learning social, so you stay engaged, accountable, and motivated.
+          - article "Interactive By Design" [ref=e101]:
+            - img "Interactive learning screens" [ref=e103]
+            - heading "Interactive By Design" [level=3] [ref=e104]
+            - paragraph [ref=e105]:
+              - strong [ref=e106]: Most digital courses feel like tasks.
+              - text: We bring learning to life with reflections, peer dialogue, and media that makes you think, not just finish.
+          - article "Career-Visible Outcomes" [ref=e107]:
+            - img "Achievement and recognition" [ref=e109]
+            - heading "Career-Visible Outcomes" [level=3] [ref=e110]
+            - paragraph [ref=e111]:
+              - strong [ref=e112]: Most learning stays buried.
+              - text: "We help make it visible: to peers and to employers globally through your portfolios."
+      - region "OpenLearning Experience timeline" [ref=e113]:
+        - generic [ref=e114]:
+          - heading "The OpenLearning Experience:" [level=2] [ref=e115]
+          - paragraph [ref=e116]: A space where smart tech and interactive learning bring out the best in you
+        - img [ref=e117]
+        - heading "Confident" [level=3] [ref=e119]
+        - generic [ref=e122]:
+          - img "Discover" [ref=e123]
+          - img "discover icon" [ref=e124]
+        - generic [ref=e128]:
+          - img "Learn" [ref=e129]
+          - img "learn icon" [ref=e130]
+        - generic [ref=e132]:
+          - generic [ref=e133]: "&"
+          - heading "Connected" [level=3] [ref=e134]
+        - generic [ref=e137]:
+          - img "Showcase" [ref=e138]
+          - img "showcase icon" [ref=e139]
+      - region "Testimonials and featured course" [ref=e141]:
+        - img [ref=e142]
+        - generic [ref=e143]:
+          - heading "Real World Impact" [level=3] [ref=e144]
+          - generic [ref=e145]:
+            - generic [ref=e147]:
+              - generic [ref=e149]:
+                - generic [ref=e151]:
+                  - generic [ref=e152]:
+                    - img
+                    - paragraph [ref=e153]: Using the OpenLearning platform has kept me motivated to complete the course early through clearly segmented topic sections, as well as track my progress easily. On a personal level, online learning was a great way to keep my brain active and talk about something new with my peers.
+                    - generic [ref=e154]:
+                      - img "Margarita avatar" [ref=e155]
+                      - generic [ref=e156]:
+                        - generic [ref=e157]: Margarita
+                        - generic [ref=e158]: Artificial Intelligence & Machine Learning – UNSW
+                  - generic [ref=e159]:
+                    - generic [ref=e160]:
+                      - img [ref=e161]
+                      - img
+                      - img
+                    - generic [ref=e162]:
+                      - generic [ref=e163]: UNSW Short Courses
+                      - generic [ref=e164]: "Artificial Intelligence and Machine Learning: In-depth Short Course"
+                      - generic [ref=e165]: "You've heard of AI, but do you understand it? Learn AI today: explore algorithms, apply machine learning, solve problems and prepare yourself for the future of work."
+                - generic [ref=e167]:
+                  - generic [ref=e168]:
+                    - img
+                    - paragraph [ref=e169]: We are delighted to partner with OpenLearning and explore the potential of AI-driven course design. This technology will help us maintain our commitment to delivering high-quality, engaging learning experiences to our students, while ensuring the responsible use of AI.
+                    - generic [ref=e170]:
+                      - img "Prof Dr Hiew Pang Leang avatar" [ref=e171]
+                      - generic [ref=e172]:
+                        - generic [ref=e173]: Prof Dr Hiew Pang Leang
+                        - generic [ref=e174]: Vice-Chancellor, UOW Malaysia
+                  - generic [ref=e175]:
+                    - generic [ref=e176]:
+                      - img [ref=e177]
+                      - img
+                    - generic [ref=e178]:
+                      - generic [ref=e179]: UOW Malaysia
+                      - generic [ref=e180]: Boosting Career Development at UOW Malaysia
+                      - generic [ref=e181]: Continue your professional development by learning transferable skills that all employers seek.
+                - generic [ref=e183]:
+                  - generic [ref=e184]:
+                    - img
+                    - paragraph [ref=e185]: This collaboration with OpenLearning demonstrates our dedication to embracing innovative technologies that can enable the future of education. We look forward to exploring how these AI-powered tools can assist us to deliver more personalised and effective learning experiences for our learners.
+                    - generic [ref=e186]:
+                      - img "Cherie Diaz avatar" [ref=e187]
+                      - generic [ref=e188]:
+                        - generic [ref=e189]: Cherie Diaz
+                        - generic [ref=e190]: Executive Director, Education Innovation, Western Sydney University
+                  - generic [ref=e191]:
+                    - generic [ref=e192]:
+                      - img [ref=e193]
+                      - img
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: Western Sydney University
+                      - generic [ref=e196]: Ready to take your career to new heights?
+                      - generic [ref=e197]: Become a lifelong learner with Western Sydney University's variety of short courses - your fast track to in-demand skills.
+              - generic:
+                - img [ref=e199] [cursor=pointer]
+                - img [ref=e202] [cursor=pointer]
+            - tablist "Slide pagination" [ref=e204]:
+              - button "Go to slide 1" [ref=e205] [cursor=pointer]
+              - button "Go to slide 2" [ref=e206] [cursor=pointer]
+              - button "Go to slide 3" [ref=e207] [cursor=pointer]
+      - generic [ref=e208]:
+        - generic [ref=e210]: 20,500+ Courses built by leading institutions
+        - button "BROWSE OUR COURSES" [ref=e212] [cursor=pointer]:
+          - generic [ref=e213]: BROWSE OUR COURSES
+    - contentinfo [ref=e214]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - list [ref=e221]:
+            - listitem [ref=e222]:
+              - strong [ref=e223]: Tools & Resources
+            - listitem [ref=e224]:
+              - link "Help & Support" [ref=e225] [cursor=pointer]:
+                - /url: /sso/help/?redirect=https%3A%2F%2Fhelp.openlearning.com%2F
+            - listitem [ref=e226]:
+              - link "Contact us" [ref=e227] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e228]:
+              - link "Learning design toolkit" [ref=e229] [cursor=pointer]:
+                - /url: https://medium.com/learning-designers-toolkit
+            - listitem [ref=e230]:
+              - link "Blog" [ref=e231] [cursor=pointer]:
+                - /url: http://blog.openlearning.com
+            - listitem [ref=e232]:
+              - link "Verify a certificate" [ref=e233] [cursor=pointer]:
+                - /url: /certificate-verification/
+            - listitem [ref=e234]:
+              - link "Integrations" [ref=e235] [cursor=pointer]:
+                - /url: /sso/help/?url=https%3A%2F%2Fhelp.openlearning.com%2Fcategory%2Fintegrations
+            - listitem [ref=e236]:
+              - link "Status" [ref=e237] [cursor=pointer]:
+                - /url: https://status.openlearning.com/
+          - list [ref=e239]:
+            - listitem [ref=e240]:
+              - strong [ref=e241]: Platform
+            - listitem [ref=e242]:
+              - link "Philosophy" [ref=e243] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/learning-philosophy/
+            - listitem [ref=e244]:
+              - link "Features" [ref=e245] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/platform-features/
+            - listitem [ref=e246]:
+              - link "Pricing" [ref=e247] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/pricing/
+            - listitem [ref=e248]:
+              - link "OpenCreds" [ref=e249] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/opencreds/
+            - listitem [ref=e250]:
+              - link "Partners" [ref=e251] [cursor=pointer]:
+                - /url: /partners/
+            - listitem [ref=e252]:
+              - link "Browse all courses" [ref=e253] [cursor=pointer]:
+                - /url: /courses/
+            - listitem [ref=e254]:
+              - link "Create a course" [ref=e255] [cursor=pointer]:
+                - /url: /courses/create/
+          - list [ref=e257]:
+            - listitem [ref=e258]:
+              - strong [ref=e259]: Company
+            - listitem [ref=e260]:
+              - link "About us" [ref=e261] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/about/
+            - listitem [ref=e262]:
+              - link "Team" [ref=e263] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/teams/
+            - listitem [ref=e264]:
+              - link "Careers" [ref=e265] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/careers/
+            - listitem [ref=e266]:
+              - link "Press" [ref=e267] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/press/
+            - listitem [ref=e268]:
+              - link "Investors" [ref=e269] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/investor-home/
+            - listitem [ref=e270]:
+              - link "Partnerships" [ref=e271] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/contact
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - generic [ref=e274]:
+              - link "Twitter" [ref=e275] [cursor=pointer]:
+                - /url: https://twitter.com/openlrning
+                - img [ref=e276]: 
+                - generic [ref=e278]: Twitter
+              - link "Instagram" [ref=e279] [cursor=pointer]:
+                - /url: https://www.instagram.com/openlearning_global
+                - img [ref=e280]: 
+                - generic [ref=e282]: Instagram
+              - link "Facebook" [ref=e283] [cursor=pointer]:
+                - /url: https://facebook.com/OpenLearning
+                - img [ref=e284]: 
+                - generic [ref=e286]: Facebook
+              - link "LinkedIn" [ref=e287] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/openlearningcom/
+                - img [ref=e288]: 
+                - generic [ref=e290]: LinkedIn
+              - link "YouTube" [ref=e291] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/openlearningcom
+                - img [ref=e292]: 
+                - generic [ref=e294]: YouTube
+            - generic [ref=e295]:
+              - link "Terms of service" [ref=e296] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/terms-of-service/
+              - link "Privacy policy" [ref=e297] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/privacy-policy/
+          - generic [ref=e298]: © 2026 Open Learning Global Pty Ltd
+    - heading "Chat" [level=1] [ref=e299]
+  - alertdialog [ref=e300]:
+    - alert [ref=e301]:
+      - generic [ref=e303]: 
+      - heading "Timezone has changed." [level=4] [ref=e304]
+      - alert [ref=e305]:
+        - text: "Your current timezone is set to: Asia/Jakarta but you are now in Pacific/Auckland. You can change timezone settings in your"
+        - link "account settings" [ref=e306] [cursor=pointer]:
+          - /url: http://openlearning.test/accounts/account-settings/

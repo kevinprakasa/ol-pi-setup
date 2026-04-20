@@ -1,0 +1,4 @@
+{
+  "extensions": [".pi/extensions/memory-reminder.ts"],
+  "prompts": [".pi/prompts"]
+}

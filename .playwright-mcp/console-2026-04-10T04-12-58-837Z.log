@@ -1,0 +1,23 @@
+[    1262ms] [LOG] Running frontend commit fbc2e67b2b63357b96d1da7a9bd2c22a359d000d @ https://www.figma.com/design/4YoMu973G4Nt7Gdq4qPweQ/Code-Execution-integration?node-id=334-6425:574
+[    2967ms] [WARNING] Statsig is not ready to log exposures, will retry in 1 seconds @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    3046ms] [LOG] Loaded 103 scripts (8531265b), 0 from cache (0b) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    3576ms] [LOG] [import] git: 1ad0f375bac0acd8c024cf3fc5fc5824b781bc2f, stamp: E1ED59C23FE82BF8 @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    3605ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.figma.com/api/statsig/v1_ruleset:0
+[    3606ms] [ERROR] Failed to fetch v1 ruleset: T: XHR for "/api/statsig/v1_ruleset" failed with status 401
+    at N (https://www.figma.com/webpack-artifacts/assets/8471-9b34d4c19daef10f.min.js.br:1403:14449)
+    at async Object.R [as get] (https://www.figma.com/webpack-artifacts/assets/8471-9b34d4c19daef10f.min.js.br:1403:14832)
+    at async https://www.figma.com/webpack-artifacts/assets/8471-9b34d4c19daef10f.min.js.br:1098:212813
+    at async _.validate (https://www.figma.com/webpack-artifacts/assets/figma_app_beta-06a51d4aa422d373.min.js.br:199:196875)
+    at async b (https://www.figma.com/webpack-artifacts/assets/8471-9b34d4c19daef10f.min.js.br:1364:187927)
+    at async A (https://www.figma.com/webpack-artifacts/assets/8471-9b34d4c19daef10f.min.js.br:1364:187131)
+    at async Object.write (https://www.figma.com/webpack-artifacts/assets/8471-9b34d4c19daef10f.min.js.br:1364:186750) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    3951ms] [INFO] [Fullscreen] Booting... (emscripten version 4.0.21) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    4334ms] [INFO] [GPU] graphicsAPI:"WebGL 2", vendor:"Google Inc. (Apple)", renderer:"ANGLE (Apple, ANGLE Metal Renderer: Apple M1 Pro, Unspecified Version)" version:"OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium))" @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    4338ms] [LOG] [Fullscreen] Ready in 1188.0ms @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    4522ms] [INFO] [FullscreenApp] calling setEditorTheme and setting preference light @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    4577ms] [INFO] [MultiplayerSession] connecting to wss://www.figma.com/api/multiplayer/4YoMu973G4Nt7Gdq4qPweQ?role=editor&tracking_session_id=cjjaxMqSudHidAFY&version=151&recentReload=0&file-load-streaming-compression&scenegraph-queries-initial-nodes=334:6425&client_release=fbc2e67b2b63357b96d1da7a9bd2c22a359d000d @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    4587ms] [INFO] [MultiplayerSession] Joining file version 106 (initial load) @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    7917ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.figma.com/fullscreen/fbc2e67b2b63357b96d1da7a9bd2c22a359d000d/fullscreen-wasm/compiled_wasm.js.br:1
+[    7947ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.figma.com/fullscreen/fbc2e67b2b63357b96d1da7a9bd2c22a359d000d/fullscreen-wasm/compiled_wasm.js.br:1
+[    8173ms] [INFO] afterJoinEnd PageSyncing: Loaded incrementally {loaded_pages: 231:541} @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53
+[    8189ms] [INFO] [FullscreenApp] calling setEditorTheme and setting preference light @ https://www.figma.com/webpack-artifacts/assets/vendor-core-852eb37328238592.min.js.br:53

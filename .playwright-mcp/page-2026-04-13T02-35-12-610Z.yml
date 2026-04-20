@@ -1,0 +1,50 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: API Hub
+  - region "Notifications alt+T"
+  - main [ref=e306]:
+    - generic [ref=e307]:
+      - 'button "RapidAPI Hub: public API Marketplace" [ref=e309]':
+        - 'link "RapidAPI Hub: public API Marketplace" [ref=e310] [cursor=pointer]':
+          - /url: /hub
+          - 'img "RapidAPI Hub: public API Marketplace" [ref=e311]'
+      - generic [ref=e313]:
+        - heading "Log in to your account" [level=1] [ref=e314]
+        - generic [ref=e315]:
+          - button "Entity thumbnail Login with Google" [ref=e316]:
+            - img "Entity thumbnail" [ref=e318]
+            - text: Login with Google
+          - button "Entity thumbnail Login with Github" [ref=e319]:
+            - img "Entity thumbnail" [ref=e321]
+            - text: Login with Github
+          - generic [ref=e322]:
+            - text: By pressing the button you agree to our
+            - link "Terms of Service" [ref=e323] [cursor=pointer]:
+              - /url: https://rapidapi.com/terms
+            - text: and to our
+            - link "Privacy Policy" [ref=e324] [cursor=pointer]:
+              - /url: https://rapidapi.com/privacy/
+            - text: ", and you certify that the information provided is complete and correct."
+          - generic [ref=e326]: or
+        - generic [ref=e327]:
+          - generic [ref=e329]:
+            - generic [ref=e331]: Email*
+            - textbox "Email*" [active] [ref=e332]
+          - generic [ref=e334]:
+            - generic [ref=e336]: Password*
+            - textbox "Password*" [ref=e338]
+          - generic [ref=e340] [cursor=pointer]: Forgot Password
+        - button "Log in" [disabled]
+        - paragraph [ref=e342]:
+          - text: Don't have an account?
+          - link "Sign Up" [ref=e343] [cursor=pointer]:
+            - /url: /auth/sign-up
+      - paragraph [ref=e344]:
+        - text: Having trouble?
+        - link "Contact support" [ref=e345] [cursor=pointer]:
+          - /url: https://support.rapidapi.com/hc/en-us
+    - img "Side Image" [ref=e348]
+  - generic [ref=e302] [cursor=pointer]:
+    - button "Manage Preferences" [ref=e304]
+    - text: Manage Preferences
+  - iframe [ref=e351]:
+    

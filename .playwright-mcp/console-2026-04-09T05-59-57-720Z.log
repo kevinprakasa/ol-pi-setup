@@ -1,0 +1,871 @@
+[    1168ms] [WARNING] [Deprecation Notice]: Use of dataLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    1714ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    1785ms] [LOG] i18next: languageChanged en @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    1785ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: common, fallbackLng: Array(1)} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    1814ms] [WARNING] [Deprecation Notice]: Use of dataMultiLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4830ms] [LOG] [HMR] connected @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5603ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[    5604ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[    5814ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5828ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `loginSettings` is marked as required in `LoginModal`, but its value is `null`. 
+    at LoginModal (webpack:///./web/containers/LoginModal/LoginModal.jsx?:50:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5880ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5909ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s LoadJsScript @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5972ms] [ERROR] Using kebab-case for css properties in objects is not supported. Did you mean WebkitOverflowScrolling? @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6010ms] [ERROR] Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.%s false highlight highlight false highlight highlight highlight 
+    at a
+    at LinkInner (webpack:///../node_modules/@respond-framework/react/es/link.js?:32:18)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Link
+    at LinkInnerInner (webpack:///./web/containers/Link/component.jsx?:52:5)
+    at LinkInner
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RouteLink (webpack:///./web/components/RouteLink/component.tsx?:18:63)
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarUserMenu (webpack:///./web/containers/TopBar/TopBarUserMenu/component.tsx?:84:68)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarItem (webpack:///./web/containers/TopBar/TopBarItem/component.tsx?:22:19)
+    at MenuItemUser (webpack:///./web/containers/TopBar/MenuItemUser/component.tsx?:34:19)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6117ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[    6126ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6127ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6127ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[    6322ms] AxiosError
+[    6601ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `Modal`.  
+    at Modal (webpack:///./web/components/Modals/Modal/component.tsx?:56:7)
+    at AcceptCustomTnc (webpack:///./web/components/AcceptCustomTnc/component.tsx?:41:88)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6640ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:7071/notifications/user/622957fd10b0fe1d3e63425b?page=1&page_size=10:0
+[   24498ms] [WARNING] [Deprecation Notice]: Use of dataLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   24805ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   24871ms] [LOG] i18next: languageChanged en @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   24872ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: common, fallbackLng: Array(1)} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   24883ms] [WARNING] [Deprecation Notice]: Use of dataMultiLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   24899ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   24923ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   25962ms] [LOG] [HMR] connected @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26391ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[   26392ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[   26473ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26476ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `loginSettings` is marked as required in `LoginModal`, but its value is `null`. 
+    at LoginModal (webpack:///./web/containers/LoginModal/LoginModal.jsx?:50:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26558ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[   26821ms] AxiosError
+[   26670ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26686ms] [ERROR] Using kebab-case for css properties in objects is not supported. Did you mean WebkitOverflowScrolling? @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26688ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `showAccessSuspended` is marked as required in `_CourseNavigationMenu`, but its value is `undefined`. 
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26689ms] [ERROR] Warning: Failed %s type: %s%s prop Invalid prop `children` of type `array` supplied to `Sticky`, expected a single ReactElement. 
+    at Sticky (webpack:///../node_modules/react-stickynode/dist/es/Sticky.js?:45:5)
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26691ms] [ERROR] Warning: Functions are not valid as a React child. This may happen if you return a Component instead of <Component /> from render. Or maybe you meant to call this function rather than return it.%s 
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at div
+    at div
+    at div
+    at Sticky (webpack:///../node_modules/react-stickynode/dist/es/Sticky.js?:45:5)
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26711ms] [ERROR] Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.%s false highlight highlight false highlight highlight highlight 
+    at a
+    at LinkInner (webpack:///../node_modules/@respond-framework/react/es/link.js?:32:18)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Link
+    at LinkInnerInner (webpack:///./web/containers/Link/component.jsx?:52:5)
+    at LinkInner
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RouteLink (webpack:///./web/components/RouteLink/component.tsx?:18:63)
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarUserMenu (webpack:///./web/containers/TopBar/TopBarUserMenu/component.tsx?:84:68)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarItem (webpack:///./web/containers/TopBar/TopBarItem/component.tsx?:22:19)
+    at MenuItemUser (webpack:///./web/containers/TopBar/MenuItemUser/component.tsx?:34:19)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26847ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26849ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s ASICInformationCapture @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26850ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   26853ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   29282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:7071/notifications/user/622957fd10b0fe1d3e63425b?page=1&page_size=10:0
+[   31537ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://openlearning.test/institutiontestpath/courses/second-course/homepage/?cl=1:0
+[   64597ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s UnmountClosed @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   65798ms] [WARNING] [Deprecation Notice]: Use of dataLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   66197ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   66233ms] [LOG] i18next: languageChanged en @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   66233ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: common, fallbackLng: Array(1)} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   66240ms] [WARNING] [Deprecation Notice]: Use of dataMultiLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   66254ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   66263ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   68607ms] [LOG] [HMR] connected @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   69685ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[   69686ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[   69775ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   69781ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `loginSettings` is marked as required in `LoginModal`, but its value is `null`. 
+    at LoginModal (webpack:///./web/containers/LoginModal/LoginModal.jsx?:50:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   72555ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[   73290ms] AxiosError
+[   73175ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73199ms] [ERROR] Using kebab-case for css properties in objects is not supported. Did you mean WebkitOverflowScrolling? @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73206ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `showAccessSuspended` is marked as required in `_CourseNavigationMenu`, but its value is `undefined`. 
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73207ms] [ERROR] Warning: Failed %s type: %s%s prop Invalid prop `children` of type `array` supplied to `Sticky`, expected a single ReactElement. 
+    at Sticky (webpack:///../node_modules/react-stickynode/dist/es/Sticky.js?:45:5)
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73210ms] [ERROR] Warning: Functions are not valid as a React child. This may happen if you return a Component instead of <Component /> from render. Or maybe you meant to call this function rather than return it.%s 
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at div
+    at div
+    at div
+    at Sticky (webpack:///../node_modules/react-stickynode/dist/es/Sticky.js?:45:5)
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73244ms] [ERROR] Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.%s false highlight highlight false highlight highlight highlight 
+    at a
+    at LinkInner (webpack:///../node_modules/@respond-framework/react/es/link.js?:32:18)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Link
+    at LinkInnerInner (webpack:///./web/containers/Link/component.jsx?:52:5)
+    at LinkInner
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RouteLink (webpack:///./web/components/RouteLink/component.tsx?:18:63)
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarUserMenu (webpack:///./web/containers/TopBar/TopBarUserMenu/component.tsx?:84:68)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarItem (webpack:///./web/containers/TopBar/TopBarItem/component.tsx?:22:19)
+    at MenuItemUser (webpack:///./web/containers/TopBar/MenuItemUser/component.tsx?:34:19)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73433ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73434ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s ASICInformationCapture @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73435ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   73438ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   74602ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   74612ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s LoadJsScript @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   74799ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s UnmountClosed @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   74818ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:7071/notifications/user/622957fd10b0fe1d3e63425b?page=1&page_size=10:0
+[   74921ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   74924ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   74925ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   77614ms] [WARNING] You are loading @emotion/react when it is already loaded. Running multiple instances may cause problems. This can happen if multiple versions are used, or if multiple builds of the same version are used. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   77751ms] [WARNING] Warning: React.createFactory() is deprecated and will be removed in a future major release. Consider using JSX or use React.createElement() directly instead. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78121ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `isCourseFrameRevampEnabled` is marked as required in `ModuleDisplayElement_`, but its value is `undefined`. 
+    at ModuleDisplayElement_ (webpack:///./web/containers/ModuleDisplay/ModuleDisplayElement.jsx?:94:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78126ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://openlearning.test/institutiontestpath/courses/second-course/homepage/?cl=1:0
+[   78151ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `progressBarClickable` is marked as required in `_CourseProgressBar`, but its value is `undefined`. 
+    at _CourseProgressBar (webpack:///./web/CourseProgressBar/CourseProgressBar.jsx?:44:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CourseProgressBarPortal
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78152ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s _CourseProgressBar @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78157ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `Modal`.  
+    at Modal (webpack:///./web/components/Modals/Modal/component.tsx?:56:7)
+    at AcceptCustomTnc (webpack:///./web/components/AcceptCustomTnc/component.tsx?:41:88)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78165ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78175ms] [ERROR] Warning: Failed %s type: %s%s prop Invalid prop `cohort[0]` of type `string` supplied to `BlockPageFooter_`, expected an Immutable.js Map. 
+    at BlockPageFooter_ (webpack:///./web/containers/BlockPage/BlockPageFooter.jsx?:89:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at forwardConnectRef
+    at BlockPageFooterPortal
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at block-page-content-container
+    at BlockPageContentContainer (webpack:///./web/containers/BlockPage/BlockPageContentContainer.jsx?:167:5)
+    at div
+    at div
+    at DndContext (webpack:///../node_modules/@dnd-kit/core/dist/core.esm.js?:2898:5)
+    at BlockPageDndContext (webpack:///./web/components/BlockPageDndContext/component.tsx?:31:23)
+    at BlockPageEditContentContainer (webpack:///./web/containers/BlockPage/BlockPageContentContainer.jsx?:258:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78178ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s BlockPageContent_ @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78178ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s BlockPageFooter_ @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78178ms] [WARNING] Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s BlockPageContent_ @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78438ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://openlearning.test/json/institutionaddon/lookup/getInstitutionAddon/?institution=institutiontestpath&addOnType=verifiedOrchestration:0
+[   78579ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Trigger @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   78579ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Trigger @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   79368ms] [INFO] [FrontChat][Front] SDK Version: 9.74.4 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   79986ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s BlockPageHeader_, Breadcrumbs, PieChart @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   79987ms] [WARNING] Warning: componentWillUpdate has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* Rename componentWillUpdate to UNSAFE_componentWillUpdate to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s PieChart @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80028ms] [ERROR] Warning: Failed %s type: %s%s prop Required prop `reports` was not specified in `ReplyForm_`. 
+    at ReplyForm_ (webpack:///./web/components/Comments/ReplyForm/ReplyForm.jsx?:196:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at Comments (webpack:///./web/components/Comments/component.tsx?:46:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Comments (webpack:///./web/components/Comments/index.jsx?:24:1)
+    at div
+    at div
+    at BlockPagePageComments_ (webpack:///./web/containers/BlockPage/BlockPagePageComments.jsx?:73:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at forwardConnectRef
+    at BlockPageCommentsPortal
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at block-page-content-container
+    at BlockPageContentContainer (webpack:///./web/containers/BlockPage/BlockPageContentContainer.jsx?:167:5)
+    at div
+    at div
+    at DndContext (webpack:///../node_modules/@dnd-kit/core/dist/core.esm.js?:2898:5)
+    at BlockPageDndContext (webpack:///./web/components/BlockPageDndContext/component.tsx?:31:23)
+    at BlockPageEditContentContainer (webpack:///./web/containers/BlockPage/BlockPageContentContainer.jsx?:258:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80034ms] [WARNING] Supplying an `onDownArrow` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80034ms] [WARNING] Supplying an `onTab` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80034ms] [WARNING] Supplying an `onUpArrow` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80038ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s BlockPageTags, Toolbar @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80040ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80068ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Block_ @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80069ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Block_ @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   80675ms] [INFO] [FrontChat][Front] FrontChat Version: 9.74.4 @ https://chat-assets.frontapp.com/v1/app.bundle.js?v=9531b45d:1
+[   82250ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://openlearning.test/json/aiassistantsession/lookup/getAiAssistantCredits/?courseId=62e351d662316835f43a881e:0
+[   82251ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   82286ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://openlearning.test/json/aiassistanttemplate/lookup/getAiAssistantTemplates/?courseId=62e351d662316835f43a881e:0
+[   88160ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   88163ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   88163ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  108022ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  108025ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  108025ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  137652ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Time-out) @ http://openlearning.test/media/chunks/web_components_UserTimezoneCheck_component_jsx.js:0
+[  137827ms] ChunkLoadError: Loading chunk web_components_UserTimezoneCheck_component_jsx failed.
+(error: http://openlearning.test/media/chunks/web_components_UserTimezoneCheck_component_jsx.js)
+    at __webpack_require__.f.j (http://openlearning.test/media/chunks/entry/runtime.js:896:29)
+    at http://openlearning.test/media/chunks/entry/runtime.js:134:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (http://openlearning.test/media/chunks/entry/runtime.js:133:67)
+    at fn.e (http://openlearning.test/media/chunks/entry/runtime.js:367:50)
+    at _c (webpack:///./web/components/UserTimezoneCheck/loadable.jsx?:13:419)
+    at lazyInitializer (webpack:///../node_modules/react/cjs/react.development.js?:1358:20)
+    at mountLazyComponent (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:19940:19)
+    at beginWork (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:21589:16)
+    at beginWork$1 (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:27422:14)
+    at performUnitOfWork (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26553:12)
+    at workLoopSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26462:5)
+    at renderRootSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26430:7)
+    at performSyncWorkOnRoot (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26081:20)
+    at flushSyncCallbacks (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:12042:22)
+    at flushSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26197:7)
+    at legacyCreateRootFromDOMContainer (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29571:5)
+    at legacyRenderSubtreeIntoContainer (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29597:12)
+    at render (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29681:10)
+    at mountTarget (webpack:///./web/components/mountable.jsx?:32:105)
+    at eval (webpack:///./web/containers/BasePage/loader.jsx?:47:67)
+    at ./web/containers/BasePage/loader.jsx (http://openlearning.test/media/chunks/entry/basePageLoader.js:498:1)
+    at options.factory (http://openlearning.test/media/chunks/entry/runtime.js:688:31)
+    at __webpack_require__ (http://openlearning.test/media/chunks/entry/runtime.js:36:33)
+    at __webpack_exec__ (http://openlearning.test/media/chunks/entry/basePageLoader.js:924:48)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:925:3828
+    at __webpack_require__.O (http://openlearning.test/media/chunks/entry/runtime.js:95:23)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:926:56
+    at webpackJsonpCallback (http://openlearning.test/media/chunks/entry/runtime.js:1425:39)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:10:53
+[  137675ms] [ERROR] The above error occurred in one of your React components:
+
+    at Lazy
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at _MountableUserTimezoneCheck (webpack:///./web/components/UserTimezoneCheck/mountable.jsx?:24:29)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  137676ms] [ERROR] ChunkLoadError: Loading chunk web_components_UserTimezoneCheck_component_jsx failed.
+(error: http://openlearning.test/media/chunks/web_components_UserTimezoneCheck_component_jsx.js)
+    at __webpack_require__.f.j (http://openlearning.test/media/chunks/entry/runtime.js:896:29)
+    at http://openlearning.test/media/chunks/entry/runtime.js:134:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (http://openlearning.test/media/chunks/entry/runtime.js:133:67)
+    at fn.e (http://openlearning.test/media/chunks/entry/runtime.js:367:50)
+    at _c (webpack:///./web/components/UserTimezoneCheck/loadable.jsx?:13:419)
+    at lazyInitializer (webpack:///../node_modules/react/cjs/react.development.js?:1358:20)
+    at mountLazyComponent (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:19940:19)
+    at beginWork (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:21589:16)
+    at beginWork$1 (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:27422:14)
+    at performUnitOfWork (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26553:12)
+    at workLoopSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26462:5)
+    at renderRootSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26430:7)
+    at performSyncWorkOnRoot (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26081:20)
+    at flushSyncCallbacks (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:12042:22)
+    at flushSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26197:7)
+    at legacyCreateRootFromDOMContainer (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29571:5)
+    at legacyRenderSubtreeIntoContainer (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29597:12)
+    at render (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29681:10)
+    at mountTarget (webpack:///./web/components/mountable.jsx?:32:105)
+    at eval (webpack:///./web/containers/BasePage/loader.jsx?:47:67)
+    at ./web/containers/BasePage/loader.jsx (http://openlearning.test/media/chunks/entry/basePageLoader.js:498:1)
+    at options.factory (http://openlearning.test/media/chunks/entry/runtime.js:688:31)
+    at __webpack_require__ (http://openlearning.test/media/chunks/entry/runtime.js:36:33)
+    at __webpack_exec__ (http://openlearning.test/media/chunks/entry/basePageLoader.js:924:48)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:925:3828
+    at __webpack_require__.O (http://openlearning.test/media/chunks/entry/runtime.js:95:23)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:926:56
+    at webpackJsonpCallback (http://openlearning.test/media/chunks/entry/runtime.js:1425:39)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:10:53 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  137716ms] [ERROR] Failed to load resource: the server responded with a status of 504 (Gateway Time-out) @ http://openlearning.test/media/chunks/web_containers_CourseBar_ProfileLink_jsx.js:0
+[  137912ms] ChunkLoadError: Loading chunk web_containers_CourseBar_ProfileLink_jsx failed.
+(error: http://openlearning.test/media/chunks/web_containers_CourseBar_ProfileLink_jsx.js)
+    at __webpack_require__.f.j (http://openlearning.test/media/chunks/entry/runtime.js:896:29)
+    at http://openlearning.test/media/chunks/entry/runtime.js:134:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (http://openlearning.test/media/chunks/entry/runtime.js:133:67)
+    at fn.e (http://openlearning.test/media/chunks/entry/runtime.js:367:50)
+    at _c2 (webpack:///./web/containers/CourseBar/LoadableProfileLink.jsx?:23:206)
+    at lazyInitializer (webpack:///../node_modules/react/cjs/react.development.js?:1358:20)
+    at mountLazyComponent (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:19940:19)
+    at beginWork (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:21589:16)
+    at beginWork$1 (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:27422:14)
+    at performUnitOfWork (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26553:12)
+    at workLoopSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26462:5)
+    at renderRootSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26430:7)
+    at performSyncWorkOnRoot (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26081:20)
+    at flushSyncCallbacks (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:12042:22)
+    at flushSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26197:7)
+    at legacyCreateRootFromDOMContainer (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29571:5)
+    at legacyRenderSubtreeIntoContainer (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29597:12)
+    at render (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29681:10)
+    at mountTarget (webpack:///./web/components/mountable.jsx?:32:105)
+    at eval (webpack:///./web/containers/BasePage/loader.jsx?:47:67)
+    at ./web/containers/BasePage/loader.jsx (http://openlearning.test/media/chunks/entry/basePageLoader.js:498:1)
+    at options.factory (http://openlearning.test/media/chunks/entry/runtime.js:688:31)
+    at __webpack_require__ (http://openlearning.test/media/chunks/entry/runtime.js:36:33)
+    at __webpack_exec__ (http://openlearning.test/media/chunks/entry/basePageLoader.js:924:48)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:925:3828
+    at __webpack_require__.O (http://openlearning.test/media/chunks/entry/runtime.js:95:23)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:926:56
+    at webpackJsonpCallback (http://openlearning.test/media/chunks/entry/runtime.js:1425:39)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:10:53
+[  137725ms] [ERROR] The above error occurred in one of your React components:
+
+    at Lazy
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at ProfileLinkPortal
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3)
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  137726ms] [ERROR] ChunkLoadError: Loading chunk web_containers_CourseBar_ProfileLink_jsx failed.
+(error: http://openlearning.test/media/chunks/web_containers_CourseBar_ProfileLink_jsx.js)
+    at __webpack_require__.f.j (http://openlearning.test/media/chunks/entry/runtime.js:896:29)
+    at http://openlearning.test/media/chunks/entry/runtime.js:134:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (http://openlearning.test/media/chunks/entry/runtime.js:133:67)
+    at fn.e (http://openlearning.test/media/chunks/entry/runtime.js:367:50)
+    at _c2 (webpack:///./web/containers/CourseBar/LoadableProfileLink.jsx?:23:206)
+    at lazyInitializer (webpack:///../node_modules/react/cjs/react.development.js?:1358:20)
+    at mountLazyComponent (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:19940:19)
+    at beginWork (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:21589:16)
+    at beginWork$1 (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:27422:14)
+    at performUnitOfWork (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26553:12)
+    at workLoopSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26462:5)
+    at renderRootSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26430:7)
+    at performSyncWorkOnRoot (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26081:20)
+    at flushSyncCallbacks (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:12042:22)
+    at flushSync (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:26197:7)
+    at legacyCreateRootFromDOMContainer (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29571:5)
+    at legacyRenderSubtreeIntoContainer (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29597:12)
+    at render (webpack:///../node_modules/react-dom/cjs/react-dom.development.js?:29681:10)
+    at mountTarget (webpack:///./web/components/mountable.jsx?:32:105)
+    at eval (webpack:///./web/containers/BasePage/loader.jsx?:47:67)
+    at ./web/containers/BasePage/loader.jsx (http://openlearning.test/media/chunks/entry/basePageLoader.js:498:1)
+    at options.factory (http://openlearning.test/media/chunks/entry/runtime.js:688:31)
+    at __webpack_require__ (http://openlearning.test/media/chunks/entry/runtime.js:36:33)
+    at __webpack_exec__ (http://openlearning.test/media/chunks/entry/basePageLoader.js:924:48)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:925:3828
+    at __webpack_require__.O (http://openlearning.test/media/chunks/entry/runtime.js:95:23)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:926:56
+    at webpackJsonpCallback (http://openlearning.test/media/chunks/entry/runtime.js:1425:39)
+    at http://openlearning.test/media/chunks/entry/basePageLoader.js:10:53 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138811ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://openlearning.test/json/aiassistantsession/lookup/getAiAssistantCredits/?courseId=62e351d662316835f43a881e:0
+[  138830ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://openlearning.test/json/aiassistanttemplate/lookup/getAiAssistantTemplates/?courseId=62e351d662316835f43a881e:0
+[  138879ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://openlearning.test/json/aiassistantsession/lookup/getAiAssistantCredits/?courseId=62e351d662316835f43a881e:0
+[  138906ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://openlearning.test/json/aiassistanttemplate/lookup/getAiAssistantTemplates/?courseId=62e351d662316835f43a881e:0
+[  139515ms] [WARNING] [Deprecation Notice]: Use of dataLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  140244ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  140293ms] [LOG] i18next: languageChanged en @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  140293ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: common, fallbackLng: Array(1)} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  140304ms] [WARNING] [Deprecation Notice]: Use of dataMultiLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  141506ms] [LOG] [HMR] connected @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  141850ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[  141850ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[  141976ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  141980ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `loginSettings` is marked as required in `LoginModal`, but its value is `null`. 
+    at LoginModal (webpack:///./web/containers/LoginModal/LoginModal.jsx?:50:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  142005ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  142024ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s LoadJsScript @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  142085ms] [ERROR] Using kebab-case for css properties in objects is not supported. Did you mean WebkitOverflowScrolling? @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  142261ms] [ERROR] Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.%s false highlight highlight false highlight highlight highlight 
+    at a
+    at LinkInner (webpack:///../node_modules/@respond-framework/react/es/link.js?:32:18)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Link
+    at LinkInnerInner (webpack:///./web/containers/Link/component.jsx?:52:5)
+    at LinkInner
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RouteLink (webpack:///./web/components/RouteLink/component.tsx?:18:63)
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarUserMenu (webpack:///./web/containers/TopBar/TopBarUserMenu/component.tsx?:84:68)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarItem (webpack:///./web/containers/TopBar/TopBarItem/component.tsx?:22:19)
+    at MenuItemUser (webpack:///./web/containers/TopBar/MenuItemUser/component.tsx?:34:19)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  143427ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  143430ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  143489ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[  143493ms] AxiosError
+[  143571ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `Modal`.  
+    at Modal (webpack:///./web/components/Modals/Modal/component.tsx?:56:7)
+    at AcceptCustomTnc (webpack:///./web/components/AcceptCustomTnc/component.tsx?:41:88)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  143686ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:7071/notifications/user/622957fd10b0fe1d3e63425b?page=1&page_size=10:0

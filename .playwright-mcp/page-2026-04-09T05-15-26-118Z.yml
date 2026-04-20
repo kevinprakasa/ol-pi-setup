@@ -1,0 +1,118 @@
+- generic [active] [ref=e1]:
+  - button "Skip to main content" [ref=e3] [cursor=pointer]
+  - generic [ref=e8]:
+    - button "Sign up" [ref=e9] [cursor=pointer]
+    - button "Log in" [ref=e10] [cursor=pointer]
+    - 'button "Selected language: English (EN)" [ref=e12] [cursor=pointer]':
+      - generic [ref=e13]: EN
+  - generic [ref=e14]:
+    - generic [ref=e20]:
+      - heading "Login" [level=2] [ref=e21]
+      - heading "at" [level=4] [ref=e22]
+      - paragraph [ref=e23]: The page you were looking for either does not exist at this location, or hasn't been created yet.
+      - paragraph [ref=e24]: You can check back later to see if this page has been created, double-check to make sure the URL is correct, or if you followed a link, you can notify the creator of the page that you have just come from.
+      - generic [ref=e26]:
+        - heading "This page does not exist." [level=1] [ref=e28]
+        - img [ref=e29]
+    - contentinfo [ref=e30]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - strong [ref=e39]: Tools & Resources
+            - listitem [ref=e40]:
+              - link "Help & Support" [ref=e41] [cursor=pointer]:
+                - /url: /sso/help/?redirect=https%3A%2F%2Fhelp.openlearning.com%2F
+            - listitem [ref=e42]:
+              - link "Contact us" [ref=e43] [cursor=pointer]:
+                - /url: /contact/
+            - listitem [ref=e44]:
+              - link "Learning design toolkit" [ref=e45] [cursor=pointer]:
+                - /url: https://medium.com/learning-designers-toolkit
+            - listitem [ref=e46]:
+              - link "Blog" [ref=e47] [cursor=pointer]:
+                - /url: http://blog.openlearning.com
+            - listitem [ref=e48]:
+              - link "Verify a certificate" [ref=e49] [cursor=pointer]:
+                - /url: /certificate-verification/
+            - listitem [ref=e50]:
+              - link "Integrations" [ref=e51] [cursor=pointer]:
+                - /url: /sso/help/?url=https%3A%2F%2Fhelp.openlearning.com%2Fcategory%2Fintegrations
+            - listitem [ref=e52]:
+              - link "Status" [ref=e53] [cursor=pointer]:
+                - /url: https://status.openlearning.com/
+          - list [ref=e55]:
+            - listitem [ref=e56]:
+              - strong [ref=e57]: Platform
+            - listitem [ref=e58]:
+              - link "Philosophy" [ref=e59] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/learning-philosophy/
+            - listitem [ref=e60]:
+              - link "Features" [ref=e61] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/platform-features/
+            - listitem [ref=e62]:
+              - link "Pricing" [ref=e63] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/pricing/
+            - listitem [ref=e64]:
+              - link "OpenCreds" [ref=e65] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/opencreds/
+            - listitem [ref=e66]:
+              - link "Partners" [ref=e67] [cursor=pointer]:
+                - /url: /partners/
+            - listitem [ref=e68]:
+              - link "Browse all courses" [ref=e69] [cursor=pointer]:
+                - /url: /courses/
+            - listitem [ref=e70]:
+              - link "Create a course" [ref=e71] [cursor=pointer]:
+                - /url: /courses/create/
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - strong [ref=e75]: Company
+            - listitem [ref=e76]:
+              - link "About us" [ref=e77] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/about/
+            - listitem [ref=e78]:
+              - link "Team" [ref=e79] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/teams/
+            - listitem [ref=e80]:
+              - link "Careers" [ref=e81] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/careers/
+            - listitem [ref=e82]:
+              - link "Press" [ref=e83] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/press/
+            - listitem [ref=e84]:
+              - link "Investors" [ref=e85] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/investor-home/
+            - listitem [ref=e86]:
+              - link "Partnerships" [ref=e87] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/contact
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - link "Twitter" [ref=e91] [cursor=pointer]:
+                - /url: https://twitter.com/openlrning
+                - img [ref=e92]: 
+                - generic [ref=e94]: Twitter
+              - link "Instagram" [ref=e95] [cursor=pointer]:
+                - /url: https://www.instagram.com/openlearning_global
+                - img [ref=e96]: 
+                - generic [ref=e98]: Instagram
+              - link "Facebook" [ref=e99] [cursor=pointer]:
+                - /url: https://facebook.com/OpenLearning
+                - img [ref=e100]: 
+                - generic [ref=e102]: Facebook
+              - link "LinkedIn" [ref=e103] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/openlearningcom/
+                - img [ref=e104]: 
+                - generic [ref=e106]: LinkedIn
+              - link "YouTube" [ref=e107] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/openlearningcom
+                - img [ref=e108]: 
+                - generic [ref=e110]: YouTube
+            - generic [ref=e111]:
+              - link "Terms of service" [ref=e112] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/terms-of-service/
+              - link "Privacy policy" [ref=e113] [cursor=pointer]:
+                - /url: https://solutions.openlearning.com/privacy-policy/
+          - generic [ref=e114]: © 2026 Open Learning Global Pty Ltd
+    - heading "Chat" [level=1] [ref=e115]

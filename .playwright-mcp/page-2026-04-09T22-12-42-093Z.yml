@@ -1,0 +1,2815 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+              - generic [ref=e53]: Search or jump to...
+              - img [ref=e55]
+            - link "Sign in" [ref=e59] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnicobailon%2Fpi-subagents
+            - link "Sign up" [ref=e60] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=nicobailon%2Fpi-subagents
+            - button "Appearance settings" [disabled] [ref=e63]:
+              - img
+  - main [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - img [ref=e72]
+          - link "nicobailon" [ref=e75] [cursor=pointer]:
+            - /url: /nicobailon
+          - generic [ref=e76]: /
+          - strong [ref=e77]:
+            - link "pi-subagents" [ref=e78] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents
+          - generic [ref=e79]: Public
+        - generic [ref=e80]:
+          - list:
+            - listitem [ref=e81]:
+              - link "You must be signed in to change notification settings" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnicobailon%2Fpi-subagents
+                - img [ref=e83]
+                - text: Notifications
+            - listitem [ref=e85]:
+              - link "Fork 86" [ref=e86] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnicobailon%2Fpi-subagents
+                - img [ref=e87]
+                - text: Fork
+                - generic "86" [ref=e89]
+            - listitem [ref=e90]:
+              - link "You must be signed in to star a repository" [ref=e92] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnicobailon%2Fpi-subagents
+                - img [ref=e93]
+                - text: Star
+                - generic "690 users starred this repository" [ref=e95]: "690"
+      - navigation "Repository" [ref=e96]:
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Code" [ref=e99] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents
+              - img [ref=e100]
+              - generic [ref=e102]: Code
+          - listitem [ref=e103]:
+            - link "Issues 15" [ref=e104] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/issues
+              - img [ref=e105]
+              - generic [ref=e108]: Issues
+              - generic "15" [ref=e109]
+          - listitem [ref=e110]:
+            - link "Pull requests 8" [ref=e111] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/pulls
+              - img [ref=e112]
+              - generic [ref=e114]: Pull requests
+              - generic "8" [ref=e115]
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Projects" [ref=e122] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/projects
+              - img [ref=e123]
+              - generic [ref=e125]: Projects
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]:
+            - link "Insights" [ref=e132] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/pulse
+              - img [ref=e133]
+              - generic [ref=e135]: Insights
+    - generic [ref=e148]:
+      - heading "nicobailon/pi-subagents" [level=1] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - button "main branch" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e161]:
+                    - img [ref=e163]
+                    - generic [ref=e166]: main
+                  - generic:
+                    - img
+              - generic [ref=e167]:
+                - link "Branches" [ref=e168] [cursor=pointer]:
+                  - /url: /nicobailon/pi-subagents/branches
+                  - generic [ref=e169]:
+                    - generic:
+                      - img
+                    - generic [ref=e170]: Branches
+                - link "Tags" [ref=e171] [cursor=pointer]:
+                  - /url: /nicobailon/pi-subagents/tags
+                  - generic [ref=e172]:
+                    - generic:
+                      - img
+                    - generic [ref=e173]: Tags
+            - generic [ref=e174]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]:
+                  - generic:
+                    - img
+                  - generic [ref=e185]: Code
+                  - generic:
+                    - img
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e190]:
+                  - row "Latest commit History 116 Commits" [ref=e191]:
+                    - cell "Latest commit History 116 Commits" [ref=e192]:
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e197]:
+                          - heading "History" [level=2] [ref=e198]
+                          - link "116 Commits" [ref=e199] [cursor=pointer]:
+                            - /url: /nicobailon/pi-subagents/commits/main/
+                            - generic [ref=e200]:
+                              - generic:
+                                - img
+                              - generic [ref=e201]: 116 Commits
+                  - row ".github/workflows, (Directory)" [ref=e202]:
+                    - cell ".github/workflows, (Directory)" [ref=e203]:
+                      - generic [ref=e204]:
+                        - img [ref=e205]
+                        - link ".github/workflows, (Directory)" [ref=e210] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/tree/main/.github/workflows
+                          - text: .github/workflows
+                    - cell [ref=e211]
+                    - cell [ref=e213]
+                  - row "agents, (Directory)" [ref=e216]:
+                    - cell "agents, (Directory)" [ref=e217]:
+                      - generic [ref=e218]:
+                        - img [ref=e219]
+                        - link "agents, (Directory)" [ref=e224] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/tree/main/agents
+                          - text: agents
+                    - cell [ref=e225]
+                    - cell [ref=e227]
+                  - row "test, (Directory)" [ref=e230]:
+                    - cell "test, (Directory)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link "test, (Directory)" [ref=e238] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/tree/main/test
+                          - text: test
+                    - cell [ref=e239]
+                    - cell [ref=e241]
+                  - row ".DS_Store, (File)" [ref=e244]:
+                    - cell ".DS_Store, (File)" [ref=e245]:
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - link ".DS_Store, (File)" [ref=e252] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/.DS_Store
+                          - text: .DS_Store
+                    - cell [ref=e253]
+                    - cell [ref=e255]
+                  - row ".gitignore, (File)" [ref=e258]:
+                    - cell ".gitignore, (File)" [ref=e259]:
+                      - generic [ref=e260]:
+                        - img [ref=e261]
+                        - link ".gitignore, (File)" [ref=e266] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e267]
+                    - cell [ref=e269]
+                  - row "CHANGELOG.md, (File)" [ref=e272]:
+                    - cell "CHANGELOG.md, (File)" [ref=e273]:
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - link "CHANGELOG.md, (File)" [ref=e280] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/CHANGELOG.md
+                          - text: CHANGELOG.md
+                    - cell [ref=e281]
+                    - cell [ref=e283]
+                  - row "README.md, (File)" [ref=e286]:
+                    - cell "README.md, (File)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "README.md, (File)" [ref=e294] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/README.md
+                          - text: README.md
+                    - cell [ref=e295]
+                    - cell [ref=e297]
+                  - row "agent-management.ts, (File)" [ref=e300]:
+                    - cell "agent-management.ts, (File)" [ref=e301]:
+                      - generic [ref=e302]:
+                        - img [ref=e303]
+                        - link "agent-management.ts, (File)" [ref=e308] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-management.ts
+                          - text: agent-management.ts
+                    - cell [ref=e309]
+                    - cell [ref=e311]
+                  - row "agent-manager-chain-detail.ts, (File)" [ref=e314]:
+                    - cell "agent-manager-chain-detail.ts, (File)" [ref=e315]:
+                      - generic [ref=e316]:
+                        - img [ref=e317]
+                        - link "agent-manager-chain-detail.ts, (File)" [ref=e322] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-manager-chain-detail.ts
+                          - text: agent-manager-chain-detail.ts
+                    - cell [ref=e323]
+                    - cell [ref=e325]
+                  - row "agent-manager-detail.ts, (File)" [ref=e328]:
+                    - cell "agent-manager-detail.ts, (File)" [ref=e329]:
+                      - generic [ref=e330]:
+                        - img [ref=e331]
+                        - link "agent-manager-detail.ts, (File)" [ref=e336] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-manager-detail.ts
+                          - text: agent-manager-detail.ts
+                    - cell [ref=e337]
+                    - cell [ref=e339]
+                  - row "agent-manager-edit.ts, (File)" [ref=e342]:
+                    - cell "agent-manager-edit.ts, (File)" [ref=e343]:
+                      - generic [ref=e344]:
+                        - img [ref=e345]
+                        - link "agent-manager-edit.ts, (File)" [ref=e350] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-manager-edit.ts
+                          - text: agent-manager-edit.ts
+                    - cell [ref=e351]
+                    - cell [ref=e353]
+                  - row "agent-manager-list.ts, (File)" [ref=e356]:
+                    - cell "agent-manager-list.ts, (File)" [ref=e357]:
+                      - generic [ref=e358]:
+                        - img [ref=e359]
+                        - link "agent-manager-list.ts, (File)" [ref=e364] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-manager-list.ts
+                          - text: agent-manager-list.ts
+                    - cell [ref=e365]
+                    - cell [ref=e367]
+                  - row "agent-manager-parallel.ts, (File)" [ref=e370]:
+                    - cell "agent-manager-parallel.ts, (File)" [ref=e371]:
+                      - generic [ref=e372]:
+                        - img [ref=e373]
+                        - link "agent-manager-parallel.ts, (File)" [ref=e378] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-manager-parallel.ts
+                          - text: agent-manager-parallel.ts
+                    - cell [ref=e379]
+                    - cell [ref=e381]
+                  - row "agent-manager.ts, (File)" [ref=e384]:
+                    - cell "agent-manager.ts, (File)" [ref=e385]:
+                      - generic [ref=e386]:
+                        - img [ref=e387]
+                        - link "agent-manager.ts, (File)" [ref=e392] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-manager.ts
+                          - text: agent-manager.ts
+                    - cell [ref=e393]
+                    - cell [ref=e395]
+                  - row "agent-scope.ts, (File)" [ref=e398]:
+                    - cell "agent-scope.ts, (File)" [ref=e399]:
+                      - generic [ref=e400]:
+                        - img [ref=e401]
+                        - link "agent-scope.ts, (File)" [ref=e406] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-scope.ts
+                          - text: agent-scope.ts
+                    - cell [ref=e407]
+                    - cell [ref=e409]
+                  - row "agent-selection.ts, (File)" [ref=e412]:
+                    - cell "agent-selection.ts, (File)" [ref=e413]:
+                      - generic [ref=e414]:
+                        - img [ref=e415]
+                        - link "agent-selection.ts, (File)" [ref=e420] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-selection.ts
+                          - text: agent-selection.ts
+                    - cell [ref=e421]
+                    - cell [ref=e423]
+                  - row "agent-serializer.ts, (File)" [ref=e426]:
+                    - cell "agent-serializer.ts, (File)" [ref=e427]:
+                      - generic [ref=e428]:
+                        - img [ref=e429]
+                        - link "agent-serializer.ts, (File)" [ref=e434] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-serializer.ts
+                          - text: agent-serializer.ts
+                    - cell [ref=e435]
+                    - cell [ref=e437]
+                  - row "agent-templates.ts, (File)" [ref=e440]:
+                    - cell "agent-templates.ts, (File)" [ref=e441]:
+                      - generic [ref=e442]:
+                        - img [ref=e443]
+                        - link "agent-templates.ts, (File)" [ref=e448] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agent-templates.ts
+                          - text: agent-templates.ts
+                    - cell [ref=e449]
+                    - cell [ref=e451]
+                  - row "agents.ts, (File)" [ref=e454]:
+                    - cell "agents.ts, (File)" [ref=e455]:
+                      - generic [ref=e456]:
+                        - img [ref=e457]
+                        - link "agents.ts, (File)" [ref=e462] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/agents.ts
+                          - text: agents.ts
+                    - cell [ref=e463]
+                    - cell [ref=e465]
+                  - row "artifacts.ts, (File)" [ref=e468]:
+                    - cell "artifacts.ts, (File)" [ref=e469]:
+                      - generic [ref=e470]:
+                        - img [ref=e471]
+                        - link "artifacts.ts, (File)" [ref=e476] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/artifacts.ts
+                          - text: artifacts.ts
+                    - cell [ref=e477]
+                    - cell [ref=e479]
+                  - row "async-execution.ts, (File)" [ref=e482]:
+                    - cell "async-execution.ts, (File)" [ref=e483]:
+                      - generic [ref=e484]:
+                        - img [ref=e485]
+                        - link "async-execution.ts, (File)" [ref=e490] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/async-execution.ts
+                          - text: async-execution.ts
+                    - cell [ref=e491]
+                    - cell [ref=e493]
+                  - row "async-job-tracker.ts, (File)" [ref=e496]:
+                    - cell "async-job-tracker.ts, (File)" [ref=e497]:
+                      - generic [ref=e498]:
+                        - img [ref=e499]
+                        - link "async-job-tracker.ts, (File)" [ref=e504] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/async-job-tracker.ts
+                          - text: async-job-tracker.ts
+                    - cell [ref=e505]
+                    - cell [ref=e507]
+                  - row "async-status.ts, (File)" [ref=e510]:
+                    - cell "async-status.ts, (File)" [ref=e511]:
+                      - generic [ref=e512]:
+                        - img [ref=e513]
+                        - link "async-status.ts, (File)" [ref=e518] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/async-status.ts
+                          - text: async-status.ts
+                    - cell [ref=e519]
+                    - cell [ref=e521]
+                  - row "banner.png, (File)" [ref=e524]:
+                    - cell "banner.png, (File)" [ref=e525]:
+                      - generic [ref=e526]:
+                        - img [ref=e527]
+                        - link "banner.png, (File)" [ref=e532] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/banner.png
+                          - text: banner.png
+                    - cell [ref=e533]
+                    - cell [ref=e535]
+                  - row "chain-clarify.ts, (File)" [ref=e538]:
+                    - cell "chain-clarify.ts, (File)" [ref=e539]:
+                      - generic [ref=e540]:
+                        - img [ref=e541]
+                        - link "chain-clarify.ts, (File)" [ref=e546] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/chain-clarify.ts
+                          - text: chain-clarify.ts
+                    - cell [ref=e547]
+                    - cell [ref=e549]
+                  - row "chain-execution.ts, (File)" [ref=e552]:
+                    - cell "chain-execution.ts, (File)" [ref=e553]:
+                      - generic [ref=e554]:
+                        - img [ref=e555]
+                        - link "chain-execution.ts, (File)" [ref=e560] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/chain-execution.ts
+                          - text: chain-execution.ts
+                    - cell [ref=e561]
+                    - cell [ref=e563]
+                  - row "chain-serializer.ts, (File)" [ref=e566]:
+                    - cell "chain-serializer.ts, (File)" [ref=e567]:
+                      - generic [ref=e568]:
+                        - img [ref=e569]
+                        - link "chain-serializer.ts, (File)" [ref=e574] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/chain-serializer.ts
+                          - text: chain-serializer.ts
+                    - cell [ref=e575]
+                    - cell [ref=e577]
+                  - row "completion-dedupe.ts, (File)" [ref=e580]:
+                    - cell "completion-dedupe.ts, (File)" [ref=e581]:
+                      - generic [ref=e582]:
+                        - img [ref=e583]
+                        - link "completion-dedupe.ts, (File)" [ref=e588] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/completion-dedupe.ts
+                          - text: completion-dedupe.ts
+                    - cell [ref=e589]
+                    - cell [ref=e591]
+                  - row "execution.ts, (File)" [ref=e594]:
+                    - cell "execution.ts, (File)" [ref=e595]:
+                      - generic [ref=e596]:
+                        - img [ref=e597]
+                        - link "execution.ts, (File)" [ref=e602] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/execution.ts
+                          - text: execution.ts
+                    - cell [ref=e603]
+                    - cell [ref=e605]
+                  - row "file-coalescer.ts, (File)" [ref=e608]:
+                    - cell "file-coalescer.ts, (File)" [ref=e609]:
+                      - generic [ref=e610]:
+                        - img [ref=e611]
+                        - link "file-coalescer.ts, (File)" [ref=e616] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/file-coalescer.ts
+                          - text: file-coalescer.ts
+                    - cell [ref=e617]
+                    - cell [ref=e619]
+                  - row "fork-context.ts, (File)" [ref=e622]:
+                    - cell "fork-context.ts, (File)" [ref=e623]:
+                      - generic [ref=e624]:
+                        - img [ref=e625]
+                        - link "fork-context.ts, (File)" [ref=e630] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/fork-context.ts
+                          - text: fork-context.ts
+                    - cell [ref=e631]
+                    - cell [ref=e633]
+                  - row "formatters.ts, (File)" [ref=e636]:
+                    - cell "formatters.ts, (File)" [ref=e637]:
+                      - generic [ref=e638]:
+                        - img [ref=e639]
+                        - link "formatters.ts, (File)" [ref=e644] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/formatters.ts
+                          - text: formatters.ts
+                    - cell [ref=e645]
+                    - cell [ref=e647]
+                  - row "frontmatter.ts, (File)" [ref=e650]:
+                    - cell "frontmatter.ts, (File)" [ref=e651]:
+                      - generic [ref=e652]:
+                        - img [ref=e653]
+                        - link "frontmatter.ts, (File)" [ref=e658] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/frontmatter.ts
+                          - text: frontmatter.ts
+                    - cell [ref=e659]
+                    - cell [ref=e661]
+                  - row "index.ts, (File)" [ref=e664]:
+                    - cell "index.ts, (File)" [ref=e665]:
+                      - generic [ref=e666]:
+                        - img [ref=e667]
+                        - link "index.ts, (File)" [ref=e672] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/index.ts
+                          - text: index.ts
+                    - cell [ref=e673]
+                    - cell [ref=e675]
+                  - row "install.mjs, (File)" [ref=e678]:
+                    - cell "install.mjs, (File)" [ref=e679]:
+                      - generic [ref=e680]:
+                        - img [ref=e681]
+                        - link "install.mjs, (File)" [ref=e686] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/install.mjs
+                          - text: install.mjs
+                    - cell [ref=e687]
+                    - cell [ref=e689]
+                  - row "jsonl-writer.ts, (File)" [ref=e692]:
+                    - cell "jsonl-writer.ts, (File)" [ref=e693]:
+                      - generic [ref=e694]:
+                        - img [ref=e695]
+                        - link "jsonl-writer.ts, (File)" [ref=e700] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/jsonl-writer.ts
+                          - text: jsonl-writer.ts
+                    - cell [ref=e701]
+                    - cell [ref=e703]
+                  - row "notify.ts, (File)" [ref=e706]:
+                    - cell "notify.ts, (File)" [ref=e707]:
+                      - generic [ref=e708]:
+                        - img [ref=e709]
+                        - link "notify.ts, (File)" [ref=e714] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/notify.ts
+                          - text: notify.ts
+                    - cell [ref=e715]
+                    - cell [ref=e717]
+                  - row "package-lock.json, (File)" [ref=e720]:
+                    - cell "package-lock.json, (File)" [ref=e721]:
+                      - generic [ref=e722]:
+                        - img [ref=e723]
+                        - link "package-lock.json, (File)" [ref=e728] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/package-lock.json
+                          - text: package-lock.json
+                    - cell [ref=e729]
+                    - cell [ref=e731]
+                  - row "package.json, (File)" [ref=e734]:
+                    - cell "package.json, (File)" [ref=e735]:
+                      - generic [ref=e736]:
+                        - img [ref=e737]
+                        - link "package.json, (File)" [ref=e742] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/package.json
+                          - text: package.json
+                    - cell [ref=e743]
+                    - cell [ref=e745]
+                  - row "parallel-utils.ts, (File)" [ref=e748]:
+                    - cell "parallel-utils.ts, (File)" [ref=e749]:
+                      - generic [ref=e750]:
+                        - img [ref=e751]
+                        - link "parallel-utils.ts, (File)" [ref=e756] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/parallel-utils.ts
+                          - text: parallel-utils.ts
+                    - cell [ref=e757]
+                    - cell [ref=e759]
+                  - row "path-resolution.test.ts, (File)" [ref=e762]:
+                    - cell "path-resolution.test.ts, (File)" [ref=e763]:
+                      - generic [ref=e764]:
+                        - img [ref=e765]
+                        - link "path-resolution.test.ts, (File)" [ref=e770] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/path-resolution.test.ts
+                          - text: path-resolution.test.ts
+                    - cell [ref=e771]
+                    - cell [ref=e773]
+                  - row "pi-args.ts, (File)" [ref=e776]:
+                    - cell "pi-args.ts, (File)" [ref=e777]:
+                      - generic [ref=e778]:
+                        - img [ref=e779]
+                        - link "pi-args.ts, (File)" [ref=e784] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/pi-args.ts
+                          - text: pi-args.ts
+                    - cell [ref=e785]
+                    - cell [ref=e787]
+                  - row "pi-spawn.ts, (File)" [ref=e790]:
+                    - cell "pi-spawn.ts, (File)" [ref=e791]:
+                      - generic [ref=e792]:
+                        - img [ref=e793]
+                        - link "pi-spawn.ts, (File)" [ref=e798] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/pi-spawn.ts
+                          - text: pi-spawn.ts
+                    - cell [ref=e799]
+                    - cell [ref=e801]
+                  - row "prompt-template-bridge.ts, (File)" [ref=e804]:
+                    - cell "prompt-template-bridge.ts, (File)" [ref=e805]:
+                      - generic [ref=e806]:
+                        - img [ref=e807]
+                        - link "prompt-template-bridge.ts, (File)" [ref=e812] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/prompt-template-bridge.ts
+                          - text: prompt-template-bridge.ts
+                    - cell [ref=e813]
+                    - cell [ref=e815]
+                  - row "render-helpers.ts, (File)" [ref=e818]:
+                    - cell "render-helpers.ts, (File)" [ref=e819]:
+                      - generic [ref=e820]:
+                        - img [ref=e821]
+                        - link "render-helpers.ts, (File)" [ref=e826] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/render-helpers.ts
+                          - text: render-helpers.ts
+                    - cell [ref=e827]
+                    - cell [ref=e829]
+                  - row "render.ts, (File)" [ref=e832]:
+                    - cell "render.ts, (File)" [ref=e833]:
+                      - generic [ref=e834]:
+                        - img [ref=e835]
+                        - link "render.ts, (File)" [ref=e840] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/render.ts
+                          - text: render.ts
+                    - cell [ref=e841]
+                    - cell [ref=e843]
+                  - row "result-watcher.ts, (File)" [ref=e846]:
+                    - cell "result-watcher.ts, (File)" [ref=e847]:
+                      - generic [ref=e848]:
+                        - img [ref=e849]
+                        - link "result-watcher.ts, (File)" [ref=e854] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/result-watcher.ts
+                          - text: result-watcher.ts
+                    - cell [ref=e855]
+                    - cell [ref=e857]
+                  - row "run-history.ts, (File)" [ref=e860]:
+                    - cell "run-history.ts, (File)" [ref=e861]:
+                      - generic [ref=e862]:
+                        - img [ref=e863]
+                        - link "run-history.ts, (File)" [ref=e868] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/run-history.ts
+                          - text: run-history.ts
+                    - cell [ref=e869]
+                    - cell [ref=e871]
+                  - row "schemas.ts, (File)" [ref=e874]:
+                    - cell "schemas.ts, (File)" [ref=e875]:
+                      - generic [ref=e876]:
+                        - img [ref=e877]
+                        - link "schemas.ts, (File)" [ref=e882] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/schemas.ts
+                          - text: schemas.ts
+                    - cell [ref=e883]
+                    - cell [ref=e885]
+                  - row "settings.ts, (File)" [ref=e888]:
+                    - cell "settings.ts, (File)" [ref=e889]:
+                      - generic [ref=e890]:
+                        - img [ref=e891]
+                        - link "settings.ts, (File)" [ref=e896] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/settings.ts
+                          - text: settings.ts
+                    - cell [ref=e897]
+                    - cell [ref=e899]
+                  - row "single-output.ts, (File)" [ref=e902]:
+                    - cell "single-output.ts, (File)" [ref=e903]:
+                      - generic [ref=e904]:
+                        - img [ref=e905]
+                        - link "single-output.ts, (File)" [ref=e910] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/single-output.ts
+                          - text: single-output.ts
+                    - cell [ref=e911]
+                    - cell [ref=e913]
+                  - row "skills.ts, (File)" [ref=e916]:
+                    - cell "skills.ts, (File)" [ref=e917]:
+                      - generic [ref=e918]:
+                        - img [ref=e919]
+                        - link "skills.ts, (File)" [ref=e924] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/skills.ts
+                          - text: skills.ts
+                    - cell [ref=e925]
+                    - cell [ref=e927]
+                  - row "slash-bridge.ts, (File)" [ref=e930]:
+                    - cell "slash-bridge.ts, (File)" [ref=e931]:
+                      - generic [ref=e932]:
+                        - img [ref=e933]
+                        - link "slash-bridge.ts, (File)" [ref=e938] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/slash-bridge.ts
+                          - text: slash-bridge.ts
+                    - cell [ref=e939]
+                    - cell [ref=e941]
+                  - row "slash-commands.ts, (File)" [ref=e944]:
+                    - cell "slash-commands.ts, (File)" [ref=e945]:
+                      - generic [ref=e946]:
+                        - img [ref=e947]
+                        - link "slash-commands.ts, (File)" [ref=e952] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/slash-commands.ts
+                          - text: slash-commands.ts
+                    - cell [ref=e953]
+                    - cell [ref=e955]
+                  - row "slash-live-state.ts, (File)" [ref=e958]:
+                    - cell "slash-live-state.ts, (File)" [ref=e959]:
+                      - generic [ref=e960]:
+                        - img [ref=e961]
+                        - link "slash-live-state.ts, (File)" [ref=e966] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/slash-live-state.ts
+                          - text: slash-live-state.ts
+                    - cell [ref=e967]
+                    - cell [ref=e969]
+                  - row "subagent-executor.ts, (File)" [ref=e972]:
+                    - cell "subagent-executor.ts, (File)" [ref=e973]:
+                      - generic [ref=e974]:
+                        - img [ref=e975]
+                        - link "subagent-executor.ts, (File)" [ref=e980] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/subagent-executor.ts
+                          - text: subagent-executor.ts
+                    - cell [ref=e981]
+                    - cell [ref=e983]
+                  - row "subagent-runner.ts, (File)" [ref=e986]:
+                    - cell "subagent-runner.ts, (File)" [ref=e987]:
+                      - generic [ref=e988]:
+                        - img [ref=e989]
+                        - link "subagent-runner.ts, (File)" [ref=e994] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/subagent-runner.ts
+                          - text: subagent-runner.ts
+                    - cell [ref=e995]
+                    - cell [ref=e997]
+                  - row "subagents-status.ts, (File)" [ref=e1000]:
+                    - cell "subagents-status.ts, (File)" [ref=e1001]:
+                      - generic [ref=e1002]:
+                        - img [ref=e1003]
+                        - link "subagents-status.ts, (File)" [ref=e1008] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/subagents-status.ts
+                          - text: subagents-status.ts
+                    - cell [ref=e1009]
+                    - cell [ref=e1011]
+                  - row "text-editor.ts, (File)" [ref=e1014]:
+                    - cell "text-editor.ts, (File)" [ref=e1015]:
+                      - generic [ref=e1016]:
+                        - img [ref=e1017]
+                        - link "text-editor.ts, (File)" [ref=e1022] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/text-editor.ts
+                          - text: text-editor.ts
+                    - cell [ref=e1023]
+                    - cell [ref=e1025]
+                  - row "types.ts, (File)" [ref=e1028]:
+                    - cell "types.ts, (File)" [ref=e1029]:
+                      - generic [ref=e1030]:
+                        - img [ref=e1031]
+                        - link "types.ts, (File)" [ref=e1036] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/types.ts
+                          - text: types.ts
+                    - cell [ref=e1037]
+                    - cell [ref=e1039]
+                  - row "utils.ts, (File)" [ref=e1042]:
+                    - cell "utils.ts, (File)" [ref=e1043]:
+                      - generic [ref=e1044]:
+                        - img [ref=e1045]
+                        - link "utils.ts, (File)" [ref=e1050] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/utils.ts
+                          - text: utils.ts
+                    - cell [ref=e1051]
+                    - cell [ref=e1053]
+                  - row "worktree.ts, (File)" [ref=e1056]:
+                    - cell "worktree.ts, (File)" [ref=e1057]:
+                      - generic [ref=e1058]:
+                        - img [ref=e1059]
+                        - link "worktree.ts, (File)" [ref=e1064] [cursor=pointer]:
+                          - /url: /nicobailon/pi-subagents/blob/main/worktree.ts
+                          - text: worktree.ts
+                    - cell [ref=e1065]
+                    - cell [ref=e1067]
+            - generic [ref=e1071]:
+              - generic [ref=e1072]:
+                - heading "Repository files navigation" [level=2] [ref=e1073]
+                - navigation "Repository files" [ref=e1074]:
+                  - list [ref=e1075]:
+                    - listitem [ref=e1076]:
+                      - link "README" [ref=e1077] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1079]
+                        - generic [ref=e1081]: README
+                - button "Outline" [ref=e1082] [cursor=pointer]:
+                  - img [ref=e1083]
+              - article [ref=e1086]:
+                - paragraph [ref=e1087]:
+                  - link "pi-subagents" [ref=e1088] [cursor=pointer]:
+                    - /url: /nicobailon/pi-subagents/blob/main/banner.png
+                    - img "pi-subagents" [ref=e1089]
+                - generic [ref=e1090]:
+                  - heading "pi-subagents" [level=1] [ref=e1091]
+                  - 'link "Permalink: pi-subagents" [ref=e1092] [cursor=pointer]':
+                    - /url: "#pi-subagents"
+                    - img [ref=e1093]
+                - paragraph [ref=e1095]: Pi extension for delegating tasks to subagents with chains, parallel execution, TUI clarification, and async support.
+                - group [ref=e1096]:
+                  - generic "pi-subagents-chain.mp4" [ref=e1097] [cursor=pointer]:
+                    - img [ref=e1098]
+                    - text: pi-subagents-chain.mp4
+                - generic [ref=e1102]:
+                  - heading "Installation" [level=2] [ref=e1103]
+                  - 'link "Permalink: Installation" [ref=e1104] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e1105]
+                - generic [ref=e1107]:
+                  - generic [ref=e1108]: pi install npm:pi-subagents
+                  - button "Copy" [ref=e1110] [cursor=pointer]:
+                    - img [ref=e1111]
+                - paragraph [ref=e1114]: "To remove:"
+                - generic [ref=e1115]:
+                  - generic [ref=e1116]: npx pi-subagents --remove
+                  - button "Copy" [ref=e1118] [cursor=pointer]:
+                    - img [ref=e1119]
+                - paragraph [ref=e1122]:
+                  - text: If you use
+                  - link "pi-prompt-template-model" [ref=e1123] [cursor=pointer]:
+                    - /url: https://github.com/nicobailon/pi-prompt-template-model
+                  - text: ", you can wrap subagent delegation in a slash command:"
+                - generic [ref=e1124]:
+                  - generic [ref=e1125]: "--- description: Take a screenshot model: claude-sonnet-4-20250514 subagent: browser-screenshoter cwd: /tmp/screenshots --- Use url in the prompt to take screenshot: $@"
+                  - button "Copy" [ref=e1127] [cursor=pointer]:
+                    - img [ref=e1128]
+                - paragraph [ref=e1131]:
+                  - text: Then
+                  - code [ref=e1132]: /take-screenshot https://example.com
+                  - text: switches to Sonnet, delegates to the
+                  - code [ref=e1133]: browser-screenshoter
+                  - text: agent with
+                  - code [ref=e1134]: /tmp/screenshots
+                  - text: as the working directory, and restores your model when done. Runtime overrides like
+                  - code [ref=e1135]: "--cwd=<path>"
+                  - text: and
+                  - code [ref=e1136]: "--subagent=<name>"
+                  - text: work too.
+                - paragraph [ref=e1137]:
+                  - text: pi-prompt-template-model is entirely optional — pi-subagents works standalone through the
+                  - code [ref=e1138]: subagent
+                  - text: tool and slash commands. If you want reusable prompt-template workflows on top of subagents, including
+                  - code [ref=e1139]: /chain-prompts
+                  - text: and compare-style prompts like
+                  - code [ref=e1140]: pi-prompt-template-model
+                  - text: "'s"
+                  - code [ref=e1141]: /best-of-n
+                  - text: example, install
+                  - link "pi-prompt-template-model" [ref=e1142] [cursor=pointer]:
+                    - /url: https://github.com/nicobailon/pi-prompt-template-model
+                  - text: separately and copy any example prompts you want from its
+                  - code [ref=e1143]: examples/
+                  - text: directory into
+                  - code [ref=e1144]: ~/.pi/agent/prompts/
+                  - text: .
+                - generic [ref=e1145]:
+                  - heading "Agents" [level=2] [ref=e1146]
+                  - 'link "Permalink: Agents" [ref=e1147] [cursor=pointer]':
+                    - /url: "#agents"
+                    - img [ref=e1148]
+                - paragraph [ref=e1150]: Agents are markdown files with YAML frontmatter that define specialized subagent configurations.
+                - paragraph [ref=e1151]:
+                  - strong [ref=e1152]: "Agent file locations:"
+                - table [ref=e1154]:
+                  - rowgroup [ref=e1155]:
+                    - row "Scope Path Priority" [ref=e1156]:
+                      - columnheader "Scope" [ref=e1157]
+                      - columnheader "Path" [ref=e1158]
+                      - columnheader "Priority" [ref=e1159]
+                  - rowgroup [ref=e1160]:
+                    - row "Builtin ~/.pi/agent/extensions/subagent/agents/ Lowest" [ref=e1161]:
+                      - cell "Builtin" [ref=e1162]
+                      - cell "~/.pi/agent/extensions/subagent/agents/" [ref=e1163]:
+                        - code [ref=e1164]: ~/.pi/agent/extensions/subagent/agents/
+                      - cell "Lowest" [ref=e1165]
+                    - 'row "User ~/.pi/agent/agents/{name}.md Medium" [ref=e1166]':
+                      - cell "User" [ref=e1167]
+                      - 'cell "~/.pi/agent/agents/{name}.md" [ref=e1168]':
+                        - code [ref=e1169]: "~/.pi/agent/agents/{name}.md"
+                      - cell "Medium" [ref=e1170]
+                    - 'row "Project .pi/agents/{name}.md (searches up directory tree) Highest" [ref=e1171]':
+                      - cell "Project" [ref=e1172]
+                      - 'cell ".pi/agents/{name}.md (searches up directory tree)" [ref=e1173]':
+                        - code [ref=e1174]: ".pi/agents/{name}.md"
+                        - text: (searches up directory tree)
+                      - cell "Highest" [ref=e1175]
+                - paragraph [ref=e1176]:
+                  - text: Use
+                  - code [ref=e1177]: agentScope
+                  - text: "parameter to control discovery:"
+                  - code [ref=e1178]: "\"user\""
+                  - text: ","
+                  - code [ref=e1179]: "\"project\""
+                  - text: ", or"
+                  - code [ref=e1180]: "\"both\""
+                  - text: (default; project takes priority).
+                - paragraph [ref=e1181]:
+                  - strong [ref=e1182]: "Builtin agents:"
+                  - text: The extension ships with ready-to-use agents —
+                  - code [ref=e1183]: scout
+                  - text: ","
+                  - code [ref=e1184]: planner
+                  - text: ","
+                  - code [ref=e1185]: worker
+                  - text: ","
+                  - code [ref=e1186]: reviewer
+                  - text: ","
+                  - code [ref=e1187]: context-builder
+                  - text: ","
+                  - code [ref=e1188]: researcher
+                  - text: ", and"
+                  - code [ref=e1189]: delegate
+                  - text: . They load at lowest priority so any user or project agent with the same name overrides them. Builtin agents appear with a
+                  - code [ref=e1190]: "[builtin]"
+                  - text: badge in listings and cannot be modified through management actions (create a same-named user agent to override instead).
+                - blockquote [ref=e1191]:
+                  - paragraph [ref=e1192]:
+                    - strong [ref=e1193]: "Note:"
+                    - text: The
+                    - code [ref=e1194]: researcher
+                    - text: agent uses
+                    - code [ref=e1195]: web_search
+                    - text: ","
+                    - code [ref=e1196]: fetch_content
+                    - text: ", and"
+                    - code [ref=e1197]: get_search_content
+                    - text: tools which require the
+                    - link "pi-web-access" [ref=e1198] [cursor=pointer]:
+                      - /url: https://github.com/nicobailon/pi-web-access
+                    - text: extension. Install it with
+                    - code [ref=e1199]: pi install npm:pi-web-access
+                    - text: .
+                - paragraph [ref=e1200]:
+                  - strong [ref=e1201]: "Agent frontmatter:"
+                - generic [ref=e1202]:
+                  - generic [ref=e1203]:
+                    - text: "--- name: scout description: Fast codebase recon tools: read, grep, find, ls, bash, mcp:chrome-devtools"
+                    - generic [ref=e1204]: "# mcp: requires pi-mcp-adapter"
+                    - text: "extensions:"
+                    - generic [ref=e1205]: "# absent=all, empty=none, csv=allowlist"
+                    - text: "model: claude-haiku-4-5 thinking: high"
+                    - generic [ref=e1206]: "# off, minimal, low, medium, high, xhigh"
+                    - text: "skill: safe-bash, chrome-devtools"
+                    - generic [ref=e1207]: "# comma-separated skills to inject"
+                    - text: "output: context.md"
+                    - generic [ref=e1208]: "# writes to {chain_dir}/context.md"
+                    - text: "defaultReads: context.md"
+                    - generic [ref=e1209]: "# comma-separated files to read"
+                    - text: "defaultProgress: true"
+                    - generic [ref=e1210]: "# maintain progress.md"
+                    - text: "interactive: true"
+                    - generic [ref=e1211]: "# (parsed but not enforced in v1)"
+                    - text: "maxSubagentDepth: 1"
+                    - generic [ref=e1212]: "# tighten nested delegation for this agent's children"
+                    - text: "--- Your system prompt goes here (the markdown body after frontmatter)."
+                  - button "Copy" [ref=e1214] [cursor=pointer]:
+                    - img [ref=e1215]
+                - paragraph [ref=e1218]:
+                  - text: The
+                  - code [ref=e1219]: thinking
+                  - text: field sets a default extended thinking level for the agent. At runtime it's appended as a
+                  - code [ref=e1220]: :level
+                  - text: suffix to the model string (e.g.,
+                  - code [ref=e1221]: claude-sonnet-4-5:high
+                  - text: ). If the model already has a thinking suffix (from a chain-clarify override), the agent's default is not double-applied.
+                - paragraph [ref=e1222]:
+                  - strong [ref=e1223]: Extension sandboxing
+                - paragraph [ref=e1224]:
+                  - text: Use
+                  - code [ref=e1225]: extensions
+                  - text: "in frontmatter to control which extensions a subagent can access:"
+                - generic [ref=e1226]:
+                  - generic [ref=e1227]:
+                    - generic [ref=e1228]: "# Field absent: all extensions load (default behavior)"
+                    - generic [ref=e1229]: "# Empty field: no extensions"
+                    - text: "extensions:"
+                    - generic [ref=e1230]: "# Allowlist specific extensions"
+                    - text: "extensions: /abs/path/to/ext-a.ts, /abs/path/to/ext-b.ts"
+                  - button "Copy" [ref=e1232] [cursor=pointer]:
+                    - img [ref=e1233]
+                - paragraph [ref=e1236]: "Semantics:"
+                - list [ref=e1237]:
+                  - listitem [ref=e1238]:
+                    - code [ref=e1239]: extensions
+                    - text: absent → all extensions load
+                  - listitem [ref=e1240]:
+                    - code [ref=e1241]: "extensions:"
+                    - text: empty →
+                    - code [ref=e1242]: "--no-extensions"
+                  - listitem [ref=e1243]:
+                    - code [ref=e1244]: "extensions: a,b"
+                    - text: →
+                    - code [ref=e1245]: "--no-extensions --extension a --extension b"
+                - paragraph [ref=e1246]:
+                  - text: When
+                  - code [ref=e1247]: extensions
+                  - text: is present, it takes precedence over extension paths implied by
+                  - code [ref=e1248]: tools
+                  - text: entries.
+                - paragraph [ref=e1249]:
+                  - strong [ref=e1250]: MCP Tools (optional)
+                - paragraph [ref=e1251]:
+                  - text: If you have the
+                  - link "pi-mcp-adapter" [ref=e1252] [cursor=pointer]:
+                    - /url: https://github.com/nicobailon/pi-mcp-adapter
+                  - text: extension installed, subagents can use MCP server tools directly. Without that extension, everything below is ignored — MCP integration is entirely optional.
+                - paragraph [ref=e1253]:
+                  - text: Add
+                  - code [ref=e1254]: "mcp:"
+                  - text: prefixed entries to the
+                  - code [ref=e1255]: tools
+                  - text: "field in agent frontmatter:"
+                - generic [ref=e1256]:
+                  - generic [ref=e1257]:
+                    - generic [ref=e1258]: "# All tools from a server"
+                    - text: "tools: read, bash, mcp:chrome-devtools"
+                    - generic [ref=e1259]: "# Specific tools from a server"
+                    - text: "tools: read, bash, mcp:github/search_repositories, mcp:github/get_file_contents"
+                  - button "Copy" [ref=e1261] [cursor=pointer]:
+                    - img [ref=e1262]
+                - table [ref=e1266]:
+                  - rowgroup [ref=e1267]:
+                    - row "Syntax Effect" [ref=e1268]:
+                      - columnheader "Syntax" [ref=e1269]
+                      - columnheader "Effect" [ref=e1270]
+                  - rowgroup [ref=e1271]:
+                    - row "mcp:server-name All tools from that MCP server" [ref=e1272]:
+                      - cell "mcp:server-name" [ref=e1273]:
+                        - code [ref=e1274]: mcp:server-name
+                      - cell "All tools from that MCP server" [ref=e1275]
+                    - row "mcp:server-name/tool_name One specific tool" [ref=e1276]:
+                      - cell "mcp:server-name/tool_name" [ref=e1277]:
+                        - code [ref=e1278]: mcp:server-name/tool_name
+                      - cell "One specific tool" [ref=e1279]
+                - paragraph [ref=e1280]:
+                  - text: The
+                  - code [ref=e1281]: "mcp:"
+                  - text: items are additive — they don't affect which builtins the agent gets.
+                  - code [ref=e1282]: "tools: mcp:chrome-devtools"
+                  - text: "(with no regular tools listed) gives the agent all default builtins plus chrome-devtools tools. To restrict builtins, list them explicitly:"
+                  - code [ref=e1283]: "tools: read, bash, mcp:chrome-devtools"
+                  - text: .
+                - paragraph [ref=e1284]:
+                  - text: Subagents only get direct MCP tools when
+                  - code [ref=e1285]: "mcp:"
+                  - text: items are explicitly listed. Even if your
+                  - code [ref=e1286]: mcp.json
+                  - text: has
+                  - code [ref=e1287]: "directTools: true"
+                  - text: globally, a subagent without
+                  - code [ref=e1288]: "mcp:"
+                  - text: in its frontmatter won't get any direct tools — keeping it lean. The
+                  - code [ref=e1289]: mcp
+                  - text: proxy tool is still available for discovery if needed.
+                - blockquote [ref=e1290]:
+                  - paragraph [ref=e1291]:
+                    - strong [ref=e1292]: "First-run caveat:"
+                    - text: The MCP adapter caches tool metadata at startup. The first time you connect to a new MCP server, that cache is empty, so tools are only available through the generic
+                    - code [ref=e1293]: mcp
+                    - text: proxy. After that first session, restart pi and direct tools become available.
+                - paragraph [ref=e1294]:
+                  - strong [ref=e1295]: "Resolution priority:"
+                  - text: step override > agent frontmatter > disabled
+                - generic [ref=e1296]:
+                  - heading "Quick Commands" [level=2] [ref=e1297]
+                  - 'link "Permalink: Quick Commands" [ref=e1298] [cursor=pointer]':
+                    - /url: "#quick-commands"
+                    - img [ref=e1299]
+                - table [ref=e1302]:
+                  - rowgroup [ref=e1303]:
+                    - row "Command Description" [ref=e1304]:
+                      - columnheader "Command" [ref=e1305]
+                      - columnheader "Description" [ref=e1306]
+                  - rowgroup [ref=e1307]:
+                    - row "/run <agent> <task> Run a single agent with a task" [ref=e1308]:
+                      - cell "/run <agent> <task>" [ref=e1309]:
+                        - code [ref=e1310]: /run <agent> <task>
+                      - cell "Run a single agent with a task" [ref=e1311]
+                    - row "/chain agent1 \"task1\" -> agent2 \"task2\" Run agents in sequence with per-step tasks" [ref=e1312]:
+                      - cell "/chain agent1 \"task1\" -> agent2 \"task2\"" [ref=e1313]:
+                        - code [ref=e1314]: /chain agent1 "task1" -> agent2 "task2"
+                      - cell "Run agents in sequence with per-step tasks" [ref=e1315]
+                    - row "/parallel agent1 \"task1\" -> agent2 \"task2\" Run agents in parallel with per-step tasks" [ref=e1316]:
+                      - cell "/parallel agent1 \"task1\" -> agent2 \"task2\"" [ref=e1317]:
+                        - code [ref=e1318]: /parallel agent1 "task1" -> agent2 "task2"
+                      - cell "Run agents in parallel with per-step tasks" [ref=e1319]
+                    - row "/subagents-status Open the async status overlay for active and recent runs" [ref=e1320]:
+                      - cell "/subagents-status" [ref=e1321]:
+                        - code [ref=e1322]: /subagents-status
+                      - cell "Open the async status overlay for active and recent runs" [ref=e1323]
+                    - row "/agents Open the Agents Manager overlay" [ref=e1324]:
+                      - cell "/agents" [ref=e1325]:
+                        - code [ref=e1326]: /agents
+                      - cell "Open the Agents Manager overlay" [ref=e1327]
+                - paragraph [ref=e1328]: All commands validate agent names locally and tab-complete them, then route through the tool framework for full live progress rendering. Results are sent to the conversation for the LLM to discuss.
+                - generic [ref=e1329]:
+                  - heading "Per-Step Tasks" [level=3] [ref=e1330]
+                  - 'link "Permalink: Per-Step Tasks" [ref=e1331] [cursor=pointer]':
+                    - /url: "#per-step-tasks"
+                    - img [ref=e1332]
+                - paragraph [ref=e1334]:
+                  - text: Use
+                  - code [ref=e1335]: "->"
+                  - text: to separate steps and give each step its own task with quotes or
+                  - code [ref=e1336]: "--"
+                  - text: ":"
+                - generic [ref=e1337]:
+                  - code [ref=e1339]: /chain scout "scan the codebase" -> planner "create implementation plan" /parallel scanner "find security issues" -> reviewer "check code style"
+                  - button "Copy" [ref=e1341] [cursor=pointer]:
+                    - img [ref=e1342]
+                - paragraph [ref=e1345]:
+                  - text: Both double and single quotes work. The
+                  - code [ref=e1346]: "--"
+                  - text: "delimiter also works:"
+                  - code [ref=e1347]: /chain scout -- scan code -> planner -- analyze auth
+                  - text: .
+                - paragraph [ref=e1348]:
+                  - text: "Steps without a task inherit behavior from the execution mode: chain steps get"
+                  - code [ref=e1349]: "{previous}"
+                  - text: (output from the prior step), parallel steps get the first available task as a fallback.
+                - generic [ref=e1350]:
+                  - code [ref=e1352]: "/chain scout \"analyze auth\" -> planner -> implementer # scout: \"analyze auth\", planner: gets scout's output, implementer: gets planner's output"
+                  - button "Copy" [ref=e1354] [cursor=pointer]:
+                    - img [ref=e1355]
+                - paragraph [ref=e1358]:
+                  - strong [ref=e1359]:
+                    - text: Shared task (no
+                    - code [ref=e1360]: "->"
+                    - text: "):"
+                  - text: Space-separated agents with a single
+                  - code [ref=e1361]: "--"
+                  - text: "task:"
+                - generic [ref=e1362]:
+                  - code [ref=e1364]: /chain scout planner -- analyze the auth system /parallel scout reviewer -- check for security issues
+                  - button "Copy" [ref=e1366] [cursor=pointer]:
+                    - img [ref=e1367]
+                - generic [ref=e1370]:
+                  - heading "Inline Per-Step Config" [level=3] [ref=e1371]
+                  - 'link "Permalink: Inline Per-Step Config" [ref=e1372] [cursor=pointer]':
+                    - /url: "#inline-per-step-config"
+                    - img [ref=e1373]
+                - paragraph [ref=e1375]:
+                  - text: Append
+                  - code [ref=e1376]: "[key=value,...]"
+                  - text: "to any agent name to override its defaults:"
+                - generic [ref=e1377]:
+                  - code [ref=e1379]: /chain scout[output=context.md] "scan code" -> planner[reads=context.md] "analyze auth" /run scout[model=anthropic/claude-sonnet-4] summarize this codebase /parallel scanner[output=scan.md] "find issues" -> reviewer[output=review.md] "check style"
+                  - button "Copy" [ref=e1381] [cursor=pointer]:
+                    - img [ref=e1382]
+                - table [ref=e1386]:
+                  - rowgroup [ref=e1387]:
+                    - row "Key Example Description" [ref=e1388]:
+                      - columnheader "Key" [ref=e1389]
+                      - columnheader "Example" [ref=e1390]
+                      - columnheader "Description" [ref=e1391]
+                  - rowgroup [ref=e1392]:
+                    - row "output output=context.md Write results to file (relative to chain dir for /chain//parallel; for /run, absolute paths are used as-is and relative paths resolve against cwd)" [ref=e1393]:
+                      - cell "output" [ref=e1394]:
+                        - code [ref=e1395]: output
+                      - cell "output=context.md" [ref=e1396]:
+                        - code [ref=e1397]: output=context.md
+                      - cell "Write results to file (relative to chain dir for /chain//parallel; for /run, absolute paths are used as-is and relative paths resolve against cwd)" [ref=e1398]:
+                        - text: Write results to file (relative to chain dir for
+                        - code [ref=e1399]: /chain
+                        - text: /
+                        - code [ref=e1400]: /parallel
+                        - text: ; for
+                        - code [ref=e1401]: /run
+                        - text: ", absolute paths are used as-is and relative paths resolve against cwd)"
+                    - row "reads reads=a.md+b.md Read files before executing (+ separates multiple)" [ref=e1402]:
+                      - cell "reads" [ref=e1403]:
+                        - code [ref=e1404]: reads
+                      - cell "reads=a.md+b.md" [ref=e1405]:
+                        - code [ref=e1406]: reads=a.md+b.md
+                      - cell "Read files before executing (+ separates multiple)" [ref=e1407]:
+                        - text: Read files before executing (
+                        - code [ref=e1408]: +
+                        - text: separates multiple)
+                    - row "model model=anthropic/claude-sonnet-4 Override model for this step" [ref=e1409]:
+                      - cell "model" [ref=e1410]:
+                        - code [ref=e1411]: model
+                      - cell "model=anthropic/claude-sonnet-4" [ref=e1412]:
+                        - code [ref=e1413]: model=anthropic/claude-sonnet-4
+                      - cell "Override model for this step" [ref=e1414]
+                    - row "skills skills=planning+review Override skills (+ separates multiple)" [ref=e1415]:
+                      - cell "skills" [ref=e1416]:
+                        - code [ref=e1417]: skills
+                      - cell "skills=planning+review" [ref=e1418]:
+                        - code [ref=e1419]: skills=planning+review
+                      - cell "Override skills (+ separates multiple)" [ref=e1420]:
+                        - text: Override skills (
+                        - code [ref=e1421]: +
+                        - text: separates multiple)
+                    - row "progress progress Enable progress tracking" [ref=e1422]:
+                      - cell "progress" [ref=e1423]:
+                        - code [ref=e1424]: progress
+                      - cell "progress" [ref=e1425]:
+                        - code [ref=e1426]: progress
+                      - cell "Enable progress tracking" [ref=e1427]
+                - paragraph [ref=e1428]:
+                  - text: Set
+                  - code [ref=e1429]: output=false
+                  - text: ","
+                  - code [ref=e1430]: reads=false
+                  - text: ", or"
+                  - code [ref=e1431]: skills=false
+                  - text: to explicitly disable.
+                - generic [ref=e1432]:
+                  - heading "Background Execution" [level=3] [ref=e1433]
+                  - 'link "Permalink: Background Execution" [ref=e1434] [cursor=pointer]':
+                    - /url: "#background-execution"
+                    - img [ref=e1435]
+                - paragraph [ref=e1437]:
+                  - text: Add
+                  - code [ref=e1438]: "--bg"
+                  - text: "at the end of any slash command to run in the background:"
+                - generic [ref=e1439]:
+                  - code [ref=e1441]: /run scout "full security audit of the codebase" --bg /chain scout "analyze auth system" -> planner "design refactor plan" -> worker --bg /parallel scout "scan frontend" -> scout "scan backend" -> scout "scan infra" --bg
+                  - button "Copy" [ref=e1443] [cursor=pointer]:
+                    - img [ref=e1444]
+                - paragraph [ref=e1447]:
+                  - text: Without
+                  - code [ref=e1448]: "--bg"
+                  - text: ", the run is foreground: the tool call stays active and streams progress until completion. With"
+                  - code [ref=e1449]: "--bg"
+                  - text: ", the run is launched asynchronously: control returns immediately, and completion arrives later via notification. In both cases subagents run as separate processes. Check status with the"
+                  - code [ref=e1450]: subagent_status
+                  - text: tool, or open the
+                  - code [ref=e1451]: /subagents-status
+                  - text: slash command for a read-only overlay listing active runs and recent completions.
+                - generic [ref=e1452]:
+                  - heading "Forked Context Execution" [level=3] [ref=e1453]
+                  - 'link "Permalink: Forked Context Execution" [ref=e1454] [cursor=pointer]':
+                    - /url: "#forked-context-execution"
+                    - img [ref=e1455]
+                - paragraph [ref=e1457]:
+                  - text: Add
+                  - code [ref=e1458]: "--fork"
+                  - text: at the end of
+                  - code [ref=e1459]: /run
+                  - text: ","
+                  - code [ref=e1460]: /chain
+                  - text: ", or"
+                  - code [ref=e1461]: /parallel
+                  - text: to run with
+                  - code [ref=e1462]: "context: \"fork\""
+                  - text: ":"
+                - generic [ref=e1463]:
+                  - code [ref=e1465]: /run reviewer "review this diff" --fork /chain scout "analyze this branch" -> planner "plan next steps" --fork /parallel scout "audit frontend" -> reviewer "audit backend" --fork
+                  - button "Copy" [ref=e1467] [cursor=pointer]:
+                    - img [ref=e1468]
+                - paragraph [ref=e1471]:
+                  - text: You can combine
+                  - code [ref=e1472]: "--fork"
+                  - text: and
+                  - code [ref=e1473]: "--bg"
+                  - text: "in any order:"
+                - generic [ref=e1474]:
+                  - code [ref=e1476]: /run reviewer "review this diff" --fork --bg /run reviewer "review this diff" --bg --fork
+                  - button "Copy" [ref=e1478] [cursor=pointer]:
+                    - img [ref=e1479]
+                - generic [ref=e1482]:
+                  - heading "Agents Manager" [level=2] [ref=e1483]
+                  - 'link "Permalink: Agents Manager" [ref=e1484] [cursor=pointer]':
+                    - /url: "#agents-manager"
+                    - img [ref=e1485]
+                - paragraph [ref=e1487]:
+                  - text: Press
+                  - strong [ref=e1488]: Ctrl+Shift+A
+                  - text: or type
+                  - code [ref=e1489]: /agents
+                  - text: to open the Agents Manager overlay — a TUI for browsing, viewing, editing, creating, and launching agents and chains.
+                - paragraph [ref=e1490]:
+                  - strong [ref=e1491]: "Screens:"
+                - table [ref=e1493]:
+                  - rowgroup [ref=e1494]:
+                    - row "Screen Description" [ref=e1495]:
+                      - columnheader "Screen" [ref=e1496]
+                      - columnheader "Description" [ref=e1497]
+                  - rowgroup [ref=e1498]:
+                    - row "List Browse all agents and chains with search/filter, scope badges, chain badges" [ref=e1499]:
+                      - cell "List" [ref=e1500]
+                      - cell "Browse all agents and chains with search/filter, scope badges, chain badges" [ref=e1501]
+                    - row "Detail View resolved prompt, frontmatter fields, recent run history" [ref=e1502]:
+                      - cell "Detail" [ref=e1503]
+                      - cell "View resolved prompt, frontmatter fields, recent run history" [ref=e1504]
+                    - row "Edit Edit fields with specialized pickers (model, thinking, skills, prompt editor)" [ref=e1505]:
+                      - cell "Edit" [ref=e1506]
+                      - cell "Edit fields with specialized pickers (model, thinking, skills, prompt editor)" [ref=e1507]
+                    - row "Chain Detail View chain steps with flow visualization and dependency map" [ref=e1508]:
+                      - cell "Chain Detail" [ref=e1509]
+                      - cell "View chain steps with flow visualization and dependency map" [ref=e1510]
+                    - row "Parallel Builder Build parallel execution slots, add same agent multiple times, per-slot task overrides" [ref=e1511]:
+                      - cell "Parallel Builder" [ref=e1512]
+                      - cell "Build parallel execution slots, add same agent multiple times, per-slot task overrides" [ref=e1513]
+                    - row "Task Input Enter task and launch with optional skip-clarify toggle" [ref=e1514]:
+                      - cell "Task Input" [ref=e1515]
+                      - cell "Enter task and launch with optional skip-clarify toggle" [ref=e1516]
+                    - row "New Agent Create from templates (Blank, Scout, Planner, Implementer, Code Reviewer, Blank Chain)" [ref=e1517]:
+                      - cell "New Agent" [ref=e1518]
+                      - cell "Create from templates (Blank, Scout, Planner, Implementer, Code Reviewer, Blank Chain)" [ref=e1519]
+                - paragraph [ref=e1520]:
+                  - strong [ref=e1521]: "List screen keybindings:"
+                - list [ref=e1522]:
+                  - listitem [ref=e1523]:
+                    - code [ref=e1524]: ↑↓
+                    - text: — navigate agents/chains
+                  - listitem [ref=e1525]:
+                    - code [ref=e1526]: Enter
+                    - text: — view detail
+                  - listitem [ref=e1527]: Type any character — search/filter
+                  - listitem [ref=e1528]:
+                    - code [ref=e1529]: Tab
+                    - text: — toggle selection (agents only)
+                  - listitem [ref=e1530]:
+                    - code [ref=e1531]: Ctrl+N
+                    - text: — new agent from template
+                  - listitem [ref=e1532]:
+                    - code [ref=e1533]: Ctrl+K
+                    - text: — clone current item
+                  - listitem [ref=e1534]:
+                    - code [ref=e1535]: Ctrl+D
+                    - text: or
+                    - code [ref=e1536]: Del
+                    - text: — delete current item
+                  - listitem [ref=e1537]:
+                    - code [ref=e1538]: Ctrl+R
+                    - text: "— run selected (1 agent: launch, 2+: sequential chain)"
+                  - listitem [ref=e1539]:
+                    - code [ref=e1540]: Ctrl+P
+                    - text: — open parallel builder (from selection or cursor agent)
+                  - listitem [ref=e1541]:
+                    - code [ref=e1542]: Esc
+                    - text: — clear query, then selection, then close overlay
+                - paragraph [ref=e1543]:
+                  - strong [ref=e1544]: "Parallel builder keybindings:"
+                - list [ref=e1545]:
+                  - listitem [ref=e1546]:
+                    - code [ref=e1547]: ↑↓
+                    - text: — navigate slots
+                  - listitem [ref=e1548]:
+                    - code [ref=e1549]: Ctrl+A
+                    - text: — add agent (opens search picker)
+                  - listitem [ref=e1550]:
+                    - code [ref=e1551]: Del
+                    - text: or
+                    - code [ref=e1552]: Ctrl+D
+                    - text: — remove slot
+                  - listitem [ref=e1553]:
+                    - code [ref=e1554]: Enter
+                    - text: — edit per-slot task override
+                  - listitem [ref=e1555]:
+                    - code [ref=e1556]: Ctrl+R
+                    - text: — continue to task input (requires 2+ slots)
+                  - listitem [ref=e1557]:
+                    - code [ref=e1558]: Esc
+                    - text: — back to list
+                - paragraph [ref=e1559]:
+                  - strong [ref=e1560]: "Task input keybindings:"
+                - list [ref=e1561]:
+                  - listitem [ref=e1562]:
+                    - code [ref=e1563]: Enter
+                    - text: — launch (or quick run if skip-clarify is on)
+                  - listitem [ref=e1564]:
+                    - code [ref=e1565]: Tab
+                    - text: — toggle skip-clarify (defaults to on for all manager launches)
+                  - listitem [ref=e1566]:
+                    - code [ref=e1567]: Esc
+                    - text: — back
+                - paragraph [ref=e1568]:
+                  - strong [ref=e1569]: "Multi-select workflow:"
+                  - text: Select agents with
+                  - code [ref=e1570]: Tab
+                  - text: ", then press"
+                  - code [ref=e1571]: Ctrl+R
+                  - text: for a sequential chain or
+                  - code [ref=e1572]: Ctrl+P
+                  - text: to open the parallel builder. The parallel builder lets you add the same agent multiple times, set per-slot task overrides, and launch N agents in parallel. Slots without a custom task use the shared task entered on the next screen.
+                - generic [ref=e1573]:
+                  - heading "Chain Files" [level=2] [ref=e1574]
+                  - 'link "Permalink: Chain Files" [ref=e1575] [cursor=pointer]':
+                    - /url: "#chain-files"
+                    - img [ref=e1576]
+                - paragraph [ref=e1578]:
+                  - text: Chains are
+                  - code [ref=e1579]: .chain.md
+                  - text: files stored alongside agent files. They define reusable multi-step pipelines.
+                - paragraph [ref=e1580]:
+                  - strong [ref=e1581]: "Chain file locations:"
+                - table [ref=e1583]:
+                  - rowgroup [ref=e1584]:
+                    - row "Scope Path" [ref=e1585]:
+                      - columnheader "Scope" [ref=e1586]
+                      - columnheader "Path" [ref=e1587]
+                  - rowgroup [ref=e1588]:
+                    - 'row "User ~/.pi/agent/agents/{name}.chain.md" [ref=e1589]':
+                      - cell "User" [ref=e1590]
+                      - 'cell "~/.pi/agent/agents/{name}.chain.md" [ref=e1591]':
+                        - code [ref=e1592]: "~/.pi/agent/agents/{name}.chain.md"
+                    - 'row "Project .pi/agents/{name}.chain.md" [ref=e1593]':
+                      - cell "Project" [ref=e1594]
+                      - 'cell ".pi/agents/{name}.chain.md" [ref=e1595]':
+                        - code [ref=e1596]: ".pi/agents/{name}.chain.md"
+                - paragraph [ref=e1597]:
+                  - strong [ref=e1598]: "Format:"
+                - generic [ref=e1599]:
+                  - generic [ref=e1600]:
+                    - text: "--- name: scout-planner description: Gather context then plan implementation ---"
+                    - generic [ref=e1601]: "## scout"
+                    - text: "output: context.md Analyze the codebase for {task}"
+                    - generic [ref=e1602]: "## planner"
+                    - text: "reads: context.md model: anthropic/claude-sonnet-4-5:high progress: true Create an implementation plan based on {previous}"
+                  - button "Copy" [ref=e1604] [cursor=pointer]:
+                    - img [ref=e1605]
+                - paragraph [ref=e1608]:
+                  - text: Each
+                  - code [ref=e1609]: "## agent-name"
+                  - text: section defines a step. Config lines (
+                  - code [ref=e1610]: output
+                  - text: ","
+                  - code [ref=e1611]: reads
+                  - text: ","
+                  - code [ref=e1612]: model
+                  - text: ","
+                  - code [ref=e1613]: skills
+                  - text: ","
+                  - code [ref=e1614]: progress
+                  - text: ") go immediately after the header. A blank line separates config from the task text. Chains support the same three-state semantics as tool params: omitted (inherit from agent), value (override),"
+                  - code [ref=e1615]: "false"
+                  - text: (disable).
+                - paragraph [ref=e1616]: Chains can be created from the Agents Manager template picker ("Blank Chain"), or saved from the chain-clarify TUI during execution.
+                - generic [ref=e1617]:
+                  - heading "Features (beyond base)" [level=2] [ref=e1618]
+                  - 'link "Permalink: Features (beyond base)" [ref=e1619] [cursor=pointer]':
+                    - /url: "#features-beyond-base"
+                    - img [ref=e1620]
+                - list [ref=e1622]:
+                  - listitem [ref=e1623]:
+                    - strong [ref=e1624]: Slash Commands
+                    - text: ":"
+                    - code [ref=e1625]: /run
+                    - text: ","
+                    - code [ref=e1626]: /chain
+                    - text: ","
+                    - code [ref=e1627]: /parallel
+                    - text: with tab-completion and live progress
+                  - listitem [ref=e1628]:
+                    - strong [ref=e1629]: Agents Manager Overlay
+                    - text: ": Browse, view, edit, create, delete, and launch agents/chains from a TUI ("
+                    - code [ref=e1630]: Ctrl+Shift+A
+                    - text: )
+                  - listitem [ref=e1631]:
+                    - strong [ref=e1632]: Management Actions
+                    - text: ": LLM can list, inspect, create, update, and delete agent/chain definitions via"
+                    - code [ref=e1633]: action
+                    - text: field
+                  - listitem [ref=e1634]:
+                    - strong [ref=e1635]: Chain Files
+                    - text: ": Reusable"
+                    - code [ref=e1636]: .chain.md
+                    - text: files with per-step config, saveable from the clarify TUI
+                  - listitem [ref=e1637]:
+                    - strong [ref=e1638]: Multi-select & Parallel
+                    - text: ": Select agents in the overlay, launch as chain or parallel"
+                  - listitem [ref=e1639]:
+                    - strong [ref=e1640]: Run History
+                    - text: ": Per-agent JSONL recording of task, exit code, duration; shown on detail screen"
+                  - listitem [ref=e1641]:
+                    - strong [ref=e1642]: Thinking Level
+                    - text: ": First-class"
+                    - code [ref=e1643]: thinking
+                    - text: frontmatter field with picker UI and runtime suffix application
+                  - listitem [ref=e1644]:
+                    - strong [ref=e1645]: Agent Templates
+                    - text: ": Create agents from presets (Scout, Planner, Implementer, Code Reviewer, Blank Chain)"
+                  - listitem [ref=e1646]:
+                    - strong [ref=e1647]: Skill Injection
+                    - text: ": Agents declare skills in frontmatter; skills get injected into system prompts"
+                  - listitem [ref=e1648]:
+                    - strong [ref=e1649]: Parallel-in-Chain
+                    - text: ": Fan-out/fan-in patterns with"
+                    - code [ref=e1650]: "{ parallel: [...] }"
+                    - text: steps within chains
+                  - listitem [ref=e1651]:
+                    - strong [ref=e1652]: Worktree Isolation
+                    - text: ":"
+                    - code [ref=e1653]: "worktree: true"
+                    - text: gives each parallel agent its own git worktree, preventing filesystem conflicts during concurrent execution
+                  - listitem [ref=e1654]:
+                    - strong [ref=e1655]: Chain Clarification TUI
+                    - text: ": Interactive preview/edit of chain templates and behaviors before execution"
+                  - listitem [ref=e1656]:
+                    - strong [ref=e1657]: Agent Frontmatter Extensions
+                    - text: ": Agents declare default chain behavior ("
+                    - code [ref=e1658]: output
+                    - text: ","
+                    - code [ref=e1659]: defaultReads
+                    - text: ","
+                    - code [ref=e1660]: defaultProgress
+                    - text: ","
+                    - code [ref=e1661]: skill
+                    - text: ) plus optional recursion limits via
+                    - code [ref=e1662]: maxSubagentDepth
+                  - listitem [ref=e1663]:
+                    - strong [ref=e1664]: Chain Artifacts
+                    - text: ": Shared directory at"
+                    - code [ref=e1665]: "<tmpdir>/pi-chain-runs/{runId}/"
+                    - text: for inter-step files
+                  - listitem [ref=e1666]:
+                    - strong [ref=e1667]: Solo Agent Output
+                    - text: ": Agents with"
+                    - code [ref=e1668]: output
+                    - text: write to temp dir and return path to caller
+                  - listitem [ref=e1669]:
+                    - strong [ref=e1670]: Live Progress Display
+                    - text: ": Real-time visibility during sync execution showing current tool, recent output, tokens, and duration"
+                  - listitem [ref=e1671]:
+                    - strong [ref=e1672]: Output Truncation
+                    - text: ": Configurable byte/line limits via"
+                    - code [ref=e1673]: maxOutput
+                  - listitem [ref=e1674]:
+                    - strong [ref=e1675]: Debug Artifacts
+                    - text: ": Input/output/JSONL/metadata files per task"
+                  - listitem [ref=e1676]:
+                    - strong [ref=e1677]: Session Logs
+                    - text: ": JSONL session files with paths shown in output"
+                  - listitem [ref=e1678]:
+                    - strong [ref=e1679]: Async Status Files
+                    - text: ": Durable"
+                    - code [ref=e1680]: status.json
+                    - text: ","
+                    - code [ref=e1681]: events.jsonl
+                    - text: ", and markdown logs for async runs"
+                  - listitem [ref=e1682]:
+                    - strong [ref=e1683]: Async Widget
+                    - text: ": Lightweight TUI widget shows background run progress"
+                  - listitem [ref=e1684]:
+                    - strong [ref=e1685]: Session-scoped Notifications
+                    - text: ": Async completions only notify the originating session"
+                - generic [ref=e1686]:
+                  - heading "Modes" [level=2] [ref=e1687]
+                  - 'link "Permalink: Modes" [ref=e1688] [cursor=pointer]':
+                    - /url: "#modes"
+                    - img [ref=e1689]
+                - table [ref=e1692]:
+                  - rowgroup [ref=e1693]:
+                    - row "Mode Async Support Notes" [ref=e1694]:
+                      - columnheader "Mode" [ref=e1695]
+                      - columnheader "Async Support" [ref=e1696]
+                      - columnheader "Notes" [ref=e1697]
+                  - rowgroup [ref=e1698]:
+                    - 'row "Single Yes { agent, task } - agents with output write to temp dir" [ref=e1699]':
+                      - cell "Single" [ref=e1700]
+                      - cell "Yes" [ref=e1701]
+                      - 'cell "{ agent, task } - agents with output write to temp dir" [ref=e1702]':
+                        - code [ref=e1703]: "{ agent, task }"
+                        - text: "- agents with"
+                        - code [ref=e1704]: output
+                        - text: write to temp dir
+                    - 'row "Chain Yes { chain: [{agent, task}...] } with {task}, {previous}, {chain_dir} variables" [ref=e1705]':
+                      - cell "Chain" [ref=e1706]
+                      - cell "Yes" [ref=e1707]
+                      - 'cell "{ chain: [{agent, task}...] } with {task}, {previous}, {chain_dir} variables" [ref=e1708]':
+                        - code [ref=e1709]: "{ chain: [{agent, task}...] }"
+                        - text: with
+                        - code [ref=e1710]: "{task}"
+                        - text: ","
+                        - code [ref=e1711]: "{previous}"
+                        - text: ","
+                        - code [ref=e1712]: "{chain_dir}"
+                        - text: variables
+                    - 'row "Parallel Yes { tasks: [{agent, task}...] } - via TUI toggle or converted to chain for async" [ref=e1713]':
+                      - cell "Parallel" [ref=e1714]
+                      - cell "Yes" [ref=e1715]
+                      - 'cell "{ tasks: [{agent, task}...] } - via TUI toggle or converted to chain for async" [ref=e1716]':
+                        - code [ref=e1717]: "{ tasks: [{agent, task}...] }"
+                        - text: "- via TUI toggle or converted to chain for async"
+                - paragraph [ref=e1718]:
+                  - text: Execution context defaults to
+                  - code [ref=e1719]: "context: \"fresh\""
+                  - text: ", which starts each child run from a clean session. Set"
+                  - code [ref=e1720]: "context: \"fork\""
+                  - text: to start each child from a real branched session created from the parent's current leaf.
+                - paragraph [ref=e1721]:
+                  - text: All modes support foreground and background execution. Foreground is the default (the call waits and streams progress). For programmatic background launch, use
+                  - code [ref=e1722]: "clarify: false, async: true"
+                  - text: . For interactive background launch, use
+                  - code [ref=e1723]: "clarify: true"
+                  - text: and press
+                  - code [ref=e1724]: b
+                  - text: in the TUI before running. Chains with parallel steps (
+                  - code [ref=e1725]: "{ parallel: [...] }"
+                  - text: ) run concurrently with configurable
+                  - code [ref=e1726]: concurrency
+                  - text: and
+                  - code [ref=e1727]: failFast
+                  - text: options.
+                - paragraph [ref=e1728]:
+                  - strong [ref=e1729]: "Clarify TUI for single/parallel:"
+                - paragraph [ref=e1730]:
+                  - text: Single and parallel modes also support the clarify TUI for previewing/editing parameters before execution. Unlike chains, they default to no TUI - use
+                  - code [ref=e1731]: "clarify: true"
+                  - text: "to enable:"
+                - generic [ref=e1732]:
+                  - generic [ref=e1733]: "// Single agent with clarify TUI { agent: \"scout\", task: \"Analyze the codebase\", clarify: true } // Parallel tasks with clarify TUI { tasks: [{agent: \"scout\", task: \"Analyze frontend\"}, ...], clarify: true }"
+                  - button "Copy" [ref=e1735] [cursor=pointer]:
+                    - img [ref=e1736]
+                - paragraph [ref=e1739]:
+                  - strong [ref=e1740]: "Clarification TUI keybindings:"
+                - paragraph [ref=e1741]:
+                  - emphasis [ref=e1742]: "Navigation mode:"
+                - list [ref=e1743]:
+                  - listitem [ref=e1744]:
+                    - code [ref=e1745]: Enter
+                    - text: "- Run (foreground) or launch in background if"
+                    - code [ref=e1746]: b
+                    - text: is toggled on
+                  - listitem [ref=e1747]:
+                    - code [ref=e1748]: Esc
+                    - text: "- Cancel"
+                  - listitem [ref=e1749]:
+                    - code [ref=e1750]: ↑↓
+                    - text: "- Navigate between steps/tasks (parallel, chain)"
+                  - listitem [ref=e1751]:
+                    - code [ref=e1752]: e
+                    - text: "- Edit task/template (all modes)"
+                  - listitem [ref=e1753]:
+                    - code [ref=e1754]: m
+                    - text: "- Select model (all modes)"
+                  - listitem [ref=e1755]:
+                    - code [ref=e1756]: t
+                    - text: "- Select thinking level (all modes)"
+                  - listitem [ref=e1757]:
+                    - code [ref=e1758]: s
+                    - text: "- Select skills (all modes)"
+                  - listitem [ref=e1759]:
+                    - code [ref=e1760]: b
+                    - text: "- Toggle background/async execution (all modes) — shows"
+                    - code [ref=e1761]: "[b]g:ON"
+                    - text: when enabled
+                  - listitem [ref=e1762]:
+                    - code [ref=e1763]: w
+                    - text: "- Edit writes/output file (single, chain only)"
+                  - listitem [ref=e1764]:
+                    - code [ref=e1765]: r
+                    - text: "- Edit reads list (chain only)"
+                  - listitem [ref=e1766]:
+                    - code [ref=e1767]: p
+                    - text: "- Toggle progress tracking (chain only)"
+                  - listitem [ref=e1768]:
+                    - code [ref=e1769]: S
+                    - text: "- Save current overrides to agent's frontmatter file (all modes)"
+                  - listitem [ref=e1770]:
+                    - code [ref=e1771]: W
+                    - text: "- Save chain configuration to a"
+                    - code [ref=e1772]: .chain.md
+                    - text: file (chain only)
+                - paragraph [ref=e1773]:
+                  - emphasis [ref=e1774]: "Model selector mode:"
+                - list [ref=e1775]:
+                  - listitem [ref=e1776]:
+                    - code [ref=e1777]: ↑↓
+                    - text: "- Navigate model list"
+                  - listitem [ref=e1778]:
+                    - code [ref=e1779]: Enter
+                    - text: "- Select model"
+                  - listitem [ref=e1780]:
+                    - code [ref=e1781]: Esc
+                    - text: "- Cancel (keep current model)"
+                  - listitem [ref=e1782]: Type to filter (fuzzy search by model name or provider)
+                - paragraph [ref=e1783]:
+                  - emphasis [ref=e1784]: "Thinking level selector mode:"
+                - list [ref=e1785]:
+                  - listitem [ref=e1786]:
+                    - code [ref=e1787]: ↑↓
+                    - text: "- Navigate level list"
+                  - listitem [ref=e1788]:
+                    - code [ref=e1789]: Enter
+                    - text: "- Select level"
+                  - listitem [ref=e1790]:
+                    - code [ref=e1791]: Esc
+                    - text: "- Cancel (keep current level)"
+                - paragraph [ref=e1792]:
+                  - emphasis [ref=e1793]: "Skill selector mode:"
+                - list [ref=e1794]:
+                  - listitem [ref=e1795]:
+                    - code [ref=e1796]: ↑↓
+                    - text: "- Navigate skill list"
+                  - listitem [ref=e1797]:
+                    - code [ref=e1798]: Space
+                    - text: "- Toggle skill selection"
+                  - listitem [ref=e1799]:
+                    - code [ref=e1800]: Enter
+                    - text: "- Confirm selection"
+                  - listitem [ref=e1801]:
+                    - code [ref=e1802]: Esc
+                    - text: "- Cancel (keep current skills)"
+                  - listitem [ref=e1803]: Type to filter (fuzzy search by name or description)
+                - paragraph [ref=e1804]:
+                  - emphasis [ref=e1805]: "Edit mode (full-screen editor with word wrapping):"
+                - list [ref=e1806]:
+                  - listitem [ref=e1807]:
+                    - code [ref=e1808]: Esc
+                    - text: "- Save changes and exit"
+                  - listitem [ref=e1809]:
+                    - code [ref=e1810]: Ctrl+C
+                    - text: "- Discard changes and exit"
+                  - listitem [ref=e1811]:
+                    - code [ref=e1812]: ←→
+                    - text: "- Move cursor left/right"
+                  - listitem [ref=e1813]:
+                    - code [ref=e1814]: Alt+←→
+                    - text: "- Move cursor by word"
+                  - listitem [ref=e1815]:
+                    - code [ref=e1816]: ↑↓
+                    - text: "- Move cursor up/down by display line (auto-scrolls)"
+                  - listitem [ref=e1817]:
+                    - code [ref=e1818]: Page Up/Down
+                    - text: or
+                    - code [ref=e1819]: Shift+↑↓
+                    - text: "- Move cursor by viewport (12 lines)"
+                  - listitem [ref=e1820]:
+                    - code [ref=e1821]: Home/End
+                    - text: "- Start/end of current display line"
+                  - listitem [ref=e1822]:
+                    - code [ref=e1823]: Ctrl+Home/End
+                    - text: "- Start/end of text"
+                  - listitem [ref=e1824]:
+                    - code [ref=e1825]: Alt+Backspace
+                    - text: "- Delete word backward"
+                  - listitem [ref=e1826]: Paste supported (multi-line in multi-line editors)
+                - generic [ref=e1827]:
+                  - heading "Skills" [level=2] [ref=e1828]
+                  - 'link "Permalink: Skills" [ref=e1829] [cursor=pointer]':
+                    - /url: "#skills"
+                    - img [ref=e1830]
+                - paragraph [ref=e1832]: Skills are specialized instructions loaded from SKILL.md files and injected into the agent's system prompt.
+                - paragraph [ref=e1833]:
+                  - strong [ref=e1834]: "Skill locations (project-first precedence):"
+                - list [ref=e1835]:
+                  - listitem [ref=e1836]:
+                    - text: "Project:"
+                    - code [ref=e1837]: ".pi/skills/{name}/SKILL.md"
+                  - listitem [ref=e1838]:
+                    - text: "Project packages:"
+                    - code [ref=e1839]: .pi/npm/node_modules/*
+                    - text: via
+                    - code [ref=e1840]: package.json -> pi.skills
+                  - listitem [ref=e1841]:
+                    - text: "Project settings:"
+                    - code [ref=e1842]: .pi/settings.json -> skills
+                  - listitem [ref=e1843]:
+                    - text: "User:"
+                    - code [ref=e1844]: "~/.pi/agent/skills/{name}/SKILL.md"
+                  - listitem [ref=e1845]:
+                    - text: "User packages:"
+                    - code [ref=e1846]: ~/.pi/agent/npm/node_modules/*
+                    - text: via
+                    - code [ref=e1847]: package.json -> pi.skills
+                  - listitem [ref=e1848]:
+                    - text: "User settings:"
+                    - code [ref=e1849]: ~/.pi/agent/settings.json -> skills
+                - paragraph [ref=e1850]:
+                  - strong [ref=e1851]: "Usage:"
+                - generic [ref=e1852]:
+                  - generic [ref=e1853]:
+                    - text: "// Agent with skills from frontmatter { agent: \"scout\", task: \"...\" } // uses agent's default skills // Override skills at runtime { agent: \"scout\", task: \"...\", skill: \"tmux, safe-bash\" } // Disable all skills (including agent defaults) { agent: \"scout\", task: \"...\", skill: false } // Chain with chain-level skills (additive to agent skills) { chain: [..."
+                    - text: "], skill: \"code-review\" } // Chain step with skill override { chain: [ { agent: \"scout\", skill: \"safe-bash\" }, // only safe-bash { agent: \"worker\", skill: false } // no skills at all ]}"
+                  - button "Copy" [ref=e1855] [cursor=pointer]:
+                    - img [ref=e1856]
+                - paragraph [ref=e1859]:
+                  - strong [ref=e1860]: "Skill injection format:"
+                - generic [ref=e1861]:
+                  - generic [ref=e1862]:
+                    - text: <skill name=
+                    - generic [ref=e1863]: "\"safe-bash\""
+                    - text: "> [skill content from SKILL.md, frontmatter stripped] </skill>"
+                  - button "Copy" [ref=e1865] [cursor=pointer]:
+                    - img [ref=e1866]
+                - paragraph [ref=e1869]:
+                  - strong [ref=e1870]: "Missing skills:"
+                  - text: If a skill cannot be found, execution continues with a warning shown in the result summary.
+                - generic [ref=e1871]:
+                  - heading "Usage" [level=2] [ref=e1872]
+                  - 'link "Permalink: Usage" [ref=e1873] [cursor=pointer]':
+                    - /url: "#usage"
+                    - img [ref=e1874]
+                - paragraph [ref=e1876]:
+                  - text: These are the parameters the
+                  - strong [ref=e1877]: LLM agent
+                  - text: passes when it calls the
+                  - code [ref=e1878]: subagent
+                  - text: tool — not something you type directly. The agent decides to use these based on your conversation. For user-facing commands, see
+                  - link "Quick Commands" [ref=e1879] [cursor=pointer]:
+                    - /url: "#quick-commands"
+                  - text: above.
+                - paragraph [ref=e1880]:
+                  - strong [ref=e1881]: "subagent tool parameters:"
+                - generic [ref=e1882]:
+                  - generic [ref=e1883]:
+                    - text: "// Single agent { agent: \"worker\", task: \"refactor auth\" } { agent: \"scout\", task: \"find todos\", maxOutput: { lines: 1000 } } { agent: \"scout\", task: \"investigate\", output: false } // disable file output // Single agent from parent-session fork (real branched session at current leaf) { agent: \"worker\", task: \"continue this thread\", context: \"fork\" } // Parallel { tasks: [{ agent: \"scout\", task: \"a\" }, { agent: \"scout\", task: \"b\" }] } // Parallel with count shorthand (run the same task 3 times) { tasks: [{ agent: \"scout\", task: \"audit auth\", count: 3 }] } // Parallel with forked context (each task gets its own isolated fork) { tasks: [{ agent: \"scout\", task: \"audit frontend\" }, { agent: \"reviewer\", task: \"audit backend\" }], context: \"fork\" } // Chain with TUI clarification (default) { chain: [ { agent: \"scout\", task: \"Gather context for auth refactor\" }, { agent: \"planner\" }, // task defaults to {previous} { agent: \"worker\" }, // uses agent defaults for reads/progress { agent: \"reviewer\" } ]} // Chain with forked context (each step gets its own isolated fork of the same parent leaf) { chain: [ { agent: \"scout\", task: \"Analyze current branch decisions\" }, { agent: \"planner\", task: \"Plan from {previous}\" } ], context: \"fork\" } // Chain without TUI (enables async) { chain: [..."
+                    - text: "], clarify: false, async: true } // Chain with behavior overrides { chain: [ { agent: \"scout\", task: \"find issues\", output: false }, // text-only, no file { agent: \"worker\", progress: false } // disable progress tracking ]} // Chain with parallel step (fan-out/fan-in) { chain: [ { agent: \"scout\", task: \"Gather context for the codebase\" }, { parallel: [ { agent: \"worker\", task: \"Implement auth based on {previous}\", count: 2 }, { agent: \"worker\", task: \"Implement API based on {previous}\" } ]}, { agent: \"reviewer\", task: \"Review all changes from {previous}\" } ]} // Parallel step with options { chain: [ { agent: \"scout\", task: \"Find all modules\" }, { parallel: [ { agent: \"worker\", task: \"Refactor module A\" }, { agent: \"worker\", task: \"Refactor module B\" }, { agent: \"worker\", task: \"Refactor module C\" } ], concurrency: 2, failFast: true } // limit concurrency, stop on first failure ]} // Worktree isolation — each parallel agent gets its own git worktree { tasks: [ { agent: \"worker\", task: \"Implement auth\" }, { agent: \"worker\", task: \"Implement API\" } ], worktree: true } // Worktree isolation in a chain (fan-out with isolation, fan-in for review) { chain: [ { agent: \"scout\", task: \"Gather context\" }, { parallel: [ { agent: \"worker\", task: \"Implement feature A based on {previous}\" }, { agent: \"worker\", task: \"Implement feature B based on {previous}\" } ], worktree: true }, { agent: \"reviewer\", task: \"Review changes from {previous}\" } ]} // Async chain with parallel step (runs in background) { chain: [ { agent: \"scout\", task: \"Gather context\" }, { parallel: [ { agent: \"worker\", task: \"Implement feature A based on {previous}\" }, { agent: \"worker\", task: \"Implement feature B based on {previous}\" } ]}, { agent: \"reviewer\", task: \"Review all changes from {previous}\" } ], clarify: false, async: true }"
+                  - button "Copy" [ref=e1885] [cursor=pointer]:
+                    - img [ref=e1886]
+                - paragraph [ref=e1889]:
+                  - strong [ref=e1890]: "subagent_status tool:"
+                - generic [ref=e1891]:
+                  - generic [ref=e1892]: "{ action: \"list\" } // active async runs only { id: \"a53ebe46\" } // inspect one run { dir: \"<tmpdir>/pi-async-subagent-runs/a53ebe46-...\" }"
+                  - button "Copy" [ref=e1894] [cursor=pointer]:
+                    - img [ref=e1895]
+                - paragraph [ref=e1898]:
+                  - strong [ref=e1899]: "/subagents-status slash command:"
+                - paragraph [ref=e1900]:
+                  - text: Opens a small read-only overlay that shows active async runs plus recent completed/failed runs. It auto-refreshes every 2 seconds while open, keeps the current run selected when possible, and uses
+                  - code [ref=e1901]: ↑↓
+                  - text: to select a run plus
+                  - code [ref=e1902]: Esc
+                  - text: to close.
+                - generic [ref=e1903]:
+                  - heading "Management Actions" [level=2] [ref=e1904]
+                  - 'link "Permalink: Management Actions" [ref=e1905] [cursor=pointer]':
+                    - /url: "#management-actions"
+                    - img [ref=e1906]
+                - paragraph [ref=e1908]:
+                  - text: Agent definitions are not loaded into LLM context by default. Management actions let the LLM discover, inspect, create, and modify agent and chain definitions at runtime through the
+                  - code [ref=e1909]: subagent
+                  - text: tool — no manual file editing or restart required. Newly created agents are immediately usable in the same session. Set
+                  - code [ref=e1910]: action
+                  - text: and omit execution payloads (
+                  - code [ref=e1911]: task
+                  - text: ","
+                  - code [ref=e1912]: chain
+                  - text: ","
+                  - code [ref=e1913]: tasks
+                  - text: ).
+                - generic [ref=e1914]:
+                  - generic [ref=e1915]: "// Discover all agents and chains (management defaults to both scopes) { action: \"list\" } { action: \"list\", agentScope: \"project\" } // Inspect one agent or chain (searches both scopes) { action: \"get\", agent: \"scout\" } { action: \"get\", chainName: \"review-pipeline\" } // Create agent { action: \"create\", config: { name: \"Code Scout\", description: \"Scans codebases for patterns and issues\", scope: \"user\", systemPrompt: \"You are a code scout...\", model: \"anthropic/claude-sonnet-4\", tools: \"read, bash, mcp:github/search_repositories\", extensions: \"\", // empty = no extensions skills: \"parallel-scout\", thinking: \"high\", output: \"context.md\", reads: \"shared-context.md\", progress: true }} // Create chain (presence of steps creates .chain.md) { action: \"create\", config: { name: \"review-pipeline\", description: \"Scout then review\", scope: \"project\", steps: [ { agent: \"scout\", task: \"Scan {task}\", output: \"context.md\" }, { agent: \"reviewer\", task: \"Review {previous}\", reads: [\"context.md\"] } ] }} // Update agent fields (merge semantics) { action: \"update\", agent: \"scout\", config: { model: \"openai/gpt-4o\" } } { action: \"update\", agent: \"scout\", config: { output: false, skills: \"\" } } // clear optional fields { action: \"update\", chainName: \"review-pipeline\", config: { steps: [ { agent: \"scout\", task: \"Scan {task}\", output: \"context.md\" }, { agent: \"reviewer\", task: \"Improved review of {previous}\", reads: [\"context.md\"] } ] }} // Delete definitions { action: \"delete\", agent: \"scout\" } { action: \"delete\", chainName: \"review-pipeline\" }"
+                  - button "Copy" [ref=e1917] [cursor=pointer]:
+                    - img [ref=e1918]
+                - paragraph [ref=e1921]: "Notes:"
+                - list [ref=e1922]:
+                  - listitem [ref=e1923]:
+                    - code [ref=e1924]: create
+                    - text: uses
+                    - code [ref=e1925]: config.scope
+                    - text: (
+                    - code [ref=e1926]: "\"user\""
+                    - text: or
+                    - code [ref=e1927]: "\"project\""
+                    - text: ), not
+                    - code [ref=e1928]: agentScope
+                    - text: .
+                  - listitem [ref=e1929]:
+                    - code [ref=e1930]: update
+                    - text: /
+                    - code [ref=e1931]: delete
+                    - text: use
+                    - code [ref=e1932]: agentScope
+                    - text: only for scope disambiguation when the same name exists in both scopes.
+                  - listitem [ref=e1933]:
+                    - text: "Agent config mapping:"
+                    - code [ref=e1934]: reads -> defaultReads
+                    - text: ","
+                    - code [ref=e1935]: progress -> defaultProgress
+                    - text: ","
+                    - code [ref=e1936]: extensions
+                    - text: controls extension sandboxing,
+                    - code [ref=e1937]: maxSubagentDepth
+                    - text: maps directly to agent frontmatter, and
+                    - code [ref=e1938]: tools
+                    - text: supports
+                    - code [ref=e1939]: "mcp:"
+                    - text: entries that map to direct MCP tools.
+                  - listitem [ref=e1940]:
+                    - text: To clear any optional field, set it to
+                    - code [ref=e1941]: "false"
+                    - text: or
+                    - code [ref=e1942]: "\"\""
+                    - text: (e.g.,
+                    - code [ref=e1943]: "{ model: false }"
+                    - text: or
+                    - code [ref=e1944]: "{ skills: \"\" }"
+                    - text: ). Both work for all string-typed fields.
+                - generic [ref=e1945]:
+                  - heading "Parameters" [level=2] [ref=e1946]
+                  - 'link "Permalink: Parameters" [ref=e1947] [cursor=pointer]':
+                    - /url: "#parameters"
+                    - img [ref=e1948]
+                - table [ref=e1951]:
+                  - rowgroup [ref=e1952]:
+                    - row "Param Type Default Description" [ref=e1953]:
+                      - columnheader "Param" [ref=e1954]
+                      - columnheader "Type" [ref=e1955]
+                      - columnheader "Default" [ref=e1956]
+                      - columnheader "Description" [ref=e1957]
+                  - rowgroup [ref=e1958]:
+                    - row "agent string - Agent name (single mode) or target for management get/update/delete" [ref=e1959]:
+                      - cell "agent" [ref=e1960]:
+                        - code [ref=e1961]: agent
+                      - cell "string" [ref=e1962]
+                      - cell "-" [ref=e1963]
+                      - cell "Agent name (single mode) or target for management get/update/delete" [ref=e1964]
+                    - row "task string - Task string (single mode)" [ref=e1965]:
+                      - cell "task" [ref=e1966]:
+                        - code [ref=e1967]: task
+                      - cell "string" [ref=e1968]
+                      - cell "-" [ref=e1969]
+                      - cell "Task string (single mode)" [ref=e1970]
+                    - 'row "action string - Management action: list, get, create, update, delete" [ref=e1971]':
+                      - cell "action" [ref=e1972]:
+                        - code [ref=e1973]: action
+                      - cell "string" [ref=e1974]
+                      - cell "-" [ref=e1975]
+                      - 'cell "Management action: list, get, create, update, delete" [ref=e1976]':
+                        - text: "Management action:"
+                        - code [ref=e1977]: list
+                        - text: ","
+                        - code [ref=e1978]: get
+                        - text: ","
+                        - code [ref=e1979]: create
+                        - text: ","
+                        - code [ref=e1980]: update
+                        - text: ","
+                        - code [ref=e1981]: delete
+                    - row "chainName string - Chain name for management get/update/delete" [ref=e1982]:
+                      - cell "chainName" [ref=e1983]:
+                        - code [ref=e1984]: chainName
+                      - cell "string" [ref=e1985]
+                      - cell "-" [ref=e1986]
+                      - cell "Chain name for management get/update/delete" [ref=e1987]
+                    - row "config object - Agent or chain config for management create/update" [ref=e1988]:
+                      - cell "config" [ref=e1989]:
+                        - code [ref=e1990]: config
+                      - cell "object" [ref=e1991]
+                      - cell "-" [ref=e1992]
+                      - cell "Agent or chain config for management create/update" [ref=e1993]
+                    - row "output string | false agent default Override output file for single agent (absolute path as-is, relative path resolved against cwd)" [ref=e1994]:
+                      - cell "output" [ref=e1995]:
+                        - code [ref=e1996]: output
+                      - cell "string | false" [ref=e1997]:
+                        - code [ref=e1998]: string | false
+                      - cell "agent default" [ref=e1999]
+                      - cell "Override output file for single agent (absolute path as-is, relative path resolved against cwd)" [ref=e2000]
+                    - row "skill string | string[] | false agent default Override skills (comma-separated string, array, or false to disable)" [ref=e2001]:
+                      - cell "skill" [ref=e2002]:
+                        - code [ref=e2003]: skill
+                      - cell "string | string[] | false" [ref=e2004]:
+                        - code [ref=e2005]: string | string[] | false
+                      - cell "agent default" [ref=e2006]
+                      - cell "Override skills (comma-separated string, array, or false to disable)" [ref=e2007]
+                    - row "model string agent default Override model for single agent" [ref=e2008]:
+                      - cell "model" [ref=e2009]:
+                        - code [ref=e2010]: model
+                      - cell "string" [ref=e2011]
+                      - cell "agent default" [ref=e2012]
+                      - cell "Override model for single agent" [ref=e2013]
+                    - 'row "tasks {agent, task, cwd?, count?, skill?}[] - Parallel tasks. Foreground runs directly; background requests are converted to an equivalent chain. count repeats one task entry N times with the same settings." [ref=e2014]':
+                      - cell "tasks" [ref=e2015]:
+                        - code [ref=e2016]: tasks
+                      - 'cell "{agent, task, cwd?, count?, skill?}[]" [ref=e2017]':
+                        - code [ref=e2018]: "{agent, task, cwd?, count?, skill?}[]"
+                      - cell "-" [ref=e2019]
+                      - cell "Parallel tasks. Foreground runs directly; background requests are converted to an equivalent chain. count repeats one task entry N times with the same settings." [ref=e2020]:
+                        - text: Parallel tasks. Foreground runs directly; background requests are converted to an equivalent chain.
+                        - code [ref=e2021]: count
+                        - text: repeats one task entry N times with the same settings.
+                    - row "worktree boolean false Create isolated git worktrees for each parallel task. Requires clean git state. Per-worktree diffs included in output." [ref=e2022]:
+                      - cell "worktree" [ref=e2023]:
+                        - code [ref=e2024]: worktree
+                      - cell "boolean" [ref=e2025]
+                      - cell "false" [ref=e2026]
+                      - cell "Create isolated git worktrees for each parallel task. Requires clean git state. Per-worktree diffs included in output." [ref=e2027]
+                    - row "chain ChainItem[] - Sequential steps with behavior overrides (see below)" [ref=e2028]:
+                      - cell "chain" [ref=e2029]:
+                        - code [ref=e2030]: chain
+                      - cell "ChainItem[]" [ref=e2031]
+                      - cell "-" [ref=e2032]
+                      - cell "Sequential steps with behavior overrides (see below)" [ref=e2033]
+                    - row "context \"fresh\" | \"fork\" fresh Execution context mode. fork uses a real branched session from the parent's current leaf for each child run" [ref=e2034]:
+                      - cell "context" [ref=e2035]:
+                        - code [ref=e2036]: context
+                      - cell "\"fresh\" | \"fork\"" [ref=e2037]:
+                        - code [ref=e2038]: "\"fresh\" | \"fork\""
+                      - cell "fresh" [ref=e2039]:
+                        - code [ref=e2040]: fresh
+                      - cell "Execution context mode. fork uses a real branched session from the parent's current leaf for each child run" [ref=e2041]:
+                        - text: Execution context mode.
+                        - code [ref=e2042]: fork
+                        - text: uses a real branched session from the parent's current leaf for each child run
+                    - row "chainDir string <tmpdir>/pi-chain-runs/ Persistent directory for chain artifacts (default auto-cleaned after 24h)" [ref=e2043]:
+                      - cell "chainDir" [ref=e2044]:
+                        - code [ref=e2045]: chainDir
+                      - cell "string" [ref=e2046]
+                      - cell "<tmpdir>/pi-chain-runs/" [ref=e2047]:
+                        - code [ref=e2048]: <tmpdir>/pi-chain-runs/
+                      - cell "Persistent directory for chain artifacts (default auto-cleaned after 24h)" [ref=e2049]
+                    - row "clarify boolean true (chains) Show TUI to preview/edit chain; implies sync mode" [ref=e2050]:
+                      - cell "clarify" [ref=e2051]:
+                        - code [ref=e2052]: clarify
+                      - cell "boolean" [ref=e2053]
+                      - cell "true (chains)" [ref=e2054]
+                      - cell "Show TUI to preview/edit chain; implies sync mode" [ref=e2055]
+                    - row "agentScope \"user\" | \"project\" | \"both\" both Agent discovery scope (project wins on name collisions)" [ref=e2056]:
+                      - cell "agentScope" [ref=e2057]:
+                        - code [ref=e2058]: agentScope
+                      - cell "\"user\" | \"project\" | \"both\"" [ref=e2059]:
+                        - code [ref=e2060]: "\"user\" | \"project\" | \"both\""
+                      - cell "both" [ref=e2061]:
+                        - code [ref=e2062]: both
+                      - cell "Agent discovery scope (project wins on name collisions)" [ref=e2063]
+                    - 'row "async boolean false Background execution (requires clarify: false for chains)" [ref=e2064]':
+                      - cell "async" [ref=e2065]:
+                        - code [ref=e2066]: async
+                      - cell "boolean" [ref=e2067]
+                      - cell "false" [ref=e2068]
+                      - 'cell "Background execution (requires clarify: false for chains)" [ref=e2069]':
+                        - text: Background execution (requires
+                        - code [ref=e2070]: "clarify: false"
+                        - text: for chains)
+                    - row "cwd string - Override working directory" [ref=e2071]:
+                      - cell "cwd" [ref=e2072]:
+                        - code [ref=e2073]: cwd
+                      - cell "string" [ref=e2074]
+                      - cell "-" [ref=e2075]
+                      - cell "Override working directory" [ref=e2076]
+                    - 'row "maxOutput {bytes?, lines?} 200KB, 5000 lines Truncation limits for final output" [ref=e2077]':
+                      - cell "maxOutput" [ref=e2078]:
+                        - code [ref=e2079]: maxOutput
+                      - 'cell "{bytes?, lines?}" [ref=e2080]':
+                        - code [ref=e2081]: "{bytes?, lines?}"
+                      - cell "200KB, 5000 lines" [ref=e2082]
+                      - cell "Truncation limits for final output" [ref=e2083]
+                    - row "artifacts boolean true Write debug artifacts" [ref=e2084]:
+                      - cell "artifacts" [ref=e2085]:
+                        - code [ref=e2086]: artifacts
+                      - cell "boolean" [ref=e2087]
+                      - cell "true" [ref=e2088]
+                      - cell "Write debug artifacts" [ref=e2089]
+                    - row "includeProgress boolean false Include full progress in result" [ref=e2090]:
+                      - cell "includeProgress" [ref=e2091]:
+                        - code [ref=e2092]: includeProgress
+                      - cell "boolean" [ref=e2093]
+                      - cell "false" [ref=e2094]
+                      - cell "Include full progress in result" [ref=e2095]
+                    - row "share boolean false Upload session to GitHub Gist (see Session Sharing)" [ref=e2096]:
+                      - cell "share" [ref=e2097]:
+                        - code [ref=e2098]: share
+                      - cell "boolean" [ref=e2099]
+                      - cell "false" [ref=e2100]
+                      - cell "Upload session to GitHub Gist (see Session Sharing)" [ref=e2101]:
+                        - text: Upload session to GitHub Gist (see
+                        - link "Session Sharing" [ref=e2102] [cursor=pointer]:
+                          - /url: "#session-sharing"
+                        - text: )
+                    - row "sessionDir string - Override session log directory (takes precedence over defaultSessionDir and parent-session-derived path)" [ref=e2103]:
+                      - cell "sessionDir" [ref=e2104]:
+                        - code [ref=e2105]: sessionDir
+                      - cell "string" [ref=e2106]
+                      - cell "-" [ref=e2107]
+                      - cell "Override session log directory (takes precedence over defaultSessionDir and parent-session-derived path)" [ref=e2108]:
+                        - text: Override session log directory (takes precedence over
+                        - code [ref=e2109]: defaultSessionDir
+                        - text: and parent-session-derived path)
+                - paragraph [ref=e2110]:
+                  - code [ref=e2111]: "context: \"fork\""
+                  - text: fails fast when the parent session is not persisted, the current leaf is missing, or a branched child session cannot be created. It never silently downgrades to
+                  - code [ref=e2112]: fresh
+                  - text: .
+                - paragraph [ref=e2113]:
+                  - strong [ref=e2114]: ChainItem
+                  - text: "can be either a sequential step or a parallel step:"
+                - paragraph [ref=e2115]:
+                  - emphasis [ref=e2116]: "Sequential step fields:"
+                - table [ref=e2118]:
+                  - rowgroup [ref=e2119]:
+                    - row "Field Type Default Description" [ref=e2120]:
+                      - columnheader "Field" [ref=e2121]
+                      - columnheader "Type" [ref=e2122]
+                      - columnheader "Default" [ref=e2123]
+                      - columnheader "Description" [ref=e2124]
+                  - rowgroup [ref=e2125]:
+                    - row "agent string required Agent name" [ref=e2126]:
+                      - cell "agent" [ref=e2127]:
+                        - code [ref=e2128]: agent
+                      - cell "string" [ref=e2129]
+                      - cell "required" [ref=e2130]
+                      - cell "Agent name" [ref=e2131]
+                    - 'row "task string {task} or {previous} Task template (required for first step)" [ref=e2132]':
+                      - cell "task" [ref=e2133]:
+                        - code [ref=e2134]: task
+                      - cell "string" [ref=e2135]
+                      - 'cell "{task} or {previous}" [ref=e2136]':
+                        - code [ref=e2137]: "{task}"
+                        - text: or
+                        - code [ref=e2138]: "{previous}"
+                      - cell "Task template (required for first step)" [ref=e2139]
+                    - row "cwd string - Override working directory" [ref=e2140]:
+                      - cell "cwd" [ref=e2141]:
+                        - code [ref=e2142]: cwd
+                      - cell "string" [ref=e2143]
+                      - cell "-" [ref=e2144]
+                      - cell "Override working directory" [ref=e2145]
+                    - row "output string | false agent default Override output filename or disable" [ref=e2146]:
+                      - cell "output" [ref=e2147]:
+                        - code [ref=e2148]: output
+                      - cell "string | false" [ref=e2149]:
+                        - code [ref=e2150]: string | false
+                      - cell "agent default" [ref=e2151]
+                      - cell "Override output filename or disable" [ref=e2152]
+                    - row "reads string[] | false agent default Override files to read from chain dir" [ref=e2153]:
+                      - cell "reads" [ref=e2154]:
+                        - code [ref=e2155]: reads
+                      - cell "string[] | false" [ref=e2156]:
+                        - code [ref=e2157]: string[] | false
+                      - cell "agent default" [ref=e2158]
+                      - cell "Override files to read from chain dir" [ref=e2159]
+                    - row "progress boolean agent default Override progress.md tracking" [ref=e2160]:
+                      - cell "progress" [ref=e2161]:
+                        - code [ref=e2162]: progress
+                      - cell "boolean" [ref=e2163]
+                      - cell "agent default" [ref=e2164]
+                      - cell "Override progress.md tracking" [ref=e2165]
+                    - row "skill string | string[] | false agent default Override skills or disable all" [ref=e2166]:
+                      - cell "skill" [ref=e2167]:
+                        - code [ref=e2168]: skill
+                      - cell "string | string[] | false" [ref=e2169]:
+                        - code [ref=e2170]: string | string[] | false
+                      - cell "agent default" [ref=e2171]
+                      - cell "Override skills or disable all" [ref=e2172]
+                    - row "model string agent default Override model for this step" [ref=e2173]:
+                      - cell "model" [ref=e2174]:
+                        - code [ref=e2175]: model
+                      - cell "string" [ref=e2176]
+                      - cell "agent default" [ref=e2177]
+                      - cell "Override model for this step" [ref=e2178]
+                - paragraph [ref=e2179]:
+                  - emphasis [ref=e2180]: "Parallel step fields:"
+                - table [ref=e2182]:
+                  - rowgroup [ref=e2183]:
+                    - row "Field Type Default Description" [ref=e2184]:
+                      - columnheader "Field" [ref=e2185]
+                      - columnheader "Type" [ref=e2186]
+                      - columnheader "Default" [ref=e2187]
+                      - columnheader "Description" [ref=e2188]
+                  - rowgroup [ref=e2189]:
+                    - row "parallel ParallelTask[] required Array of tasks to run concurrently" [ref=e2190]:
+                      - cell "parallel" [ref=e2191]:
+                        - code [ref=e2192]: parallel
+                      - cell "ParallelTask[]" [ref=e2193]
+                      - cell "required" [ref=e2194]
+                      - cell "Array of tasks to run concurrently" [ref=e2195]
+                    - row "concurrency number 4 Max concurrent tasks" [ref=e2196]:
+                      - cell "concurrency" [ref=e2197]:
+                        - code [ref=e2198]: concurrency
+                      - cell "number" [ref=e2199]
+                      - cell "4" [ref=e2200]
+                      - cell "Max concurrent tasks" [ref=e2201]
+                    - row "failFast boolean false Stop remaining tasks on first failure" [ref=e2202]:
+                      - cell "failFast" [ref=e2203]:
+                        - code [ref=e2204]: failFast
+                      - cell "boolean" [ref=e2205]
+                      - cell "false" [ref=e2206]
+                      - cell "Stop remaining tasks on first failure" [ref=e2207]
+                    - row "worktree boolean false Create isolated git worktrees for each parallel task" [ref=e2208]:
+                      - cell "worktree" [ref=e2209]:
+                        - code [ref=e2210]: worktree
+                      - cell "boolean" [ref=e2211]
+                      - cell "false" [ref=e2212]
+                      - cell "Create isolated git worktrees for each parallel task" [ref=e2213]
+                - paragraph [ref=e2214]:
+                  - emphasis [ref=e2215]: "ParallelTask fields:"
+                  - text: (same as sequential step)
+                - table [ref=e2217]:
+                  - rowgroup [ref=e2218]:
+                    - row "Field Type Default Description" [ref=e2219]:
+                      - columnheader "Field" [ref=e2220]
+                      - columnheader "Type" [ref=e2221]
+                      - columnheader "Default" [ref=e2222]
+                      - columnheader "Description" [ref=e2223]
+                  - rowgroup [ref=e2224]:
+                    - row "agent string required Agent name" [ref=e2225]:
+                      - cell "agent" [ref=e2226]:
+                        - code [ref=e2227]: agent
+                      - cell "string" [ref=e2228]
+                      - cell "required" [ref=e2229]
+                      - cell "Agent name" [ref=e2230]
+                    - 'row "task string {previous} Task template" [ref=e2231]':
+                      - cell "task" [ref=e2232]:
+                        - code [ref=e2233]: task
+                      - cell "string" [ref=e2234]
+                      - 'cell "{previous}" [ref=e2235]':
+                        - code [ref=e2236]: "{previous}"
+                      - cell "Task template" [ref=e2237]
+                    - row "cwd string - Override working directory" [ref=e2238]:
+                      - cell "cwd" [ref=e2239]:
+                        - code [ref=e2240]: cwd
+                      - cell "string" [ref=e2241]
+                      - cell "-" [ref=e2242]
+                      - cell "Override working directory" [ref=e2243]
+                    - row "count number 1 Repeat this parallel task N times with the same settings" [ref=e2244]:
+                      - cell "count" [ref=e2245]:
+                        - code [ref=e2246]: count
+                      - cell "number" [ref=e2247]
+                      - cell "1" [ref=e2248]
+                      - cell "Repeat this parallel task N times with the same settings" [ref=e2249]
+                    - row "output string | false agent default Override output (namespaced to parallel-N/M-agent/)" [ref=e2250]:
+                      - cell "output" [ref=e2251]:
+                        - code [ref=e2252]: output
+                      - cell "string | false" [ref=e2253]:
+                        - code [ref=e2254]: string | false
+                      - cell "agent default" [ref=e2255]
+                      - cell "Override output (namespaced to parallel-N/M-agent/)" [ref=e2256]
+                    - row "reads string[] | false agent default Override files to read" [ref=e2257]:
+                      - cell "reads" [ref=e2258]:
+                        - code [ref=e2259]: reads
+                      - cell "string[] | false" [ref=e2260]:
+                        - code [ref=e2261]: string[] | false
+                      - cell "agent default" [ref=e2262]
+                      - cell "Override files to read" [ref=e2263]
+                    - row "progress boolean agent default Override progress tracking" [ref=e2264]:
+                      - cell "progress" [ref=e2265]:
+                        - code [ref=e2266]: progress
+                      - cell "boolean" [ref=e2267]
+                      - cell "agent default" [ref=e2268]
+                      - cell "Override progress tracking" [ref=e2269]
+                    - row "skill string | string[] | false agent default Override skills or disable all" [ref=e2270]:
+                      - cell "skill" [ref=e2271]:
+                        - code [ref=e2272]: skill
+                      - cell "string | string[] | false" [ref=e2273]:
+                        - code [ref=e2274]: string | string[] | false
+                      - cell "agent default" [ref=e2275]
+                      - cell "Override skills or disable all" [ref=e2276]
+                    - row "model string agent default Override model for this task" [ref=e2277]:
+                      - cell "model" [ref=e2278]:
+                        - code [ref=e2279]: model
+                      - cell "string" [ref=e2280]
+                      - cell "agent default" [ref=e2281]
+                      - cell "Override model for this task" [ref=e2282]
+                - paragraph [ref=e2283]: "Status tool:"
+                - table [ref=e2285]:
+                  - rowgroup [ref=e2286]:
+                    - row "Tool Description" [ref=e2287]:
+                      - columnheader "Tool" [ref=e2288]
+                      - columnheader "Description" [ref=e2289]
+                  - rowgroup [ref=e2290]:
+                    - row "subagent_status List active async runs or inspect one run by id or dir" [ref=e2291]:
+                      - cell "subagent_status" [ref=e2292]:
+                        - code [ref=e2293]: subagent_status
+                      - cell "List active async runs or inspect one run by id or dir" [ref=e2294]
+                - generic [ref=e2295]:
+                  - heading "Worktree Isolation" [level=2] [ref=e2296]
+                  - 'link "Permalink: Worktree Isolation" [ref=e2297] [cursor=pointer]':
+                    - /url: "#worktree-isolation"
+                    - img [ref=e2298]
+                - paragraph [ref=e2300]:
+                  - text: When multiple agents run in parallel against the same repo, they can clobber each other's file changes. Pass
+                  - code [ref=e2301]: "worktree: true"
+                  - text: to give each parallel agent its own git worktree branched from HEAD.
+                - generic [ref=e2302]:
+                  - generic [ref=e2303]: "// Top-level parallel with worktree isolation { tasks: [ { agent: \"worker\", task: \"Implement auth\", count: 2 }, { agent: \"worker\", task: \"Implement API\" } ], worktree: true } // Chain with worktree-isolated parallel step { chain: [ { agent: \"scout\", task: \"Gather context\" }, { parallel: [ { agent: \"worker\", task: \"Implement feature A based on {previous}\" }, { agent: \"worker\", task: \"Implement feature B based on {previous}\" } ], worktree: true }, { agent: \"reviewer\", task: \"Review all changes from {previous}\" } ]}"
+                  - button "Copy" [ref=e2305] [cursor=pointer]:
+                    - img [ref=e2306]
+                - paragraph [ref=e2309]:
+                  - text: After the parallel step completes, per-agent diff stats are appended to the output (and become
+                  - code [ref=e2310]: "{previous}"
+                  - text: for the next chain step). Full patch files are written to disk. The caller or next step can decide what to keep.
+                - paragraph [ref=e2311]:
+                  - strong [ref=e2312]: "Requirements:"
+                - list [ref=e2313]:
+                  - listitem [ref=e2314]: Must be inside a git repository
+                  - listitem [ref=e2315]: Working tree must be clean (no uncommitted changes) — commit or stash first
+                  - listitem [ref=e2316]:
+                    - code [ref=e2317]: node_modules/
+                    - text: is symlinked into each worktree to avoid reinstalling
+                  - listitem [ref=e2318]:
+                    - text: Worktree runs use the shared parallel/step
+                    - code [ref=e2319]: cwd
+                    - text: . Task-level
+                    - code [ref=e2320]: cwd
+                    - text: overrides must be omitted or match that shared
+                    - code [ref=e2321]: cwd
+                    - text: ; if you need different working directories, disable
+                    - code [ref=e2322]: worktree
+                    - text: or split the run.
+                  - listitem [ref=e2323]:
+                    - text: If
+                    - code [ref=e2324]: worktreeSetupHook
+                    - text: is configured, it must return valid JSON and complete before timeout
+                - paragraph [ref=e2325]:
+                  - strong [ref=e2326]: "What happens under the hood:"
+                - list [ref=e2327]:
+                  - listitem [ref=e2328]:
+                    - code [ref=e2329]: git worktree add
+                    - text: creates a temporary worktree per agent in
+                    - code [ref=e2330]: <tmpdir>/pi-worktree-*
+                  - listitem [ref=e2331]:
+                    - text: Optional
+                    - code [ref=e2332]: worktreeSetupHook
+                    - text: runs once per worktree (JSON in on stdin, JSON out on stdout)
+                  - listitem [ref=e2333]: Each agent runs in its worktree's cwd (preserving subdirectory context)
+                  - listitem [ref=e2334]:
+                    - text: Before diff capture, declared synthetic helper paths (for example
+                    - code [ref=e2335]: .venv
+                    - text: or copied local config files) are removed
+                  - listitem [ref=e2336]:
+                    - text: After execution,
+                    - code [ref=e2337]: git add -A && git diff --cached
+                    - text: captures all real changes (committed, modified, and new files)
+                  - listitem [ref=e2338]:
+                    - text: Diff stats appear in the aggregated output; full
+                    - code [ref=e2339]: .patch
+                    - text: files are written to the artifacts directory
+                  - listitem [ref=e2340]:
+                    - text: Worktrees and temp branches are cleaned up in a
+                    - code [ref=e2341]: finally
+                    - text: block
+                - paragraph [ref=e2342]:
+                  - text: If you use
+                  - link "pi-prompt-template-model" [ref=e2343] [cursor=pointer]:
+                    - /url: https://github.com/nicobailon/pi-prompt-template-model
+                  - text: ", worktree isolation is also available via"
+                  - code [ref=e2344]: "worktree: true"
+                  - text: in chain template frontmatter or the
+                  - code [ref=e2345]: "--worktree"
+                  - text: CLI flag on
+                  - code [ref=e2346]: chain-prompts
+                  - text: .
+                  - code [ref=e2347]: pi-prompt-template-model
+                  - text: compare-style prompts can route through the same worktree machinery too; see the
+                  - code [ref=e2348]: pi-prompt-template-model
+                  - text: README and
+                  - code [ref=e2349]: examples/
+                  - text: directory for the installable prompt templates.
+                - generic [ref=e2350]:
+                  - heading "Chain Variables" [level=2] [ref=e2351]
+                  - 'link "Permalink: Chain Variables" [ref=e2352] [cursor=pointer]':
+                    - /url: "#chain-variables"
+                    - img [ref=e2353]
+                - paragraph [ref=e2355]: "Templates support three variables:"
+                - table [ref=e2357]:
+                  - rowgroup [ref=e2358]:
+                    - row "Variable Description" [ref=e2359]:
+                      - columnheader "Variable" [ref=e2360]
+                      - columnheader "Description" [ref=e2361]
+                  - rowgroup [ref=e2362]:
+                    - 'row "{task} Original task from first step (use in subsequent steps)" [ref=e2363]':
+                      - 'cell "{task}" [ref=e2364]':
+                        - code [ref=e2365]: "{task}"
+                      - cell "Original task from first step (use in subsequent steps)" [ref=e2366]
+                    - 'row "{previous} Output from prior step (or aggregated outputs from parallel step)" [ref=e2367]':
+                      - 'cell "{previous}" [ref=e2368]':
+                        - code [ref=e2369]: "{previous}"
+                      - cell "Output from prior step (or aggregated outputs from parallel step)" [ref=e2370]
+                    - 'row "{chain_dir} Path to chain artifacts directory" [ref=e2371]':
+                      - 'cell "{chain_dir}" [ref=e2372]':
+                        - code [ref=e2373]: "{chain_dir}"
+                      - cell "Path to chain artifacts directory" [ref=e2374]
+                - paragraph [ref=e2375]:
+                  - strong [ref=e2376]: "Parallel output aggregation:"
+                  - text: "When a parallel step completes, all outputs are concatenated with clear separators:"
+                - generic [ref=e2377]:
+                  - code [ref=e2379]: === Parallel Task 1 (worker) === [output from first task] === Parallel Task 2 (worker) === [output from second task]
+                  - button "Copy" [ref=e2381] [cursor=pointer]:
+                    - img [ref=e2382]
+                - paragraph [ref=e2385]:
+                  - text: This aggregated output becomes
+                  - code [ref=e2386]: "{previous}"
+                  - text: for the next step.
+                - generic [ref=e2387]:
+                  - heading "Extension Configuration" [level=2] [ref=e2388]
+                  - 'link "Permalink: Extension Configuration" [ref=e2389] [cursor=pointer]':
+                    - /url: "#extension-configuration"
+                    - img [ref=e2390]
+                - paragraph [ref=e2392]:
+                  - code [ref=e2393]: pi-subagents
+                  - text: reads optional JSON config from
+                  - code [ref=e2394]: ~/.pi/agent/extensions/subagent/config.json
+                  - text: .
+                - generic [ref=e2395]:
+                  - heading "defaultSessionDir" [level=3] [ref=e2396]:
+                    - code [ref=e2397]: defaultSessionDir
+                  - 'link "Permalink: defaultSessionDir" [ref=e2398] [cursor=pointer]':
+                    - /url: "#defaultsessiondir"
+                    - img [ref=e2399]
+                - paragraph [ref=e2401]:
+                  - code [ref=e2402]: defaultSessionDir
+                  - text: "sets the fallback directory used for session logs. Eg:"
+                - generic [ref=e2403]:
+                  - generic [ref=e2404]:
+                    - text: "{ \"defaultSessionDir\":"
+                    - generic [ref=e2405]: "\"~/.pi/agent/sessions/subagent/\""
+                    - text: "}"
+                  - button "Copy" [ref=e2407] [cursor=pointer]:
+                    - img [ref=e2408]
+                - paragraph [ref=e2411]: "Session root resolution follows this precedence:"
+                - list [ref=e2412]:
+                  - listitem [ref=e2413]:
+                    - code [ref=e2414]: params.sessionDir
+                    - text: from the
+                    - code [ref=e2415]: subagent
+                    - text: tool call
+                  - listitem [ref=e2416]:
+                    - code [ref=e2417]: config.defaultSessionDir
+                  - listitem [ref=e2418]: Derived from parent session (stored alongside parent session file)
+                - paragraph [ref=e2419]: Sessions are always enabled — every subagent run gets a session directory for tracking.
+                - generic [ref=e2420]:
+                  - heading "maxSubagentDepth" [level=3] [ref=e2421]:
+                    - code [ref=e2422]: maxSubagentDepth
+                  - 'link "Permalink: maxSubagentDepth" [ref=e2423] [cursor=pointer]':
+                    - /url: "#maxsubagentdepth"
+                    - img [ref=e2424]
+                - paragraph [ref=e2426]:
+                  - code [ref=e2427]: maxSubagentDepth
+                  - text: sets the default recursion limit for nested delegation when no inherited
+                  - code [ref=e2428]: PI_SUBAGENT_MAX_DEPTH
+                  - text: "is already in effect. Eg:"
+                - generic [ref=e2429]:
+                  - generic [ref=e2430]: "{ \"maxSubagentDepth\": 1 }"
+                  - button "Copy" [ref=e2432] [cursor=pointer]:
+                    - img [ref=e2433]
+                - paragraph [ref=e2436]:
+                  - text: Per-agent
+                  - code [ref=e2437]: maxSubagentDepth
+                  - text: can tighten that limit further for child runs, but it does not relax an already inherited stricter limit.
+                - generic [ref=e2438]:
+                  - heading "worktreeSetupHook" [level=3] [ref=e2439]:
+                    - code [ref=e2440]: worktreeSetupHook
+                  - 'link "Permalink: worktreeSetupHook" [ref=e2441] [cursor=pointer]':
+                    - /url: "#worktreesetuphook"
+                    - img [ref=e2442]
+                - paragraph [ref=e2444]:
+                  - code [ref=e2445]: worktreeSetupHook
+                  - text: configures an optional setup hook for worktree-isolated parallel runs. The hook runs once per created worktree, after
+                  - code [ref=e2446]: git worktree add
+                  - text: succeeds and before the agent starts.
+                - generic [ref=e2447]:
+                  - generic [ref=e2448]:
+                    - text: "{ \"worktreeSetupHook\":"
+                    - generic [ref=e2449]: "\"./scripts/setup-worktree.mjs\""
+                    - text: "}"
+                  - button "Copy" [ref=e2451] [cursor=pointer]:
+                    - img [ref=e2452]
+                - paragraph [ref=e2455]: "Path rules:"
+                - list [ref=e2456]:
+                  - listitem [ref=e2457]: Must be an absolute path or a repo-relative path
+                  - listitem [ref=e2458]:
+                    - text: Bare command names from
+                    - code [ref=e2459]: PATH
+                    - text: are rejected
+                  - listitem [ref=e2460]:
+                    - code [ref=e2461]: ~/...
+                    - text: is supported for home-directory hooks
+                - paragraph [ref=e2462]: "Hook I/O contract (JSON only):"
+                - list [ref=e2463]:
+                  - listitem [ref=e2464]:
+                    - text: "stdin: one JSON object with"
+                    - code [ref=e2465]: repoRoot
+                    - text: ","
+                    - code [ref=e2466]: worktreePath
+                    - text: ","
+                    - code [ref=e2467]: agentCwd
+                    - text: ","
+                    - code [ref=e2468]: branch
+                    - text: ","
+                    - code [ref=e2469]: index
+                    - text: ","
+                    - code [ref=e2470]: runId
+                    - text: ", and"
+                    - code [ref=e2471]: baseCommit
+                  - listitem [ref=e2472]:
+                    - text: "stdout: one JSON object, e.g."
+                    - code [ref=e2473]: "{ \"syntheticPaths\": [\".venv\", \".env.local\"] }"
+                - paragraph [ref=e2474]:
+                  - code [ref=e2475]: syntheticPaths
+                  - text: must be relative to the worktree root. These paths are removed before diff capture so helper files/symlinks do not pollute generated patches.
+                - paragraph [ref=e2476]: Tracked-file edits are never excluded. If the hook tries to mark tracked paths as synthetic, setup fails.
+                - generic [ref=e2477]:
+                  - heading "worktreeSetupHookTimeoutMs" [level=3] [ref=e2478]:
+                    - code [ref=e2479]: worktreeSetupHookTimeoutMs
+                  - 'link "Permalink: worktreeSetupHookTimeoutMs" [ref=e2480] [cursor=pointer]':
+                    - /url: "#worktreesetuphooktimeoutms"
+                    - img [ref=e2481]
+                - paragraph [ref=e2483]: Optional timeout (milliseconds) for each worktree hook invocation.
+                - generic [ref=e2484]:
+                  - generic [ref=e2485]:
+                    - text: "{ \"worktreeSetupHook\":"
+                    - generic [ref=e2486]: "\"./scripts/setup-worktree.mjs\""
+                    - text: ", \"worktreeSetupHookTimeoutMs\": 45000 }"
+                  - button "Copy" [ref=e2488] [cursor=pointer]:
+                    - img [ref=e2489]
+                - paragraph [ref=e2492]:
+                  - text: "Default:"
+                  - code [ref=e2493]: "30000"
+                  - text: ms.
+                - generic [ref=e2494]:
+                  - heading "Chain Directory" [level=2] [ref=e2495]
+                  - 'link "Permalink: Chain Directory" [ref=e2496] [cursor=pointer]':
+                    - /url: "#chain-directory"
+                    - img [ref=e2497]
+                - paragraph [ref=e2499]:
+                  - text: Each chain run creates
+                  - code [ref=e2500]: "<tmpdir>/pi-chain-runs/{runId}/"
+                  - text: "containing:"
+                - list [ref=e2501]:
+                  - listitem [ref=e2502]:
+                    - code [ref=e2503]: context.md
+                    - text: "- Scout/context-builder output"
+                  - listitem [ref=e2504]:
+                    - code [ref=e2505]: plan.md
+                    - text: "- Planner output"
+                  - listitem [ref=e2506]:
+                    - code [ref=e2507]: progress.md
+                    - text: "- Worker/reviewer shared progress"
+                  - listitem [ref=e2508]:
+                    - code [ref=e2509]: "parallel-{stepIndex}/"
+                    - text: "- Subdirectories for parallel step outputs"
+                    - list [ref=e2510]:
+                      - listitem [ref=e2511]:
+                        - code [ref=e2512]: "0-{agent}/output.md"
+                        - text: "- First parallel task output"
+                      - listitem [ref=e2513]:
+                        - code [ref=e2514]: "1-{agent}/output.md"
+                        - text: "- Second parallel task output"
+                  - listitem [ref=e2515]: Additional files as written by agents
+                - paragraph [ref=e2516]: Directories older than 24 hours are cleaned up on extension startup.
+                - generic [ref=e2517]:
+                  - heading "Artifacts" [level=2] [ref=e2518]
+                  - 'link "Permalink: Artifacts" [ref=e2519] [cursor=pointer]':
+                    - /url: "#artifacts"
+                    - img [ref=e2520]
+                - paragraph [ref=e2522]:
+                  - text: "Location:"
+                  - code [ref=e2523]: "{sessionDir}/subagent-artifacts/"
+                  - text: or
+                  - code [ref=e2524]: <tmpdir>/pi-subagent-artifacts/
+                - paragraph [ref=e2525]: "Files per task:"
+                - list [ref=e2526]:
+                  - listitem [ref=e2527]:
+                    - code [ref=e2528]: "{runId}_{agent}_input.md"
+                    - text: "- Task prompt"
+                  - listitem [ref=e2529]:
+                    - code [ref=e2530]: "{runId}_{agent}_output.md"
+                    - text: "- Full output (untruncated)"
+                  - listitem [ref=e2531]:
+                    - code [ref=e2532]: "{runId}_{agent}.jsonl"
+                    - text: "- Event stream (sync only)"
+                  - listitem [ref=e2533]:
+                    - code [ref=e2534]: "{runId}_{agent}_meta.json"
+                    - text: "- Timing, usage, exit code"
+                - generic [ref=e2535]:
+                  - heading "Session Logs" [level=2] [ref=e2536]
+                  - 'link "Permalink: Session Logs" [ref=e2537] [cursor=pointer]':
+                    - /url: "#session-logs"
+                    - img [ref=e2538]
+                - paragraph [ref=e2540]:
+                  - text: "Session files (JSONL) are stored under a per-run session directory. Directory selection follows the same precedence as session root resolution: explicit"
+                  - code [ref=e2541]: sessionDir
+                  - text: ">"
+                  - code [ref=e2542]: config.defaultSessionDir
+                  - text: "> parent-session-derived path. The session file path is shown in output."
+                - paragraph [ref=e2543]:
+                  - text: When
+                  - code [ref=e2544]: "context: \"fork\""
+                  - text: is used, each child run starts with
+                  - code [ref=e2545]: "--session <branched-session-file>"
+                  - text: produced from the parent's current leaf. This is a real session fork, not injected summary text.
+                - generic [ref=e2546]:
+                  - heading "Session Sharing" [level=2] [ref=e2547]
+                  - 'link "Permalink: Session Sharing" [ref=e2548] [cursor=pointer]':
+                    - /url: "#session-sharing"
+                    - img [ref=e2549]
+                - paragraph [ref=e2551]:
+                  - text: When
+                  - code [ref=e2552]: "share: true"
+                  - text: "is passed, the extension will:"
+                - list [ref=e2553]:
+                  - listitem [ref=e2554]: Export the full session (all tool calls, file contents, outputs) to an HTML file
+                  - listitem [ref=e2555]:
+                    - text: Upload it to a GitHub Gist using your
+                    - code [ref=e2556]: gh
+                    - text: CLI credentials
+                  - listitem [ref=e2557]:
+                    - text: Return a shareable URL (
+                    - code [ref=e2558]: https://shittycodingagent.ai/session/?<gistId>
+                    - text: )
+                - paragraph [ref=e2559]:
+                  - strong [ref=e2560]: This is disabled by default.
+                  - text: Session data may contain sensitive information like source code, file paths, environment variables, or credentials that appear in tool outputs.
+                - paragraph [ref=e2561]: "To enable sharing for a specific run:"
+                - generic [ref=e2562]:
+                  - generic [ref=e2563]: "{ agent: \"scout\", task: \"...\", share: true }"
+                  - button "Copy" [ref=e2565] [cursor=pointer]:
+                    - img [ref=e2566]
+                - paragraph [ref=e2569]: "Requirements:"
+                - list [ref=e2570]:
+                  - listitem [ref=e2571]:
+                    - text: GitHub CLI (
+                    - code [ref=e2572]: gh
+                    - text: ) must be installed and authenticated (
+                    - code [ref=e2573]: gh auth login
+                    - text: )
+                  - listitem [ref=e2574]: Gists are created as "secret" (unlisted but accessible to anyone with the URL)
+                - generic [ref=e2575]:
+                  - heading "Live progress (sync mode)" [level=2] [ref=e2576]
+                  - 'link "Permalink: Live progress (sync mode)" [ref=e2577] [cursor=pointer]':
+                    - /url: "#live-progress-sync-mode"
+                    - img [ref=e2578]
+                - paragraph [ref=e2580]: During sync execution, the collapsed view shows real-time progress for single, chain, and parallel modes.
+                - paragraph [ref=e2581]:
+                  - strong [ref=e2582]: "Chains:"
+                - list [ref=e2583]:
+                  - listitem [ref=e2584]:
+                    - text: "Header:"
+                    - code [ref=e2585]: ... chain 1/2 | 8 tools, 1.4k tok, 38s
+                  - listitem [ref=e2586]:
+                    - text: "Chain visualization with status:"
+                    - code [ref=e2587]: ✓scout → ●planner
+                    - text: (✓=done, ●=running, ○=pending, ✗=failed)
+                  - listitem [ref=e2588]:
+                    - text: "Current tool:"
+                    - code [ref=e2589]: "> read: packages/tui/src/..."
+                  - listitem [ref=e2590]: Recent output lines (last 2-3 lines)
+                - paragraph [ref=e2591]:
+                  - strong [ref=e2592]: "Parallel:"
+                - list [ref=e2593]:
+                  - listitem [ref=e2594]:
+                    - text: "Header:"
+                    - code [ref=e2595]: ... parallel 2/4 | 12 tools, 2.1k tok, 15s
+                  - listitem [ref=e2596]: Per-task step cards showing status icon, agent name, model, tool count, and duration
+                  - listitem [ref=e2597]: Current tool and recent output for each running task
+                - paragraph [ref=e2598]:
+                  - text: Press
+                  - strong [ref=e2599]: Ctrl+O
+                  - text: to expand the full streaming view with complete output per step.
+                - blockquote [ref=e2600]:
+                  - paragraph [ref=e2601]:
+                    - strong [ref=e2602]: "Note:"
+                    - text: Chain visualization (the
+                    - code [ref=e2603]: ✓scout → ●planner
+                    - text: line) is only shown for sequential chains. Chains with parallel steps show per-step cards instead.
+                - generic [ref=e2604]:
+                  - heading "Nested subagent recursion guard" [level=2] [ref=e2605]
+                  - 'link "Permalink: Nested subagent recursion guard" [ref=e2606] [cursor=pointer]':
+                    - /url: "#nested-subagent-recursion-guard"
+                    - img [ref=e2607]
+                - paragraph [ref=e2609]:
+                  - text: Subagents can themselves call the
+                  - code [ref=e2610]: subagent
+                  - text: tool, which risks unbounded recursive spawning (slow, expensive, hard to observe). A depth guard prevents this.
+                - paragraph [ref=e2611]:
+                  - text: By default nesting is limited to
+                  - strong [ref=e2612]: 2 levels
+                  - text: ":"
+                  - code [ref=e2613]: main session → subagent → sub-subagent
+                  - text: . Any deeper
+                  - code [ref=e2614]: subagent
+                  - text: calls are blocked and return an error with guidance to the calling agent.
+                - paragraph [ref=e2615]: "You can configure the limit in three places:"
+                - list [ref=e2616]:
+                  - listitem [ref=e2617]:
+                    - code [ref=e2618]: PI_SUBAGENT_MAX_DEPTH
+                    - text: in the environment before starting
+                    - code [ref=e2619]: pi
+                  - listitem [ref=e2620]:
+                    - code [ref=e2621]: config.maxSubagentDepth
+                    - text: in
+                    - code [ref=e2622]: ~/.pi/agent/extensions/subagent/config.json
+                  - listitem [ref=e2623]:
+                    - code [ref=e2624]: maxSubagentDepth
+                    - text: in an agent's frontmatter to tighten the limit for that agent's child runs
+                - paragraph [ref=e2625]: Environment inherits downward and wins for the current process. Per-agent limits can tighten child delegation but do not relax an already inherited stricter limit.
+                - paragraph [ref=e2626]:
+                  - text: Override the limit with
+                  - code [ref=e2627]: PI_SUBAGENT_MAX_DEPTH
+                  - strong [ref=e2628]:
+                    - text: set before starting
+                    - code [ref=e2629]: pi
+                  - text: ":"
+                - generic [ref=e2630]:
+                  - generic [ref=e2631]:
+                    - text: export PI_SUBAGENT_MAX_DEPTH=3
+                    - generic [ref=e2632]: "# allow one more level (use with caution)"
+                    - text: export PI_SUBAGENT_MAX_DEPTH=1
+                    - generic [ref=e2633]: "# only allow direct subagents, no nesting"
+                    - text: export PI_SUBAGENT_MAX_DEPTH=0
+                    - generic [ref=e2634]: "# disable the subagent tool entirely"
+                  - button "Copy" [ref=e2636] [cursor=pointer]:
+                    - img [ref=e2637]
+                - paragraph [ref=e2640]:
+                  - code [ref=e2641]: PI_SUBAGENT_DEPTH
+                  - text: is an internal variable propagated automatically to child processes -- don't set it manually.
+                - generic [ref=e2642]:
+                  - heading "Async observability" [level=2] [ref=e2643]
+                  - 'link "Permalink: Async observability" [ref=e2644] [cursor=pointer]':
+                    - /url: "#async-observability"
+                    - img [ref=e2645]
+                - paragraph [ref=e2647]: "Async runs write a dedicated observability folder:"
+                - generic [ref=e2648]:
+                  - code [ref=e2650]: <tmpdir>/pi-async-subagent-runs/<id>/ status.json events.jsonl subagent-log-<id>.md
+                  - button "Copy" [ref=e2652] [cursor=pointer]:
+                    - img [ref=e2653]
+                - paragraph [ref=e2656]:
+                  - code [ref=e2657]: status.json
+                  - text: is the source of truth for async progress and powers both the TUI widget and
+                  - code [ref=e2658]: /subagents-status
+                  - text: . Async status and result files are written atomically, so readers do not observe partial JSON during background updates.
+                - paragraph [ref=e2659]: "For programmatic access:"
+                - generic [ref=e2660]:
+                  - generic [ref=e2661]: "subagent_status({ action: \"list\" }) subagent_status({ id: \"<id>\" }) subagent_status({ dir: \"<tmpdir>/pi-async-subagent-runs/<id>\" })"
+                  - button "Copy" [ref=e2663] [cursor=pointer]:
+                    - img [ref=e2664]
+                - paragraph [ref=e2667]:
+                  - text: For an interactive overview, run the
+                  - code [ref=e2668]: /subagents-status
+                  - text: slash command to open the overlay listing active runs and recent completed/failed runs. The overlay auto-refreshes every 2 seconds while it is open.
+                - generic [ref=e2669]:
+                  - heading "Events" [level=2] [ref=e2670]
+                  - 'link "Permalink: Events" [ref=e2671] [cursor=pointer]':
+                    - /url: "#events"
+                    - img [ref=e2672]
+                - paragraph [ref=e2674]: "Async events:"
+                - list [ref=e2675]:
+                  - listitem [ref=e2676]:
+                    - code [ref=e2677]: subagent:started
+                  - listitem [ref=e2678]:
+                    - code [ref=e2679]: subagent:complete
+                - paragraph [ref=e2680]:
+                  - code [ref=e2681]: notify.ts
+                  - text: consumes
+                  - code [ref=e2682]: subagent:complete
+                  - text: as the canonical completion channel.
+                - generic [ref=e2683]:
+                  - heading "Files" [level=2] [ref=e2684]
+                  - 'link "Permalink: Files" [ref=e2685] [cursor=pointer]':
+                    - /url: "#files"
+                    - img [ref=e2686]
+                - generic [ref=e2688]:
+                  - code [ref=e2690]: "├── index.ts # Main extension, tool registration, overlay dispatch ├── agents.ts # Agent + chain discovery, frontmatter parsing ├── skills.ts # Skill resolution, caching, and discovery ├── settings.ts # Chain behavior resolution, templates, chain dir ├── chain-clarify.ts # TUI for chain/single/parallel clarification ├── chain-execution.ts # Chain orchestration (sequential + parallel) ├── chain-serializer.ts # Parse/serialize .chain.md files ├── async-execution.ts # Async/background execution support ├── async-status.ts # Async run discovery, listing, and formatting ├── execution.ts # Core runSync, applyThinkingSuffix ├── render.ts # TUI rendering (widget, tool result display) ├── subagents-status.ts # Async status overlay component ├── artifacts.ts # Artifact management ├── formatters.ts # Output formatting utilities ├── schemas.ts # TypeBox parameter schemas ├── utils.ts # Shared utility functions (mapConcurrent, readStatus, etc.) ├── types.ts # Shared types and constants ├── subagent-runner.ts # Async runner (detached process) ├── parallel-utils.ts # Parallel execution utilities for async runner ├── worktree.ts # Git worktree isolation for parallel execution ├── pi-spawn.ts # Cross-platform pi CLI spawning ├── single-output.ts # Solo agent output file handling ├── notify.ts # Async completion notifications ├── completion-dedupe.ts # Completion deduplication for notifications ├── file-coalescer.ts # Debounced file write coalescing ├── jsonl-writer.ts # JSONL event stream writer ├── agent-manager.ts # Overlay orchestrator, screen routing, CRUD ├── agent-manager-list.ts # List screen (search, multi-select, progressive footer) ├── agent-manager-detail.ts # Detail screen (resolved prompt, runs, fields) ├── agent-manager-edit.ts # Edit screen (pickers, prompt editor) ├── agent-manager-parallel.ts # Parallel builder screen (slot management, agent picker) ├── agent-manager-chain-detail.ts # Chain detail screen (flow visualization) ├── agent-management.ts # Management action handlers (list, get, create, update, delete) ├── agent-serializer.ts # Serialize agents to markdown frontmatter ├── agent-scope.ts # Agent scope resolution utilities ├── agent-selection.ts # Agent selection state management ├── agent-templates.ts # Agent/chain creation templates ├── render-helpers.ts # Shared pad/row/header/footer helpers ├── run-history.ts # Per-agent run recording (JSONL) ├── test/unit/ # Fast unit tests for pure modules ├── test/integration/ # Loader-based execution/integration tests ├── test/e2e/ # End-to-end sandbox tests ├── test/support/ # Shared test loader, helpers, and mock pi harness └── text-editor.ts # Shared text editor (word nav, paste)"
+                  - button "Copy" [ref=e2692] [cursor=pointer]:
+                    - img [ref=e2693]
+        - generic [ref=e2699]:
+          - generic [ref=e2702]:
+            - heading "About" [level=2] [ref=e2703]
+            - paragraph [ref=e2704]: Pi extension for async subagent delegation with truncation, artifacts, and session sharing
+            - heading "Resources" [level=3] [ref=e2705]
+            - link "Readme" [ref=e2707] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e2708]
+              - text: Readme
+            - link "Activity" [ref=e2711] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/activity
+              - img [ref=e2712]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e2714]
+            - link "690 stars" [ref=e2716] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/stargazers
+              - img [ref=e2717]
+              - strong [ref=e2719]: "690"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e2720]
+            - link "1 watching" [ref=e2722] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/watchers
+              - img [ref=e2723]
+              - strong [ref=e2725]: "1"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e2726]
+            - link "86 forks" [ref=e2728] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/forks
+              - img [ref=e2729]
+              - strong [ref=e2731]: "86"
+              - text: forks
+            - link "Report repository" [ref=e2733] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fnicobailon%2Fpi-subagents&report=nicobailon+%28user%29
+          - generic [ref=e2735]:
+            - heading "Releases 37" [level=2] [ref=e2736]:
+              - link "Releases 37" [ref=e2737] [cursor=pointer]:
+                - /url: /nicobailon/pi-subagents/releases
+                - text: Releases
+                - generic "37" [ref=e2738]
+            - link "v0.12.5 Latest Apr 9, 202615 hours ago" [ref=e2739] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/releases/tag/v0.12.5
+              - img [ref=e2740]
+              - generic [ref=e2742]:
+                - generic [ref=e2743]:
+                  - generic [ref=e2744]: v0.12.5
+                  - 'generic "Label: Latest" [ref=e2745]': Latest
+                - generic [ref=e2746]: Apr 9, 202615 hours ago
+            - link "+ 36 releases" [ref=e2748] [cursor=pointer]:
+              - /url: /nicobailon/pi-subagents/releases
+          - generic "Loading latest packages" [ref=e2751]:
+            - heading "Packages" [level=2] [ref=e2752]:
+              - link "Packages" [ref=e2753] [cursor=pointer]:
+                - /url: /users/nicobailon/packages?repo_name=pi-subagents
+          - generic "Loading contributors" [ref=e2765]:
+            - generic:
+              - heading "Contributors" [level=2] [ref=e2766]:
+                - link "Contributors" [ref=e2767] [cursor=pointer]:
+                  - /url: /nicobailon/pi-subagents/graphs/contributors
+              - list [ref=e2768]:
+                - listitem [ref=e2769]
+                - listitem [ref=e2771]
+                - listitem [ref=e2773]
+          - generic [ref=e2776]:
+            - heading "Languages" [level=2] [ref=e2777]
+            - list [ref=e2782]:
+              - listitem [ref=e2783]:
+                - link "TypeScript 99.0%" [ref=e2784] [cursor=pointer]:
+                  - /url: /nicobailon/pi-subagents/search?l=typescript
+                  - img [ref=e2785]
+                  - generic [ref=e2787]: TypeScript
+                  - generic [ref=e2788]: 99.0%
+              - listitem [ref=e2789]:
+                - link "JavaScript 1.0%" [ref=e2790] [cursor=pointer]:
+                  - /url: /nicobailon/pi-subagents/search?l=javascript
+                  - img [ref=e2791]
+                  - generic [ref=e2793]: JavaScript
+                  - generic [ref=e2794]: 1.0%
+  - contentinfo [ref=e2796]:
+    - heading "Footer" [level=2] [ref=e2797]
+    - generic [ref=e2798]:
+      - generic [ref=e2799]:
+        - link "GitHub Homepage" [ref=e2800] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e2801]
+        - generic [ref=e2803]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e2804]:
+        - heading "Footer navigation" [level=3] [ref=e2805]
+        - list "Footer navigation" [ref=e2806]:
+          - listitem [ref=e2807]:
+            - link "Terms" [ref=e2808] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e2809]:
+            - link "Privacy" [ref=e2810] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e2811]:
+            - link "Security" [ref=e2812] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e2813]:
+            - link "Status" [ref=e2814] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e2815]:
+            - link "Community" [ref=e2816] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e2817]:
+            - link "Docs" [ref=e2818] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e2819]:
+            - link "Contact" [ref=e2820] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e2821]:
+            - button "Manage cookies" [ref=e2823] [cursor=pointer]
+          - listitem [ref=e2824]:
+            - button "Do not share my personal information" [ref=e2826] [cursor=pointer]

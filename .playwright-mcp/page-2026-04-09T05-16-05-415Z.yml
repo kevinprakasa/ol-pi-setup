@@ -1,0 +1,108 @@
+- generic [ref=e10]:
+  - generic [ref=e11]:
+    - img [ref=e13]: 
+    - img [ref=e16]: 
+    - img [ref=e19]: 
+    - img [ref=e22]: 
+  - contentinfo [ref=e24]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - strong [ref=e33]: Tools & Resources
+          - listitem [ref=e34]:
+            - link "Help & Support" [ref=e35] [cursor=pointer]:
+              - /url: /sso/help/?redirect=https%3A%2F%2Fhelp.openlearning.com%2F
+          - listitem [ref=e36]:
+            - link "Contact us" [ref=e37] [cursor=pointer]:
+              - /url: /contact/
+          - listitem [ref=e38]:
+            - link "Learning design toolkit" [ref=e39] [cursor=pointer]:
+              - /url: https://medium.com/learning-designers-toolkit
+          - listitem [ref=e40]:
+            - link "Blog" [ref=e41] [cursor=pointer]:
+              - /url: http://blog.openlearning.com
+          - listitem [ref=e42]:
+            - link "Verify a certificate" [ref=e43] [cursor=pointer]:
+              - /url: /certificate-verification/
+          - listitem [ref=e44]:
+            - link "Integrations" [ref=e45] [cursor=pointer]:
+              - /url: /sso/help/?url=https%3A%2F%2Fhelp.openlearning.com%2Fcategory%2Fintegrations
+          - listitem [ref=e46]:
+            - link "Status" [ref=e47] [cursor=pointer]:
+              - /url: https://status.openlearning.com/
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - strong [ref=e51]: Platform
+          - listitem [ref=e52]:
+            - link "Philosophy" [ref=e53] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/learning-philosophy/
+          - listitem [ref=e54]:
+            - link "Features" [ref=e55] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/platform-features/
+          - listitem [ref=e56]:
+            - link "Pricing" [ref=e57] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/pricing/
+          - listitem [ref=e58]:
+            - link "OpenCreds" [ref=e59] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/opencreds/
+          - listitem [ref=e60]:
+            - link "Partners" [ref=e61] [cursor=pointer]:
+              - /url: /partners/
+          - listitem [ref=e62]:
+            - link "Browse all courses" [ref=e63] [cursor=pointer]:
+              - /url: /courses/
+          - listitem [ref=e64]:
+            - link "Create a course" [ref=e65] [cursor=pointer]:
+              - /url: /courses/create/
+        - list [ref=e67]:
+          - listitem [ref=e68]:
+            - strong [ref=e69]: Company
+          - listitem [ref=e70]:
+            - link "About us" [ref=e71] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/about/
+          - listitem [ref=e72]:
+            - link "Team" [ref=e73] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/teams/
+          - listitem [ref=e74]:
+            - link "Careers" [ref=e75] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/careers/
+          - listitem [ref=e76]:
+            - link "Press" [ref=e77] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/press/
+          - listitem [ref=e78]:
+            - link "Investors" [ref=e79] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/investor-home/
+          - listitem [ref=e80]:
+            - link "Partnerships" [ref=e81] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/contact
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - generic [ref=e84]:
+            - link "Twitter" [ref=e85] [cursor=pointer]:
+              - /url: https://twitter.com/openlrning
+              - img [ref=e86]: 
+              - generic [ref=e88]: Twitter
+            - link "Instagram" [ref=e89] [cursor=pointer]:
+              - /url: https://www.instagram.com/openlearning_global
+              - img [ref=e90]: 
+              - generic [ref=e92]: Instagram
+            - link "Facebook" [ref=e93] [cursor=pointer]:
+              - /url: https://facebook.com/OpenLearning
+              - img [ref=e94]: 
+              - generic [ref=e96]: Facebook
+            - link "LinkedIn" [ref=e97] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/openlearningcom/
+              - img [ref=e98]: 
+              - generic [ref=e100]: LinkedIn
+            - link "YouTube" [ref=e101] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/openlearningcom
+              - img [ref=e102]: 
+              - generic [ref=e104]: YouTube
+          - generic [ref=e105]:
+            - link "Terms of service" [ref=e106] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/terms-of-service/
+            - link "Privacy policy" [ref=e107] [cursor=pointer]:
+              - /url: https://solutions.openlearning.com/privacy-policy/
+        - generic [ref=e108]: © 2026 Open Learning Global Pty Ltd
+  - img [ref=e111]: 

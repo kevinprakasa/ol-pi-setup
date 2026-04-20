@@ -1,0 +1,268 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - region "Notifications alt+T"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - 'button "RapidAPI Hub: public API Marketplace" [ref=e8]':
+          - 'link "RapidAPI Hub: public API Marketplace" [ref=e9] [cursor=pointer]':
+            - /url: /hub
+            - 'img "RapidAPI Hub: public API Marketplace" [ref=e10]'
+        - generic [ref=e13] [cursor=pointer]:
+          - img [ref=e14]
+          - generic [ref=e16]: Search APIs
+        - generic [ref=e17]:
+          - button "Help" [ref=e18]:
+            - img [ref=e19] [cursor=pointer]
+          - button "Sign In" [ref=e21]
+          - button "Sign Up" [ref=e22]
+    - main [ref=e29]:
+      - generic [ref=e31]:
+        - complementary [ref=e32]:
+          - navigation [ref=e33]:
+            - link "Discovery" [ref=e34] [cursor=pointer]:
+              - /url: /hub
+              - generic [ref=e35]:
+                - img [ref=e37]
+                - generic [ref=e39]: Discovery
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - img [ref=e43]
+                - generic [ref=e45]: Workspace
+              - button "Sign Up" [ref=e46]
+            - link "Judge0 Extra CE icon API Overview" [ref=e50] [cursor=pointer]:
+              - /url: /judge0-official/api/judge0-extra-ce
+              - generic [ref=e51]:
+                - img "Judge0 Extra CE icon" [ref=e53]
+                - generic [ref=e54]: API Overview
+            - generic [ref=e55]:
+              - generic [ref=e56]: Version
+              - link "Open playground" [ref=e57] [cursor=pointer]:
+                - /url: /judge0-official/api/judge0-extra-ce/playground/apiendpoint_dc09ed9f-9e4d-4e1e-aab1-3c46fe4ad101
+                - generic [ref=e58]:
+                  - generic [ref=e59]: Open playground
+                  - img [ref=e60]
+            - generic [ref=e62]:
+              - generic:
+                - log
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic: v1 (current)
+                  - generic:
+                    - generic:
+                      - img
+          - generic [ref=e63]:
+            - generic [ref=e64]: Endpoints
+            - generic [ref=e65]:
+              - img [ref=e66]
+              - searchbox "Search Endpoints" [ref=e68]
+            - button "MCP Playground" [ref=e69]:
+              - img [ref=e70]:
+                - img [ref=e71]
+              - generic [ref=e73]: MCP Playground
+          - generic [ref=e75]:
+            - link "GET About" [ref=e77] [cursor=pointer]:
+              - /url: /judge0-official/api/judge0-extra-ce/playground/apiendpoint_dc09ed9f-9e4d-4e1e-aab1-3c46fe4ad101
+              - generic [ref=e79]: GET
+              - generic [ref=e80]:
+                - button "About" [ref=e81]:
+                  - generic [ref=e82]: About
+                - button [ref=e83]:
+                  - img [ref=e84]
+            - button "Submissions" [ref=e88]:
+              - img [ref=e89]
+              - generic [ref=e91]: Submissions
+            - button "Batched Submissions" [ref=e94]:
+              - img [ref=e95]
+              - generic [ref=e97]: Batched Submissions
+            - button "Languages" [ref=e100]:
+              - img [ref=e101]
+              - generic [ref=e103]: Languages
+            - button "Configuration" [ref=e106]:
+              - img [ref=e107]
+              - generic [ref=e109]: Configuration
+            - button "Statuses" [ref=e112]:
+              - img [ref=e113]
+              - generic [ref=e115]: Statuses
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - navigation [ref=e120]:
+              - list [ref=e121]:
+                - listitem [ref=e122]:
+                  - link [ref=e123] [cursor=pointer]:
+                    - /url: /hub
+                    - img [ref=e124]
+                - img [ref=e126]
+                - listitem [ref=e128]:
+                  - link "categories" [ref=e129] [cursor=pointer]:
+                    - /url: /categories
+                - img [ref=e130]
+                - listitem [ref=e132]:
+                  - link "Tools" [ref=e133] [cursor=pointer]:
+                    - /url: /search/Tools
+                - img [ref=e134]
+                - listitem [ref=e136]:
+                  - link "icon Judge0 Extra CE" [ref=e137] [cursor=pointer]:
+                    - /url: /judge0-official/api/judge0-extra-ce
+                    - img "icon" [ref=e138]
+                    - paragraph [ref=e139]: Judge0 Extra CE
+            - button "Test Endpoint" [ref=e141]:
+              - img [ref=e142]
+              - generic [ref=e144]: Test Endpoint
+          - generic [ref=e146]:
+            - tablist [ref=e148]:
+              - link "Overview" [ref=e149] [cursor=pointer]:
+                - /url: /judge0-official/api/judge0-extra-ce
+                - tab "Overview" [selected] [ref=e150]
+              - link "Discussions" [ref=e151] [cursor=pointer]:
+                - /url: /judge0-official/api/judge0-extra-ce/discussions
+                - tab "Discussions" [ref=e152]
+            - generic [ref=e154]:
+              - main [ref=e155]:
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - generic [ref=e158]:
+                      - generic [ref=e159]:
+                        - generic [ref=e160]:
+                          - img "Judge0 Extra CE API thumbnail" [ref=e162]
+                          - heading "Judge0 Extra CE" [level=1] [ref=e163]
+                        - img [ref=e166] [cursor=pointer]
+                      - button "Voting is exclusive to subscribed members." [ref=e168]:
+                        - generic [ref=e169]:
+                          - img "Rated 4 on 5" [ref=e171]:
+                            - generic [ref=e172]:
+                              - img
+                            - generic [ref=e173]:
+                              - img
+                            - generic [ref=e174]:
+                              - img
+                            - generic [ref=e175]:
+                              - img
+                            - generic [ref=e176]:
+                              - img
+                          - generic: (4)
+                    - generic [ref=e177]:
+                      - generic [ref=e178]:
+                        - img [ref=e179]
+                        - generic [ref=e181]: 9.9 Popularity
+                      - generic [ref=e182]:
+                        - img [ref=e183]
+                        - generic [ref=e185]: 100% Service Level
+                      - generic [ref=e186]:
+                        - img [ref=e187]
+                        - generic [ref=e189]: 373ms Latency
+                      - generic [ref=e190]:
+                        - img [ref=e191]
+                        - generic [ref=e193]: 100% Test
+                  - generic [ref=e194]:
+                    - region [ref=e196]:
+                      - generic [ref=e198]:
+                        - link "BASIC $0.00 / ---" [ref=e199] [cursor=pointer]:
+                          - /url: judge0-extra-ce/pricing
+                          - generic [ref=e201]:
+                            - generic [ref=e203]: BASIC
+                            - generic [ref=e204]: $0.00 / ---
+                        - link "PRO $44.99 / mo" [ref=e205] [cursor=pointer]:
+                          - /url: judge0-extra-ce/pricing
+                          - generic [ref=e207]:
+                            - generic [ref=e209]: PRO
+                            - generic [ref=e210]: $44.99 / mo
+                        - link "ULTRA $89.99 / mo" [ref=e211] [cursor=pointer]:
+                          - /url: judge0-extra-ce/pricing
+                          - generic [ref=e213]:
+                            - generic [ref=e215]: ULTRA
+                            - generic [ref=e216]: $89.99 / mo
+                        - link "MEGA $169.99 / mo" [ref=e217] [cursor=pointer]:
+                          - /url: judge0-extra-ce/pricing
+                          - generic [ref=e219]:
+                            - generic [ref=e221]: MEGA
+                            - generic [ref=e222]: $169.99 / mo
+                    - generic [ref=e223]:
+                      - link "See what subscription plans" [ref=e224] [cursor=pointer]:
+                        - /url: judge0-extra-ce/pricing
+                      - paragraph [ref=e225]: this API provides
+                  - generic [ref=e226]:
+                    - generic [ref=e227]:
+                      - heading "API Overview" [level=1] [ref=e228]
+                      - generic [ref=e229]:
+                        - generic [ref=e231]:
+                          - paragraph [ref=e232]: This is the extra flavor of Judge0 Community Edition.
+                          - paragraph [ref=e233]: Judge0 is a robust, scalable, and open-source online code execution system that can be used to build a wide range of applications that need online code execution features. Some examples include competitive programming platforms, e-learning platforms, candidate assessment and recruitment platforms, online code editors, online IDEs, and many more.
+                          - paragraph [ref=e234]:
+                            - text: The full API documentation is available at
+                            - link "https://extra-ce.judge0.com" [ref=e235] [cursor=pointer]:
+                              - /url: https://extra-ce.judge0.com
+                            - text: .
+                          - paragraph [ref=e236]:
+                            - text: The status page is available at
+                            - link "https://status.judge0.com" [ref=e237] [cursor=pointer]:
+                              - /url: https://status.judge0.com
+                            - text: .
+                        - paragraph [ref=e238]: The most advanced open-source online code execution system in the world.
+                    - generic [ref=e241]:
+                      - generic [ref=e243]: Curious to see what Judge0 Extra CE can do for you? Try it out now and explore its features, experiment with different endpoints, and see the results firsthand.
+                      - button "Go to Playground" [ref=e244]
+              - complementary [ref=e245]:
+                - heading "Provider Info" [level=1] [ref=e247]
+                - generic [ref=e249]:
+                  - generic [ref=e250]:
+                    - paragraph [ref=e251]: API creator
+                    - generic [ref=e253]:
+                      - img "Judge0 thumbnail" [ref=e255]
+                      - link "by Judge0" [ref=e257] [cursor=pointer]:
+                        - /url: /organization/judge0
+                        - text: by
+                        - generic [ref=e258]: Judge0
+                  - separator [ref=e259]
+                  - generic [ref=e260]:
+                    - paragraph [ref=e261]: subscribers
+                    - generic [ref=e262]:
+                      - paragraph [ref=e263]: "1991"
+                      - paragraph [ref=e264]: subs
+                  - separator [ref=e265]
+                  - generic [ref=e266]:
+                    - paragraph [ref=e267]: category
+                    - generic [ref=e270]: Tools
+                  - separator [ref=e271]
+                  - generic [ref=e272]:
+                    - paragraph [ref=e273]: resources
+                    - link "Product Website" [ref=e276] [cursor=pointer]:
+                      - /url: https://judge0.com
+                  - separator [ref=e277]
+                  - generic [ref=e278]:
+                    - button "Sign Up to Contact Provider" [ref=e279]:
+                      - paragraph [ref=e280]: Sign Up to Contact Provider
+                    - button "get notifications" [ref=e281]:
+                      - img [ref=e282]
+                      - paragraph [ref=e284]: get notifications
+  - iframe [ref=e287]:
+    - generic [ref=f12e5]:
+      - generic [ref=f12e6]:
+        - text: protected by
+        - strong [ref=f12e7]: reCAPTCHA
+      - generic [ref=f12e9]:
+        - text: reCAPTCHA is changing its terms of service.
+        - link "Take action." [ref=f12e10] [cursor=pointer]:
+          - /url: https://google.com/recaptcha/admin/migrate
+  - generic:
+    - region "Cookie banner" [active] [ref=e288]:
+      - dialog "Why we use cookies and other tracking technologies" [ref=e289]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic:
+              - heading "Why we use cookies and other tracking technologies" [level=2] [ref=e292]
+              - generic [ref=e293]:
+                - text: We and our third party vendors use cookies and other tracking technologies to improve your browsing experience, to personalize content, maintain security, analyze traffic and for marketing purposes. Full details are set out in the Cookie List under Cookie Policy. Essential cookies are always on. Please indicate your consent to our use of tracking technologies (other than essential cookies) by managing your preferences below. You can follow the instructions under the 'Manage preferences' section at any time to adjust your preferences. For more information on how we process your personal data please review our ‘cookie notice’ or ‘general privacy notice’.
+                - link "More information about your privacy, opens in a new tab" [ref=e294] [cursor=pointer]:
+                  - /url: https://www.nokia.com/cookies/
+                  - text: Cookie Policy
+                - link "Legal Information, opens in a new tab" [ref=e295] [cursor=pointer]:
+                  - /url: https://www.nokia.com/privacy/general-notice/
+                  - text: General Privacy Notice
+          - generic [ref=e297]:
+            - button "Manage Preferences, Opens the preference center dialog" [ref=e298] [cursor=pointer]: Manage Preferences
+            - generic [ref=e299]:
+              - button "Reject All" [ref=e300] [cursor=pointer]
+              - button "Accept All" [ref=e301] [cursor=pointer]
+    - text: Manage Preferences

@@ -1,0 +1,662 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Figma Developers" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e8]: Figma Developers
+        - generic [ref=e9]:
+          - button "Dev Mode" [ref=e10] [cursor=pointer]
+          - menu
+        - generic [ref=e11]:
+          - button "Code in Figma" [ref=e12] [cursor=pointer]
+          - menu
+        - generic [ref=e13]:
+          - button "Extensions" [ref=e14] [cursor=pointer]
+          - menu
+        - generic [ref=e15]:
+          - button "Integrations" [ref=e16] [cursor=pointer]
+          - menu
+        - link "Compare APIs" [ref=e17] [cursor=pointer]:
+          - /url: /compare-apis/
+      - generic [ref=e18]:
+        - link "My Apps(opens in new tab)" [ref=e19] [cursor=pointer]:
+          - /url: https://www.figma.com/developers/apps
+          - text: My Apps
+          - img "(opens in new tab)" [ref=e20]
+        - button "Search (Command+K)" [ref=e23] [cursor=pointer]:
+          - generic [ref=e24]:
+            - img [ref=e25]
+            - generic [ref=e27]: Search
+          - generic [ref=e28]:
+            - generic [ref=e29]: ⌘
+            - generic [ref=e30]: K
+  - generic [ref=e33]:
+    - complementary [ref=e34]:
+      - navigation "Docs sidebar" [ref=e37]:
+        - list [ref=e38]:
+          - listitem [ref=e39]:
+            - generic "Figma MCP Server" [ref=e42]
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "Introduction" [ref=e45] [cursor=pointer]:
+                  - /url: /docs/figma-mcp-server/
+                  - generic "Introduction" [ref=e46]
+              - listitem [ref=e47]:
+                - button "Installation & setup" [expanded] [ref=e49] [cursor=pointer]:
+                  - generic "Installation & setup" [ref=e50]
+                - list [ref=e51]:
+                  - listitem [ref=e52]:
+                    - link "Set up the remote server (recommended)" [ref=e53] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/remote-server-installation/
+                      - generic "Set up the remote server (recommended)" [ref=e54]
+                  - listitem [ref=e55]:
+                    - link "Set up the desktop server (using desktop app)" [ref=e56] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/local-server-installation/
+                      - generic "Set up the desktop server (using desktop app)" [ref=e57]
+              - listitem [ref=e58]:
+                - button "Core server features" [expanded] [ref=e60] [cursor=pointer]:
+                  - generic "Core server features" [ref=e61]
+                - list [ref=e62]:
+                  - listitem [ref=e63]:
+                    - link "Tools and prompts" [ref=e64] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/tools-and-prompts/
+                      - generic "Tools and prompts" [ref=e65]
+                  - listitem [ref=e66]:
+                    - link "Resources (Make → MCP)" [ref=e67] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/bringing-make-context-to-your-agent/
+                      - generic "Resources (Make → MCP)" [ref=e68]
+                  - listitem [ref=e69]:
+                    - link "Write to canvas" [ref=e70] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/write-to-canvas/
+                      - generic "Write to canvas" [ref=e71]
+                  - listitem [ref=e72]:
+                    - link "Code to canvas" [ref=e73] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/code-to-canvas/
+                      - generic "Code to canvas" [ref=e74]
+                  - listitem [ref=e75]:
+                    - link "Code Connect integration" [ref=e76] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/code-connect-integration/
+                      - generic "Code Connect integration" [ref=e77]
+              - listitem [ref=e78]:
+                - button "How to get the best output" [expanded] [ref=e80] [cursor=pointer]:
+                  - generic "How to get the best output" [ref=e81]
+                - list [ref=e82]:
+                  - listitem [ref=e83]:
+                    - link "Structure your Figma file for better code" [ref=e84] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/structure-figma-file/
+                      - generic "Structure your Figma file for better code" [ref=e85]
+                  - listitem [ref=e86]:
+                    - link "Write effective prompts to guide the AI" [ref=e87] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/write-effective-prompts/
+                      - generic "Write effective prompts to guide the AI" [ref=e88]
+                  - listitem [ref=e89]:
+                    - link "Trigger specific tools when needed" [ref=e90] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/trigger-specific-tools/
+                      - generic "Trigger specific tools when needed" [ref=e91]
+                  - listitem [ref=e92]:
+                    - link "Add custom rules and instructions" [ref=e93] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/add-custom-rules/
+                      - generic "Add custom rules and instructions" [ref=e94]
+                  - listitem [ref=e95]:
+                    - link "Avoid selecting large, heavy frames" [ref=e96] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/avoid-large-frames/
+                      - generic "Avoid selecting large, heavy frames" [ref=e97]
+              - listitem [ref=e98]:
+                - button "Agent skills" [expanded] [ref=e100] [cursor=pointer]:
+                  - generic "Agent skills" [ref=e101]
+                - list [ref=e102]:
+                  - listitem [ref=e103]:
+                    - 'link "Skill: Implement Design" [ref=e104] [cursor=pointer]':
+                      - /url: /docs/figma-mcp-server/skill-figma-implement-design/
+                      - 'generic "Skill: Implement Design" [ref=e105]'
+                  - listitem [ref=e106]:
+                    - 'link "Skill: Code Connect" [ref=e107] [cursor=pointer]':
+                      - /url: /docs/figma-mcp-server/skill-figma-code-connect/
+                      - 'generic "Skill: Code Connect" [ref=e108]'
+                  - listitem [ref=e109]:
+                    - 'link "Skill: Create Design System Rules" [ref=e110] [cursor=pointer]':
+                      - /url: /docs/figma-mcp-server/skill-figma-create-design-system-rules/
+                      - 'generic "Skill: Create Design System Rules" [ref=e111]'
+                  - listitem [ref=e112]:
+                    - 'link "Skill: Build / Update Screens from Design System" [ref=e113] [cursor=pointer]':
+                      - /url: /docs/figma-mcp-server/skill-figma-generate-design/
+                      - 'generic "Skill: Build / Update Screens from Design System" [ref=e114]'
+                  - listitem [ref=e115]:
+                    - 'link "Skill: create_new_file — Create a New Figma File" [ref=e116] [cursor=pointer]':
+                      - /url: /docs/figma-mcp-server/skill-figma-create-new-file/
+                      - 'generic "Skill: create_new_file — Create a New Figma File" [ref=e117]'
+              - listitem [ref=e118]:
+                - button "Q&A" [expanded] [ref=e120] [cursor=pointer]:
+                  - generic "Q&A" [ref=e121]
+                - list [ref=e122]:
+                  - listitem [ref=e123]:
+                    - link "Create skills for the Figma MCP server" [ref=e124] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/create-skills/
+                      - generic "Create skills for the Figma MCP server" [ref=e125]
+                  - listitem [ref=e126]:
+                    - link "The server keeps returning web/react code" [ref=e127] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/server-returning-web-code/
+                      - generic "The server keeps returning web/react code" [ref=e128]
+                  - listitem [ref=e129]:
+                    - link "What the MCP sends vs. what the agent does" [ref=e130] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/mcp-vs-agent/
+                      - generic "What the MCP sends vs. what the agent does" [ref=e131]
+                  - listitem [ref=e132]:
+                    - link "Tools aren't loading or connection lost" [ref=e133] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/tools-not-loading/
+                      - generic "Tools aren't loading or connection lost" [ref=e134]
+                  - listitem [ref=e135]:
+                    - link "It's stuck or too slow" [ref=e136] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/stuck-or-slow/
+                      - generic "It's stuck or too slow" [ref=e137]
+                  - listitem [ref=e138]:
+                    - link "Tried to fetch variables, but got code instead" [ref=e139] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/variables-vs-code/
+                      - generic "Tried to fetch variables, but got code instead" [ref=e140]
+                  - listitem [ref=e141]:
+                    - link "I'm getting a 500 error" [ref=e142] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/getting-500-error/
+                      - generic "I'm getting a 500 error" [ref=e143]
+                  - listitem [ref=e144]:
+                    - link "Known issues with MCP clients" [ref=e145] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/mcp-clients-issues/
+                      - generic "Known issues with MCP clients" [ref=e146]
+                  - listitem [ref=e147]:
+                    - link "Images have stopped loading" [ref=e148] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/images-stopped-loading/
+                      - generic "Images have stopped loading" [ref=e149]
+                  - listitem [ref=e150]:
+                    - link "Plans, access, and permissions" [ref=e151] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/plans-access-and-permissions/
+                      - generic "Plans, access, and permissions" [ref=e152]
+    - main [ref=e153]:
+      - generic [ref=e155]:
+        - generic [ref=e157]:
+          - article [ref=e158]:
+            - navigation "Breadcrumbs" [ref=e159]:
+              - list [ref=e160]:
+                - listitem [ref=e161]:
+                  - link "Home page" [ref=e162] [cursor=pointer]:
+                    - /url: /
+                    - img [ref=e163]
+                - listitem [ref=e165]:
+                  - generic [ref=e166]: Figma MCP Server
+                - listitem [ref=e167]:
+                  - generic [ref=e168]: Installation & setup
+                - listitem [ref=e169]:
+                  - generic [ref=e170]: Set up the remote server (recommended)
+            - generic [ref=e171]:
+              - heading "Set up the remote server (recommended)" [level=1] [ref=e173]
+              - paragraph [ref=e176]:
+                - strong [ref=e177]: "Note:"
+                - text: Only clients listed in the
+                - link "Figma MCP Catalog" [ref=e178] [cursor=pointer]:
+                  - /url: https://www.figma.com/mcp-catalog/
+                - text: like VS Code, Cursor, or Claude Code can connect to the Figma MCP Server. If you're a developer interested in connecting a new MCP client, you can
+                - link "join the waitlist" [ref=e179] [cursor=pointer]:
+                  - /url: https://form.asana.com/?k=kBG-ejRQTdY8x_H6a4vM3Q&d=10497086658021
+                - text: .
+              - paragraph [ref=e180]: The Figma MCP server brings Figma directly into your workflow by providing important design information and context to AI agents generating code from Figma design files.
+              - paragraph [ref=e181]:
+                - text: MCP servers are part of a standardized interface for AI agents to interact with data sources using the
+                - link "Model Context Protocol" [ref=e182] [cursor=pointer]:
+                  - /url: https://modelcontextprotocol.io/
+                - text: .
+              - paragraph [ref=e183]: Figma's remote MCP server makes it possible to connect directly to your Figma files without needing to install Figma's desktop app. You can capture live UI to Figma Design and bring design context into your workflow wherever you're working.
+              - paragraph [ref=e184]: "With the server enabled, you can:"
+              - list [ref=e185]:
+                - listitem [ref=e186]:
+                  - paragraph [ref=e187]:
+                    - strong [ref=e188]: Write to canvas
+                    - text: ": Use a supported MCP client to create and modify native Figma content directly in Figma Design files. Agents can build and update frames, components, variables, and auto layout using your existing design system and file structure as context."
+                  - paragraph [ref=e191]:
+                    - strong [ref=e192]: "Note:"
+                    - text: We're quickly improving how Figma supports AI agents. This will eventually be a usage-based paid feature, but is currently available for free during the beta period.
+                - listitem [ref=e193]:
+                  - paragraph [ref=e194]:
+                    - strong [ref=e195]: Generate designs from live UI
+                    - text: ": Use a supported MCP client to capture the live UI of your web app or site and send it to new and existing Figma files or your clipboard. ("
+                    - link "select clients only" [ref=e196] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/code-to-canvas/
+                    - text: )
+                - listitem [ref=e197]:
+                  - paragraph [ref=e198]:
+                    - strong [ref=e199]: Generate code from selected frames
+                    - text: ": Select a Figma frame and turn it into code. Great for product teams building new flows or iterating on app features."
+                - listitem [ref=e200]:
+                  - paragraph [ref=e201]:
+                    - strong [ref=e202]: Extract design context
+                    - text: ": Pull in variables, components, and layout data directly into your IDE. This is especially useful for design systems and component-based workflows."
+                - listitem [ref=e203]:
+                  - paragraph [ref=e204]:
+                    - strong [ref=e205]: Retrieve Make resources
+                    - text: ":"
+                    - link "Gather code resources from Make files" [ref=e206] [cursor=pointer]:
+                      - /url: https://developers.figma.com/docs/figma-mcp-server/bringing-make-context-to-your-agent/
+                    - text: and provide them to the LLM as context. This can help as you move from prototype to production application.
+                - listitem [ref=e207]:
+                  - paragraph [ref=e208]:
+                    - strong [ref=e209]: Keep your design system components consistent with Code Connect
+                    - text: ": Boost output quality by reusing your actual components. Code Connect keeps your generated code consistent with your codebase."
+              - paragraph [ref=e210]: To use this server, you'll need to sign in through Figma's OAuth authentication flow. Once set up, the remote server gives you a seamless way to access Figma data and integrate it with your tools.
+              - heading "Enabling the remote MCP serverDirect link to Enabling the remote MCP server" [level=2] [ref=e211]:
+                - text: Enabling the remote MCP server
+                - link "Direct link to Enabling the remote MCP server" [ref=e212] [cursor=pointer]:
+                  - /url: "#enabling-the-remote-mcp-server"
+                  - text: "#"
+              - paragraph [ref=e215]:
+                - text: This documentation covers the installation steps for several of our supported MCP clients. For a list of install guides for supported MCP clients, see the
+                - link "Guide to the Figma MCP server" [ref=e216] [cursor=pointer]:
+                  - /url: https://help.figma.com/hc/en-us/articles/32132100833559#h_01K25F7RBRZKCATVJHNXCS6KXW
+                - text: .
+              - paragraph [ref=e217]: "Follow the steps for your MCP client:"
+              - list [ref=e218]:
+                - listitem [ref=e219]:
+                  - link "Claude Code" [ref=e220] [cursor=pointer]:
+                    - /url: "#claude-code"
+                - listitem [ref=e221]:
+                  - link "Codex by OpenAI" [ref=e222] [cursor=pointer]:
+                    - /url: "#codex"
+                - listitem [ref=e223]:
+                  - link "Cursor" [ref=e224] [cursor=pointer]:
+                    - /url: "#cursor"
+                - listitem [ref=e225]:
+                  - link "VS Code" [ref=e226] [cursor=pointer]:
+                    - /url: "#vs-code"
+              - heading "Claude CodeDirect link to Claude Code" [level=3] [ref=e227]:
+                - text: Claude Code
+                - link "Direct link to Claude Code" [ref=e228] [cursor=pointer]:
+                  - /url: "#claude-code"
+                  - text: "#"
+              - heading "Using the Figma plugin for Claude Code (preferred):Direct link to Using the Figma plugin for Claude Code (preferred):" [level=4] [ref=e229]:
+                - text: "Using the Figma plugin for Claude Code (preferred):"
+                - link "Direct link to Using the Figma plugin for Claude Code (preferred):" [ref=e230] [cursor=pointer]:
+                  - /url: "#using-the-figma-plugin-for-claude-code-preferred"
+                  - text: "#"
+              - paragraph [ref=e231]: The recommended way to set up the Figma MCP server in Claude Code is by installing the Figma plugin, which includes MCP server settings as well as Agent Skills for common workflows.
+              - paragraph [ref=e232]: Run the following command to install the plugin from Anthropic's official plugin marketplace.
+              - generic [ref=e234]:
+                - code [ref=e236]:
+                  - generic [ref=e237]: claude plugin install figma@claude-plugins-official
+                - button "Copy code to clipboard" [ref=e239] [cursor=pointer]:
+                  - generic [ref=e240]:
+                    - img [ref=e241]
+                    - img [ref=e243]
+              - paragraph [ref=e245]:
+                - text: Learn more about Anthropic's
+                - link "Claude Code plugins" [ref=e246] [cursor=pointer]:
+                  - /url: https://claude.com/blog/claude-code-plugins
+                - text: and
+                - link "Agent Skills" [ref=e247] [cursor=pointer]:
+                  - /url: https://claude.com/blog/skills
+                - text: .
+              - heading "Manual setup for Claude CodeDirect link to Manual setup for Claude Code" [level=4] [ref=e248]:
+                - text: Manual setup for Claude Code
+                - link "Direct link to Manual setup for Claude Code" [ref=e249] [cursor=pointer]:
+                  - /url: "#manual-setup-for-claude-code"
+                  - text: "#"
+              - list [ref=e250]:
+                - listitem [ref=e251]:
+                  - paragraph [ref=e252]:
+                    - text: "Run the following command in your terminal to add the Figma MCP to Claude Code:"
+                    - code [ref=e253]: claude mcp add --transport http figma https://mcp.figma.com/mcp
+                  - generic [ref=e255]:
+                    - paragraph [ref=e256]:
+                      - strong [ref=e257]: "Tip:"
+                      - text: To make your Figma MCP server available across all projects, install it with the
+                      - code [ref=e258]: "--scope user"
+                      - text: "flag:"
+                      - code [ref=e259]: claude mcp add --scope user --transport http figma https://mcp.figma.com/mcp
+                    - paragraph [ref=e260]: By default, Claude Code uses local scope, so the server is only available in the current project. Applying the user scope means you don't have to reinstall the server for each of your projects.
+                - listitem [ref=e261]:
+                  - paragraph [ref=e262]: Start a new instance of Claude Code.
+                - listitem [ref=e263]:
+                  - paragraph [ref=e264]:
+                    - text: Type
+                    - code [ref=e265]: /mcp
+                    - text: in Claude to manage your MCP Servers and select
+                    - strong [ref=e266]: figma
+                    - text: .
+                    - img "Claude remote MCP manage" [ref=e267]
+                - listitem [ref=e268]:
+                  - paragraph [ref=e269]:
+                    - text: Select
+                    - strong [ref=e270]: Authenticate
+                    - text: .
+                    - img "Select authenticate in Claude" [ref=e271]
+                - listitem [ref=e272]:
+                  - paragraph [ref=e273]:
+                    - text: Click
+                    - strong [ref=e274]: Allow Access
+                    - text: .
+                    - img "Claude remote MCP login" [ref=e275]
+                - listitem [ref=e276]:
+                  - paragraph [ref=e277]:
+                    - text: "Back in Claude code, you should see:"
+                    - code [ref=e278]: Authentication successful. Connected to figma
+                - listitem [ref=e279]:
+                  - paragraph [ref=e280]:
+                    - text: Confirm your MCP Server is connected using
+                    - code [ref=e281]: /mcp
+                    - text: command in Claude Code.
+                    - img "Claude remote MCP confirm" [ref=e282]
+                - listitem [ref=e283]:
+                  - paragraph [ref=e284]: Start prompting!
+              - heading "CodexDirect link to Codex" [level=3] [ref=e285]:
+                - text: Codex
+                - link "Direct link to Codex" [ref=e286] [cursor=pointer]:
+                  - /url: "#codex"
+                  - text: "#"
+              - heading "Using the Codex app (preferred):Direct link to Using the Codex app (preferred):" [level=4] [ref=e287]:
+                - text: "Using the Codex app (preferred):"
+                - link "Direct link to Using the Codex app (preferred):" [ref=e288] [cursor=pointer]:
+                  - /url: "#using-the-codex-app-preferred"
+                  - text: "#"
+              - list [ref=e289]:
+                - listitem [ref=e290]:
+                  - paragraph [ref=e291]:
+                    - link "Install the Codex app." [ref=e292] [cursor=pointer]:
+                      - /url: https://developers.openai.com/codex/app/
+                - listitem [ref=e293]:
+                  - paragraph [ref=e294]:
+                    - text: In the upper-left corner of the Codex app, click
+                    - strong [ref=e295]: Plugins
+                    - text: .
+                - listitem [ref=e296]:
+                  - paragraph [ref=e297]:
+                    - text: Click
+                    - strong [ref=e298]: +
+                    - text: next to Figma.
+                  - paragraph [ref=e299]:
+                    - img "Install the Figma plugin for Codex" [ref=e300]
+                - listitem [ref=e301]:
+                  - paragraph [ref=e302]:
+                    - text: Click
+                    - strong [ref=e303]: Install Figma
+                    - text: to begin the installation process.
+                - listitem [ref=e304]:
+                  - paragraph [ref=e305]:
+                    - text: Go through the authentication process. Click
+                    - strong [ref=e306]: Allow access
+                    - text: to authenticate and allow ChatGPT to access your Figma account.
+                - listitem [ref=e307]:
+                  - paragraph [ref=e308]:
+                    - text: Start prompting Codex to
+                    - link "use the tools" [ref=e309] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/tools-and-prompts/
+                    - text: provided by the Figma MCP server.
+              - heading "Manual setup for Codex:Direct link to Manual setup for Codex:" [level=4] [ref=e310]:
+                - text: "Manual setup for Codex:"
+                - link "Direct link to Manual setup for Codex:" [ref=e311] [cursor=pointer]:
+                  - /url: "#manual-setup-for-codex"
+                  - text: "#"
+              - list [ref=e312]:
+                - listitem [ref=e313]:
+                  - paragraph [ref=e314]:
+                    - link "Install the Codex CLI." [ref=e315] [cursor=pointer]:
+                      - /url: https://developers.openai.com/codex/cli/
+                - listitem [ref=e316]:
+                  - paragraph [ref=e317]:
+                    - text: "In your terminal, run the following command:"
+                    - code [ref=e318]: codex mcp add figma --url https://mcp.figma.com/mcp
+                  - paragraph [ref=e319]: When prompted, authenticate the server.
+                - listitem [ref=e320]:
+                  - paragraph [ref=e321]:
+                    - text: Start prompting Codex to
+                    - link "use the tools" [ref=e322] [cursor=pointer]:
+                      - /url: /docs/figma-mcp-server/tools-and-prompts/
+                    - text: provided by the Figma MCP server.
+              - heading "CursorDirect link to Cursor" [level=3] [ref=e323]:
+                - text: Cursor
+                - link "Direct link to Cursor" [ref=e324] [cursor=pointer]:
+                  - /url: "#cursor"
+                  - text: "#"
+              - heading "Using the Figma plugin for Cursor (preferred):Direct link to Using the Figma plugin for Cursor (preferred):" [level=4] [ref=e325]:
+                - text: "Using the Figma plugin for Cursor (preferred):"
+                - link "Direct link to Using the Figma plugin for Cursor (preferred):" [ref=e326] [cursor=pointer]:
+                  - /url: "#using-the-figma-plugin-for-cursor-preferred"
+                  - text: "#"
+              - paragraph [ref=e327]: The recommended way to set up the Figma MCP server in Cursor is by installing the Figma plugin, which includes MCP server settings as well as Agent Skills for common workflows.
+              - paragraph [ref=e328]: "Install the plugin by typing the following command in Cursor's agent chat:"
+              - generic [ref=e330]:
+                - code [ref=e332]:
+                  - generic [ref=e333]: /add-plugin figma
+                - button "Copy code to clipboard" [ref=e335] [cursor=pointer]:
+                  - generic [ref=e336]:
+                    - img [ref=e337]
+                    - img [ref=e339]
+              - paragraph [ref=e341]: "The plugin includes:"
+              - list [ref=e342]:
+                - listitem [ref=e343]: MCP server configuration for the Figma MCP server
+                - listitem [ref=e344]: Skills for implementing designs, connecting components via Code Connect, and creating design system rules
+                - listitem [ref=e345]: Rules for proper asset handling from the Figma MCP server
+              - heading "Manual setup for Cursor:Direct link to Manual setup for Cursor:" [level=4] [ref=e346]:
+                - text: "Manual setup for Cursor:"
+                - link "Direct link to Manual setup for Cursor:" [ref=e347] [cursor=pointer]:
+                  - /url: "#manual-setup-for-cursor"
+                  - text: "#"
+              - list [ref=e348]:
+                - listitem [ref=e349]:
+                  - text: Click the
+                  - link "Figma MCP server deep link" [ref=e350] [cursor=pointer]:
+                    - /url: cursor://anysphere.cursor-deeplink/mcp/install?name=Figma&config=eyJ1cmwiOiJodHRwczovL21jcC5maWdtYS5jb20vbWNwIn0%3D
+                  - text: . This will open the MCP configuration in Cursor.
+                - listitem [ref=e351]:
+                  - text: Click
+                  - strong [ref=e352]: Install
+                  - text: under 'Install MCP Server?'
+                  - img "Cursor MCP configuration" [ref=e353]
+                - listitem [ref=e354]:
+                  - text: Click
+                  - strong [ref=e355]: Connect
+                  - text: next to Figma to begin the authentication process.
+                - listitem [ref=e356]:
+                  - text: Click
+                  - strong [ref=e357]: Open
+                  - text: .
+                  - img "Cursor MCP open dialog" [ref=e358]
+                - listitem [ref=e359]:
+                  - strong [ref=e360]: Allow access
+                  - img "Cursor allow access dialog" [ref=e361]
+                - listitem [ref=e362]: Start prompting!
+              - heading "VS CodeDirect link to VS Code" [level=3] [ref=e363]:
+                - text: VS Code
+                - link "Direct link to VS Code" [ref=e364] [cursor=pointer]:
+                  - /url: "#vs-code"
+                  - text: "#"
+              - list [ref=e365]:
+                - listitem [ref=e366]:
+                  - paragraph [ref=e367]: "Use the shortcut ⌘ Shift P, and then:"
+                  - list [ref=e368]:
+                    - listitem [ref=e369]:
+                      - text: Select
+                      - strong [ref=e370]: "MCP: Open User Configuration"
+                      - text: to use the Figma MCP server globally.
+                    - listitem [ref=e371]:
+                      - text: Select
+                      - strong [ref=e372]: "MCP: Open Workspace Folder MCP Configuration"
+                      - text: to use the Figma MCP server just inside your current workspace.
+                  - paragraph [ref=e375]:
+                    - strong [ref=e376]: "Note:"
+                    - text: If it doesn't exist already, you're prompted to create an
+                    - code [ref=e377]: mcp.json
+                    - text: file.
+                - listitem [ref=e378]:
+                  - paragraph [ref=e379]:
+                    - text: In the
+                    - code [ref=e380]: mcp.json
+                    - text: "file, paste the following code:"
+                  - generic [ref=e381]: "{ \"inputs\": [], \"servers\": { \"figma\": { \"url\": \"https://mcp.figma.com/mcp\", \"type\": \"http\" } } }"
+                - listitem [ref=e382]:
+                  - paragraph [ref=e383]:
+                    - text: Click on Start (above the MCP server name).
+                    - img "VS Code MCP start" [ref=e384]
+                - listitem [ref=e385]:
+                  - paragraph [ref=e386]:
+                    - strong [ref=e387]: Allow Access
+                    - text: .
+                  - paragraph [ref=e388]:
+                    - img "VS Code MCP allow access" [ref=e389]
+                - listitem [ref=e390]:
+                  - paragraph [ref=e391]: Start prompting!
+              - heading "Using the MCP serverDirect link to Using the MCP server" [level=2] [ref=e392]:
+                - text: Using the MCP server
+                - link "Direct link to Using the MCP server" [ref=e393] [cursor=pointer]:
+                  - /url: "#using-the-mcp-server"
+                  - text: "#"
+              - paragraph [ref=e394]: The MCP server introduces a set of tools that help LLMs bring your live UI to Figma Design and get design context from Figma. Once connected, you can start prompting your MCP client.
+              - paragraph [ref=e395]:
+                - text: For a complete list of tools and examples, see
+                - link "Tools and Prompts" [ref=e396] [cursor=pointer]:
+                  - /url: /docs/figma-mcp-server/tools-and-prompts/
+                - text: .
+              - 'heading "Example: Send UI to FigmaDirect link to Example: Send UI to Figma" [level=3] [ref=e397]':
+                - text: "Example: Send UI to Figma"
+                - 'link "Direct link to Example: Send UI to Figma" [ref=e398] [cursor=pointer]':
+                  - /url: "#example-send-ui-to-figma"
+                  - text: "#"
+              - paragraph [ref=e401]:
+                - strong [ref=e402]: "Note:"
+                - text: Currently for use with select MCP clients. See
+                - link "Code to canvas" [ref=e403] [cursor=pointer]:
+                  - /url: /docs/figma-mcp-server/code-to-canvas/
+                - text: .
+              - paragraph [ref=e404]: "Sending the live UI of your web app or site to Figma is done through conversation with your MCP client:"
+              - list [ref=e405]:
+                - listitem [ref=e406]: "Prompt your MCP client: \"Start a local server for my app and capture the UI in a new Figma file.”"
+                - listitem [ref=e407]: Follow the steps your client provides. Your client will open a browser window for you, or give you a link to follow.
+                - listitem [ref=e408]: Use the capture toolbar to capture pages, elements, and states of your web app or site.
+                - listitem [ref=e409]: Let your client know when you're finished. Your client will give you a link to open the Figma file that was created.
+              - 'heading "Example: Get design contextDirect link to Example: Get design context" [level=3] [ref=e410]':
+                - text: "Example: Get design context"
+                - 'link "Direct link to Example: Get design context" [ref=e411] [cursor=pointer]':
+                  - /url: "#example-get-design-context"
+                  - text: "#"
+              - paragraph [ref=e412]: "Getting design context and code from files is link-based. To use it:"
+              - list [ref=e413]:
+                - listitem [ref=e414]:
+                  - paragraph [ref=e415]: Copy the link to a frame or layer in Figma
+                - listitem [ref=e416]:
+                  - paragraph [ref=e417]: Prompt your client to help you implement the design at the selected URL
+                  - paragraph [ref=e418]:
+                    - img "MCP client with link-based prompt" [ref=e419]
+              - paragraph [ref=e422]:
+                - strong [ref=e423]: "Note:"
+                - text: Your client won't be able to navigate to the selected URL, but it will extract the node-id that is required for the MCP server to identify which object to return information about.
+              - heading "Improving the MCP server outputDirect link to Improving the MCP server output" [level=2] [ref=e424]:
+                - text: Improving the MCP server output
+                - link "Direct link to Improving the MCP server output" [ref=e425] [cursor=pointer]:
+                  - /url: "#improving-the-mcp-server-output"
+                  - text: "#"
+              - paragraph [ref=e426]:
+                - text: For the best output, we recommend setting up rules to guide the agent. To get you started, we have some
+                - link "helpful example rules" [ref=e427] [cursor=pointer]:
+                  - /url: /docs/figma-mcp-server/add-custom-rules/#rules-to-ensure-consistently-good-output
+                - text: .
+          - navigation "Docs pages" [ref=e428]:
+            - link "Previous Introduction" [ref=e429] [cursor=pointer]:
+              - /url: /docs/figma-mcp-server/
+              - generic [ref=e430]: Previous
+              - generic [ref=e431]: Introduction
+            - link "Next Set up the desktop server (using desktop app)" [ref=e432] [cursor=pointer]:
+              - /url: /docs/figma-mcp-server/local-server-installation/
+              - generic [ref=e433]: Next
+              - generic [ref=e434]: Set up the desktop server (using desktop app)
+        - list [ref=e437]:
+          - text: On this page
+          - listitem [ref=e438]:
+            - link "Enabling the remote MCP server" [ref=e439] [cursor=pointer]:
+              - /url: "#enabling-the-remote-mcp-server"
+            - list [ref=e440]:
+              - listitem [ref=e441]:
+                - link "Claude Code" [ref=e442] [cursor=pointer]:
+                  - /url: "#claude-code"
+              - listitem [ref=e443]:
+                - link "Codex" [ref=e444] [cursor=pointer]:
+                  - /url: "#codex"
+              - listitem [ref=e445]:
+                - link "Cursor" [ref=e446] [cursor=pointer]:
+                  - /url: "#cursor"
+              - listitem [ref=e447]:
+                - link "VS Code" [ref=e448] [cursor=pointer]:
+                  - /url: "#vs-code"
+          - listitem [ref=e449]:
+            - link "Using the MCP server" [ref=e450] [cursor=pointer]:
+              - /url: "#using-the-mcp-server"
+            - list [ref=e451]:
+              - listitem [ref=e452]:
+                - 'link "Example: Send UI to Figma" [ref=e453] [cursor=pointer]':
+                  - /url: "#example-send-ui-to-figma"
+              - listitem [ref=e454]:
+                - 'link "Example: Get design context" [ref=e455] [cursor=pointer]':
+                  - /url: "#example-get-design-context"
+          - listitem [ref=e456]:
+            - link "Improving the MCP server output" [ref=e457] [cursor=pointer]:
+              - /url: "#improving-the-mcp-server-output"
+  - generic [ref=e458]:
+    - generic [ref=e459]:
+      - generic [ref=e460]: Was this page helpful?
+      - link "Leave us feedback" [ref=e462] [cursor=pointer]:
+        - /url: https://form.asana.com/?k=6r2Tos6p01DyVKGLeYJByg&d=10497086658021
+    - list [ref=e463]:
+      - listitem [ref=e464]:
+        - link "Community Forum" [ref=e465] [cursor=pointer]:
+          - /url: https://forum.figma.com/
+      - listitem [ref=e466]:
+        - link "Discord Server" [ref=e467] [cursor=pointer]:
+          - /url: https://discord.gg/xzQhe2Vcvx
+      - listitem [ref=e468]:
+        - link "GitHub Samples" [ref=e469] [cursor=pointer]:
+          - /url: https://github.com/figma/widget-samples
+  - contentinfo [ref=e470]:
+    - link [ref=e471] [cursor=pointer]:
+      - /url: https://www.figma.com
+      - img [ref=e472]
+    - generic [ref=e479]:
+      - link "FigJam" [ref=e480] [cursor=pointer]:
+        - /url: https://www.figma.com/figjam/
+      - link "Enterprise" [ref=e481] [cursor=pointer]:
+        - /url: https://www.figma.com/enterprise/
+      - link "Learn" [ref=e482] [cursor=pointer]:
+        - /url: https://help.figma.com/
+      - link "Education" [ref=e483] [cursor=pointer]:
+        - /url: https://www.figma.com/education/
+      - link "Careers" [ref=e484] [cursor=pointer]:
+        - /url: https://www.figma.com/careers/
+      - link "Pricing" [ref=e485] [cursor=pointer]:
+        - /url: https://www.figma.com/pricing/
+      - link "Developers" [ref=e486] [cursor=pointer]:
+        - /url: https://www.figma.com/developers
+      - link "Blog" [ref=e487] [cursor=pointer]:
+        - /url: https://www.figma.com/blog/
+      - link "Downloads" [ref=e488] [cursor=pointer]:
+        - /url: https://www.figma.com/downloads/
+      - link "Releases" [ref=e489] [cursor=pointer]:
+        - /url: https://www.figma.com/release-notes/
+      - link "Security" [ref=e490] [cursor=pointer]:
+        - /url: https://www.figma.com/security/
+      - link "Legal" [ref=e491] [cursor=pointer]:
+        - /url: https://www.figma.com/legal
+      - link "Contact" [ref=e492] [cursor=pointer]:
+        - /url: https://www.figma.com/contact/
+    - list [ref=e493]:
+      - listitem [ref=e494]:
+        - link [ref=e495] [cursor=pointer]:
+          - /url: https://twitter.com/figma
+          - img [ref=e496]
+      - listitem [ref=e498]:
+        - link [ref=e499] [cursor=pointer]:
+          - /url: https://www.youtube.com/figmadesign
+          - img [ref=e500]
+      - listitem [ref=e502]:
+        - link [ref=e503] [cursor=pointer]:
+          - /url: https://www.instagram.com/figma
+          - img [ref=e504]
+      - listitem [ref=e506]:
+        - link [ref=e507] [cursor=pointer]:
+          - /url: https://www.facebook.com/figmadesign
+          - img [ref=e508]

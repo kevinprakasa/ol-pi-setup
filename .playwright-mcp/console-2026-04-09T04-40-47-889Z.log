@@ -1,0 +1,51 @@
+[     797ms] [WARNING] [Deprecation Notice]: Use of dataLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2289ms] [LOG] [HMR] connected @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2391ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2461ms] [LOG] i18next: languageChanged en @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2461ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: common, fallbackLng: Array(1)} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2485ms] [WARNING] [Deprecation Notice]: Use of dataMultiLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2967ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[    2967ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[    3091ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    3112ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s LoadJsScript @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    3145ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://openlearning.test/json/auth/access_token/:0
+[    3279ms] AxiosError
+[    3292ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `loginSettings` is marked as required in `LoginModal`, but its value is `null`. 
+    at LoginModal (webpack:///./web/containers/LoginModal/LoginModal.jsx?:50:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBar (webpack:///./web/containers/HomePageV1/components/TopBar/component.tsx?:111:76)
+    at Homepage (webpack:///./web/containers/HomePageV1/component.tsx?:46:78)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at HomepageWrapper (webpack:///./web/containers/BasePage/component.jsx?:167:56)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    3436ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `Modal`.  
+    at Modal (webpack:///./web/components/Modals/Modal/component.tsx?:56:7)
+    at AcceptCustomTnc (webpack:///./web/components/AcceptCustomTnc/component.tsx?:41:88)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12244ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://openlearning.test/:0

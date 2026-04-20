@@ -1,0 +1,15 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e7]:
+      - generic [ref=e9]:
+        - img [ref=e11]
+        - heading "second course" [level=1] [ref=e12]
+      - link "second course home page" [ref=e13] [cursor=pointer]:
+        - /url: http://openlearning.test/institutiontestpath/courses/second-course/
+  - generic [ref=e16]:
+    - navigation
+  - contentinfo [ref=e20]:
+    - paragraph [ref=e25]:
+      - link "Feedback & Support" [ref=e26] [cursor=pointer]:
+        - /url: http://openlearning.test/sso/help/?redirect=https://help.openlearning.com
+  - heading "Chat" [level=1] [ref=e28]

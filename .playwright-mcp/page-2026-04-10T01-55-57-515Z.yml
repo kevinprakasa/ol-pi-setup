@@ -1,0 +1,347 @@
+- generic [ref=e1]:
+  - button "Skip to main content" [ref=e3] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - text:            
+      - generic [ref=e9]:
+        - button "Institutions" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: Institutions
+          - img [ref=e13]: 
+        - button "Courses" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Courses
+          - img [ref=e18]: 
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - button "Notifications" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]: 
+          - generic [ref=e26]: Notifications
+        - generic: 
+      - generic [ref=e27]:
+        - button "superadmin superuser" [ref=e28] [cursor=pointer]:
+          - img "superadmin" [ref=e31]
+          - generic [ref=e32]: superuser
+        - generic:         
+      - 'button "Selected language: English (EN)" [ref=e34] [cursor=pointer]':
+        - generic [ref=e35]: EN
+  - generic [ref=e36]:
+    - banner [ref=e37]:
+      - generic [ref=e41]:
+        - generic [ref=e43] [cursor=pointer]:
+          - img [ref=e45]
+          - heading "second course" [level=1] [ref=e46]:
+            - generic [ref=e47]: second course
+        - link "second course home page" [ref=e48] [cursor=pointer]:
+          - /url: http://openlearning.test/institutiontestpath/courses/second-course/
+    - generic [ref=e51]:
+      - generic [ref=e54]:
+        - button "superadmin" [ref=e57] [cursor=pointer]:
+          - img "superadmin" [ref=e60]
+        - 'link "0 kudos: 0 content + 0 comment" [ref=e63] [cursor=pointer]':
+          - /url: /progress/?course=institutiontestpath%2Fcourses%2Fsecond-course&student=superuser
+          - generic [ref=e64]:
+            - text: "0"
+            - generic [ref=e65]: "kudos: 0 content + 0 comment"
+        - generic [ref=e67]:
+          - generic [ref=e68]: Administrator
+          - generic [ref=e69]: Class of 2022
+      - navigation [ref=e72]:
+        - generic [ref=e80]:
+          - list [ref=e82]:
+            - listitem [ref=e83]:
+              - link "Home" [ref=e84] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/homepage/
+            - listitem [ref=e85]:
+              - link "Announcements" [ref=e86] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/cohorts/classof2022/blog/
+            - listitem [ref=e87]:
+              - link "Learning Activities Expand modules menu" [ref=e88] [cursor=pointer]:
+                - /url: /assessment/assess/69d5b846fe25fcb3c5625ccc/622ff2fc8dba254d8050a4cb/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course&moduleSet=Default&page=1&pageSize=10&showStaff=false&students=
+                - text: Learning Activities
+                - generic [ref=e89]:
+                  - img [ref=e90]: 
+                  - generic [ref=e92]: Expand modules menu
+            - listitem [ref=e93]:
+              - link "Course Feed" [ref=e94] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/coursefeed/
+            - listitem [ref=e95]:
+              - link "Groups" [ref=e96] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/cohorts/classof2022/groups/
+            - listitem [ref=e97]:
+              - link "Gallery" [ref=e98] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/gallery/
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - button "Search" [ref=e102]:
+                - generic [ref=e103]:
+                  - img [ref=e105]: 
+                  - generic [ref=e107]: Search
+          - button "Course Setup" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]: 
+            - text: Course Setup
+          - button "Course Design" [ref=e113] [cursor=pointer]:
+            - img [ref=e114]: 
+            - text: Course Design
+          - button "Course Promo" [ref=e117] [cursor=pointer]:
+            - img [ref=e118]: 
+            - text: Course Promo
+          - button "Administer Learners" [ref=e121] [cursor=pointer]:
+            - img [ref=e122]: 
+            - text: Administer Learners
+          - generic [ref=e124]:
+            - button "Assessment" [ref=e125] [cursor=pointer]:
+              - img [ref=e126]: 
+              - text: Assessment
+            - list [ref=e130]:
+              - listitem [ref=e131]:
+                - link "Gradebook" [ref=e132] [cursor=pointer]:
+                  - /url: /assessment/gradebook/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course
+                  - img [ref=e134]: 
+                  - text: Gradebook
+              - listitem [ref=e136]:
+                - link "Assess Learners" [ref=e137] [cursor=pointer]:
+                  - /url: /assessment/assess/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course
+                  - img [ref=e139]: 
+                  - text: Assess Learners
+              - listitem [ref=e141]:
+                - link "Question Banks" [ref=e142] [cursor=pointer]:
+                  - /url: /assessment/question_bank/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course
+                  - img [ref=e144]: 
+                  - text: Question Banks
+          - button "Credentials" [ref=e147] [cursor=pointer]:
+            - img [ref=e148]: 
+            - text: Credentials
+      - generic [ref=e158]:
+        - link "Student List" [ref=e159] [cursor=pointer]:
+          - /url: /assessment/assess/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course&page=1&pageSize=10&showStaff=false&students=
+        - generic [ref=e160]: Code exam zip configs
+        - generic [ref=e161]:
+          - generic [ref=e162]:
+            - generic [ref=e163]:
+              - generic [ref=e166] [cursor=pointer]: Report
+              - generic [ref=e169]:
+                - generic [ref=e170]:
+                  - generic [ref=e171]: Code exam zip configs
+                  - textbox "multi-select-30" [ref=e174]
+                - img [ref=e177]: 
+            - generic [ref=e179]:
+              - generic [ref=e182] [cursor=pointer]: Attempt
+              - generic [ref=e185]:
+                - generic [ref=e186]:
+                  - generic [ref=e187]: Attempt 16 (Score taken)
+                  - textbox "multi-select-31" [ref=e190]
+                - img [ref=e193]: 
+          - generic [ref=e197]:
+            - generic [ref=e200] [cursor=pointer]: Learner
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - generic [ref=e205]: learner one
+                - textbox "multi-select-32" [ref=e208]
+              - generic [ref=e209]:
+                - button [ref=e211] [cursor=pointer]:
+                  - img [ref=e212]: 
+                - img [ref=e215]: 
+        - generic [ref=e217]:
+          - generic [ref=e219]:
+            - tablist [ref=e220]:
+              - generic [ref=e222]:
+                - tab "Overview" [ref=e224] [cursor=pointer]
+                - tab "Questions" [selected] [ref=e226] [cursor=pointer]
+            - tabpanel "Questions" [active] [ref=e386]:
+              - generic [ref=e387]:
+                - generic [ref=e388]:
+                  - generic [ref=e389]: Item
+                  - generic [ref=e390]: Score
+                - generic [ref=e391]:
+                  - generic [ref=e392]:
+                    - generic [ref=e393]: code palindrome python
+                    - generic [ref=e394]:
+                      - img [ref=e395]
+                      - generic [ref=e396]: Code
+                  - generic [ref=e397] [cursor=pointer]: "1"
+                - generic [ref=e398]:
+                  - generic [ref=e399]: Total score
+                  - generic [ref=e400]: "1"
+          - generic [ref=e404]:
+            - generic [ref=e405]:
+              - generic [ref=e408]: Question
+              - generic [ref=e411]:
+                - generic [ref=e412]: palindrome python zip configs
+                - generic [ref=e414]:
+                  - generic [ref=e415]:
+                    - img "Code widget" [ref=e416]
+                    - generic [ref=e417]: Code widget
+                  - tablist [ref=e421]:
+                    - tab "main.py" [selected] [ref=e425] [cursor=pointer]:
+                      - generic "main.py" [ref=e426]:
+                        - generic [ref=e427]: main.py
+                  - code [ref=e431]:
+                    - generic [ref=e432]:
+                      - textbox "Editor content"
+                      - textbox [ref=e433]
+                      - generic [ref=e435]:
+                        - generic [ref=e438]: "1"
+                        - generic [ref=e440]: "2"
+                        - generic [ref=e442]: "3"
+                        - generic [ref=e443]:
+                          - generic [ref=e444] [cursor=pointer]: 
+                          - generic [ref=e445]: "4"
+                        - generic [ref=e447]: "5"
+                        - generic [ref=e449]: "6"
+                        - generic [ref=e451]: "7"
+                        - generic [ref=e452]:
+                          - generic [ref=e453] [cursor=pointer]: 
+                          - generic [ref=e454]: "8"
+                        - generic [ref=e456]: "9"
+                        - generic [ref=e458]: "10"
+                        - generic [ref=e459]:
+                          - generic [ref=e460] [cursor=pointer]: 
+                          - generic [ref=e461]: "11"
+                        - generic [ref=e463]: "12"
+                        - generic [ref=e465]: "13"
+                        - generic [ref=e467]: "14"
+                        - generic [ref=e469]: "15"
+                        - generic [ref=e471]: "16"
+                        - generic [ref=e473]: "17"
+                        - generic [ref=e474]:
+                          - generic [ref=e475] [cursor=pointer]: 
+                          - generic [ref=e476]: "18"
+                      - generic [ref=e510]:
+                        - generic [ref=e512]: import re
+                        - generic [ref=e516]: "def is_palindrome(s):"
+                        - generic [ref=e518]: "\"\"\""
+                        - generic [ref=e520]: Check if a string is a palindrome, ignoring spaces, punctuation, and case.
+                        - generic [ref=e523]: "Args:"
+                        - generic [ref=e525]: "s (str): The input string."
+                        - generic [ref=e528]: "Returns:"
+                        - generic [ref=e530]: "bool: True if the string is a palindrome, False otherwise."
+                        - generic [ref=e532]: "\"\"\""
+                        - generic [ref=e534]: cleaned = re.sub(r"[^a-zA-Z0-9]", "", s).lower()
+                        - generic [ref=e536]: return cleaned == cleaned[::-1]
+                        - generic [ref=e540]: "if __name__ == \"__main__\":"
+                  - generic [ref=e545]:
+                    - tablist [ref=e546]:
+                      - generic [ref=e548]:
+                        - tab "Input" [selected] [ref=e550] [cursor=pointer]
+                        - tab "Output" [ref=e552] [cursor=pointer]
+                      - button "Run code" [ref=e555] [cursor=pointer]:
+                        - img [ref=e556]: 
+                        - generic [ref=e558]: Run code
+                    - tabpanel "Input" [ref=e561]:
+                      - generic [ref=e562]:
+                        - generic [ref=e563]:
+                          - generic [ref=e564]: python3 main.py
+                          - textbox "Command-line arguments" [ref=e565]
+                        - generic [ref=e566]:
+                          - generic [ref=e567]:
+                            - generic [ref=e568]: "1"
+                            - generic [ref=e569]: "2"
+                            - generic [ref=e570]: "3"
+                            - generic [ref=e571]: "4"
+                            - generic [ref=e572]: "5"
+                          - textbox "Enter a string to check if it's a palindrome" [ref=e573]: racecar
+            - generic [ref=e575]:
+              - generic [ref=e576]: Score
+              - generic [ref=e577]: 1 / 1
+              - button "Adjust score" [ref=e579] [cursor=pointer]:
+                - generic [ref=e580]: Adjust score
+            - generic [ref=e581]:
+              - generic [ref=e582]:
+                - generic [ref=e583]: Feedback
+                - generic "Private to learner one" [ref=e584]:
+                  - generic [ref=e585]:
+                    - img [ref=e589]: 
+                    - generic [ref=e592]: Private to learner one
+              - generic [ref=e593]:
+                - generic [ref=e594]:
+                  - heading [level=2]
+                  - generic [ref=e595]:
+                    - button "Collapse All" [ref=e596] [cursor=pointer]
+                    - generic [ref=e598]:
+                      - text: "Sort by:"
+                      - button "New Threads " [ref=e600] [cursor=pointer]:
+                        - strong [ref=e601]: New Threads
+                        - generic [ref=e602]: 
+                - generic [ref=e606]:
+                  - img "superuser" [ref=e610]
+                  - generic [ref=e615]:
+                    - generic [ref=e617]: Write a comment ...
+                    - textbox [ref=e619]
+        - generic [ref=e265] [cursor=pointer]:
+          - checkbox "Withhold report for this student" [ref=e266]
+          - text: Withhold report for this student
+        - button "Release" [ref=e268] [cursor=pointer]:
+          - img [ref=e269]: 
+          - text: Release
+        - generic [ref=e271]:
+          - generic [ref=e272]:
+            - generic [ref=e273]:
+              - generic [ref=e276] [cursor=pointer]: Report
+              - generic [ref=e279]:
+                - generic [ref=e280]:
+                  - generic [ref=e281]: Code exam zip configs
+                  - textbox "multi-select-33" [ref=e284]
+                - img [ref=e287]: 
+            - generic [ref=e289]:
+              - generic [ref=e292] [cursor=pointer]: Attempt
+              - generic [ref=e295]:
+                - generic [ref=e296]:
+                  - generic [ref=e297]: Attempt 16 (Score taken)
+                  - textbox "multi-select-34" [ref=e300]
+                - img [ref=e303]: 
+          - generic [ref=e307]:
+            - generic [ref=e310] [cursor=pointer]: Learner
+            - generic [ref=e313]:
+              - generic [ref=e314]:
+                - generic [ref=e315]: learner one
+                - textbox "multi-select-35" [ref=e318]
+              - generic [ref=e319]:
+                - button [ref=e321] [cursor=pointer]:
+                  - img [ref=e322]: 
+                - img [ref=e325]: 
+        - separator [ref=e327]
+        - generic [ref=e328]:
+          - generic [ref=e329]:
+            - generic [ref=e330]: Feedback
+            - generic "Private to learner one" [ref=e331]:
+              - generic [ref=e332]:
+                - img [ref=e336]: 
+                - generic [ref=e339]: Private to learner one
+          - generic [ref=e340]:
+            - generic [ref=e341]:
+              - heading [level=2]
+              - generic [ref=e342]:
+                - button "Collapse All" [ref=e343] [cursor=pointer]
+                - generic [ref=e345]:
+                  - text: "Sort by:"
+                  - button "New Threads " [ref=e347] [cursor=pointer]:
+                    - strong [ref=e348]: New Threads
+                    - generic [ref=e349]: 
+            - generic [ref=e353]:
+              - img "superuser" [ref=e357]
+              - generic [ref=e362]:
+                - generic [ref=e364]: Write a comment ...
+                - textbox [ref=e366]
+    - contentinfo [ref=e370]:
+      - paragraph [ref=e375]:
+        - link "Feedback & Support" [ref=e376] [cursor=pointer]:
+          - /url: http://openlearning.test/sso/help/?redirect=https://help.openlearning.com
+    - heading "Chat" [level=1] [ref=e377]
+  - iframe [ref=e378]:
+    - generic [active]:
+      - generic:
+        - button "Show":
+          - button "Show" [ref=f44e1] [cursor=pointer]:
+            - generic [ref=f44e2]: "0"
+            - button "Launch Front Chat" [ref=f44e4]:
+              - button "Launch Front Chat" [ref=f44e5]
+  - alertdialog [ref=e379]:
+    - alert [ref=e380]:
+      - generic [ref=e382]: 
+      - heading "Timezone has changed." [level=4] [ref=e383]
+      - alert [ref=e384]:
+        - text: "Your current timezone is set to: Asia/Jakarta but you are now in Pacific/Auckland. You can change timezone settings in your"
+        - link "account settings" [ref=e385] [cursor=pointer]:
+          - /url: http://openlearning.test/accounts/account-settings/
+  - generic [ref=e623]:
+    - alert
+    - alert

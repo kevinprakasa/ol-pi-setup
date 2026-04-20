@@ -1,0 +1,697 @@
+[     852ms] TypeError: Cannot read properties of undefined (reading 'push')
+    at self.webpackHotUpdate (http://openlearning.test/media/chunks/entry/runtime.js:955:46)
+    at http://openlearning.test/media/chunks/runtime.bacbae5c7316ea65.hot-update.js:10:25
+[    1232ms] [WARNING] [Deprecation Notice]: Use of dataLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    3495ms] [LOG] [HMR] connected @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4146ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4260ms] [LOG] i18next: languageChanged en @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4260ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: common, fallbackLng: Array(1)} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4301ms] [WARNING] [Deprecation Notice]: Use of dataMultiLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4326ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4336ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4791ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[    4792ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[    4960ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    4967ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `loginSettings` is marked as required in `LoginModal`, but its value is `null`. 
+    at LoginModal (webpack:///./web/containers/LoginModal/LoginModal.jsx?:50:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5009ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2 @ http://openlearning.test/assessment/assess/69e032c0e0a18d63516a0833/622ff2fc8dba254d8050a4cb/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course&page=1&pageSize=10&showStaff=false&students=:868
+[    5025ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2 @ http://openlearning.test/assessment/assess/69e032c0e0a18d63516a0833/622ff2fc8dba254d8050a4cb/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course&page=1&pageSize=10&showStaff=false&students=:868
+[    5105ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5121ms] [ERROR] Using kebab-case for css properties in objects is not supported. Did you mean WebkitOverflowScrolling? @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5123ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `showAccessSuspended` is marked as required in `_CourseNavigationMenu`, but its value is `undefined`. 
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5124ms] [ERROR] Warning: Failed %s type: %s%s prop Invalid prop `children` of type `array` supplied to `Sticky`, expected a single ReactElement. 
+    at Sticky (webpack:///../node_modules/react-stickynode/dist/es/Sticky.js?:45:5)
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5126ms] [ERROR] Warning: Functions are not valid as a React child. This may happen if you return a Component instead of <Component /> from render. Or maybe you meant to call this function rather than return it.%s 
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at div
+    at div
+    at div
+    at Sticky (webpack:///../node_modules/react-stickynode/dist/es/Sticky.js?:45:5)
+    at _CourseNavigationMenu (webpack:///./web/components/Navigation/CourseNavigationMenu/index.jsx?:105:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at MenuItemMobileNav (webpack:///./web/containers/TopBar/MenuItemMobileNav/component.tsx?:46:30)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5156ms] [ERROR] Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.%s false highlight highlight false highlight highlight highlight 
+    at a
+    at LinkInner (webpack:///../node_modules/@respond-framework/react/es/link.js?:32:18)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Link
+    at LinkInnerInner (webpack:///./web/containers/Link/component.jsx?:52:5)
+    at LinkInner
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RouteLink (webpack:///./web/components/RouteLink/component.tsx?:18:63)
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarUserMenu (webpack:///./web/containers/TopBar/TopBarUserMenu/component.tsx?:84:68)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarItem (webpack:///./web/containers/TopBar/TopBarItem/component.tsx?:22:19)
+    at MenuItemUser (webpack:///./web/containers/TopBar/MenuItemUser/component.tsx?:34:19)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5176ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/opensans/v13/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2 @ webpack:///../node_modules/react-stickynode/dist/es/Sticky.js?:348
+[    5684ms] [WARNING] Warning: React.createFactory() is deprecated and will be removed in a future major release. Consider using JSX or use React.createElement() directly instead. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5697ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5698ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s _CourseAdmin @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5914ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5914ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s ASICInformationCapture @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5915ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5920ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6596ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:7071/notifications/user/622957fd10b0fe1d3e63425b?page=1&page_size=10:0
+[    6992ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    7006ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s LoadJsScript @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    7066ms] TypeError: Cannot set properties of undefined (setting './web/tailwind.css')
+    at self.webpackHotUpdate (http://openlearning.test/media/chunks/entry/runtime.js:951:39)
+    at http://openlearning.test/media/chunks/basePageLoader.bacbae5c7316ea65.hot-update.js:10:25
+[    7206ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2 @ http://openlearning.test/assessment/assess/69e032c0e0a18d63516a0833/622ff2fc8dba254d8050a4cb/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course&page=1&pageSize=10&showStaff=false&students=:0
+[    7718ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[    7758ms] AxiosError
+[    8065ms] [WARNING] You are loading @emotion/react when it is already loaded. Running multiple instances may cause problems. This can happen if multiple versions are used, or if multiple builds of the same version are used. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    8151ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    8153ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s CSSTransitionGroupChild, TransitionGroup @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    8153ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s TransitionGroup @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    8172ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[    8174ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    8175ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    8676ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s UnmountClosed @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    8751ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://openlearning.test/json/institutionaddon/lookup/getInstitutionAddon/?institution=institutiontestpath&addOnType=verifiedOrchestration:0
+[   11682ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `isCourseFrameRevampEnabled` is marked as required in `ModuleDisplayElement_`, but its value is `undefined`. 
+    at ModuleDisplayElement_ (webpack:///./web/containers/ModuleDisplay/ModuleDisplayElement.jsx?:94:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   11700ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Trigger @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   11700ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Trigger @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   11713ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `progressBarClickable` is marked as required in `_CourseProgressBar`, but its value is `undefined`. 
+    at _CourseProgressBar (webpack:///./web/CourseProgressBar/CourseProgressBar.jsx?:44:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CourseProgressBarPortal
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   11714ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s _CourseProgressBar @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   11721ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `Modal`.  
+    at Modal (webpack:///./web/components/Modals/Modal/component.tsx?:56:7)
+    at AcceptCustomTnc (webpack:///./web/components/AcceptCustomTnc/component.tsx?:41:88)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   11733ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Collapse, Motion @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12035ms] [ERROR] Warning: Failed %s type: %s%s prop Invalid prop `reports[0]` supplied to `StudentAssessment`. 
+    at StudentAssessment (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessment.jsx?:114:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at StudentAssessmentRoute (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessmentRoute.tsx?:36:5)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CSSTransitionGroupChild (webpack:///../node_modules/react-transition-group/CSSTransitionGroupChild.js?:83:5)
+    at assessment-container
+    at TransitionGroup (webpack:///../node_modules/react-transition-group/TransitionGroup.js?:50:5)
+    at CSSTransitionGroup (webpack:///../node_modules/react-transition-group/CSSTransitionGroup.js?:56:5)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at _Assessment (webpack:///./web/containers/Assessment/Assessment.jsx?:151:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12035ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `onlyShowReadyToBeMarked` is marked as required in `StudentAssessment`, but its value is `undefined`. 
+    at StudentAssessment (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessment.jsx?:114:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at StudentAssessmentRoute (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessmentRoute.tsx?:36:5)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CSSTransitionGroupChild (webpack:///../node_modules/react-transition-group/CSSTransitionGroupChild.js?:83:5)
+    at assessment-container
+    at TransitionGroup (webpack:///../node_modules/react-transition-group/TransitionGroup.js?:50:5)
+    at CSSTransitionGroup (webpack:///../node_modules/react-transition-group/CSSTransitionGroup.js?:56:5)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at _Assessment (webpack:///./web/containers/Assessment/Assessment.jsx?:151:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12035ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `returnAction` is marked as required in `StudentAssessment`, but its value is `undefined`. 
+    at StudentAssessment (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessment.jsx?:114:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at StudentAssessmentRoute (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessmentRoute.tsx?:36:5)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CSSTransitionGroupChild (webpack:///../node_modules/react-transition-group/CSSTransitionGroupChild.js?:83:5)
+    at assessment-container
+    at TransitionGroup (webpack:///../node_modules/react-transition-group/TransitionGroup.js?:50:5)
+    at CSSTransitionGroup (webpack:///../node_modules/react-transition-group/CSSTransitionGroup.js?:56:5)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at _Assessment (webpack:///./web/containers/Assessment/Assessment.jsx?:151:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12046ms] [ERROR] Warning: Failed %s type: %s%s prop Invalid prop `icon` supplied to `CheckBoxPromiseButton`. 
+    at CheckBoxPromiseButton (webpack:///./web/components/Buttons/CheckBoxButton/CheckBoxPromiseButton.jsx?:33:5)
+    at CheckBoxButton
+    at div
+    at student-assessment
+    at StudentAssessment (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessment.jsx?:114:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at StudentAssessmentRoute (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessmentRoute.tsx?:36:5)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CSSTransitionGroupChild (webpack:///../node_modules/react-transition-group/CSSTransitionGroupChild.js?:83:5)
+    at assessment-container
+    at TransitionGroup (webpack:///../node_modules/react-transition-group/TransitionGroup.js?:50:5)
+    at CSSTransitionGroup (webpack:///../node_modules/react-transition-group/CSSTransitionGroup.js?:56:5)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at _Assessment (webpack:///./web/containers/Assessment/Assessment.jsx?:151:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12051ms] [WARNING] i18next::interpolator: missed to pass in variable name for interpolating Private to {{name}} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12061ms] [WARNING] Supplying an `onDownArrow` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12061ms] [WARNING] Supplying an `onTab` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12061ms] [WARNING] Supplying an `onUpArrow` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12064ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s StudentAssessment @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12064ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Toolbar @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12067ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12072ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: http://openlearning.test/media/chunks/e9955780856cf8aa.woff2?v=4.7.0 @ webpack:///../node_modules/react-input-autosize/lib/AutosizeInput.js?:48
+[   12102ms] [WARNING] i18next::interpolator: missed to pass in variable name for interpolating Private to {{name}} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12439ms] [WARNING] i18next::interpolator: missed to pass in variable name for interpolating Private to {{name}} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12883ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `ExamReport`.  
+    at render
+    at ExamReport (webpack:///./web/components/Assessment/StudentAssessment/ExamReport/component.tsx?:73:5)
+    at student-assessment
+    at StudentAssessment (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessment.jsx?:114:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at StudentAssessmentRoute (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessmentRoute.tsx?:36:5)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CSSTransitionGroupChild (webpack:///../node_modules/react-transition-group/CSSTransitionGroupChild.js?:83:5)
+    at assessment-container
+    at TransitionGroup (webpack:///../node_modules/react-transition-group/TransitionGroup.js?:50:5)
+    at CSSTransitionGroup (webpack:///../node_modules/react-transition-group/CSSTransitionGroup.js?:56:5)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at _Assessment (webpack:///./web/containers/Assessment/Assessment.jsx?:151:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   12891ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   13217ms] [WARNING] The specified value "!" does not conform to the required format.  The format is "#rrggbb" where rr, gg, bb are two-digit hexadecimal numbers. @ http://openlearning.test/media/lib/jquery/jquery-1.8.3.js:6324
+[   15069ms] [INFO] [FrontChat][Front] SDK Version: 9.74.4 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   19151ms] [INFO] [FrontChat][Front] FrontChat Version: 9.74.4 @ https://chat-assets.frontapp.com/v1/app.bundle.js?v=9531b45d:1
+[   20051ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   20052ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   20052ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   22398ms] [WARNING] The resource https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://openlearning.test/assessment/assess/69e032c0e0a18d63516a0833/622ff2fc8dba254d8050a4cb/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course&page=1&pageSize=10&showStaff=false&students=:0
+[   24523ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2 @ https://www.gstatic.com/recaptcha/releases/gTpTIWhbKpxADzTzkcabhXN4/recaptcha__en.js:303
+[   42747ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   42750ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   42750ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   57067ms] [ERROR] The pseudo class ":first-child" is potentially unsafe when doing server-side rendering. Try changing it to ":first-of-type". @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   76564ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   76568ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   76569ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  126641ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  126647ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  126647ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138536ms] [WARNING] Supplying an `onDownArrow` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138537ms] [WARNING] Supplying an `onTab` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138537ms] [WARNING] Supplying an `onUpArrow` prop to `DraftEditor` has been deprecated. If your handler needs access to the keyboard event, supply a custom `keyBindingFn` prop that falls back to the default one (eg. https://is.gd/wHKQ3W). @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138539ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Paginate_ @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138539ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s Paginate_ @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138810ms] [LOG] 🚀 ~ CodeRunner ~ criteria: {_id: 69e06ecf5a9ba08f10ddcea6, questionScore: 3, questionRationalScores: Array(3), questionWeightScores: Array(3), questionId: 69dc74cfc841dfa030d3e2a7} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138810ms] [LOG] 🚀 ~ CodeRunner ~ evaluation: {coursePath: institutiontestpath/courses/second-course, unweightedScore: 100, finalMark: 3, isWithheld: false, numCriteria: 1} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138810ms] [LOG] 🚀 ~ CodeRunner ~ attempt: {isTaken: true, isMarked: true, givenScore: 3, maximumScore: 3, dateMarked: 2026-04-16T05:08:31.479000+00:00} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138810ms] [LOG] false false @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138810ms] [LOG] index 1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138810ms] [LOG] SCORE,  1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138827ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138827ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138828ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138828ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138829ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138830ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138830ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138830ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138838ms] [ERROR] Warning: getDefaultProps is only used on classic React.createClass definitions. Use a static property named `defaultProps` instead.%s 
+    at t (webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:8:37382)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at LongFormResponse (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/Interaction/LongFormResponse/component.tsx?:91:3)
+    at SectionInteractionRenderer (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/component.tsx?:59:5)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at QuestionPreview (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/component.tsx?:83:5)
+    at QuestionPreviewProvider (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/context.tsx?:225:3)
+    at WithProvider
+    at div
+    at render
+    at div
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at Sidebar (webpack:///./web/components/Sidebar/component.tsx?:21:3)
+    at QuestionPreviewSidebar (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewSidebar/component.tsx?:55:5)
+    at div
+    at render
+    at ExamReport (webpack:///./web/components/Assessment/StudentAssessment/ExamReport/component.tsx?:73:5)
+    at student-assessment
+    at StudentAssessment (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessment.jsx?:114:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at StudentAssessmentRoute (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessmentRoute.tsx?:36:5)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CSSTransitionGroupChild (webpack:///../node_modules/react-transition-group/CSSTransitionGroupChild.js?:83:5)
+    at assessment-container
+    at TransitionGroup (webpack:///../node_modules/react-transition-group/TransitionGroup.js?:50:5)
+    at CSSTransitionGroup (webpack:///../node_modules/react-transition-group/CSSTransitionGroup.js?:56:5)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at _Assessment (webpack:///./web/containers/Assessment/Assessment.jsx?:151:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138847ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s TinyMCE @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138847ms] [WARNING] Warning: componentWillReceiveProps has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+* Rename componentWillReceiveProps to UNSAFE_componentWillReceiveProps to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s TinyMCE @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138912ms] [INFO] Slow network is detected. See https://www.chromestatus.com/feature/5636954674692096 for more details. Fallback font will be used while loading: http://openlearning.test/media/chunks/d295b60cbaaae803.woff @ webpack:///../node_modules/tinymce/themes/modern/theme.js?:1451
+[  138953ms] [WARNING] setNativeProps is deprecated. Please update props using React state instead. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138972ms] [LOG] 🚀 ~ CodeRunner ~ criteria: {_id: 69e06ecf5a9ba08f10ddcea6, questionScore: 3, questionRationalScores: Array(3), questionWeightScores: Array(3), questionId: 69dc74cfc841dfa030d3e2a7} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138972ms] [LOG] 🚀 ~ CodeRunner ~ evaluation: {coursePath: institutiontestpath/courses/second-course, unweightedScore: 100, finalMark: 3, isWithheld: false, numCriteria: 1} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138972ms] [LOG] 🚀 ~ CodeRunner ~ attempt: {isTaken: true, isMarked: true, givenScore: 3, maximumScore: 3, dateMarked: 2026-04-16T05:08:31.479000+00:00} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138972ms] [LOG] true false @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138972ms] [LOG] index 1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138973ms] [LOG] SCORE,  1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138989ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138990ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138990ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138991ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138991ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138992ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138992ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  138992ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139016ms] [LOG] 🚀 ~ CodeRunner ~ criteria: {_id: 69e06ecf5a9ba08f10ddcea6, questionScore: 3, questionRationalScores: Array(3), questionWeightScores: Array(3), questionId: 69dc74cfc841dfa030d3e2a7} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139016ms] [LOG] 🚀 ~ CodeRunner ~ evaluation: {coursePath: institutiontestpath/courses/second-course, unweightedScore: 100, finalMark: 3, isWithheld: false, numCriteria: 1} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139017ms] [LOG] 🚀 ~ CodeRunner ~ attempt: {isTaken: true, isMarked: true, givenScore: 3, maximumScore: 3, dateMarked: 2026-04-16T05:08:31.479000+00:00} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139017ms] [LOG] true false @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139017ms] [LOG] index 1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139017ms] [LOG] SCORE,  1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139025ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139026ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139027ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139027ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139028ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139028ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139029ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139030ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139496ms] [LOG] 🚀 ~ CodeRunner ~ criteria: {_id: 69e06ecf5a9ba08f10ddcea6, questionScore: 3, questionRationalScores: Array(3), questionWeightScores: Array(3), questionId: 69dc74cfc841dfa030d3e2a7} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139496ms] [LOG] 🚀 ~ CodeRunner ~ evaluation: {coursePath: institutiontestpath/courses/second-course, unweightedScore: 100, finalMark: 3, isWithheld: false, numCriteria: 1} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139496ms] [LOG] 🚀 ~ CodeRunner ~ attempt: {isTaken: true, isMarked: true, givenScore: 3, maximumScore: 3, dateMarked: 2026-04-16T05:08:31.479000+00:00} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139496ms] [LOG] true false @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139496ms] [LOG] index 1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139496ms] [LOG] SCORE,  1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139507ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139508ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139508ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139508ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139509ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139509ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139509ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139510ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139528ms] [LOG] 🚀 ~ CodeRunner ~ criteria: {_id: 69e06ecf5a9ba08f10ddcea6, questionScore: 3, questionRationalScores: Array(3), questionWeightScores: Array(3), questionId: 69dc74cfc841dfa030d3e2a7} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139528ms] [LOG] 🚀 ~ CodeRunner ~ evaluation: {coursePath: institutiontestpath/courses/second-course, unweightedScore: 100, finalMark: 3, isWithheld: false, numCriteria: 1} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139528ms] [LOG] 🚀 ~ CodeRunner ~ attempt: {isTaken: true, isMarked: true, givenScore: 3, maximumScore: 3, dateMarked: 2026-04-16T05:08:31.479000+00:00} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139528ms] [LOG] true false @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139529ms] [LOG] index 1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139529ms] [LOG] SCORE,  1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139532ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139532ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139533ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139533ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139533ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139534ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139535ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139537ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139541ms] [ERROR] Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s secondaryFill secondaryfill 
+    at path
+    at Path (webpack:///../node_modules/react-native-svg/lib/module/ReactNativeSVG.web.js?:1:12872)
+    at svg
+    at Svg (webpack:///../node_modules/react-native-svg/lib/module/ReactNativeSVG.web.js?:1:15192)
+    at FontAwesomeIcon (webpack:///../node_modules/@fortawesome/react-native-fontawesome/dist/components/FontAwesomeIcon.js?:78:24)
+    at div
+    at eval (webpack:///../node_modules/react-native-web/dist/exports/View/index.js?:52:25)
+    at div
+    at eval (webpack:///../node_modules/react-native-web/dist/exports/View/index.js?:52:25)
+    at t.WidgetCorrectness (webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:3:22517)
+    at div
+    at eval (webpack:///../node_modules/react-native-web/dist/exports/View/index.js?:52:25)
+    at t.MatchIt (webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:67:286225)
+    at MatchIt (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/Interaction/MatchIt/component.tsx?:35:5)
+    at SectionInteractionRenderer (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/component.tsx?:59:5)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at QuestionPreview (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/component.tsx?:83:5)
+    at QuestionPreviewProvider (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/context.tsx?:225:3)
+    at WithProvider
+    at div
+    at render
+    at div
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at Sidebar (webpack:///./web/components/Sidebar/component.tsx?:21:3)
+    at QuestionPreviewSidebar (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewSidebar/component.tsx?:55:5)
+    at div
+    at render
+    at ExamReport (webpack:///./web/components/Assessment/StudentAssessment/ExamReport/component.tsx?:73:5)
+    at student-assessment
+    at StudentAssessment (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessment.jsx?:114:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at StudentAssessmentRoute (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessmentRoute.tsx?:36:5)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CSSTransitionGroupChild (webpack:///../node_modules/react-transition-group/CSSTransitionGroupChild.js?:83:5)
+    at assessment-container
+    at TransitionGroup (webpack:///../node_modules/react-transition-group/TransitionGroup.js?:50:5)
+    at CSSTransitionGroup (webpack:///../node_modules/react-transition-group/CSSTransitionGroup.js?:56:5)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at _Assessment (webpack:///./web/containers/Assessment/Assessment.jsx?:151:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139541ms] [ERROR] Warning: React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.%s secondaryOpacity secondaryopacity 
+    at path
+    at Path (webpack:///../node_modules/react-native-svg/lib/module/ReactNativeSVG.web.js?:1:12872)
+    at svg
+    at Svg (webpack:///../node_modules/react-native-svg/lib/module/ReactNativeSVG.web.js?:1:15192)
+    at FontAwesomeIcon (webpack:///../node_modules/@fortawesome/react-native-fontawesome/dist/components/FontAwesomeIcon.js?:78:24)
+    at div
+    at eval (webpack:///../node_modules/react-native-web/dist/exports/View/index.js?:52:25)
+    at div
+    at eval (webpack:///../node_modules/react-native-web/dist/exports/View/index.js?:52:25)
+    at t.WidgetCorrectness (webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:3:22517)
+    at div
+    at eval (webpack:///../node_modules/react-native-web/dist/exports/View/index.js?:52:25)
+    at t.MatchIt (webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:67:286225)
+    at MatchIt (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/Interaction/MatchIt/component.tsx?:35:5)
+    at SectionInteractionRenderer (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/component.tsx?:59:5)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at QuestionPreview (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/component.tsx?:83:5)
+    at QuestionPreviewProvider (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewModal/context.tsx?:225:3)
+    at WithProvider
+    at div
+    at render
+    at div
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at Sidebar (webpack:///./web/components/Sidebar/component.tsx?:21:3)
+    at QuestionPreviewSidebar (webpack:///./web/components/Assessment/QuestionBank/QuestionPreviewSidebar/component.tsx?:55:5)
+    at div
+    at render
+    at ExamReport (webpack:///./web/components/Assessment/StudentAssessment/ExamReport/component.tsx?:73:5)
+    at student-assessment
+    at StudentAssessment (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessment.jsx?:114:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at StudentAssessmentRoute (webpack:///./web/components/Assessment/StudentAssessment/StudentAssessmentRoute.tsx?:36:5)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at CSSTransitionGroupChild (webpack:///../node_modules/react-transition-group/CSSTransitionGroupChild.js?:83:5)
+    at assessment-container
+    at TransitionGroup (webpack:///../node_modules/react-transition-group/TransitionGroup.js?:50:5)
+    at CSSTransitionGroup (webpack:///../node_modules/react-transition-group/CSSTransitionGroup.js?:56:5)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at _Assessment (webpack:///./web/containers/Assessment/Assessment.jsx?:151:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139557ms] [LOG] 🚀 ~ CodeRunner ~ criteria: {_id: 69e06ecf5a9ba08f10ddcea6, questionScore: 3, questionRationalScores: Array(3), questionWeightScores: Array(3), questionId: 69dc74cfc841dfa030d3e2a7} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139557ms] [LOG] 🚀 ~ CodeRunner ~ evaluation: {coursePath: institutiontestpath/courses/second-course, unweightedScore: 100, finalMark: 3, isWithheld: false, numCriteria: 1} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139558ms] [LOG] 🚀 ~ CodeRunner ~ attempt: {isTaken: true, isMarked: true, givenScore: 3, maximumScore: 3, dateMarked: 2026-04-16T05:08:31.479000+00:00} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139558ms] [LOG] true false @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139558ms] [LOG] index 1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139558ms] [LOG] SCORE,  1 @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139564ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139565ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139566ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139567ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139568ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139569ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139570ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  139571ms] [ERROR] Unexpected text node: . A text node cannot be a child of a <View>. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  186655ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  186658ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  186659ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  246663ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  246667ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  246667ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  247717ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[  247740ms] AxiosError
+[  306683ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  306728ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  306730ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  366705ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  366722ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  366723ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  426718ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  426735ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  426736ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  486749ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[  486774ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  486786ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[  489111ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[  489201ms] AxiosError
