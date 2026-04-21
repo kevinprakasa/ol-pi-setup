@@ -2,7 +2,7 @@
 
 Quick reference guide for all daily memory entries, tracking work progress, key decisions, and completed projects.
 
-**Total Entries:** 1 | **This Week:** 1 | **This Month:** 1
+**Total Entries:** 2 | **This Week:** 2 | **This Month:** 2
 
 ---
 
@@ -10,11 +10,37 @@ Quick reference guide for all daily memory entries, tracking work progress, key 
 
 | Date | Summary | Tasks | Status |
 |------|---------|-------|--------|
+| [2026-04-21](#2026-04-21) | Critical scoring model fix, question_set_id scoping, grading pipeline refactor | 17/19 ✓ | In Progress |
 | [2026-04-14](#2026-04-14) | Exam code grading stamp refactoring, bug fixes, re-run integrations planning | 21/27 ✓ | In Progress |
 
 ---
 
 ## 🔄 Recent Memories (Last 5 Days)
+
+### 2026-04-21
+**Critical Scoring Model Fix & Question Set Scoping**
+
+**Summary:** Deep review of the exam code widget grading flow uncovered a critical scoring bug (REVIEW-14): `resolve_exam_code_grading` treated code widget scores as the entire question score, destroying MCQ/FITB scores. Refactored to per-widget section patching using the same 3-level weighted formula as `_get_score`. Added `question_set_id` throughout the entire pipeline to prevent Redis key collisions when the same question appears standalone and in a question set.
+
+**Key Accomplishments:**
+- ✓ Fixed REVIEW-14: 3-level scoring model (code_exec × widget_weight × question_exam_score)
+- ✓ Fixed REVIEW-1, 2, 5, 10, 12: TIMEOUT scores, code_files indexing, TOCTOU race, print→logger, Fraction precision
+- ✓ Removed `aggregate_widget_results` — fundamentally wrong approach
+- ✓ Added `question_set_id` to Redis keys, callback URLs, HMAC tokens, timeout messages, criterion matching
+- ✓ Section metadata (section_index, weights, exam_score) stored in Redis at registration time
+- ✓ 16 unit tests passing, 3 new question-set isolation tests
+- ✓ Fixed `Fraction(float, int)` runtime crash
+
+**Files Modified:** 8 files across ol-async-engine
+
+**Decisions Made:** 4 (per-widget scoring, Redis metadata, question_set_id scoping, fail-fast IndexError)
+
+**Status:** `In Progress` — E2E testing needed, concurrency guard still open
+
+**Tags:** `bug-fix`, `architecture`, `refactoring`, `scoring`, `exam-grading`
+
+**Links:**
+- [Notes](memory/2026-04-21/notes.md) | [Tasks](memory/2026-04-21/tasks.md) | [Decisions](memory/2026-04-21/decisions.md)
 
 ### 2026-04-14
 **Exam Code Grading Pipeline Refactoring & Architecture**
@@ -48,7 +74,11 @@ Quick reference guide for all daily memory entries, tracking work progress, key 
 ## 📌 Quick Navigation by Topic
 
 ### Exam Code Grading System
-- **Latest Entry:** [2026-04-14](memory/2026-04-14/notes.md)
+- **Latest Entry:** [2026-04-21](memory/2026-04-21/notes.md)
+  - Critical scoring model fix (REVIEW-14)
+  - question_set_id scoping across entire pipeline
+  - Per-widget section patching replaces aggregation
+- **Previous:** [2026-04-14](memory/2026-04-14/notes.md)
   - Stamp architecture finalized
   - Bug fixes in evaluation write path
   - Re-run integrations planned
@@ -62,8 +92,8 @@ Quick reference guide for all daily memory entries, tracking work progress, key 
 
 ### Blocked Items
 - **HTML entity encoding in code templates** — write-time issue in OpenLearningEngine save path (investigation in progress)
-- **Judge0 RapidAPI subscription** — expired, needs renewal
-- **TODO-3 (Redis timeout handling)** — scoring correctness risk (deferred until design clarified)
+- **REVIEW-4 (concurrency guard)** — no distributed lock on `resolve_exam_code_grading`, two concurrent last-widget callbacks could both trigger it
+- **TODO-3 / REVIEW-3 (Redis timeout handling)** — expired keys cause degenerate resolution
 
 ---
 
@@ -74,13 +104,16 @@ Exam Code Grading Feature:
   ├─ Phase 1: Stamp persistence (DONE)
   ├─ Phase 2: Client UI for results (DONE)
   ├─ Phase 3: Re-run integrations (PLANNED)
-  └─ Issues: HTML encoding, Judge0 subscription
+  ├─ Scoring model fix (DONE — 2026-04-21)
+  ├─ question_set_id scoping (DONE — 2026-04-21)
+  └─ Issues: concurrency guard, SAS TTL, rate limiting
 
 Code Execution Widget:
   ├─ Refactored grading logic (DONE)
   ├─ Fixed binding bugs (DONE)
   ├─ Fixed score calculation (DONE)
-  └─ Status: Ready for re-run work
+  ├─ Per-widget section patching (DONE — 2026-04-21)
+  └─ Status: E2E testing needed
 ```
 
 ---
@@ -89,12 +122,12 @@ Code Execution Widget:
 
 | Metric | Count |
 |--------|-------|
-| Total Daily Entries | 1 |
-| Total Tasks Completed | 21 |
-| Tasks In Progress | 1 |
-| Tasks Planned | 5 |
-| Decisions Made | 8 |
-| Files Modified | 14+ |
+| Total Daily Entries | 2 |
+| Total Tasks Completed | 38 |
+| Tasks In Progress | 3 |
+| Tasks Planned | 8 |
+| Decisions Made | 12 |
+| Files Modified | 22+ |
 | Open Issues | 3 |
 
 ---
