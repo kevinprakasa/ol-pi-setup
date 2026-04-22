@@ -1,0 +1,713 @@
+- generic [ref=e2]:
+  - region
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+              - generic [ref=e53]: Search or jump to...
+              - img [ref=e55]
+            - link "Sign in" [ref=e59] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fforrestchang%2Fandrej-karpathy-skills
+            - link "Sign up" [ref=e60] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=forrestchang%2Fandrej-karpathy-skills
+            - button "Appearance settings" [ref=e63] [cursor=pointer]:
+              - img
+  - main [ref=e67]:
+    - generic [ref=e68]:
+      - generic [ref=e69]:
+        - generic [ref=e71]:
+          - img [ref=e72]
+          - link "forrestchang" [ref=e75] [cursor=pointer]:
+            - /url: /forrestchang
+          - generic [ref=e76]: /
+          - strong [ref=e77]:
+            - link "andrej-karpathy-skills" [ref=e78] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills
+          - generic [ref=e79]: Public
+        - generic [ref=e80]:
+          - list:
+            - listitem [ref=e81]:
+              - link "You must be signed in to change notification settings" [ref=e82] [cursor=pointer]:
+                - /url: /login?return_to=%2Fforrestchang%2Fandrej-karpathy-skills
+                - img [ref=e83]
+                - text: Notifications
+            - listitem [ref=e85]:
+              - link "Fork 6.6k" [ref=e86] [cursor=pointer]:
+                - /url: /login?return_to=%2Fforrestchang%2Fandrej-karpathy-skills
+                - img [ref=e87]
+                - text: Fork
+                - generic "6,565" [ref=e89]: 6.6k
+            - listitem [ref=e90]:
+              - link "You must be signed in to star a repository" [ref=e92] [cursor=pointer]:
+                - /url: /login?return_to=%2Fforrestchang%2Fandrej-karpathy-skills
+                - img [ref=e93]
+                - text: Star
+                - generic "71987 users starred this repository" [ref=e95]: 72k
+      - navigation "Repository" [ref=e96]:
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Code" [ref=e99] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills
+              - img [ref=e100]
+              - generic [ref=e102]: Code
+          - listitem [ref=e103]:
+            - link "Pull requests 36" [ref=e104] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/pulls
+              - img [ref=e105]
+              - generic [ref=e107]: Pull requests
+              - generic "36" [ref=e108]
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e141]:
+      - heading "forrestchang/andrej-karpathy-skills" [level=1] [ref=e143]
+      - generic [ref=e144]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "main branch" [ref=e151] [cursor=pointer]:
+                - generic [ref=e152]:
+                  - generic [ref=e154]:
+                    - img [ref=e156]
+                    - generic [ref=e159]: main
+                  - generic:
+                    - img
+              - generic [ref=e160]:
+                - link "5 Branches" [ref=e161] [cursor=pointer]:
+                  - /url: /forrestchang/andrej-karpathy-skills/branches
+                  - generic [ref=e162]:
+                    - generic:
+                      - img
+                    - generic [ref=e164]:
+                      - strong [ref=e165]: "5"
+                      - text: Branches
+                - link "0 Tags" [ref=e166] [cursor=pointer]:
+                  - /url: /forrestchang/andrej-karpathy-skills/tags
+                  - generic [ref=e167]:
+                    - generic:
+                      - img
+                    - generic [ref=e169]:
+                      - strong [ref=e170]: "0"
+                      - text: Tags
+            - generic [ref=e171]:
+              - generic [ref=e175]:
+                - img [ref=e177]
+                - combobox "Go to file" [ref=e179]
+              - button "Code" [ref=e180] [cursor=pointer]:
+                - generic [ref=e181]:
+                  - generic:
+                    - img
+                  - generic [ref=e182]: Code
+                  - generic:
+                    - img
+          - generic [ref=e183]:
+            - generic [ref=e184]:
+              - heading "Folders and files" [level=2] [ref=e185]
+              - table "Folders and files" [ref=e186]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e187]:
+                  - row "Latest commit herobrine19 commits by herobrine19 Sync Chinese README with English version (add Cursor section) (#95) Commit 2c60614 · Apr 20, 20262 days ago History 28 Commits" [ref=e188]:
+                    - cell "Latest commit herobrine19 commits by herobrine19 Sync Chinese README with English version (add Cursor section) (#95) Commit 2c60614 · Apr 20, 20262 days ago History 28 Commits" [ref=e189]:
+                      - generic [ref=e190]:
+                        - heading "Latest commit" [level=2] [ref=e191]
+                        - generic [ref=e192]:
+                          - generic [ref=e194]:
+                            - link "herobrine19" [ref=e195] [cursor=pointer]:
+                              - /url: /herobrine19
+                              - img "herobrine19" [ref=e196]
+                            - link "commits by herobrine19" [ref=e197] [cursor=pointer]:
+                              - /url: /forrestchang/andrej-karpathy-skills/commits?author=herobrine19
+                              - text: herobrine19
+                          - generic [ref=e200]:
+                            - link "Sync Chinese README with English version (add Cursor section) (" [ref=e201] [cursor=pointer]:
+                              - /url: /forrestchang/andrej-karpathy-skills/commit/2c606141936f1eeef17fa3043a72095b4765b9c2
+                            - link "#95" [ref=e202] [cursor=pointer]:
+                              - /url: https://github.com/forrestchang/andrej-karpathy-skills/pull/95
+                            - link ")" [ref=e203] [cursor=pointer]:
+                              - /url: /forrestchang/andrej-karpathy-skills/commit/2c606141936f1eeef17fa3043a72095b4765b9c2
+                        - generic [ref=e204]:
+                          - generic [ref=e206]:
+                            - link "Commit 2c60614" [ref=e207] [cursor=pointer]:
+                              - /url: /forrestchang/andrej-karpathy-skills/commit/2c606141936f1eeef17fa3043a72095b4765b9c2
+                              - text: 2c60614
+                            - text: ·
+                            - generic "Apr 20, 2026, 10:05 PM GMT+12" [ref=e208]: Apr 20, 20262 days ago
+                          - generic [ref=e209]:
+                            - heading "History" [level=2] [ref=e210]
+                            - link "28 Commits" [ref=e211] [cursor=pointer]:
+                              - /url: /forrestchang/andrej-karpathy-skills/commits/main/
+                              - generic [ref=e212]:
+                                - generic:
+                                  - img
+                                - generic [ref=e213]: 28 Commits
+                  - row ".claude-plugin, (Directory) Fix plugin.json schema validation errors Feb 1, 20262 months ago" [ref=e214]:
+                    - cell ".claude-plugin, (Directory)" [ref=e215]:
+                      - generic [ref=e216]:
+                        - img [ref=e217]
+                        - link ".claude-plugin, (Directory)" [ref=e222] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/tree/main/.claude-plugin
+                          - text: .claude-plugin
+                    - cell "Fix plugin.json schema validation errors" [ref=e223]:
+                      - link "Fix plugin.json schema validation errors" [ref=e226] [cursor=pointer]:
+                        - /url: /forrestchang/andrej-karpathy-skills/commit/68b67a5bd77bddcbe88704abd9211e1de14e0860
+                    - cell "Feb 1, 20262 months ago" [ref=e227]:
+                      - generic [ref=e228]: Feb 1, 20262 months ago
+                  - row ".cursor/rules, (Directory) add cursor support (#92) Apr 19, 20263 days ago" [ref=e229]:
+                    - cell ".cursor/rules, (Directory)" [ref=e230]:
+                      - generic [ref=e231]:
+                        - img [ref=e232]
+                        - link ".cursor/rules, (Directory)" [ref=e237] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/tree/main/.cursor/rules
+                          - text: .cursor/rules
+                    - cell "add cursor support (#92)" [ref=e238]:
+                      - generic [ref=e240]:
+                        - link "add cursor support (" [ref=e241] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/commit/fb7a22c8fda2c445197fe300bbc979045e1bca1c
+                        - link "#92" [ref=e242] [cursor=pointer]:
+                          - /url: https://github.com/forrestchang/andrej-karpathy-skills/pull/92
+                        - link ")" [ref=e243] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/commit/fb7a22c8fda2c445197fe300bbc979045e1bca1c
+                    - cell "Apr 19, 20263 days ago" [ref=e244]:
+                      - generic [ref=e245]: Apr 19, 20263 days ago
+                  - 'row "skills/karpathy-guidelines, (Directory) refactor: restructure repo for skills.sh compatibility Jan 28, 20263 months ago" [ref=e246]':
+                    - cell "skills/karpathy-guidelines, (Directory)" [ref=e247]:
+                      - generic [ref=e248]:
+                        - img [ref=e249]
+                        - link "skills/karpathy-guidelines, (Directory)" [ref=e254] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/tree/main/skills/karpathy-guidelines
+                          - text: skills/karpathy-guidelines
+                    - 'cell "refactor: restructure repo for skills.sh compatibility" [ref=e255]':
+                      - 'link "refactor: restructure repo for skills.sh compatibility" [ref=e258] [cursor=pointer]':
+                        - /url: /forrestchang/andrej-karpathy-skills/commit/64723a49ea6117894304eb491f0d32a60570bf45
+                    - cell "Jan 28, 20263 months ago" [ref=e259]:
+                      - generic [ref=e260]: Jan 28, 20263 months ago
+                  - row "CLAUDE.md, (File) Add Karpathy-inspired Claude Code guidelines Jan 27, 20263 months ago" [ref=e261]:
+                    - cell "CLAUDE.md, (File)" [ref=e262]:
+                      - generic [ref=e263]:
+                        - img [ref=e264]
+                        - link "CLAUDE.md, (File)" [ref=e269] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/blob/main/CLAUDE.md
+                          - text: CLAUDE.md
+                    - cell "Add Karpathy-inspired Claude Code guidelines" [ref=e270]:
+                      - link "Add Karpathy-inspired Claude Code guidelines" [ref=e273] [cursor=pointer]:
+                        - /url: /forrestchang/andrej-karpathy-skills/commit/8462496b34419f20b32778610571ac723e91f94c
+                    - cell "Jan 27, 20263 months ago" [ref=e274]:
+                      - generic [ref=e275]: Jan 27, 20263 months ago
+                  - row "CURSOR.md, (File) add cursor support (#92) Apr 19, 20263 days ago" [ref=e276]:
+                    - cell "CURSOR.md, (File)" [ref=e277]:
+                      - generic [ref=e278]:
+                        - img [ref=e279]
+                        - link "CURSOR.md, (File)" [ref=e284] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/blob/main/CURSOR.md
+                          - text: CURSOR.md
+                    - cell "add cursor support (#92)" [ref=e285]:
+                      - generic [ref=e287]:
+                        - link "add cursor support (" [ref=e288] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/commit/fb7a22c8fda2c445197fe300bbc979045e1bca1c
+                        - link "#92" [ref=e289] [cursor=pointer]:
+                          - /url: https://github.com/forrestchang/andrej-karpathy-skills/pull/92
+                        - link ")" [ref=e290] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/commit/fb7a22c8fda2c445197fe300bbc979045e1bca1c
+                    - cell "Apr 19, 20263 days ago" [ref=e291]:
+                      - generic [ref=e292]: Apr 19, 20263 days ago
+                  - row "EXAMPLES.md, (File) Add examples of coding principles and common mistakes Jan 30, 20263 months ago" [ref=e293]:
+                    - cell "EXAMPLES.md, (File)" [ref=e294]:
+                      - generic [ref=e295]:
+                        - img [ref=e296]
+                        - link "EXAMPLES.md, (File)" [ref=e301] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/blob/main/EXAMPLES.md
+                          - text: EXAMPLES.md
+                    - cell "Add examples of coding principles and common mistakes" [ref=e302]:
+                      - link "Add examples of coding principles and common mistakes" [ref=e305] [cursor=pointer]:
+                        - /url: /forrestchang/andrej-karpathy-skills/commit/4f6e050640cb6039c3320774b8a7521684e135f2
+                    - cell "Jan 30, 20263 months ago" [ref=e306]:
+                      - generic [ref=e307]: Jan 30, 20263 months ago
+                  - row "README.md, (File) add cursor support (#92) Apr 19, 20263 days ago" [ref=e308]:
+                    - cell "README.md, (File)" [ref=e309]:
+                      - generic [ref=e310]:
+                        - img [ref=e311]
+                        - link "README.md, (File)" [ref=e316] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/blob/main/README.md
+                          - text: README.md
+                    - cell "add cursor support (#92)" [ref=e317]:
+                      - generic [ref=e319]:
+                        - link "add cursor support (" [ref=e320] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/commit/fb7a22c8fda2c445197fe300bbc979045e1bca1c
+                        - link "#92" [ref=e321] [cursor=pointer]:
+                          - /url: https://github.com/forrestchang/andrej-karpathy-skills/pull/92
+                        - link ")" [ref=e322] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/commit/fb7a22c8fda2c445197fe300bbc979045e1bca1c
+                    - cell "Apr 19, 20263 days ago" [ref=e323]:
+                      - generic [ref=e324]: Apr 19, 20263 days ago
+                  - row "README.zh.md, (File) Sync Chinese README with English version (add Cursor section) (#95) Apr 20, 20262 days ago" [ref=e325]:
+                    - cell "README.zh.md, (File)" [ref=e326]:
+                      - generic [ref=e327]:
+                        - img [ref=e328]
+                        - link "README.zh.md, (File)" [ref=e333] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/blob/main/README.zh.md
+                          - text: README.zh.md
+                    - cell "Sync Chinese README with English version (add Cursor section) (#95)" [ref=e334]:
+                      - generic [ref=e336]:
+                        - link "Sync Chinese README with English version (add Cursor section) (" [ref=e337] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/commit/2c606141936f1eeef17fa3043a72095b4765b9c2
+                        - link "#95" [ref=e338] [cursor=pointer]:
+                          - /url: https://github.com/forrestchang/andrej-karpathy-skills/pull/95
+                        - link ")" [ref=e339] [cursor=pointer]:
+                          - /url: /forrestchang/andrej-karpathy-skills/commit/2c606141936f1eeef17fa3043a72095b4765b9c2
+                    - cell "Apr 20, 20262 days ago" [ref=e340]:
+                      - generic [ref=e341]: Apr 20, 20262 days ago
+            - generic [ref=e343]:
+              - generic [ref=e344]:
+                - heading "Repository files navigation" [level=2] [ref=e345]
+                - navigation "Repository files" [ref=e346]:
+                  - list [ref=e347]:
+                    - listitem [ref=e348]:
+                      - link "README" [ref=e349] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e351]
+                        - generic [ref=e353]: README
+                - button "Outline" [ref=e354] [cursor=pointer]:
+                  - img [ref=e355]
+              - article [ref=e358]:
+                - generic [ref=e359]:
+                  - heading "Karpathy-Inspired Claude Code Guidelines" [level=1] [ref=e360]
+                  - 'link "Permalink: Karpathy-Inspired Claude Code Guidelines" [ref=e361] [cursor=pointer]':
+                    - /url: "#karpathy-inspired-claude-code-guidelines"
+                    - img [ref=e362]
+                - blockquote [ref=e364]:
+                  - paragraph [ref=e365]:
+                    - text: Check out my new project
+                    - link "Multica" [ref=e366] [cursor=pointer]:
+                      - /url: https://github.com/multica-ai/multica
+                    - text: — an open-source platform for running and managing coding agents with reusable skills.
+                  - paragraph [ref=e367]:
+                    - text: "Follow me on X:"
+                    - link "https://x.com/jiayuan_jy" [ref=e368] [cursor=pointer]:
+                      - /url: https://x.com/jiayuan_jy
+                - paragraph [ref=e369]:
+                  - text: A single
+                  - code [ref=e370]: CLAUDE.md
+                  - text: file to improve Claude Code behavior, derived from
+                  - link "Andrej Karpathy's observations" [ref=e371] [cursor=pointer]:
+                    - /url: https://x.com/karpathy/status/2015883857489522876
+                  - text: on LLM coding pitfalls.
+                - paragraph [ref=e372]:
+                  - text: English |
+                  - link "简体中文" [ref=e373] [cursor=pointer]:
+                    - /url: /forrestchang/andrej-karpathy-skills/blob/main/README.zh.md
+                - generic [ref=e374]:
+                  - heading "The Problems" [level=2] [ref=e375]
+                  - 'link "Permalink: The Problems" [ref=e376] [cursor=pointer]':
+                    - /url: "#the-problems"
+                    - img [ref=e377]
+                - paragraph [ref=e379]: "From Andrej's post:"
+                - blockquote [ref=e380]:
+                  - paragraph [ref=e381]: "\"The models make wrong assumptions on your behalf and just run along with them without checking. They don't manage their confusion, don't seek clarifications, don't surface inconsistencies, don't present tradeoffs, don't push back when they should.\""
+                - blockquote [ref=e382]:
+                  - paragraph [ref=e383]: "\"They really like to overcomplicate code and APIs, bloat abstractions, don't clean up dead code... implement a bloated construction over 1000 lines when 100 would do.\""
+                - blockquote [ref=e384]:
+                  - paragraph [ref=e385]: "\"They still sometimes change/remove comments and code they don't sufficiently understand as side effects, even if orthogonal to the task.\""
+                - generic [ref=e386]:
+                  - heading "The Solution" [level=2] [ref=e387]
+                  - 'link "Permalink: The Solution" [ref=e388] [cursor=pointer]':
+                    - /url: "#the-solution"
+                    - img [ref=e389]
+                - paragraph [ref=e391]: "Four principles in one file that directly address these issues:"
+                - table [ref=e393]:
+                  - rowgroup [ref=e394]:
+                    - row "Principle Addresses" [ref=e395]:
+                      - columnheader "Principle" [ref=e396]
+                      - columnheader "Addresses" [ref=e397]
+                  - rowgroup [ref=e398]:
+                    - row "Think Before Coding Wrong assumptions, hidden confusion, missing tradeoffs" [ref=e399]:
+                      - cell "Think Before Coding" [ref=e400]:
+                        - strong [ref=e401]: Think Before Coding
+                      - cell "Wrong assumptions, hidden confusion, missing tradeoffs" [ref=e402]
+                    - row "Simplicity First Overcomplication, bloated abstractions" [ref=e403]:
+                      - cell "Simplicity First" [ref=e404]:
+                        - strong [ref=e405]: Simplicity First
+                      - cell "Overcomplication, bloated abstractions" [ref=e406]
+                    - row "Surgical Changes Orthogonal edits, touching code you shouldn't" [ref=e407]:
+                      - cell "Surgical Changes" [ref=e408]:
+                        - strong [ref=e409]: Surgical Changes
+                      - cell "Orthogonal edits, touching code you shouldn't" [ref=e410]
+                    - row "Goal-Driven Execution Leverage through tests-first, verifiable success criteria" [ref=e411]:
+                      - cell "Goal-Driven Execution" [ref=e412]:
+                        - strong [ref=e413]: Goal-Driven Execution
+                      - cell "Leverage through tests-first, verifiable success criteria" [ref=e414]
+                - generic [ref=e415]:
+                  - heading "The Four Principles in Detail" [level=2] [ref=e416]
+                  - 'link "Permalink: The Four Principles in Detail" [ref=e417] [cursor=pointer]':
+                    - /url: "#the-four-principles-in-detail"
+                    - img [ref=e418]
+                - generic [ref=e420]:
+                  - heading "1. Think Before Coding" [level=3] [ref=e421]
+                  - 'link "Permalink: 1. Think Before Coding" [ref=e422] [cursor=pointer]':
+                    - /url: "#1-think-before-coding"
+                    - img [ref=e423]
+                - paragraph [ref=e425]:
+                  - strong [ref=e426]: Don't assume. Don't hide confusion. Surface tradeoffs.
+                - paragraph [ref=e427]: "LLMs often pick an interpretation silently and run with it. This principle forces explicit reasoning:"
+                - list [ref=e428]:
+                  - listitem [ref=e429]:
+                    - strong [ref=e430]: State assumptions explicitly
+                    - text: — If uncertain, ask rather than guess
+                  - listitem [ref=e431]:
+                    - strong [ref=e432]: Present multiple interpretations
+                    - text: — Don't pick silently when ambiguity exists
+                  - listitem [ref=e433]:
+                    - strong [ref=e434]: Push back when warranted
+                    - text: — If a simpler approach exists, say so
+                  - listitem [ref=e435]:
+                    - strong [ref=e436]: Stop when confused
+                    - text: — Name what's unclear and ask for clarification
+                - generic [ref=e437]:
+                  - heading "2. Simplicity First" [level=3] [ref=e438]
+                  - 'link "Permalink: 2. Simplicity First" [ref=e439] [cursor=pointer]':
+                    - /url: "#2-simplicity-first"
+                    - img [ref=e440]
+                - paragraph [ref=e442]:
+                  - strong [ref=e443]: Minimum code that solves the problem. Nothing speculative.
+                - paragraph [ref=e444]: "Combat the tendency toward overengineering:"
+                - list [ref=e445]:
+                  - listitem [ref=e446]: No features beyond what was asked
+                  - listitem [ref=e447]: No abstractions for single-use code
+                  - listitem [ref=e448]: No "flexibility" or "configurability" that wasn't requested
+                  - listitem [ref=e449]: No error handling for impossible scenarios
+                  - listitem [ref=e450]: If 200 lines could be 50, rewrite it
+                - paragraph [ref=e451]:
+                  - strong [ref=e452]: "The test:"
+                  - text: Would a senior engineer say this is overcomplicated? If yes, simplify.
+                - generic [ref=e453]:
+                  - heading "3. Surgical Changes" [level=3] [ref=e454]
+                  - 'link "Permalink: 3. Surgical Changes" [ref=e455] [cursor=pointer]':
+                    - /url: "#3-surgical-changes"
+                    - img [ref=e456]
+                - paragraph [ref=e458]:
+                  - strong [ref=e459]: Touch only what you must. Clean up only your own mess.
+                - paragraph [ref=e460]: "When editing existing code:"
+                - list [ref=e461]:
+                  - listitem [ref=e462]: Don't "improve" adjacent code, comments, or formatting
+                  - listitem [ref=e463]: Don't refactor things that aren't broken
+                  - listitem [ref=e464]: Match existing style, even if you'd do it differently
+                  - listitem [ref=e465]: If you notice unrelated dead code, mention it — don't delete it
+                - paragraph [ref=e466]: "When your changes create orphans:"
+                - list [ref=e467]:
+                  - listitem [ref=e468]: Remove imports/variables/functions that YOUR changes made unused
+                  - listitem [ref=e469]: Don't remove pre-existing dead code unless asked
+                - paragraph [ref=e470]:
+                  - strong [ref=e471]: "The test:"
+                  - text: Every changed line should trace directly to the user's request.
+                - generic [ref=e472]:
+                  - heading "4. Goal-Driven Execution" [level=3] [ref=e473]
+                  - 'link "Permalink: 4. Goal-Driven Execution" [ref=e474] [cursor=pointer]':
+                    - /url: "#4-goal-driven-execution"
+                    - img [ref=e475]
+                - paragraph [ref=e477]:
+                  - strong [ref=e478]: Define success criteria. Loop until verified.
+                - paragraph [ref=e479]: "Transform imperative tasks into verifiable goals:"
+                - table [ref=e481]:
+                  - rowgroup [ref=e482]:
+                    - row "Instead of... Transform to..." [ref=e483]:
+                      - columnheader "Instead of..." [ref=e484]
+                      - columnheader "Transform to..." [ref=e485]
+                  - rowgroup [ref=e486]:
+                    - row "\"Add validation\" \"Write tests for invalid inputs, then make them pass\"" [ref=e487]:
+                      - cell "\"Add validation\"" [ref=e488]
+                      - cell "\"Write tests for invalid inputs, then make them pass\"" [ref=e489]
+                    - row "\"Fix the bug\" \"Write a test that reproduces it, then make it pass\"" [ref=e490]:
+                      - cell "\"Fix the bug\"" [ref=e491]
+                      - cell "\"Write a test that reproduces it, then make it pass\"" [ref=e492]
+                    - row "\"Refactor X\" \"Ensure tests pass before and after\"" [ref=e493]:
+                      - cell "\"Refactor X\"" [ref=e494]
+                      - cell "\"Ensure tests pass before and after\"" [ref=e495]
+                - paragraph [ref=e496]: "For multi-step tasks, state a brief plan:"
+                - generic [ref=e497]:
+                  - code [ref=e499]: "1. [Step] → verify: [check] 2. [Step] → verify: [check] 3. [Step] → verify: [check]"
+                  - button "Copy" [ref=e501] [cursor=pointer]:
+                    - img [ref=e502]
+                - paragraph [ref=e505]: Strong success criteria let the LLM loop independently. Weak criteria ("make it work") require constant clarification.
+                - generic [ref=e506]:
+                  - heading "Install" [level=2] [ref=e507]
+                  - 'link "Permalink: Install" [ref=e508] [cursor=pointer]':
+                    - /url: "#install"
+                    - img [ref=e509]
+                - paragraph [ref=e511]:
+                  - strong [ref=e512]: "Option A: Claude Code Plugin (recommended)"
+                - paragraph [ref=e513]: "From within Claude Code, first add the marketplace:"
+                - generic [ref=e514]:
+                  - code [ref=e516]: /plugin marketplace add forrestchang/andrej-karpathy-skills
+                  - button "Copy" [ref=e518] [cursor=pointer]:
+                    - img [ref=e519]
+                - paragraph [ref=e522]: "Then install the plugin:"
+                - generic [ref=e523]:
+                  - code [ref=e525]: /plugin install andrej-karpathy-skills@karpathy-skills
+                  - button "Copy" [ref=e527] [cursor=pointer]:
+                    - img [ref=e528]
+                - paragraph [ref=e531]: This installs the guidelines as a Claude Code plugin, making the skill available across all your projects.
+                - paragraph [ref=e532]:
+                  - strong [ref=e533]: "Option B: CLAUDE.md (per-project)"
+                - paragraph [ref=e534]: "New project:"
+                - generic [ref=e535]:
+                  - generic [ref=e536]: curl -o CLAUDE.md https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md
+                  - button "Copy" [ref=e538] [cursor=pointer]:
+                    - img [ref=e539]
+                - paragraph [ref=e542]: "Existing project (append):"
+                - generic [ref=e543]:
+                  - generic [ref=e544]:
+                    - text: echo
+                    - generic [ref=e545]: "\"\""
+                    - text: ">> CLAUDE.md curl https://raw.githubusercontent.com/forrestchang/andrej-karpathy-skills/main/CLAUDE.md >> CLAUDE.md"
+                  - button "Copy" [ref=e547] [cursor=pointer]:
+                    - img [ref=e548]
+                - generic [ref=e551]:
+                  - heading "Using with Cursor" [level=2] [ref=e552]
+                  - 'link "Permalink: Using with Cursor" [ref=e553] [cursor=pointer]':
+                    - /url: "#using-with-cursor"
+                    - img [ref=e554]
+                - paragraph [ref=e556]:
+                  - text: This repository includes a committed Cursor project rule (
+                  - link ".cursor/rules/karpathy-guidelines.mdc" [ref=e557] [cursor=pointer]:
+                    - /url: /forrestchang/andrej-karpathy-skills/blob/main/.cursor/rules/karpathy-guidelines.mdc
+                    - code [ref=e558]: .cursor/rules/karpathy-guidelines.mdc
+                  - text: ) so the same guidelines apply when you open the project in Cursor. See
+                  - strong [ref=e559]:
+                    - link "CURSOR.md" [ref=e560] [cursor=pointer]:
+                      - /url: /forrestchang/andrej-karpathy-skills/blob/main/CURSOR.md
+                  - text: for setup, using the rule in other projects, and how this relates to Claude Code.
+                - generic [ref=e561]:
+                  - heading "Key Insight" [level=2] [ref=e562]
+                  - 'link "Permalink: Key Insight" [ref=e563] [cursor=pointer]':
+                    - /url: "#key-insight"
+                    - img [ref=e564]
+                - paragraph [ref=e566]: "From Andrej:"
+                - blockquote [ref=e567]:
+                  - paragraph [ref=e568]: "\"LLMs are exceptionally good at looping until they meet specific goals... Don't tell it what to do, give it success criteria and watch it go.\""
+                - paragraph [ref=e569]: "The \"Goal-Driven Execution\" principle captures this: transform imperative instructions into declarative goals with verification loops."
+                - generic [ref=e570]:
+                  - heading "How to Know It's Working" [level=2] [ref=e571]
+                  - 'link "Permalink: How to Know It''s Working" [ref=e572] [cursor=pointer]':
+                    - /url: "#how-to-know-its-working"
+                    - img [ref=e573]
+                - paragraph [ref=e575]: "These guidelines are working if you see:"
+                - list [ref=e576]:
+                  - listitem [ref=e577]:
+                    - strong [ref=e578]: Fewer unnecessary changes in diffs
+                    - text: — Only requested changes appear
+                  - listitem [ref=e579]:
+                    - strong [ref=e580]: Fewer rewrites due to overcomplication
+                    - text: — Code is simple the first time
+                  - listitem [ref=e581]:
+                    - strong [ref=e582]: Clarifying questions come before implementation
+                    - text: — Not after mistakes
+                  - listitem [ref=e583]:
+                    - strong [ref=e584]: Clean, minimal PRs
+                    - text: — No drive-by refactoring or "improvements"
+                - generic [ref=e585]:
+                  - heading "Customization" [level=2] [ref=e586]
+                  - 'link "Permalink: Customization" [ref=e587] [cursor=pointer]':
+                    - /url: "#customization"
+                    - img [ref=e588]
+                - paragraph [ref=e590]:
+                  - text: These guidelines are designed to be merged with project-specific instructions. Add them to your existing
+                  - code [ref=e591]: CLAUDE.md
+                  - text: or create a new one.
+                - paragraph [ref=e592]: "For project-specific rules, add sections like:"
+                - generic [ref=e593]:
+                  - generic [ref=e594]:
+                    - generic [ref=e595]: "## Project-Specific Guidelines"
+                    - text: "- Use TypeScript strict mode - All API endpoints must have tests - Follow the existing error handling patterns in `src/utils/errors.ts`"
+                  - button "Copy" [ref=e597] [cursor=pointer]:
+                    - img [ref=e598]
+                - generic [ref=e601]:
+                  - heading "Tradeoff Note" [level=2] [ref=e602]
+                  - 'link "Permalink: Tradeoff Note" [ref=e603] [cursor=pointer]':
+                    - /url: "#tradeoff-note"
+                    - img [ref=e604]
+                - paragraph [ref=e606]:
+                  - text: These guidelines bias toward
+                  - strong [ref=e607]: caution over speed
+                  - text: . For trivial tasks (simple typo fixes, obvious one-liners), use judgment — not every change needs the full rigor.
+                - paragraph [ref=e608]: The goal is reducing costly mistakes on non-trivial work, not slowing down simple tasks.
+                - generic [ref=e609]:
+                  - heading "License" [level=2] [ref=e610]
+                  - 'link "Permalink: License" [ref=e611] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e612]
+                - paragraph [ref=e614]: MIT
+        - generic [ref=e618]:
+          - generic [ref=e621]:
+            - heading "About" [level=2] [ref=e622]
+            - paragraph [ref=e623]: A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+            - heading "Resources" [level=3] [ref=e624]
+            - link "Readme" [ref=e626] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e627]
+              - text: Readme
+            - link "Activity" [ref=e630] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/activity
+              - img [ref=e631]
+              - text: Activity
+            - heading "Stars" [level=3] [ref=e633]
+            - link "72k stars" [ref=e635] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/stargazers
+              - img [ref=e636]
+              - strong [ref=e638]: 72k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e639]
+            - link "386 watching" [ref=e641] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/watchers
+              - img [ref=e642]
+              - strong [ref=e644]: "386"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e645]
+            - link "6.6k forks" [ref=e647] [cursor=pointer]:
+              - /url: /forrestchang/andrej-karpathy-skills/forks
+              - img [ref=e648]
+              - strong [ref=e650]: 6.6k
+              - text: forks
+            - link "Report repository" [ref=e652] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fforrestchang%2Fandrej-karpathy-skills&report=forrestchang+%28user%29
+          - generic [ref=e654]:
+            - heading "Releases" [level=2] [ref=e655]:
+              - link "Releases" [ref=e656] [cursor=pointer]:
+                - /url: /forrestchang/andrej-karpathy-skills/releases
+            - generic [ref=e657]: No releases published
+          - generic [ref=e659]:
+            - heading "Packages" [level=2] [ref=e660]:
+              - link "Packages" [ref=e661] [cursor=pointer]:
+                - /url: /users/forrestchang/packages?repo_name=andrej-karpathy-skills
+            - generic [ref=e662]: No packages published
+          - generic [ref=e664]:
+            - heading "Contributors 8" [level=2] [ref=e665]:
+              - link "Contributors 8" [ref=e666] [cursor=pointer]:
+                - /url: /forrestchang/andrej-karpathy-skills/graphs/contributors
+                - text: Contributors
+                - generic "8" [ref=e667]
+            - list [ref=e668]:
+              - listitem [ref=e669]:
+                - link "@forrestchang" [ref=e670] [cursor=pointer]:
+                  - /url: https://github.com/forrestchang
+                  - img "@forrestchang" [ref=e671]
+              - listitem [ref=e672]:
+                - link "@claude" [ref=e673] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e674]
+              - listitem [ref=e675]:
+                - link "@back1ply" [ref=e676] [cursor=pointer]:
+                  - /url: https://github.com/back1ply
+                  - img "@back1ply" [ref=e677]
+              - listitem [ref=e678]:
+                - link "@herobrine19" [ref=e679] [cursor=pointer]:
+                  - /url: https://github.com/herobrine19
+                  - img "@herobrine19" [ref=e680]
+              - listitem [ref=e681]:
+                - link "@szkocot" [ref=e682] [cursor=pointer]:
+                  - /url: https://github.com/szkocot
+                  - img "@szkocot" [ref=e683]
+              - listitem [ref=e684]:
+                - link "@azakharko" [ref=e685] [cursor=pointer]:
+                  - /url: https://github.com/azakharko
+                  - img "@azakharko" [ref=e686]
+              - listitem [ref=e687]:
+                - link "@TomBener" [ref=e688] [cursor=pointer]:
+                  - /url: https://github.com/TomBener
+                  - img "@TomBener" [ref=e689]
+              - listitem [ref=e690]:
+                - link "@HOLYKEYZ" [ref=e691] [cursor=pointer]:
+                  - /url: https://github.com/HOLYKEYZ
+                  - img "@HOLYKEYZ" [ref=e692]
+  - contentinfo [ref=e694]:
+    - heading "Footer" [level=2] [ref=e695]
+    - generic [ref=e696]:
+      - generic [ref=e697]:
+        - link "GitHub Homepage" [ref=e698] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e699]
+        - generic [ref=e701]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e702]:
+        - heading "Footer navigation" [level=3] [ref=e703]
+        - list "Footer navigation" [ref=e704]:
+          - listitem [ref=e705]:
+            - link "Terms" [ref=e706] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e707]:
+            - link "Privacy" [ref=e708] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e709]:
+            - link "Security" [ref=e710] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e711]:
+            - link "Status" [ref=e712] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e713]:
+            - link "Community" [ref=e714] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e715]:
+            - link "Docs" [ref=e716] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e717]:
+            - link "Contact" [ref=e718] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e719]:
+            - button "Manage cookies" [ref=e721] [cursor=pointer]
+          - listitem [ref=e722]:
+            - button "Do not share my personal information" [ref=e724] [cursor=pointer]

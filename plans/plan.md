@@ -31,6 +31,7 @@ Per-widget contribution = (code_exec_value / code_exec_max)
 ```
 
 **Example:**
+
 ```
 Exam A: 30 total
 ├── Question 1: 10 marks (weights: MCQ=5, code=3, code=2 → total=10)
@@ -58,13 +59,13 @@ sequenceDiagram
     participant ServiceBus as Azure Service Bus
 
     Student->>ExamEngine: Submit exam
+    ExamEngine-->>Student: 200 OK (non-blocking)
     ExamEngine->>AsyncEngine: Webhook (submit_exam)
-    ExamEngine-->>Student: 200 OK
 
     AsyncEngine->>AsyncEngine: Grade MCQ/ShortAnswer inline
     AsyncEngine->>Redis: Register all code widgets as PENDING<br/>(with section metadata: index, weight, total_weights, exam_score)
+    AsyncEngine->>ServiceBus: Schedule timeout (+3540s) per widget
     AsyncEngine->>CodeExec: POST /submission per code widget
-    AsyncEngine->>ServiceBus: Schedule timeout (+3540s)
 
     CodeExec->>Judge0: Run code
     Judge0-->>CodeExec: Result
@@ -81,6 +82,7 @@ sequenceDiagram
 ```
 
 **3 key phases:**
+
 1. **Submit** — ExamEngine receives, delegates to AsyncEngine immediately
 2. **Execute** — AsyncEngine fans out code widgets to CodeExec → Judge0 async
 3. **Resolve** — Callbacks trickle back; patch per-section scores; finalize when all widgets done (or timeout)
@@ -108,30 +110,140 @@ exam_grade_q_widgets:{attempt}:{qset}:{question}
 
 ---
 
-## Completed Implementation (Phases 1–6)
+## Detailed Grading Flow Diagram
+
+```mermaid
+sequenceDiagram
+    participant Student as ol-exam-client
+    participant ExamEngine as ol-exam-engine
+    participant AsyncEngine as ol-async-engine
+    participant Redis
+    participant MongoDB
+    participant CodeExec as code_execution
+    participant Judge0
+    participant ServiceBus as Azure Service Bus
+
+    %% ── Exam Submission ──────────────────────────────────────────────────
+    Student->>ExamEngine: POST /submitExam
+    ExamEngine->>AsyncEngine: Webhook (submit_exam)
+    ExamEngine-->>Student: 200 OK (non-blocking)
+    activate AsyncEngine
+
+    Note over AsyncEngine,MongoDB: Inside MongoDB transaction
+    AsyncEngine->>MongoDB: Grade MCQ/FITB inline via _get_score()<br/>Write ExamAttemptCriterionEvaluation per question<br/>(markingState=UNMARKED for code sections)
+    AsyncEngine->>MongoDB: Write ExamAttemptEvaluation (isMarked=False)
+    Note over AsyncEngine,MongoDB: Transaction committed
+
+    Note over AsyncEngine,Redis: Register ALL widgets before firing ANY webhook
+    loop For each code widget (all questions)
+        AsyncEngine->>Redis: SET exam_grade:{attempt}:{qs}:{q}:{w}<br/>{status:PENDING, section_index, section_weight,<br/>total_question_weights, question_exam_score} TTL=3720s
+        AsyncEngine->>Redis: SADD exam_grade_pending:{attempt}:{qs}:{q} {widget_id}
+        AsyncEngine->>Redis: SADD exam_grade_q_widgets:{attempt}:{qs}:{q} {widget_id}
+    end
+
+    loop For each code widget (fire webhooks)
+        AsyncEngine->>ServiceBus: Schedule timeout message (now + 3540s)
+        AsyncEngine->>CodeExec: POST /submission<br/>(payload + HMAC sig + callback_token bound to attempt/qs/q/w)
+        CodeExec-->>AsyncEngine: 202 acknowledged
+    end
+    deactivate AsyncEngine
+
+    %% ── Code Execution ───────────────────────────────────────────────────
+    Note over CodeExec,Judge0: Async execution
+    CodeExec->>Judge0: Submit code
+    Judge0-->>CodeExec: {status, stdout, score:{value, max}, feedback}
+
+    %% ── Happy Path: Callback ─────────────────────────────────────────────
+    CodeExec->>AsyncEngine: PUT /webhook/exam/codeResult/{attempt}/{qs}/{q}/{w}/callback<br/>body: {score, feedback, token} + x-ol-signature header
+    activate AsyncEngine
+
+    AsyncEngine->>AsyncEngine: verify_hmac_signature(body, x-ol-signature)
+    AsyncEngine->>AsyncEngine: verify_exam_grading_callback_token(token, attempt, qs, q, w)
+
+    AsyncEngine->>Redis: SET exam_grade:{attempt}:{qs}:{q}:{w}<br/>{status:DONE, result:{score,text,feedback}}
+    AsyncEngine->>Redis: SREM exam_grade_pending:{attempt}:{qs}:{q} {widget_id}
+    AsyncEngine->>Redis: SCARD exam_grade_pending:{attempt}:{qs}:{q} → remaining
+
+    alt remaining > 0 — other widgets still pending
+        AsyncEngine-->>CodeExec: 200 ok
+    else remaining == 0 — all widgets resolved
+        AsyncEngine->>Redis: SMEMBERS exam_grade_q_widgets:{attempt}:{qs}:{q} → all widget_ids
+        loop For each widget_id
+            AsyncEngine->>Redis: GET exam_grade:{attempt}:{qs}:{q}:{w} → state
+        end
+        Note over AsyncEngine: widget_states_map assembled
+
+        AsyncEngine->>MongoDB: Fetch latest ExamAttemptCriterionEvaluations for attempt
+        AsyncEngine->>AsyncEngine: Find target criterion by (questionId + questionSetId)
+        AsyncEngine->>MongoDB: Fetch AssessmentEvaluation, CohortMembership, ExamRevision
+
+        Note over AsyncEngine: Patch per-section arrays (non-code sections preserved)
+        loop For each code widget in widget_states_map
+            AsyncEngine->>AsyncEngine: _compute_widget_section_score()<br/>rational = (code_value/code_max) × (section_weight/total_weights) × exam_score<br/>marking = CORRECT if code_value >= code_max else INCORRECT
+            AsyncEngine->>AsyncEngine: scores_list[section_index] = rational_score<br/>weights_list[section_index] = weight<br/>marking_states_list[section_index] = marking
+        end
+
+        AsyncEngine->>AsyncEngine: question_score = sum(scores_list)<br/>attempt_total = sum all criteria scores
+
+        AsyncEngine->>MongoDB: push_latest_exam_attempt_evaluation()<br/>Insert ExamAttemptCriterionEvaluation (patched)<br/>Insert ExamAttemptEvaluation
+
+        AsyncEngine->>MongoDB: _write_widget_stamps()<br/>Upsert Stamp per widget (resourceName=examAttemptCriterionEvaluation,<br/>resourceId=criterion_evaluation_id, widgetId=widget_id)
+
+        alt All criteria now marked (isMarked=True)
+            AsyncEngine->>MongoDB: handle_replace_final_evaluation()
+            AsyncEngine->>AsyncEngine: update_lti_lineitem_grade()
+            AsyncEngine->>AsyncEngine: publish_report_results_updated_events()
+        end
+
+        AsyncEngine-->>CodeExec: 200 ok
+    end
+    deactivate AsyncEngine
+
+    %% ── Timeout Path ─────────────────────────────────────────────────────
+    Note over ServiceBus: Fires at submit_time + 3540s if widget still PENDING
+    ServiceBus->>AsyncEngine: handle_timeout_exam_code_grading(attempt, qs, q, w)
+    activate AsyncEngine
+
+    AsyncEngine->>Redis: GET exam_grade:{attempt}:{qs}:{q}:{w} → state
+
+    alt state is None (Redis key expired) or status != PENDING
+        Note over AsyncEngine: Real callback already arrived — no-op
+    else status == PENDING
+        AsyncEngine->>Redis: SET exam_grade:{attempt}:{qs}:{q}:{w} {status:TIMEOUT}
+        AsyncEngine->>Redis: SREM exam_grade_pending:{attempt}:{qs}:{q} {widget_id}
+        AsyncEngine->>Redis: SCARD exam_grade_pending:{attempt}:{qs}:{q} → remaining
+
+        alt remaining == 0 — all widgets resolved (some via timeout)
+            AsyncEngine->>AsyncEngine: resolve_exam_code_grading()<br/>(TIMEOUT widgets → result=None → score=0 for that section)
+        end
+    end
+    deactivate AsyncEngine
+```
+
+---
 
 All phases are implemented and working:
 
-| Phase | Description | Status |
-|-------|-------------|--------|
+| Phase   | Description                                | Status  |
+| ------- | ------------------------------------------ | ------- |
 | Phase 1 | Backend grading pipeline (ol-async-engine) | ✅ Done |
-| Phase 2 | Stamp persistence for per-widget feedback | ✅ Done |
-| Phase 3 | Code execution service (code_execution) | ✅ Done |
-| Phase 4 | Exam engine integration (ol-exam-engine) | ✅ Done |
-| Phase 5 | Exam client UI (ol-exam-client) | ✅ Done |
+| Phase 2 | Stamp persistence for per-widget feedback  | ✅ Done |
+| Phase 3 | Code execution service (code_execution)    | ✅ Done |
+| Phase 4 | Exam engine integration (ol-exam-engine)   | ✅ Done |
+| Phase 5 | Exam client UI (ol-exam-client)            | ✅ Done |
 | Phase 6 | Admin UI enhancements (OpenLearningClient) | ✅ Done |
 
 ### Key Files
 
-| File | Role |
-|------|------|
-| `exam_submission_helper.py` | `assess_exam_txn` detects code widgets, collects `pending_code_executions` with section metadata, fires webhooks |
-| `exam_grading_helpers.py` | Redis state model — `create_exam_grading_run`, `resolve_exam_grading_run`, `mark_exam_grading_timeout`, `get_question_widget_states_map` |
-| `exam_code_grading_helper.py` | `resolve_exam_code_grading` — patches per-section arrays, recalculates scores, writes stamps, publishes events |
-| `client.py` | HMAC token create/verify, `send_submission_webhook` |
-| `webhook/main.py` | Callback endpoint, signature verification |
-| `timeout_exam_code_grading_helper.py` | Timeout sweeper — marks TIMEOUT, triggers scoring if last widget |
-| `converter_helper.py` | `CodeInteraction.check_result()` → UNMARKED |
+| File                                  | Role                                                                                                                                     |
+| ------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| `exam_submission_helper.py`           | `assess_exam_txn` detects code widgets, collects `pending_code_executions` with section metadata, fires webhooks                         |
+| `exam_grading_helpers.py`             | Redis state model — `create_exam_grading_run`, `resolve_exam_grading_run`, `mark_exam_grading_timeout`, `get_question_widget_states_map` |
+| `exam_code_grading_helper.py`         | `resolve_exam_code_grading` — patches per-section arrays, recalculates scores, writes stamps, publishes events                           |
+| `client.py`                           | HMAC token create/verify, `send_submission_webhook`                                                                                      |
+| `webhook/main.py`                     | Callback endpoint, signature verification                                                                                                |
+| `timeout_exam_code_grading_helper.py` | Timeout sweeper — marks TIMEOUT, triggers scoring if last widget                                                                         |
+| `converter_helper.py`                 | `CodeInteraction.check_result()` → UNMARKED                                                                                              |
 
 ---
 
@@ -160,14 +272,6 @@ Both callback and timeout paths can reach `resolve_exam_code_grading` simultaneo
 ---
 
 ### 🟡 Medium Priority
-
-#### REVIEW-6: Stamp `widgetId` Stored Top-Level
-
-_File:_ `exam_code_grading_helper.py`
-
-`_write_widget_stamps` stores `widgetId` at the top level of the stamp document, not inside `data`. Standard Stamp schema expects all custom fields inside `data`. Generic stamp query tools won't find it.
-
----
 
 #### REVIEW-7: No Retry on `send_submission_webhook` Failure
 
@@ -221,23 +325,23 @@ No tests for `_compute_widget_section_score`, `resolve_exam_code_grading` scorin
 
 ### Summary Table
 
-| ID | Severity | Issue | Status |
-|----|----------|-------|--------|
+| ID        | Severity    | Issue                                                            | Status   |
+| --------- | ----------- | ---------------------------------------------------------------- | -------- |
 | REVIEW-14 | 🔴 Critical | Scoring model mismatch — code widgets treated as entire question | ✅ Fixed |
-| REVIEW-1 | 🔴 Major | TIMEOUT widgets contribute 0/0 → inflated scores | ✅ Fixed |
-| REVIEW-2 | 🔴 Major | `code_files` always index 0 — multi-widget wrong code | ✅ Fixed |
-| REVIEW-5 | 🟡 Medium | TOCTOU race on `is_question_all_widgets_resolved` | ✅ Fixed |
-| REVIEW-10 | 🟢 Minor | `print()` leaks payloads to stdout | ✅ Fixed |
-| REVIEW-12 | 🟢 Minor | `Fraction` precision inconsistency | ✅ Fixed |
-| TODO-3 | 🔴 High | Timeout handler no-ops on expired Redis keys | Open |
-| REVIEW-4 | 🔴 High | No concurrency guard on resolve | Open |
-| REVIEW-6 | 🟡 Medium | Stamp widgetId top-level vs data convention | Open |
-| REVIEW-7 | 🟡 Medium | No retry on webhook failure | Open |
-| REVIEW-8 | 🟡 Medium | SAS token TTL too short | Open |
-| REVIEW-9 | 🟡 Medium | No rate limiting on Run button | Open |
-| Phase 7 | 🟡 Medium | Student review UI for code feedback | Open |
-| REVIEW-11 | 🟢 Minor | Score.max optional → silent 0 | Open |
-| REVIEW-13 | 🟢 Minor | Unit tests for scoring logic | Open |
+| REVIEW-1  | 🔴 Major    | TIMEOUT widgets contribute 0/0 → inflated scores                 | ✅ Fixed |
+| REVIEW-2  | 🔴 Major    | `code_files` always index 0 — multi-widget wrong code            | ✅ Fixed |
+| REVIEW-5  | 🟡 Medium   | TOCTOU race on `is_question_all_widgets_resolved`                | ✅ Fixed |
+| REVIEW-10 | 🟢 Minor    | `print()` leaks payloads to stdout                               | ✅ Fixed |
+| REVIEW-12 | 🟢 Minor    | `Fraction` precision inconsistency                               | ✅ Fixed |
+| TODO-3    | 🔴 High     | Timeout handler no-ops on expired Redis keys                     | Open     |
+| REVIEW-4  | 🔴 High     | No concurrency guard on resolve                                  | Open     |
+| REVIEW-6  | 🟡 Medium   | Stamp widgetId top-level vs data convention                      | Open     |
+| REVIEW-7  | 🟡 Medium   | No retry on webhook failure                                      | Open     |
+| REVIEW-8  | 🟡 Medium   | SAS token TTL too short                                          | Open     |
+| REVIEW-9  | 🟡 Medium   | No rate limiting on Run button                                   | Open     |
+| Phase 7   | 🟡 Medium   | Student review UI for code feedback                              | Open     |
+| REVIEW-11 | 🟢 Minor    | Score.max optional → silent 0                                    | Open     |
+| REVIEW-13 | 🟢 Minor    | Unit tests for scoring logic                                     | Open     |
 
 ---
 
