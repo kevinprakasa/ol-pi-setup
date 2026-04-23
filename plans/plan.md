@@ -53,9 +53,9 @@ sequenceDiagram
     participant Student as ol-exam-client
     participant ExamEngine as ol-exam-engine
     participant AsyncEngine as ol-async-engine
+    participant Redis
     participant CodeExec as code_execution
     participant Judge0
-    participant Redis
     participant ServiceBus as Azure Service Bus
 
     Student->>ExamEngine: Submit exam
