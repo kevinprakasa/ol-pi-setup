@@ -1,10 +1,11 @@
 import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
+import { execSync } from "node:child_process";
 
 /**
  * Memory Reminder Extension
  *
  * This extension reminds you to update the daily memory folder when you start a session.
- * It checks if today's memory folder exists and prompts you to update it.
+ * It checks if today's memory folder exists, creates it with carry-forward from yesterday.
  */
 export default function (pi: ExtensionAPI) {
   let reminderShown = false;
@@ -35,15 +36,22 @@ export default function (pi: ExtensionAPI) {
         pi.sendUserMessage(`/update-memory ${today}`);
       }
     } catch {
-      // Folder doesn't exist - offer to create it
+      // Folder doesn't exist - create it with carry-forward from yesterday
       const shouldCreate = await ctx.ui.confirm(
         "Daily Memory",
-        `Create today's memory folder (${today})?`
+        `Create today's memory folder (${today})?\n\nPrevious day's tasks will be carried forward.`
       );
 
       if (shouldCreate) {
-        ctx.ui.notify("Creating memory folder...", "info");
-        pi.sendUserMessage(`Create a new daily memory folder for ${today} using create_daily_memory.sh`);
+        ctx.ui.notify("Creating memory folder with carry-forward...", "info");
+        
+        // Run the create script which carries forward from yesterday
+        try {
+          execSync(`bash create_daily_memory.sh ${today}`, { cwd: process.cwd(), stdio: "pipe" });
+          ctx.ui.notify("Memory folder created with previous tasks", "success");
+        } catch (err) {
+          ctx.ui.notify("Failed to create memory folder", "error");
+        }
       }
     }
   });
