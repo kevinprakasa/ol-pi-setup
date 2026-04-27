@@ -1,0 +1,97 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e9]:
+            - img "institutiontest"
+          - generic [ref=e10]: institutiontest
+        - button "Exam menu" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: Exam menu
+        - button "en" [ref=e13] [cursor=pointer]
+        - button "Debug (QA Only)" [ref=e14] [cursor=pointer]:
+          - generic [ref=e15]: Debug (QA Only)
+      - button "Submit and finish" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: Submit and finish
+    - generic [ref=e21]:
+      - generic [ref=e24]:
+        - generic [ref=e26]: Question 1 of 1
+        - generic [ref=e28]:
+          - generic [ref=e29]: palindrome python zip configs
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - img "Code widget" [ref=e33]
+              - generic [ref=e34]: Code widget
+            - tablist [ref=e38]:
+              - tab "main.py" [selected] [ref=e42] [cursor=pointer]:
+                - generic "main.py" [ref=e43]:
+                  - generic [ref=e44]: main.py
+            - code [ref=e48]:
+              - generic [ref=e49]:
+                - textbox "Editor content"
+                - textbox [ref=e50]
+                - generic [ref=e52]:
+                  - generic [ref=e53]:
+                    - generic [ref=e55] [cursor=pointer]: 
+                    - generic [ref=e56]: "1"
+                  - generic [ref=e58]: "2"
+                  - generic [ref=e60]: "3"
+                  - generic [ref=e62]: "4"
+                  - generic [ref=e63]:
+                    - generic [ref=e64] [cursor=pointer]: 
+                    - generic [ref=e65]: "5"
+                  - generic [ref=e67]: "6"
+                  - generic [ref=e69]: "7"
+                  - generic [ref=e70]:
+                    - generic [ref=e71] [cursor=pointer]: 
+                    - generic [ref=e72]: "8"
+                  - generic [ref=e74]: "9"
+                  - generic [ref=e76]: "10"
+                  - generic [ref=e78]: "11"
+                  - generic [ref=e80]: "12"
+                  - generic [ref=e82]: "13"
+                  - generic [ref=e84]: "14"
+                  - generic [ref=e85]:
+                    - generic [ref=e86] [cursor=pointer]: 
+                    - generic [ref=e87]: "15"
+                  - generic [ref=e89]: "16"
+                  - generic [ref=e91]: "17"
+                  - generic [ref=e93]: "18"
+                - generic [ref=e130]:
+                  - generic [ref=e132]: "def is_palindrome(s):"
+                  - generic [ref=e134]: "\"\"\""
+                  - generic [ref=e136]: Check if a string is a palindrome, ignoring spaces, punctuation, and case.
+                  - generic [ref=e139]: "Args:"
+                  - generic [ref=e141]: "s (str): The input string."
+                  - generic [ref=e144]: "Returns:"
+                  - generic [ref=e146]: "bool: True if the string is a palindrome, False otherwise."
+                  - generic [ref=e148]: "\"\"\""
+                  - generic [ref=e150]: "# TODO: Implement this function"
+                  - generic [ref=e152]: pass
+                  - generic [ref=e156]: "if __name__ == \"__main__\":"
+                  - generic [ref=e158]: text = input()
+                  - generic [ref=e160]: result = is_palindrome(text)
+                  - generic [ref=e162]: "print(f'is_palindrome(\"{text}\") = {result}')"
+            - generic [ref=e167]:
+              - tablist [ref=e168]:
+                - generic [ref=e170]:
+                  - tab "Input" [ref=e172] [cursor=pointer]
+                  - tab "Output" [active] [selected] [ref=e174] [cursor=pointer]
+                - button "Run code" [ref=e177] [cursor=pointer]:
+                  - img [ref=e178]
+                  - generic [ref=e180]: Run code
+              - tabpanel "Output" [ref=e216]:
+                - generic [ref=e218]: Run your code to see output here.
+        - button "Submit and finish" [ref=e199] [cursor=pointer]:
+          - generic [ref=e200]: Submit and finish
+      - generic [ref=e202]:
+        - heading "Question List" [level=3] [ref=e204]
+        - link "Question 1" [ref=e206] [cursor=pointer]:
+          - /url: /exams/69e81d7e91475a0efae1462e/launch/?questionIdx=1
+          - img [ref=e208]
+          - generic [ref=e210]: Question 1
+        - button "Hide question list" [ref=e213] [cursor=pointer]:
+          - generic [ref=e214]: Hide question list
+  - generic [ref=e215]:
+    - alert
+    - alert

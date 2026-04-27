@@ -1,0 +1,466 @@
+- generic [ref=e1]:
+  - img
+  - navigation [ref=e4]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - link "Skip to canvas" [ref=e10] [cursor=pointer]:
+          - /url: "#storybook-preview-wrapper"
+        - link "Storybook" [ref=e12] [cursor=pointer]:
+          - /url: ./
+          - img "Storybook" [ref=e13]
+        - button "Shortcuts" [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+      - generic [ref=e23]: Search for components
+      - combobox "Search for components" [ref=e24]:
+        - img
+        - searchbox "Search for components" [ref=e25]
+        - code: /
+      - generic [ref=e30]:
+        - button "Accordion" [ref=e31] [cursor=pointer]:
+          - generic [ref=e32]:
+            - paragraph
+            - img [ref=e34]
+          - text: Accordion
+        - button "AutoSaveIndicator" [ref=e36] [cursor=pointer]:
+          - generic [ref=e37]:
+            - paragraph
+            - img [ref=e39]
+          - text: AutoSaveIndicator
+        - button "Checkbox" [ref=e41] [cursor=pointer]:
+          - generic [ref=e42]:
+            - paragraph
+            - img [ref=e44]
+          - text: Checkbox
+        - button "CheckboxGroup" [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]:
+            - paragraph
+            - img [ref=e49]
+          - text: CheckboxGroup
+        - button "CodeContent" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]:
+            - paragraph
+            - img [ref=e54]
+          - text: CodeContent
+        - button "Comment content" [ref=e56] [cursor=pointer]:
+          - generic [ref=e57]:
+            - paragraph
+            - img [ref=e59]
+          - text: Comment content
+        - button "CopiableTextField" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]:
+            - paragraph
+            - img [ref=e64]
+          - text: CopiableTextField
+        - button "Dropdown--AsyncMultiSelect" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]:
+            - paragraph
+            - img [ref=e69]
+          - text: Dropdown--AsyncMultiSelect
+        - button "Dropdown--AsyncSingleSelect" [ref=e71] [cursor=pointer]:
+          - generic [ref=e72]:
+            - paragraph
+            - img [ref=e74]
+          - text: Dropdown--AsyncSingleSelect
+        - button "Dropdown--MultiSelect" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]:
+            - paragraph
+            - img [ref=e79]
+          - text: Dropdown--MultiSelect
+        - button "Dropdown--SingleSelect" [ref=e81] [cursor=pointer]:
+          - generic [ref=e82]:
+            - paragraph
+            - img [ref=e84]
+          - text: Dropdown--SingleSelect
+        - button "Equation content" [ref=e86] [cursor=pointer]:
+          - generic [ref=e87]:
+            - paragraph
+            - img [ref=e89]
+          - text: Equation content
+        - button "FileUploader" [ref=e91] [cursor=pointer]:
+          - generic [ref=e92]:
+            - paragraph
+            - img [ref=e94]
+          - text: FileUploader
+        - button "Html snippet" [ref=e96] [cursor=pointer]:
+          - generic [ref=e97]:
+            - paragraph
+            - img [ref=e99]
+          - text: Html snippet
+        - button "IframePostMessage" [ref=e101] [cursor=pointer]:
+          - generic [ref=e102]:
+            - paragraph
+            - img [ref=e104]
+          - text: IframePostMessage
+        - button "InfoBox" [ref=e106] [cursor=pointer]:
+          - generic [ref=e107]:
+            - paragraph
+            - img [ref=e109]
+          - text: InfoBox
+        - button "InputLabel" [ref=e111] [cursor=pointer]:
+          - generic [ref=e112]:
+            - paragraph
+            - img [ref=e114]
+          - text: InputLabel
+        - button "Modal" [ref=e116] [cursor=pointer]:
+          - generic [ref=e117]:
+            - paragraph
+            - img [ref=e119]
+          - text: Modal
+        - button "Notification" [ref=e121] [cursor=pointer]:
+          - generic [ref=e122]:
+            - paragraph
+            - img [ref=e124]
+          - text: Notification
+        - button "PickerMenu" [ref=e126] [cursor=pointer]:
+          - generic [ref=e127]:
+            - paragraph
+            - img [ref=e129]
+          - text: PickerMenu
+        - button "ProfileImage" [ref=e131] [cursor=pointer]:
+          - generic [ref=e132]:
+            - paragraph
+            - img [ref=e134]
+          - text: ProfileImage
+        - button "RadioGroup" [ref=e136] [cursor=pointer]:
+          - generic [ref=e137]:
+            - paragraph
+            - img [ref=e139]
+          - text: RadioGroup
+        - button "ResponsiveImage" [ref=e141] [cursor=pointer]:
+          - generic [ref=e142]:
+            - paragraph
+            - img [ref=e144]
+          - text: ResponsiveImage
+        - button "RichTextContent" [ref=e146] [cursor=pointer]:
+          - generic [ref=e147]:
+            - paragraph
+            - img [ref=e149]
+          - text: RichTextContent
+        - button "RichTextEditor" [ref=e151] [cursor=pointer]:
+          - generic [ref=e152]:
+            - paragraph
+            - img [ref=e154]
+          - text: RichTextEditor
+        - button "Separator" [ref=e156] [cursor=pointer]:
+          - generic [ref=e157]:
+            - paragraph
+            - img [ref=e159]
+          - text: Separator
+        - button "Sortable Items" [ref=e161] [cursor=pointer]:
+          - generic [ref=e162]:
+            - paragraph
+            - img [ref=e164]
+          - text: Sortable Items
+        - button "Spinner" [ref=e166] [cursor=pointer]:
+          - generic [ref=e167]:
+            - paragraph
+            - img [ref=e169]
+          - text: Spinner
+        - button "Spoiler" [ref=e171] [cursor=pointer]:
+          - generic [ref=e172]:
+            - paragraph
+            - img [ref=e174]
+          - text: Spoiler
+        - button "StatusTag" [ref=e176] [cursor=pointer]:
+          - generic [ref=e177]:
+            - paragraph
+            - img [ref=e179]
+          - text: StatusTag
+        - button "Switch" [ref=e181] [cursor=pointer]:
+          - generic [ref=e182]:
+            - paragraph
+            - img [ref=e184]
+          - text: Switch
+        - button "Tabs" [ref=e186] [cursor=pointer]:
+          - generic [ref=e187]:
+            - paragraph
+            - img [ref=e189]
+          - text: Tabs
+        - button "Text" [ref=e191] [cursor=pointer]:
+          - generic [ref=e192]:
+            - paragraph
+            - img [ref=e194]
+          - text: Text
+        - button "TextArea" [ref=e196] [cursor=pointer]:
+          - generic [ref=e197]:
+            - paragraph
+            - img [ref=e199]
+          - text: TextArea
+        - button "TextField" [ref=e201] [cursor=pointer]:
+          - generic [ref=e202]:
+            - paragraph
+            - img [ref=e204]
+          - text: TextField
+        - button "TextWeb" [ref=e206] [cursor=pointer]:
+          - generic [ref=e207]:
+            - paragraph
+            - img [ref=e209]
+          - text: TextWeb
+        - button "PreviewDropZone" [ref=e211] [cursor=pointer]:
+          - generic [ref=e212]:
+            - paragraph
+            - img [ref=e214]
+          - text: PreviewDropZone
+        - button "VideoPlayer" [ref=e216] [cursor=pointer]:
+          - generic [ref=e217]:
+            - paragraph
+            - img [ref=e219]
+          - text: VideoPlayer
+        - button "Picker" [ref=e221] [cursor=pointer]:
+          - generic [ref=e222]:
+            - paragraph
+            - img [ref=e224]
+          - text: Picker
+        - generic [ref=e226]:
+          - button "AI" [expanded] [ref=e227] [cursor=pointer]: AI
+          - button "expand" [ref=e229] [cursor=pointer]:
+            - img [ref=e230]
+        - button "AiButton" [ref=e232] [cursor=pointer]:
+          - generic [ref=e233]:
+            - paragraph
+            - img [ref=e235]
+          - text: AiButton
+        - button "AiLogo" [ref=e237] [cursor=pointer]:
+          - generic [ref=e238]:
+            - paragraph
+            - img [ref=e240]
+          - text: AiLogo
+        - generic [ref=e242]:
+          - button "organism" [expanded] [ref=e243] [cursor=pointer]: organism
+          - button "expand" [ref=e245] [cursor=pointer]:
+            - img [ref=e246]
+        - button "Info" [ref=e248] [cursor=pointer]:
+          - generic [ref=e249]:
+            - paragraph
+            - img [ref=e251]
+          - text: Info
+        - button "Miscellaneous" [ref=e253] [cursor=pointer]:
+          - generic [ref=e254]:
+            - paragraph
+            - img [ref=e256]
+          - text: Miscellaneous
+        - generic [ref=e258]:
+          - button "Buttons" [expanded] [ref=e259] [cursor=pointer]: Buttons
+          - button "expand" [ref=e261] [cursor=pointer]:
+            - img [ref=e262]
+        - button "ActionButton" [ref=e264] [cursor=pointer]:
+          - generic [ref=e265]:
+            - paragraph
+            - img [ref=e267]
+          - text: ActionButton
+        - button "Button" [ref=e269] [cursor=pointer]:
+          - generic [ref=e270]:
+            - paragraph
+            - img [ref=e272]
+          - text: Button
+        - button "LinkButton" [ref=e274] [cursor=pointer]:
+          - generic [ref=e275]:
+            - paragraph
+            - img [ref=e277]
+          - text: LinkButton
+        - button "TagButton" [ref=e279] [cursor=pointer]:
+          - generic [ref=e280]:
+            - paragraph
+            - img [ref=e282]
+          - text: TagButton
+        - generic [ref=e284]:
+          - button "Crossword" [expanded] [ref=e285] [cursor=pointer]: Crossword
+          - button "expand" [ref=e287] [cursor=pointer]:
+            - img [ref=e288]
+        - button "Crossword" [ref=e290] [cursor=pointer]:
+          - generic [ref=e291]:
+            - paragraph
+            - img [ref=e293]
+          - text: Crossword
+        - generic [ref=e295]:
+          - button "Block page" [expanded] [ref=e296] [cursor=pointer]: Block page
+          - button "expand" [ref=e298] [cursor=pointer]:
+            - img [ref=e299]
+        - button "QuizSubmitBar" [ref=e301] [cursor=pointer]:
+          - generic [ref=e302]:
+            - paragraph
+            - img [ref=e304]
+          - text: QuizSubmitBar
+        - generic [ref=e306]:
+          - button "Widgets" [expanded] [ref=e307] [cursor=pointer]: Widgets
+          - button "expand" [ref=e309] [cursor=pointer]:
+            - img [ref=e310]
+        - button "Categorise" [ref=e312] [cursor=pointer]:
+          - generic [ref=e313]:
+            - paragraph
+            - img [ref=e315]
+          - text: Categorise
+        - button "CodeRunner" [expanded] [ref=e317] [cursor=pointer]:
+          - generic [ref=e318]:
+            - paragraph
+            - img [ref=e320]
+          - text: CodeRunner
+        - link "admin — empty state (no files)" [ref=e323] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--admin-empty-state
+          - generic [ref=e324]:
+            - paragraph
+            - img [ref=e325]
+          - text: admin — empty state (no files)
+        - link "admin — single Python file" [ref=e328] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--admin-with-python-file
+          - generic [ref=e329]:
+            - paragraph
+            - img [ref=e330]
+          - text: admin — single Python file
+        - link "admin — multiple C files" [ref=e333] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--admin-with-multiple-c-files
+          - generic [ref=e334]:
+            - paragraph
+            - img [ref=e335]
+          - text: admin — multiple C files
+        - link "admin — multiple files (mixed languages)" [ref=e338] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--admin-with-multiple-languages
+          - generic [ref=e339]:
+            - paragraph
+            - img [ref=e340]
+          - text: admin — multiple files (mixed languages)
+        - generic [ref=e342]:
+          - link "admin — run code returns error" [ref=e343] [cursor=pointer]:
+            - /url: /?path=/story/widgets-coderunner--admin-run-with-error
+            - generic [ref=e344]:
+              - paragraph
+              - img [ref=e345]
+            - text: admin — run code returns error
+          - link "Skip to canvas" [ref=e347] [cursor=pointer]:
+            - /url: "#storybook-preview-wrapper"
+        - link "admin — no onRunCode (run button hidden)" [ref=e349] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--admin-no-run-code-handler
+          - generic [ref=e350]:
+            - paragraph
+            - img [ref=e351]
+          - text: admin — no onRunCode (run button hidden)
+        - link "student — full permissions (manage files + run)" [ref=e354] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--student-full-permissions
+          - generic [ref=e355]:
+            - paragraph
+            - img [ref=e356]
+          - text: student — full permissions (manage files + run)
+        - link "student — run only (no file management)" [ref=e359] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--student-run-only
+          - generic [ref=e360]:
+            - paragraph
+            - img [ref=e361]
+          - text: student — run only (no file management)
+        - link "student — compiler prefix (gcc + args)" [ref=e364] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--student-with-compiler-prefix
+          - generic [ref=e365]:
+            - paragraph
+            - img [ref=e366]
+          - text: student — compiler prefix (gcc + args)
+        - link "grading — read-only editor" [ref=e369] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--grading-mode
+          - generic [ref=e370]:
+            - paragraph
+            - img [ref=e371]
+          - text: grading — read-only editor
+        - link "student — read only (no file management, no run)" [ref=e374] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--student-read-only
+          - generic [ref=e375]:
+            - paragraph
+            - img [ref=e376]
+          - text: student — read only (no file management, no run)
+        - link "student — empty state, full permissions" [ref=e379] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--student-empty-with-full-permissions
+          - generic [ref=e380]:
+            - paragraph
+            - img [ref=e381]
+          - text: student — empty state, full permissions
+        - link "student — multiple files" [ref=e384] [cursor=pointer]:
+          - /url: /?path=/story/widgets-coderunner--student-multiple-files
+          - generic [ref=e385]:
+            - paragraph
+            - img [ref=e386]
+          - text: student — multiple files
+        - button "Fill in the blanks" [ref=e388] [cursor=pointer]:
+          - generic [ref=e389]:
+            - paragraph
+            - img [ref=e391]
+          - text: Fill in the blanks
+        - button "MatchIt" [ref=e393] [cursor=pointer]:
+          - generic [ref=e394]:
+            - paragraph
+            - img [ref=e396]
+          - text: MatchIt
+        - button "MultipleChoice" [ref=e398] [cursor=pointer]:
+          - generic [ref=e399]:
+            - paragraph
+            - img [ref=e401]
+          - text: MultipleChoice
+        - button "RandomSelector" [ref=e403] [cursor=pointer]:
+          - generic [ref=e404]:
+            - paragraph
+            - img [ref=e406]
+          - text: RandomSelector
+        - button "ShortAnswer" [ref=e408] [cursor=pointer]:
+          - generic [ref=e409]:
+            - paragraph
+            - img [ref=e411]
+          - text: ShortAnswer
+        - button "WidgetAdaptiveFeedback" [ref=e413] [cursor=pointer]:
+          - generic [ref=e414]:
+            - paragraph
+            - img [ref=e416]
+          - text: WidgetAdaptiveFeedback
+        - button "WidgetCorrectness" [ref=e418] [cursor=pointer]:
+          - generic [ref=e419]:
+            - paragraph
+            - img [ref=e421]
+          - text: WidgetCorrectness
+  - main [ref=e423]:
+    - generic [ref=e424]:
+      - generic:
+        - generic [ref=e425]:
+          - generic [ref=e427]:
+            - generic [ref=e428]:
+              - button "Remount component" [ref=e429] [cursor=pointer]:
+                - img [ref=e430]
+              - button "Zoom in" [ref=e432] [cursor=pointer]:
+                - img [ref=e433]
+              - button "Zoom out" [ref=e436] [cursor=pointer]:
+                - img [ref=e437]
+              - button "Reset zoom" [ref=e440] [cursor=pointer]:
+                - img [ref=e441]
+              - button "Apply a grid to the preview" [ref=e444] [cursor=pointer]:
+                - img [ref=e445]
+              - button "Change the size of the preview" [ref=e448] [cursor=pointer]:
+                - img [ref=e449]
+              - button "Enable measure" [ref=e453] [cursor=pointer]:
+                - img [ref=e454]
+              - button "Apply outlines to the preview" [ref=e457] [cursor=pointer]:
+                - img [ref=e458]
+            - generic [ref=e460]:
+              - button "Show addons" [ref=e461] [cursor=pointer]:
+                - img [ref=e462]
+              - button "Go full screen [F]" [ref=e465] [cursor=pointer]:
+                - img [ref=e466]
+              - link "Open canvas in new tab" [ref=e468] [cursor=pointer]:
+                - /url: iframe.html?id=widgets-coderunner--admin-run-with-error
+                - img [ref=e469]
+              - button "Copy canvas link" [ref=e472] [cursor=pointer]:
+                - img [ref=e473]
+          - generic [ref=e476]:
+            - progressbar "Content is loading..." [ref=e478]
+            - generic [ref=e479]:
+              - link "Skip to sidebar" [ref=e480] [cursor=pointer]:
+                - /url: "#widgets-coderunner--admin-run-with-error"
+              - iframe [ref=e481]:
+                
+        - generic [ref=e483]:
+          - generic [ref=e485]:
+            - tablist [ref=e487]:
+              - tab "Actions" [ref=e488] [cursor=pointer]:
+                - generic [ref=e491]: Actions
+              - tab "Code" [ref=e492] [cursor=pointer]
+              - tab "Controls" [ref=e493] [cursor=pointer]:
+                - generic [ref=e496]: Controls
+            - generic [ref=e498]:
+              - button "Change addon orientation [D]" [ref=e499] [cursor=pointer]:
+                - img [ref=e500]
+              - button "Hide addons [A]" [ref=e503] [cursor=pointer]:
+                - img [ref=e504]
+          - button "Clear" [ref=e511] [cursor=pointer]

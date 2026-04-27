@@ -1,0 +1,380 @@
+[    1881ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:21579
+[    1977ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:46603
+[    1978ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:46603
+[    2126ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-5VNEO5YT.js?v=5e0b4ae3:1912
+[    2502ms] [ERROR] Warning: Legacy context API has been detected within a strict-mode tree.
+
+The old API will be supported in all 16.x releases, but applications using it should migrate to the new version.
+
+Please update the following components: %s
+
+Learn more about this warning here: https://reactjs.org/link/legacy-context%s t3 
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:69071:29)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:56061:34)
+    at t2.Modal (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:29102:23)
+    at div
+    at ExamRunner (http://exam.openlearning.test:5173/src/containers/Exam/ExamRunner.tsx?t=1776919860777:80:30)
+    at RenderedRoute (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4043:5)
+    at RenderErrorBoundary (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4003:5)
+    at DataRoutes (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:5166:5)
+    at Router (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4426:15)
+    at RouterProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4981:5)
+    at QuestionPreviewProvider (http://exam.openlearning.test:5173/src/components/QuestionDisplay/context.tsx:118:3)
+    at MediaDeviceProvider (http://exam.openlearning.test:5173/src/components/MediaRecorder/context/MediaDeviceContext.tsx:25:3)
+    at QueryClientProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=5e0b4ae3:2655:3)
+    at App (http://exam.openlearning.test:5173/src/App.tsx?t=1776919860777:89:34) @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2502ms] [ERROR] Warning: Using UNSAFE_componentWillReceiveProps in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+
+Please update the following components: %s t3 @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2502ms] [ERROR] Warning: Using UNSAFE_componentWillUpdate in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+
+Please update the following components: %s t3 @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2714ms] [ERROR] Warning: findDOMNode is deprecated and will be removed in the next major release. Instead, add a ref directly to the element you want to reference. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-find-node%s 
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:88304:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:9908:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:69071:29)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:56061:34)
+    at t2.Modal (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:29102:23)
+    at div
+    at ExamRunner (http://exam.openlearning.test:5173/src/containers/Exam/ExamRunner.tsx?t=1776919860777:80:30)
+    at RenderedRoute (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4043:5)
+    at RenderErrorBoundary (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4003:5)
+    at DataRoutes (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:5166:5)
+    at Router (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4426:15)
+    at RouterProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4981:5)
+    at QuestionPreviewProvider (http://exam.openlearning.test:5173/src/components/QuestionDisplay/context.tsx:118:3)
+    at MediaDeviceProvider (http://exam.openlearning.test:5173/src/components/MediaRecorder/context/MediaDeviceContext.tsx:25:3)
+    at QueryClientProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=5e0b4ae3:2655:3)
+    at App (http://exam.openlearning.test:5173/src/App.tsx?t=1776919860777:89:34) @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2717ms] [ERROR] Warning: Legacy context API has been detected within a strict-mode tree.
+
+The old API will be supported in all 16.x releases, but applications using it should migrate to the new version.
+
+Please update the following components: %s
+
+Learn more about this warning here: https://reactjs.org/link/legacy-context%s r3 
+    at r3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:55425:21)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:68691:23)
+    at Kr
+    at div
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:88304:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:9908:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:69071:29)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:56061:34)
+    at t2.Modal (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:29102:23)
+    at div
+    at ExamRunner (http://exam.openlearning.test:5173/src/containers/Exam/ExamRunner.tsx?t=1776919860777:80:30)
+    at RenderedRoute (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4043:5)
+    at RenderErrorBoundary (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4003:5)
+    at DataRoutes (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:5166:5)
+    at Router (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4426:15)
+    at RouterProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4981:5)
+    at QuestionPreviewProvider (http://exam.openlearning.test:5173/src/components/QuestionDisplay/context.tsx:118:3)
+    at MediaDeviceProvider (http://exam.openlearning.test:5173/src/components/MediaRecorder/context/MediaDeviceContext.tsx:25:3)
+    at QueryClientProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=5e0b4ae3:2655:3)
+    at App (http://exam.openlearning.test:5173/src/App.tsx?t=1776919860777:89:34) @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2717ms] [ERROR] Warning: Using UNSAFE_componentWillMount in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+
+Please update the following components: %s Portal @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2717ms] [ERROR] Warning: Using UNSAFE_componentWillReceiveProps in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+
+Please update the following components: %s Portal @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2718ms] [ERROR] Warning: %s is deprecated in StrictMode. %s was passed an instance of %s which is inside StrictMode. Instead, add a ref directly to the element you want to reference. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-find-node%s findDOMNode findDOMNode r3 
+    at div
+    at r3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:55425:21)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:68691:23)
+    at Kr
+    at div
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:88304:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:9908:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:69071:29)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:56061:34)
+    at t2.Modal (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:29102:23)
+    at div
+    at ExamRunner (http://exam.openlearning.test:5173/src/containers/Exam/ExamRunner.tsx?t=1776919860777:80:30)
+    at RenderedRoute (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4043:5)
+    at RenderErrorBoundary (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4003:5)
+    at DataRoutes (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:5166:5)
+    at Router (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4426:15)
+    at RouterProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4981:5)
+    at QuestionPreviewProvider (http://exam.openlearning.test:5173/src/components/QuestionDisplay/context.tsx:118:3)
+    at MediaDeviceProvider (http://exam.openlearning.test:5173/src/components/MediaRecorder/context/MediaDeviceContext.tsx:25:3)
+    at QueryClientProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=5e0b4ae3:2655:3)
+    at App (http://exam.openlearning.test:5173/src/App.tsx?t=1776919860777:89:34) @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2719ms] [ERROR] Warning: %s is deprecated in StrictMode. %s was passed an instance of %s which is inside StrictMode. Instead, add a ref directly to the element you want to reference. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-find-node%s findDOMNode findDOMNode t3 
+    at div
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:69019:23)
+    at r3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:55425:21)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:68691:23)
+    at Wr
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:74139:14)
+    at div
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:88304:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:9908:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:69071:29)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:56061:34)
+    at t2.Modal (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:29102:23)
+    at div
+    at ExamRunner (http://exam.openlearning.test:5173/src/containers/Exam/ExamRunner.tsx?t=1776919860777:80:30)
+    at RenderedRoute (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4043:5)
+    at RenderErrorBoundary (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4003:5)
+    at DataRoutes (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:5166:5)
+    at Router (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4426:15)
+    at RouterProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4981:5)
+    at QuestionPreviewProvider (http://exam.openlearning.test:5173/src/components/QuestionDisplay/context.tsx:118:3)
+    at MediaDeviceProvider (http://exam.openlearning.test:5173/src/components/MediaRecorder/context/MediaDeviceContext.tsx:25:3)
+    at QueryClientProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=5e0b4ae3:2655:3)
+    at App (http://exam.openlearning.test:5173/src/App.tsx?t=1776919860777:89:34) @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2723ms] [ERROR] Warning: %s is deprecated in StrictMode. %s was passed an instance of %s which is inside StrictMode. Instead, add a ref directly to the element you want to reference. Learn more about using refs safely here: https://reactjs.org/link/strict-mode-find-node%s findDOMNode findDOMNode Portal 
+    at div
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:88304:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:9908:14)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:69071:29)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:56061:34)
+    at t2.Modal (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=5e0b4ae3:29102:23)
+    at div
+    at ExamRunner (http://exam.openlearning.test:5173/src/containers/Exam/ExamRunner.tsx?t=1776919860777:80:30)
+    at RenderedRoute (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4043:5)
+    at RenderErrorBoundary (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4003:5)
+    at DataRoutes (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:5166:5)
+    at Router (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4426:15)
+    at RouterProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=5e0b4ae3:4981:5)
+    at QuestionPreviewProvider (http://exam.openlearning.test:5173/src/components/QuestionDisplay/context.tsx:118:3)
+    at MediaDeviceProvider (http://exam.openlearning.test:5173/src/components/MediaRecorder/context/MediaDeviceContext.tsx:25:3)
+    at QueryClientProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=5e0b4ae3:2655:3)
+    at App (http://exam.openlearning.test:5173/src/App.tsx?t=1776919860777:89:34) @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=5e0b4ae3:520
+[    2881ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://sr-client-cfg.amplitude.com/config?api_key=&config_keys=sessionReplay&session_id=1775714694451:0
+[    2882ms] [WARNING] Amplitude Logger [Warn]: Network error occurred, remote config fetch failed @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-HJ3VN7OY.js?v=5e0b4ae3:1096
+[  129845ms] [LOG] [vite] server connection lost. polling for restart... @ http://exam.openlearning.test:5173/@vite/client:286
+[  129853ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://exam.openlearning.test:5173/:0
+[  130855ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  131858ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  132861ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  133864ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  134866ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  135868ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  136870ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  137872ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  138875ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  139878ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  140880ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  141883ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  142884ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  143887ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  144890ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  145892ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  146898ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  147901ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  148904ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  149907ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  150909ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  151911ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  152914ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  153916ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  154918ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  155920ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  156923ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  157924ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  158926ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  159927ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  160929ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  161931ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  162934ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  163935ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  164937ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  165939ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  166942ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  167945ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  168947ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  169953ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  170955ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  171961ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  172965ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  173968ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  174975ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  175979ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  176983ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  177985ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  178993ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  179995ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  180998ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  182001ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  183004ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  184007ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  185011ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  186014ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  187017ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  188019ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  189020ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  190023ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  191026ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  192028ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  193030ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  194033ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  195034ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  196037ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  197040ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  198042ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  199045ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  200049ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  201051ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  202055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  203058ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  204059ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  205062ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  206064ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  207067ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  208069ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  209072ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  210075ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  211078ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  212079ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  213082ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  214088ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  215091ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  216092ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  217096ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  218098ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  219102ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  220103ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  221106ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  222108ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  223110ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  224113ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  225115ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  226118ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  227120ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  228123ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  229125ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  230126ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  231127ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  232129ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  233134ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  234141ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  235143ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  236147ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  237150ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  238152ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  239155ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  240157ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  241159ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  242161ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  243163ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  244165ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  245170ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  246172ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  247174ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  248175ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  249178ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  250180ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  251183ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  252185ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  253188ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  254189ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  255191ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  256193ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  257195ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  258197ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  259199ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  260202ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  261204ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  262205ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  263207ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  264209ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  265211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  266216ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  267223ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  268226ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  269229ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  270232ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  271234ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  272238ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  273241ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  274242ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  275245ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  276248ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  277250ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  278254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  279256ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  280261ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  281264ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  282268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  283270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  284273ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  285275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  286281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  287282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  288284ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  289288ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  290292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  291293ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  292298ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  293303ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  294305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  295308ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  296310ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  297312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  298315ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  299318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  300321ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  301323ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  302327ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  303330ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  304332ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  305335ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  306339ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  307341ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  308343ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  309350ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  310353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  311357ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  312360ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://exam.openlearning.test:5173/:0
+[  319055ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=b05633f7:21579
+[  319183ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=7d92130b:46675
+[  319183ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=7d92130b:46675
+[  319411ms] [INFO] 🌐 i18next is maintained with support from Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-5VNEO5YT.js?v=b05633f7:1912
+[  319585ms] [ERROR] Warning: Legacy context API has been detected within a strict-mode tree.
+
+The old API will be supported in all 16.x releases, but applications using it should migrate to the new version.
+
+Please update the following components: %s
+
+Learn more about this warning here: https://reactjs.org/link/legacy-context%s t3 
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=7d92130b:69143:29)
+    at t3 (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=7d92130b:56133:34)
+    at t2.Modal (http://exam.openlearning.test:5173/node_modules/.vite/deps/@openlearningnet_openlearningui.js?v=7d92130b:29174:23)
+    at div
+    at ExamRunner (http://exam.openlearning.test:5173/src/containers/Exam/ExamRunner.tsx:80:30)
+    at RenderedRoute (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=686d77fa:4043:5)
+    at RenderErrorBoundary (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=686d77fa:4003:5)
+    at DataRoutes (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=686d77fa:5166:5)
+    at Router (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=686d77fa:4426:15)
+    at RouterProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/react-router-dom.js?v=686d77fa:4981:5)
+    at QuestionPreviewProvider (http://exam.openlearning.test:5173/src/components/QuestionDisplay/context.tsx:118:3)
+    at MediaDeviceProvider (http://exam.openlearning.test:5173/src/components/MediaRecorder/context/MediaDeviceContext.tsx:25:3)
+    at QueryClientProvider (http://exam.openlearning.test:5173/node_modules/.vite/deps/@tanstack_react-query.js?v=6988fe4e:2655:3)
+    at App (http://exam.openlearning.test:5173/src/App.tsx:89:34) @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=b05633f7:520
+[  319585ms] [ERROR] Warning: Using UNSAFE_componentWillReceiveProps in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+* If you're updating state whenever props change, refactor your code to use memoization techniques or move it to static getDerivedStateFromProps. Learn more at: https://reactjs.org/link/derived-state
+
+Please update the following components: %s t3 @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=b05633f7:520
+[  319585ms] [ERROR] Warning: Using UNSAFE_componentWillUpdate in strict mode is not recommended and may indicate bugs in your code. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move data fetching code or side effects to componentDidUpdate.
+
+Please update the following components: %s t3 @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-ZRNALROW.js?v=b05633f7:520
+[  319759ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://sr-client-cfg.amplitude.com/config?api_key=&config_keys=sessionReplay&session_id=1775714694451:0
+[  319760ms] [WARNING] Amplitude Logger [Warn]: Network error occurred, remote config fetch failed @ http://exam.openlearning.test:5173/node_modules/.vite/deps/chunk-HJ3VN7OY.js?v=b05633f7:1096
+[  319953ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://sr-client-cfg.amplitude.com/config?api_key=&config_keys=sessionReplay&session_id=1775714694451:0

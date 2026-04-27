@@ -1,0 +1,392 @@
+- generic [ref=e1]:
+  - button "Skip to main content" [ref=e3] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - text:            
+      - generic [ref=e9]:
+        - button "Institutions" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: Institutions
+          - img [ref=e13]: 
+        - button "Courses" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Courses
+          - img [ref=e18]: 
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - button "Notifications" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]: 
+          - generic [ref=e26]: Notifications
+        - generic: 
+      - generic [ref=e27]:
+        - button "superadmin superuser" [ref=e28] [cursor=pointer]:
+          - img "superadmin" [ref=e31]
+          - generic [ref=e32]: superuser
+        - generic:         
+      - 'button "Selected language: English (EN)" [ref=e34] [cursor=pointer]':
+        - generic [ref=e35]: EN
+  - generic [ref=e36]:
+    - banner [ref=e37]:
+      - generic [ref=e41]:
+        - generic [ref=e43] [cursor=pointer]:
+          - img [ref=e45]
+          - heading "second course" [level=1] [ref=e46]:
+            - generic [ref=e47]: second course
+        - link "second course home page" [ref=e48] [cursor=pointer]:
+          - /url: http://openlearning.test/institutiontestpath/courses/second-course/
+    - generic [ref=e51]:
+      - generic [ref=e54]:
+        - button "superadmin" [ref=e57] [cursor=pointer]:
+          - img "superadmin" [ref=e60]
+        - 'link "0 kudos: 0 content + 0 comment" [ref=e63] [cursor=pointer]':
+          - /url: /progress/?course=institutiontestpath%2Fcourses%2Fsecond-course&student=superuser
+          - generic [ref=e64]:
+            - text: "0"
+            - generic [ref=e65]: "kudos: 0 content + 0 comment"
+        - generic [ref=e67]:
+          - generic [ref=e68]: Administrator
+          - generic [ref=e69]: Class of 2022
+      - navigation [ref=e72]:
+        - generic [ref=e80]:
+          - list [ref=e82]:
+            - listitem [ref=e83]:
+              - link "Home" [ref=e84] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/homepage/
+            - listitem [ref=e85]:
+              - link "Announcements" [ref=e86] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/cohorts/classof2022/blog/
+            - listitem [ref=e87]:
+              - link "Learning Activities Expand modules menu" [ref=e88] [cursor=pointer]:
+                - /url: /assessment/question_bank/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course&moduleSet=Default&qbId=69cc77e0893fa4f0dc3f629c&qbMode=create
+                - text: Learning Activities
+                - generic [ref=e89]:
+                  - img [ref=e90]: 
+                  - generic [ref=e92]: Expand modules menu
+            - listitem [ref=e93]:
+              - link "Course Feed" [ref=e94] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/coursefeed/
+            - listitem [ref=e95]:
+              - link "Groups" [ref=e96] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/cohorts/classof2022/groups/
+            - listitem [ref=e97]:
+              - link "Gallery" [ref=e98] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/gallery/
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - button "Search" [ref=e102]:
+                - generic [ref=e103]:
+                  - img [ref=e105]: 
+                  - generic [ref=e107]: Search
+          - button "Course Setup" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]: 
+            - text: Course Setup
+          - button "Course Design" [ref=e113] [cursor=pointer]:
+            - img [ref=e114]: 
+            - text: Course Design
+          - button "Course Promo" [ref=e117] [cursor=pointer]:
+            - img [ref=e118]: 
+            - text: Course Promo
+          - button "Administer Learners" [ref=e121] [cursor=pointer]:
+            - img [ref=e122]: 
+            - text: Administer Learners
+          - generic [ref=e124]:
+            - button "Assessment" [ref=e125] [cursor=pointer]:
+              - img [ref=e126]: 
+              - text: Assessment
+            - list [ref=e130]:
+              - listitem [ref=e131]:
+                - link "Gradebook" [ref=e132] [cursor=pointer]:
+                  - /url: /assessment/gradebook/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course
+                  - img [ref=e134]: 
+                  - text: Gradebook
+              - listitem [ref=e136]:
+                - link "Assess Learners" [ref=e137] [cursor=pointer]:
+                  - /url: /assessment/assess/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course
+                  - img [ref=e139]: 
+                  - text: Assess Learners
+              - listitem [ref=e141]:
+                - link "Question Banks" [ref=e142] [cursor=pointer]:
+                  - /url: /assessment/question_bank/?cohort=institutiontestpath%2Fcourses%2Fsecond-course%2Fcohorts%2Fclassof2022&course=institutiontestpath%2Fcourses%2Fsecond-course
+                  - img [ref=e144]: 
+                  - text: Question Banks
+          - button "Credentials" [ref=e147] [cursor=pointer]:
+            - img [ref=e148]: 
+            - text: Credentials
+      - generic [ref=e778]:
+        - generic [ref=e779]: Create question
+        - generic [ref=e781]:
+          - generic [ref=e783] [cursor=pointer]:
+            - generic [ref=e784]: Question name
+            - generic [ref=e785]: This should be a unique name that helps you identify the question.
+          - textbox "Question name This should be a unique name that helps you identify the question." [ref=e787]:
+            - /placeholder: Enter question name
+        - generic [ref=e789]:
+          - tablist [ref=e790]:
+            - generic [ref=e792]:
+              - tab "Setup" [selected] [ref=e794] [cursor=pointer]
+              - tab "Scoring" [ref=e796] [cursor=pointer]
+          - tabpanel "Setup" [ref=e799]:
+            - generic [ref=e801]:
+              - generic [ref=e802]: Question Content
+              - generic [ref=e803]:
+                - button "native/OpenLearning/RichTextWidget-small-icon Add" [ref=e999]:
+                  - generic [ref=e805]:
+                    - generic [ref=e806]:
+                      - generic [ref=e808]:
+                        - button [ref=e809] [cursor=pointer]:
+                          - img [ref=e810]: 
+                        - img "native/OpenLearning/RichTextWidget-small-icon" [ref=e812]
+                      - application [ref=e817]:
+                        - generic [ref=e818]:
+                          - generic [ref=e820]:
+                            - menubar [ref=e821]:
+                              - generic [ref=e822]:
+                                - menuitem "Edit" [ref=e823]:
+                                  - button "Edit" [ref=e824] [cursor=pointer]: Edit
+                                - menuitem "Insert" [ref=e826]:
+                                  - button "Insert" [ref=e827] [cursor=pointer]: Insert
+                                - menuitem "Table" [ref=e829]:
+                                  - button "Table" [ref=e830] [cursor=pointer]: Table
+                                - menuitem "View" [ref=e832]:
+                                  - button "View" [ref=e833] [cursor=pointer]: View
+                              - generic [ref=e835]: Press Option+0 for keyboard shortcuts
+                            - group [ref=e836]:
+                              - toolbar [ref=e838]:
+                                - generic [ref=e839]:
+                                  - group [ref=e840]:
+                                    - button "Formats" [ref=e842]:
+                                      - button "Formats" [ref=e843] [cursor=pointer]: Formats
+                                  - group [ref=e845]:
+                                    - generic [ref=e846]:
+                                      - button "Insert/edit image" [ref=e847]:
+                                        - button " Insert/edit image" [ref=e848] [cursor=pointer]:
+                                          - generic [ref=e849]: 
+                                          - generic [ref=e850]: Insert/edit image
+                                      - button "Insert/edit File" [ref=e851]:
+                                        - button " Insert/edit File" [ref=e852] [cursor=pointer]:
+                                          - generic [ref=e853]: 
+                                          - generic [ref=e854]: Insert/edit File
+                                      - button "Insert/edit link" [ref=e855]:
+                                        - button " Insert/edit link" [ref=e856] [cursor=pointer]:
+                                          - generic [ref=e857]: 
+                                          - generic [ref=e858]: Insert/edit link
+                                      - button "Insert/edit media" [ref=e859]:
+                                        - button " Insert/edit media" [ref=e860] [cursor=pointer]:
+                                          - generic [ref=e861]: 
+                                          - generic [ref=e862]: Insert/edit media
+                                  - group [ref=e863]:
+                                    - generic [ref=e864]:
+                                      - button "Bold" [ref=e865]:
+                                        - button " Bold" [ref=e866] [cursor=pointer]:
+                                          - generic [ref=e867]: 
+                                          - generic [ref=e868]: Bold
+                                      - button "Italic" [ref=e869]:
+                                        - button " Italic" [ref=e870] [cursor=pointer]:
+                                          - generic [ref=e871]: 
+                                          - generic [ref=e872]: Italic
+                                      - button "Underline" [ref=e873]:
+                                        - button " Underline" [ref=e874] [cursor=pointer]:
+                                          - generic [ref=e875]: 
+                                          - generic [ref=e876]: Underline
+                                  - group [ref=e877]:
+                                    - generic [ref=e878]:
+                                      - button "Bullet list" [ref=e879]:
+                                        - button " Bullet list" [ref=e880] [cursor=pointer]:
+                                          - generic [ref=e881]: 
+                                          - generic [ref=e882]: Bullet list
+                                        - button "Bullet list options" [ref=e883] [cursor=pointer]:
+                                          - generic [ref=e885]: Bullet list options
+                                      - button "Numbered list" [ref=e886]:
+                                        - button " Numbered list" [ref=e887] [cursor=pointer]:
+                                          - generic [ref=e888]: 
+                                          - generic [ref=e889]: Numbered list
+                                        - button "Numbered list options" [ref=e890] [cursor=pointer]:
+                                          - generic [ref=e892]: Numbered list options
+                                  - group [ref=e893]:
+                                    - generic [ref=e894]:
+                                      - button "Decrease indent" [ref=e895]:
+                                        - button " Decrease indent" [ref=e896] [cursor=pointer]:
+                                          - generic [ref=e897]: 
+                                          - generic [ref=e898]: Decrease indent
+                                      - button "Increase indent" [ref=e899]:
+                                        - button " Increase indent" [ref=e900] [cursor=pointer]:
+                                          - generic [ref=e901]: 
+                                          - generic [ref=e902]: Increase indent
+                                  - group [ref=e903]:
+                                    - generic [ref=e904]:
+                                      - button "Align left" [ref=e905]:
+                                        - button " Align left" [ref=e906] [cursor=pointer]:
+                                          - generic [ref=e907]: 
+                                          - generic [ref=e908]: Align left
+                                      - button "Align center" [ref=e909]:
+                                        - button " Align center" [ref=e910] [cursor=pointer]:
+                                          - generic [ref=e911]: 
+                                          - generic [ref=e912]: Align center
+                                      - button "Align right" [ref=e913]:
+                                        - button " Align right" [ref=e914] [cursor=pointer]:
+                                          - generic [ref=e915]: 
+                                          - generic [ref=e916]: Align right
+                                      - button "Justify" [ref=e917]:
+                                        - button " Justify" [ref=e918] [cursor=pointer]:
+                                          - generic [ref=e919]: 
+                                          - generic [ref=e920]: Justify
+                                  - group [ref=e921]:
+                                    - button "Clear formatting" [ref=e923]:
+                                      - button " Clear formatting" [ref=e924] [cursor=pointer]:
+                                        - generic [ref=e925]: 
+                                        - generic [ref=e926]: Clear formatting
+                          - group [ref=e927]:
+                            - iframe [ref=e928]:
+                              - paragraph [ref=f14e2]
+                          - group [ref=e930]:
+                            - generic [ref=e931]:
+                              - generic [ref=e934]: 0 words
+                              - generic [ref=e936]: 
+                      - button [ref=e939] [cursor=pointer]:
+                        - button [ref=e940]:
+                          - img [ref=e941]: 
+                    - button "Add" [ref=e1003] [cursor=pointer]:
+                      - generic [ref=e1004]:
+                        - img [ref=e1005]: +
+                        - generic [ref=e1007]: Add
+                - button "native/OpenLearning/CodeWidget-small-icon Code widget Code widget Open file New file Code files No files open The workspace is currently empty. Upload or create a new file to get started Open file New file Edit Code Learners write or upload code as their response Setup Back Save Add" [ref=e1067]:
+                  - generic [ref=e1010]:
+                    - generic [ref=e1011]:
+                      - generic [ref=e1013]:
+                        - button [ref=e1014] [cursor=pointer]:
+                          - img [ref=e1015]: 
+                        - img "native/OpenLearning/CodeWidget-small-icon" [ref=e1017]
+                      - generic [ref=e1022]:
+                        - generic [ref=e1023]:
+                          - img "Code widget" [ref=e1024]
+                          - generic [ref=e1025]: Code widget
+                          - generic [ref=e1026]:
+                            - button "Open file" [ref=e1027] [cursor=pointer]:
+                              - img [ref=e1028]: 
+                              - generic [ref=e1030]: Open file
+                            - button "New file" [ref=e1031] [cursor=pointer]:
+                              - img [ref=e1032]: +
+                              - generic [ref=e1034]: New file
+                        - generic [ref=e1035]:
+                          - img "Code files" [ref=e1036]
+                          - paragraph [ref=e1037]: No files open
+                          - paragraph [ref=e1038]: The workspace is currently empty. Upload or create a new file to get started
+                          - generic [ref=e1039]:
+                            - button "Open file" [ref=e1040] [cursor=pointer]:
+                              - img [ref=e1041]: 
+                              - generic [ref=e1043]: Open file
+                            - button "New file" [ref=e1044] [cursor=pointer]:
+                              - img [ref=e1045]: +
+                              - generic [ref=e1047]: New file
+                      - generic [ref=e1048]:
+                        - button "Edit" [active] [ref=e1049] [cursor=pointer]:
+                          - img [ref=e1050]: 
+                          - generic [ref=e1052]: Edit
+                        - button [ref=e1054] [cursor=pointer]:
+                          - button [ref=e1055]:
+                            - img [ref=e1056]: 
+                    - generic [ref=e1071]:
+                      - generic [ref=e1072]: Code
+                      - generic [ref=e1074]:
+                        - generic [ref=e1075]:
+                          - img [ref=e1078]: 
+                          - generic [ref=e1081]: Learners write or upload code as their response
+                        - generic [ref=e1083]:
+                          - tablist [ref=e1084]:
+                            - generic [ref=e1086]:
+                              - tab "Setup" [selected] [ref=e1088] [cursor=pointer]
+                              - tab "Evaluation" [ref=e1090] [cursor=pointer]
+                              - tab "Alignment" [ref=e1092] [cursor=pointer]
+                          - tabpanel "Setup" [ref=e1095]:
+                            - generic [ref=e1096]:
+                              - generic [ref=e1097]:
+                                - generic [ref=e1099] [cursor=pointer]:
+                                  - text: Response title
+                                  - generic [ref=e1100]: This can be used to display instructions
+                                - textbox "Response title This can be used to display instructions" [ref=e1102]:
+                                  - /placeholder: Enter your code below
+                              - generic [ref=e1103]:
+                                - generic [ref=e1104]: Configure starting file(s)
+                                - generic [ref=e1105]: Provide starting files for learners to begin their response
+                                - generic [ref=e1107]:
+                                  - generic [ref=e1108]:
+                                    - img "Code widget" [ref=e1109]
+                                    - generic [ref=e1110]: Code widget
+                                    - generic [ref=e1111]:
+                                      - button "Open file" [ref=e1112] [cursor=pointer]:
+                                        - img [ref=e1113]: 
+                                        - generic [ref=e1115]: Open file
+                                      - button "New file" [ref=e1116] [cursor=pointer]:
+                                        - img [ref=e1117]: +
+                                        - generic [ref=e1119]: New file
+                                  - generic [ref=e1120]:
+                                    - img "Code files" [ref=e1121]
+                                    - paragraph [ref=e1122]: No files open
+                                    - paragraph [ref=e1123]: The workspace is currently empty. Upload or create a new file to get started
+                                    - generic [ref=e1124]:
+                                      - button "Open file" [ref=e1125] [cursor=pointer]:
+                                        - img [ref=e1126]: 
+                                        - generic [ref=e1128]: Open file
+                                      - button "New file" [ref=e1129] [cursor=pointer]:
+                                        - img [ref=e1130]: +
+                                        - generic [ref=e1132]: New file
+                              - generic [ref=e1134]:
+                                - generic [ref=e1135]: Settings
+                                - generic [ref=e1137] [cursor=pointer]:
+                                  - generic [ref=e1139]:
+                                    - checkbox "Allow learners to rename, delete and add additional files" [checked] [ref=e1140]
+                                    - img [ref=e1142]
+                                  - generic [ref=e1146]: Allow learners to rename, delete and add additional files
+                                - generic [ref=e1148] [cursor=pointer]:
+                                  - generic [ref=e1150]:
+                                    - checkbox "Allow learners to run their code" [checked] [ref=e1151]
+                                    - img [ref=e1153]
+                                  - generic [ref=e1157]: Allow learners to run their code
+                                - generic [ref=e1158]:
+                                  - generic [ref=e1159]: Upload run configuration
+                                  - generic [ref=e1160]:
+                                    - text: Upload a configuration file to determine how learners can run their code.
+                                    - link "Learn more" [ref=e1161] [cursor=pointer]:
+                                      - /url: https://help.openlearning.com/t/code-runner
+                                  - 'button "Select a file Accepted file type: .json, .zip" [ref=e1167] [cursor=pointer]':
+                                    - generic [ref=e1168]:
+                                      - generic [ref=e1169]: Select a file
+                                      - generic [ref=e1170]: "Accepted file type: .json, .zip"
+                        - generic [ref=e1171]:
+                          - button "Back" [ref=e1172] [cursor=pointer]:
+                            - generic [ref=e1173]: Back
+                          - button "Save" [disabled] [ref=e1174]:
+                            - generic [ref=e1175]: Save
+                    - button "Add" [ref=e1061] [cursor=pointer]:
+                      - generic [ref=e1062]:
+                        - img [ref=e1063]: +
+                        - generic [ref=e1065]: Add
+                - status [ref=e943]
+        - generic [ref=e989]:
+          - button "Back" [ref=e990] [cursor=pointer]:
+            - img [ref=e991]: 
+            - generic [ref=e993]: Back
+          - generic [ref=e994]:
+            - button "Preview" [ref=e995] [cursor=pointer]:
+              - generic [ref=e996]: Preview
+            - button "Save" [ref=e997] [cursor=pointer]:
+              - generic [ref=e998]: Save
+    - contentinfo [ref=e230]:
+      - paragraph [ref=e235]:
+        - link "Feedback & Support" [ref=e236] [cursor=pointer]:
+          - /url: http://openlearning.test/sso/help/?redirect=https://help.openlearning.com
+    - heading "Chat" [level=1] [ref=e237]
+  - iframe [ref=e245]:
+    - generic [active]:
+      - generic:
+        - button "Show":
+          - button "Show" [ref=f3e1] [cursor=pointer]:
+            - generic [ref=f3e2]: "0"
+            - button "Launch Front Chat" [ref=f3e4]:
+              - button "Launch Front Chat" [ref=f3e5]
+  - alertdialog [ref=e238]:
+    - alert [ref=e239]:
+      - generic [ref=e241]: 
+      - heading "Timezone has changed." [level=4] [ref=e242]
+      - alert [ref=e243]:
+        - text: "Your current timezone is set to: Asia/Jakarta but you are now in Pacific/Auckland. You can change timezone settings in your"
+        - link "account settings" [ref=e244] [cursor=pointer]:
+          - /url: http://openlearning.test/accounts/account-settings/

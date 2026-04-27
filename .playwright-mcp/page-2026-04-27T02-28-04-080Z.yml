@@ -1,0 +1,537 @@
+- generic [ref=e1]:
+  - button "Skip to main content" [ref=e739]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - text:         
+      - generic [ref=e9]:
+        - button "Institutions" [ref=e740] [cursor=pointer]:
+          - generic [ref=e12]: Institutions
+          - img [ref=e13]: 
+        - button "Courses" [ref=e741] [cursor=pointer]:
+          - generic [ref=e17]: Courses
+          - img [ref=e18]: 
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - button "Notifications" [ref=e742] [cursor=pointer]:
+          - img [ref=e24]: 
+          - generic [ref=e26]: Notifications
+        - generic: 
+      - generic [ref=e27]:
+        - button "superadmin superuser" [ref=e743] [cursor=pointer]:
+          - img "superadmin" [ref=e744]
+          - generic [ref=e32]: superuser
+        - generic:         
+      - 'button "Selected language: English (EN)" [ref=e745] [cursor=pointer]':
+        - generic [ref=e35]: EN
+  - generic [ref=e36]:
+    - banner [ref=e37]:
+      - generic [ref=e41]:
+        - generic [ref=e43] [cursor=pointer]:
+          - img [ref=e45]
+          - heading "second course" [level=1] [ref=e746]:
+            - generic [ref=e47]: second course
+        - link "second course home page" [ref=e747] [cursor=pointer]:
+          - /url: http://openlearning.test/institutiontestpath/courses/second-course/
+    - generic [ref=e51]:
+      - generic [ref=e54]:
+        - button "superadmin" [ref=e748] [cursor=pointer]:
+          - img "superadmin" [ref=e749]
+        - 'link "0 kudos: 0 content + 0 comment" [ref=e750] [cursor=pointer]':
+          - /url: /progress/?course=institutiontestpath%2Fcourses%2Fsecond-course&student=superuser
+          - generic [ref=e64]:
+            - text: "0"
+            - generic [ref=e65]: "kudos: 0 content + 0 comment"
+        - generic [ref=e67]:
+          - generic [ref=e68]: Administrator
+          - generic [ref=e69]: Class of 2022
+      - navigation [ref=e72]:
+        - generic [ref=e80]:
+          - list [ref=e82]:
+            - listitem [ref=e83]:
+              - link "Home" [ref=e751] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/homepage/
+            - listitem [ref=e85]:
+              - link "Announcements" [ref=e752] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/cohorts/classof2022/blog/
+            - listitem [ref=e87]:
+              - link "Learning Activities Expand modules menu" [ref=e753] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/homepage/?cl=1&moduleSet=Default
+                - text: Learning Activities
+                - generic [ref=e89]:
+                  - img [ref=e90]: 
+                  - generic [ref=e92]: Expand modules menu
+            - listitem [ref=e93]:
+              - link "Course Feed" [ref=e754] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/coursefeed/
+            - listitem [ref=e95]:
+              - link "Groups" [ref=e755] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/cohorts/classof2022/groups/
+            - listitem [ref=e97]:
+              - link "Gallery" [ref=e756] [cursor=pointer]:
+                - /url: /institutiontestpath/courses/second-course/gallery/
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - button "Search" [ref=e757]:
+                - generic [ref=e103]:
+                  - img [ref=e105]: 
+                  - generic [ref=e107]: Search
+          - button "Course Setup" [ref=e758] [cursor=pointer]:
+            - img [ref=e110]: 
+            - text: Course Setup
+          - button "Course Design" [ref=e759] [cursor=pointer]:
+            - img [ref=e114]: 
+            - text: Course Design
+          - button "Course Promo" [ref=e760] [cursor=pointer]:
+            - img [ref=e118]: 
+            - text: Course Promo
+          - button "Administer Learners" [ref=e761] [cursor=pointer]:
+            - img [ref=e122]: 
+            - text: Administer Learners
+          - button "Assessment" [ref=e762] [cursor=pointer]:
+            - img [ref=e126]: 
+            - text: Assessment
+          - button "Credentials" [ref=e763] [cursor=pointer]:
+            - img [ref=e130]: 
+            - text: Credentials
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - main [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e140]:
+                - generic [ref=e143]:
+                  - generic [ref=e145] [cursor=pointer]:
+                    - generic [ref=e146]:
+                      - img [ref=e147]: 
+                      - text: View
+                    - generic [ref=e149]:
+                      - img [ref=e150]: 
+                      - text: Edit
+                  - button "Settings" [ref=e764] [cursor=pointer]:
+                    - img [ref=e155]: 
+                    - text: Settings
+                  - button "Attributes" [ref=e765] [cursor=pointer]:
+                    - img [ref=e160]: 
+                    - text: Attributes
+                - generic [ref=e164]:
+                  - img [ref=e166]
+                  - generic [ref=e167]: "You are here:"
+                  - list [ref=e168]:
+                    - listitem [ref=e169]: institutiontest>
+                    - listitem [ref=e170]: Courses>
+                    - listitem [ref=e171]: second course
+                  - generic "Completed 11/19" [ref=e766]:
+                    - generic [ref=e175]:
+                      - img [ref=e176]
+                      - generic [ref=e179]: Completed 11/19
+                  - heading "Homepage" [level=2] [ref=e767]
+                - generic [ref=e184]:
+                  - generic [ref=e187]:
+                    - generic [ref=e192]:
+                      - generic [ref=e194]: exam 18
+                      - generic [ref=e195]:
+                        - generic [ref=e196]: Time limit
+                        - generic [ref=e198]: No time limit
+                      - generic [ref=e199]:
+                        - generic [ref=e200]: Questions
+                        - generic [ref=e201]: 2 questions
+                      - generic [ref=e202]:
+                        - generic [ref=e203]: Score calculation
+                        - generic [ref=e204]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e205]:
+                        - generic [ref=e206]: Attempts
+                        - generic [ref=e207]: You have not attempted this exam
+                      - generic [ref=e208]:
+                        - generic [ref=e209]: "Remaining attempts: 100"
+                        - button "Start exam" [ref=e768] [cursor=pointer]:
+                          - generic [ref=e211]: Start exam
+                    - generic [ref=e216]:
+                      - generic [ref=e218]: code palindrome only
+                      - generic [ref=e219]:
+                        - generic [ref=e220]: Time limit
+                        - generic [ref=e222]: No time limit
+                      - generic [ref=e223]:
+                        - generic [ref=e224]: Questions
+                        - generic [ref=e225]: 1 question
+                      - generic [ref=e226]:
+                        - generic [ref=e227]: Score calculation
+                        - generic [ref=e228]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e229]:
+                        - generic [ref=e230]: Attempts
+                        - generic [ref=e231]: You have not attempted this exam
+                      - generic [ref=e232]:
+                        - generic [ref=e233]: "Remaining attempts: 100"
+                        - button "Start exam" [active] [ref=e769] [cursor=pointer]:
+                          - generic [ref=e235]: Start exam
+                    - generic [ref=e240]:
+                      - generic [ref=e242]: exam 16
+                      - generic [ref=e243]:
+                        - generic [ref=e244]: Time limit
+                        - generic [ref=e246]: No time limit
+                      - generic [ref=e247]:
+                        - generic [ref=e248]: Questions
+                        - generic [ref=e249]: 1 question
+                      - generic [ref=e250]:
+                        - generic [ref=e251]: Score calculation
+                        - generic [ref=e252]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e253]:
+                        - generic [ref=e254]: Attempts
+                        - generic [ref=e255]: You have not attempted this exam
+                      - generic [ref=e256]:
+                        - generic [ref=e257]: "Remaining attempts: 100"
+                        - button "Start exam" [ref=e770] [cursor=pointer]:
+                          - generic [ref=e259]: Start exam
+                  - generic [ref=e262]:
+                    - generic [ref=e267]:
+                      - generic [ref=e269]: exam 15
+                      - generic [ref=e270]:
+                        - generic [ref=e271]: Time limit
+                        - generic [ref=e273]: No time limit
+                      - generic [ref=e274]:
+                        - generic [ref=e275]: Questions
+                        - generic [ref=e276]: 2 questions
+                      - generic [ref=e277]:
+                        - generic [ref=e278]: Score calculation
+                        - generic [ref=e279]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e280]:
+                        - generic [ref=e281]: Attempts
+                        - generic [ref=e283]:
+                          - generic [ref=e284]:
+                            - strong [ref=e285]: "Submission 1:"
+                            - text: Tuesday, April 21, 2026 at 12:08:55 PM GMT+7
+                          - generic [ref=e286]:
+                            - strong [ref=e287]: "Score:"
+                            - text: Awaiting assessment
+                      - generic [ref=e288]:
+                        - generic [ref=e289]: You have started this exam
+                        - button "Resume exam" [ref=e771] [cursor=pointer]:
+                          - generic [ref=e291]: Resume exam
+                    - generic [ref=e296]:
+                      - generic [ref=e298]: exam 14
+                      - generic [ref=e299]:
+                        - generic [ref=e300]: Time limit
+                        - generic [ref=e302]: No time limit
+                      - generic [ref=e303]:
+                        - generic [ref=e304]: Questions
+                        - generic [ref=e305]: 2 questions
+                      - generic [ref=e306]:
+                        - generic [ref=e307]: Score calculation
+                        - generic [ref=e308]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e309]:
+                        - generic [ref=e310]: Attempts
+                        - generic [ref=e311]: You have not attempted this exam
+                      - generic [ref=e312]:
+                        - generic [ref=e313]: You have started this exam
+                        - button "Resume exam" [ref=e772] [cursor=pointer]:
+                          - generic [ref=e315]: Resume exam
+                    - generic [ref=e320]:
+                      - generic [ref=e322]: exam 13 manual evaluation
+                      - generic [ref=e323]:
+                        - generic [ref=e324]: Time limit
+                        - generic [ref=e326]: No time limit
+                      - generic [ref=e327]:
+                        - generic [ref=e328]: Questions
+                        - generic [ref=e329]: 1 question
+                      - generic [ref=e330]:
+                        - generic [ref=e331]: Score calculation
+                        - generic [ref=e332]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e333]:
+                        - generic [ref=e334]: Attempts
+                        - generic [ref=e335]: You have not attempted this exam
+                      - generic [ref=e336]:
+                        - generic [ref=e337]: "Remaining attempts: 100"
+                        - button "Start exam" [ref=e773] [cursor=pointer]:
+                          - generic [ref=e339]: Start exam
+                    - generic [ref=e344]:
+                      - generic [ref=e346]: exam 12
+                      - generic [ref=e347]:
+                        - generic [ref=e348]: Time limit
+                        - generic [ref=e350]: No time limit
+                      - generic [ref=e351]:
+                        - generic [ref=e352]: Questions
+                        - generic [ref=e353]: 1 question
+                      - generic [ref=e354]:
+                        - generic [ref=e355]: Score calculation
+                        - generic [ref=e356]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e357]:
+                        - generic [ref=e358]: Attempts
+                        - generic [ref=e359]: You have not attempted this exam
+                      - generic [ref=e360]:
+                        - generic [ref=e361]: "Remaining attempts: 100"
+                        - button "Start exam" [ref=e774] [cursor=pointer]:
+                          - generic [ref=e363]: Start exam
+                    - generic [ref=e368]:
+                      - generic [ref=e370]: exam 11
+                      - generic [ref=e371]:
+                        - generic [ref=e372]: Time limit
+                        - generic [ref=e374]: No time limit
+                      - generic [ref=e375]:
+                        - generic [ref=e376]: Questions
+                        - generic [ref=e377]: 2 questions
+                      - generic [ref=e378]:
+                        - generic [ref=e379]: Score calculation
+                        - generic [ref=e380]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e381]:
+                        - generic [ref=e382]: Attempts
+                        - generic [ref=e383]: You have not attempted this exam
+                      - generic [ref=e384]:
+                        - generic [ref=e385]: "Remaining attempts: 10000"
+                        - button "Start exam" [ref=e775] [cursor=pointer]:
+                          - generic [ref=e387]: Start exam
+                    - generic [ref=e392]:
+                      - generic [ref=e394]: manual evaluation code exam
+                      - generic [ref=e395]:
+                        - generic [ref=e396]: Time limit
+                        - generic [ref=e398]: No time limit
+                      - generic [ref=e399]:
+                        - generic [ref=e400]: Questions
+                        - generic [ref=e401]: 2 questions
+                      - generic [ref=e402]:
+                        - generic [ref=e403]: Score calculation
+                        - generic [ref=e404]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e405]:
+                        - generic [ref=e406]: Attempts
+                        - generic [ref=e407]: You have not attempted this exam
+                      - generic [ref=e408]:
+                        - generic [ref=e409]: You have started this exam
+                        - button "Resume exam" [ref=e776] [cursor=pointer]:
+                          - generic [ref=e411]: Resume exam
+                    - generic [ref=e416]:
+                      - generic [ref=e418]: Code exam zip configs
+                      - generic [ref=e419]:
+                        - generic [ref=e420]: Time limit
+                        - generic [ref=e422]: No time limit
+                      - generic [ref=e423]:
+                        - generic [ref=e424]: Questions
+                        - generic [ref=e425]: 1 question
+                      - generic [ref=e426]:
+                        - generic [ref=e427]: Score calculation
+                        - generic [ref=e428]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e429]:
+                        - generic [ref=e430]: Attempts
+                        - generic [ref=e432]:
+                          - generic [ref=e433]:
+                            - strong [ref=e434]: "Submission 1:"
+                            - text: Wednesday, April 8, 2026 at 9:18:16 AM GMT+7
+                          - generic [ref=e435]:
+                            - strong [ref=e436]: "Score:"
+                            - text: Awaiting release
+                      - generic [ref=e437]:
+                        - generic [ref=e438]: "Remaining attempts: 100"
+                        - button "Start exam" [ref=e777] [cursor=pointer]:
+                          - generic [ref=e440]: Start exam
+                    - generic [ref=e445]:
+                      - generic [ref=e447]: Code exam fibonnaci
+                      - generic [ref=e448]:
+                        - generic [ref=e449]: Time limit
+                        - generic [ref=e451]: No time limit
+                      - generic [ref=e452]:
+                        - generic [ref=e453]: Questions
+                        - generic [ref=e454]: 1 question
+                      - generic [ref=e455]:
+                        - generic [ref=e456]: Score calculation
+                        - generic [ref=e457]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e458]:
+                        - generic [ref=e459]: Attempts
+                        - generic [ref=e460]:
+                          - generic [ref=e461]:
+                            - generic [ref=e462]:
+                              - strong [ref=e463]: "Submission 1:"
+                              - text: Thursday, April 2, 2026 at 10:00:32 AM GMT+7
+                            - generic [ref=e464]:
+                              - strong [ref=e465]: "Score:"
+                              - text: Awaiting assessment
+                          - generic [ref=e466]:
+                            - generic [ref=e467]:
+                              - strong [ref=e468]: "Submission 2:"
+                              - text: Thursday, April 2, 2026 at 10:05:50 AM GMT+7
+                            - generic [ref=e469]:
+                              - strong [ref=e470]: "Score:"
+                              - text: Awaiting assessment
+                          - generic [ref=e471]:
+                            - generic [ref=e472]:
+                              - strong [ref=e473]: "Submission 3:"
+                              - text: Thursday, April 2, 2026 at 10:18:47 AM GMT+7
+                            - generic [ref=e474]:
+                              - strong [ref=e475]: "Score:"
+                              - text: Awaiting assessment
+                      - generic [ref=e476]:
+                        - generic [ref=e477]: "Remaining attempts: 97"
+                        - button "Start exam" [ref=e778] [cursor=pointer]:
+                          - generic [ref=e479]: Start exam
+                    - generic [ref=e484]:
+                      - generic [ref=e486]: code exam 3
+                      - generic [ref=e487]:
+                        - generic [ref=e488]: Time limit
+                        - generic [ref=e490]: No time limit
+                      - generic [ref=e491]:
+                        - generic [ref=e492]: Questions
+                        - generic [ref=e493]: 1 question
+                      - generic [ref=e494]:
+                        - generic [ref=e495]: Score calculation
+                        - generic [ref=e496]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e497]:
+                        - generic [ref=e498]: Attempts
+                        - generic [ref=e499]: You have not attempted this exam
+                      - generic [ref=e500]:
+                        - generic [ref=e501]: You have started this exam
+                        - button "Resume exam" [ref=e779] [cursor=pointer]:
+                          - generic [ref=e503]: Resume exam
+                    - generic [ref=e508]:
+                      - generic [ref=e510]: General exam
+                      - generic [ref=e511]:
+                        - generic [ref=e512]: Time limit
+                        - generic [ref=e514]: No time limit
+                      - generic [ref=e515]:
+                        - generic [ref=e516]: Questions
+                        - generic [ref=e517]: 1 question
+                      - generic [ref=e518]:
+                        - generic [ref=e519]: Score calculation
+                        - generic [ref=e520]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e521]:
+                        - generic [ref=e522]: Attempts
+                        - generic [ref=e523]: You have not attempted this exam
+                      - generic [ref=e524]:
+                        - generic [ref=e525]: You have started this exam
+                        - button "Resume exam" [ref=e780] [cursor=pointer]:
+                          - generic [ref=e527]: Resume exam
+                  - generic [ref=e530]:
+                    - generic [ref=e535]:
+                      - generic [ref=e537]: Code exam 2
+                      - generic [ref=e538]:
+                        - generic [ref=e539]: Time limit
+                        - generic [ref=e541]: No time limit
+                      - generic [ref=e542]:
+                        - generic [ref=e543]: Questions
+                        - generic [ref=e544]: 1 question
+                      - generic [ref=e545]:
+                        - generic [ref=e546]: Score calculation
+                        - generic [ref=e547]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e548]:
+                        - generic [ref=e549]: Attempts
+                        - generic [ref=e550]: You have not attempted this exam
+                      - generic [ref=e551]:
+                        - generic [ref=e552]: You have started this exam
+                        - button "Resume exam" [ref=e781] [cursor=pointer]:
+                          - generic [ref=e554]: Resume exam
+                    - generic [ref=e559]:
+                      - generic [ref=e561]: Code exam
+                      - generic [ref=e562]:
+                        - generic [ref=e563]: Time limit
+                        - generic [ref=e565]: No time limit
+                      - generic [ref=e566]:
+                        - generic [ref=e567]: Questions
+                        - generic [ref=e568]: 2 questions
+                      - generic [ref=e569]:
+                        - generic [ref=e570]: Score calculation
+                        - generic [ref=e571]: The latest score out of all attempts will count towards your final grade
+                      - generic [ref=e572]:
+                        - generic [ref=e573]: Passing score
+                        - generic [ref=e574]: 3 / 3 (100%)
+                      - generic [ref=e575]:
+                        - generic [ref=e576]: Attempts
+                        - generic [ref=e577]: You have not attempted this exam
+                      - generic [ref=e578]:
+                        - generic [ref=e579]: You have started this exam
+                        - button "Resume exam" [ref=e782] [cursor=pointer]:
+                          - generic [ref=e581]: Resume exam
+                    - generic [ref=e589]:
+                      - 'heading "OpenLearning Tip: How to Create a Welcoming Homepage" [level=2] [ref=e783]'
+                      - list [ref=e591]:
+                        - listitem [ref=e592]: This is your course home page. We have provided a template below to help you get started. Feel free to completely change this page to work for your course and students.
+                        - listitem [ref=e593]:
+                          - strong [ref=e594]:
+                            - link "Page Editing Guide" [ref=e784] [cursor=pointer]:
+                              - /url: https://help.openlearning.com/t/x1pdkm/6-setting-up-your-course-homepage
+                          - text: "- see how to edit a page on OpenLearning."
+                        - listitem [ref=e596]:
+                          - strong [ref=e597]:
+                            - link "Design a World Class Course On OpenLearning" [ref=e785] [cursor=pointer]:
+                              - /url: https://help.openlearning.com/category/course-creator-help
+                          - text: "- learn best practices for course design."
+                        - listitem [ref=e599]:
+                          - strong [ref=e600]: Don't forget to delete these instructions when you're ready to launch the course!
+                  - generic [ref=e609]:
+                    - heading "Welcome to second course!" [level=1] [ref=e786]:
+                      - strong [ref=e611]: Welcome to second course
+                      - emphasis [ref=e612]:
+                        - emphasis [ref=e613]:
+                          - strong [ref=e614]: "!"
+                    - paragraph [ref=e615]:
+                      - text: We hope you will have a wonderful time and learn a lot about...
+                      - emphasis [ref=e616]: (add something here)
+                  - generic [ref=e618]:
+                    - generic [ref=e625]:
+                      - heading "Course Information" [level=1] [ref=e787]:
+                        - strong [ref=e627]: Course Information
+                      - list [ref=e628]:
+                        - listitem [ref=e629]:
+                          - text: By the end of the course you should be able to...
+                          - emphasis [ref=e630]: (add course outcomes)
+                        - listitem [ref=e631]:
+                          - emphasis [ref=e632]: (add information about course schedule)
+                        - listitem [ref=e633]:
+                          - emphasis [ref=e634]: (add additional course information)
+                    - generic [ref=e641]:
+                      - heading "Getting Around For Students" [level=1] [ref=e788]:
+                        - strong [ref=e643]: Getting Around For Students
+                      - list [ref=e644]:
+                        - listitem [ref=e645]:
+                          - text: First time on OpenLearning? Select the
+                          - strong [ref=e646]: Learning Activities
+                          - text: tab in the side bar to access the course content and activities. On mobile, the navigation is located in the menu.
+                        - listitem [ref=e647]:
+                          - text: Also, take a look at the following important pages...
+                          - emphasis [ref=e648]: (add pages here)
+              - status [ref=e649]
+          - generic [ref=e651]:
+            - generic [ref=e652]:
+              - generic [ref=e653]: Be the first to like this
+              - button "Like" [ref=e789] [cursor=pointer]:
+                - img [ref=e655]: 
+                - text: Like
+            - generic [ref=e657]:
+              - button "Subscribed" [disabled] [ref=e790]:
+                - img [ref=e660]: 
+                - text: Subscribed
+              - button "History" [ref=e791] [cursor=pointer]:
+                - img [ref=e664]: 
+                - text: History
+              - button "Subpages" [ref=e792] [cursor=pointer]:
+                - img [ref=e668]: 
+                - text: Subpages
+        - generic [ref=e673]:
+          - generic [ref=e674]:
+            - heading "Comments" [level=2] [ref=e793]
+            - generic [ref=e676]:
+              - button "Collapse All" [ref=e794] [cursor=pointer]
+              - generic [ref=e679]:
+                - text: "Sort by:"
+                - button "New Threads " [ref=e795] [cursor=pointer]:
+                  - strong [ref=e682]: New Threads
+                  - generic [ref=e683]: 
+          - generic [ref=e687]:
+            - img "superuser" [ref=e796]
+            - generic [ref=e696]:
+              - generic [ref=e698]: Write a comment...
+              - textbox [ref=e700]
+    - contentinfo [ref=e704]:
+      - paragraph [ref=e709]:
+        - link "Feedback & Support" [ref=e797] [cursor=pointer]:
+          - /url: http://openlearning.test/sso/help/?redirect=https://help.openlearning.com
+    - heading "Chat" [level=1] [ref=e798]
+  - alertdialog [ref=e712]:
+    - alert [ref=e713]:
+      - generic [ref=e715]: 
+      - heading "Timezone has changed." [level=4] [ref=e799]
+      - alert [ref=e717]:
+        - text: "Your current timezone is set to: Asia/Jakarta but you are now in Pacific/Auckland. You can change timezone settings in your"
+        - link "account settings" [ref=e800] [cursor=pointer]:
+          - /url: http://openlearning.test/accounts/account-settings/
+  - iframe [ref=e738]:
+    - generic [active]:
+      - generic:
+        - button "Show":
+          - button "Show" [ref=f28e1] [cursor=pointer]:
+            - generic [ref=f28e2]: "0"
+            - button "Launch Front Chat" [ref=f28e4]:
+              - button "Launch Front Chat" [ref=f28e5]
