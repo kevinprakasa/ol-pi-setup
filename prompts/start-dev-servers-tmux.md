@@ -34,6 +34,7 @@ This will:
 2. ✅ Start database containers (`make dbs`)
 3. ✅ Create tmux session with 6 windows
 4. ✅ Start all dev servers
+5. ✅ **Configure smart split keys** — new panes open in current pane's directory
 
 ### Option 2: Manual Tmux Setup
 
@@ -46,50 +47,66 @@ Wait for databases to be ready (~15 seconds).
 
 #### Step 2: Create Tmux Session
 ```bash
+# Session starts in async-engine directory
+cd /Users/kevinprakasa/dev/ol-async-engine
 tmux new-session -d -s dev
+
+# CRITICAL: Rebind split keys for smart directory behavior
+tmux bind-key '"' split-window -h -c "#{pane_current_path}"
+tmux bind-key '%' split-window -h -c "#{pane_current_path}"
+tmux bind-key '-' split-window -v -c "#{pane_current_path}"
 ```
 
 #### Step 3: Create Windows and Run Services
 
 **Window 0 — async-engine:**
 ```bash
-tmux send-keys -t dev:0 "cd /Users/kevinprakasa/dev/ol-async-engine && source .venv/bin/activate && set -a && source .env && set +a && poe devserver" Enter
-tmux split-window -h -t dev:0
-tmux send-keys -t dev:0.1 "cd /Users/kevinprakasa/dev/ol-async-engine && source .venv/bin/activate && set -a && source .env && set +a && poe service-bus" Enter
+tmux rename-window -t dev:0 "async-engine"
+tmux send-keys -t dev:0 "source .venv/bin/activate && set -a && source .env && set +a && poe devserver" Enter
+tmux split-window -h -t dev:0 -c "/Users/kevinprakasa/dev/ol-async-engine"
+tmux send-keys -t dev:0.1 "source .venv/bin/activate && set -a && source .env && set +a && poe service-bus" Enter
+tmux select-layout -t dev:0 even-horizontal
 ```
 
 **Window 1 — ol-engine:**
 ```bash
-tmux new-window -t dev:1 -n ol-engine
-tmux send-keys -t dev:1 "cd /Users/kevinprakasa/dev/ol-docker/engine/OpenLearningEngine && source .venv/bin/activate && make devserver" Enter
-tmux split-window -h -t dev:1
-tmux send-keys -t dev:1.1 "cd /Users/kevinprakasa/dev/ol-docker/engine/OpenLearningEngine && source .venv/bin/activate && ./start_async_bridge.sh" Enter
+cd /Users/kevinprakasa/dev/ol-docker/engine/OpenLearningEngine
+tmux new-window -t dev -n "ol-engine"
+tmux send-keys -t dev:1 "source .venv/bin/activate && make devserver" Enter
+tmux split-window -h -t dev:1 -c "/Users/kevinprakasa/dev/ol-docker/engine/OpenLearningEngine"
+tmux send-keys -t dev:1.1 "source .venv/bin/activate && ./start_async_bridge.sh" Enter
+tmux select-layout -t dev:1 even-horizontal
 ```
 
 **Window 2 — ol-client:**
 ```bash
-tmux new-window -t dev:2 -n ol-client
-tmux send-keys -t dev:2 "cd /Users/kevinprakasa/dev/ol-docker/engine/OpenLearningClient && yarn devserver" Enter
+cd /Users/kevinprakasa/dev/ol-docker/engine/OpenLearningClient
+tmux new-window -t dev -n "ol-client"
+tmux send-keys -t dev:2 "yarn devserver" Enter
 ```
 
 **Window 3 — exam-engine:**
 ```bash
-tmux new-window -t dev:3 -n exam-engine
-tmux send-keys -t dev:3 "cd /Users/kevinprakasa/dev/ol-exam-engine && source .venv/bin/activate && poe api" Enter
+cd /Users/kevinprakasa/dev/ol-exam-engine
+tmux new-window -t dev -n "exam-engine"
+tmux send-keys -t dev:3 "source .venv/bin/activate && poe api" Enter
 ```
 
 **Window 4 — exam-client:**
 ```bash
-tmux new-window -t dev:4 -n exam-client
-tmux send-keys -t dev:4 "cd /Users/kevinprakasa/dev/ol-exam-client && yarn dev-local" Enter
+cd /Users/kevinprakasa/dev/ol-exam-client
+tmux new-window -t dev -n "exam-client"
+tmux send-keys -t dev:4 "yarn dev-local" Enter
 ```
 
 **Window 5 — code-exec:**
 ```bash
-tmux new-window -t dev:5 -n code-exec
-tmux send-keys -t dev:5 "cd /Users/kevinprakasa/dev/code_execution && sh localtunnel.sh olhook" Enter
-tmux split-window -h -t dev:5
-tmux send-keys -t dev:5.1 "cd /Users/kevinprakasa/dev/code_execution && sh dev.sh" Enter
+cd /Users/kevinprakasa/dev/code_execution
+tmux new-window -t dev -n "code-exec"
+tmux send-keys -t dev:5 "sh localtunnel.sh olhook" Enter
+tmux split-window -h -t dev:5 -c "/Users/kevinprakasa/dev/code_execution"
+tmux send-keys -t dev:5.1 "sh dev.sh" Enter
+tmux select-layout -t dev:5 even-horizontal
 ```
 
 #### Step 4: Attach to Session
@@ -215,11 +232,18 @@ set -g history-limit 10000
 # Status bar colors
 set -g status-bg black
 set -g status-fg white
+
+# Smart splits - new panes open in current pane's directory
+bind-key '"' split-window -h -c "#{pane_current_path}"
+bind-key '%' split-window -h -c "#{pane_current_path}"
+bind-key '-' split-window -v -c "#{pane_current_path}"
 ```
 
 Then reload: `tmux source-file ~/.tmux.conf`
 
 ## Tips & Best Practices
+
+✅ **Smart splits** — `Ctrl+B "` (horizontal), `Ctrl+B %` (horizontal), and `Ctrl+B -` (vertical) open new panes in the current pane's directory. This is configured automatically by the startup script.
 
 ✅ **Always use tmux for**:
 - Development work that lasts hours/days
