@@ -1,0 +1,202 @@
+[     835ms] TypeError: Cannot read properties of undefined (reading 'push')
+    at self.webpackHotUpdate (http://openlearning.test/media/chunks/entry/runtime.js:955:46)
+    at http://openlearning.test/media/chunks/runtime.340b81fea16ec32d.hot-update.js:10:25
+[    1068ms] [WARNING] [Deprecation Notice]: Use of dataLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2058ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2124ms] [LOG] i18next: languageChanged en @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2124ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: common, fallbackLng: Array(1)} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    2148ms] [WARNING] [Deprecation Notice]: Use of dataMultiLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    3675ms] [LOG] [HMR] connected @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5549ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[    5550ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[    5754ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5769ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `loginSettings` is marked as required in `LoginModal`, but its value is `null`. 
+    at LoginModal (webpack:///./web/containers/LoginModal/LoginModal.jsx?:50:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5824ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5844ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s LoadJsScript @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6099ms] TypeError: Cannot set properties of undefined (setting './web/tailwind.css')
+    at self.webpackHotUpdate (http://openlearning.test/media/chunks/entry/runtime.js:951:39)
+    at http://openlearning.test/media/chunks/basePageLoader.340b81fea16ec32d.hot-update.js:10:25
+[    5892ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[    5894ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    5894ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6065ms] [ERROR] Using kebab-case for css properties in objects is not supported. Did you mean WebkitOverflowScrolling? @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6092ms] [ERROR] Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.%s false highlight highlight false highlight highlight highlight 
+    at a
+    at LinkInner (webpack:///../node_modules/@respond-framework/react/es/link.js?:32:18)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Link
+    at LinkInnerInner (webpack:///./web/containers/Link/component.jsx?:52:5)
+    at LinkInner
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RouteLink (webpack:///./web/components/RouteLink/component.tsx?:18:63)
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarUserMenu (webpack:///./web/containers/TopBar/TopBarUserMenu/component.tsx?:84:68)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarItem (webpack:///./web/containers/TopBar/TopBarItem/component.tsx?:22:19)
+    at MenuItemUser (webpack:///./web/containers/TopBar/MenuItemUser/component.tsx?:34:19)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    6483ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[    6747ms] AxiosError
+[    6915ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `Modal`.  
+    at Modal (webpack:///./web/components/Modals/Modal/component.tsx?:56:7)
+    at AcceptCustomTnc (webpack:///./web/components/AcceptCustomTnc/component.tsx?:41:88)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[    7733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:7071/notifications/user/622957fd10b0fe1d3e63425b?page=1&page_size=10:0
+[   16483ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   16491ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   16492ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   39548ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   39555ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   39556ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   54547ms] TypeError: Cannot read properties of undefined (reading 'push')
+    at self.webpackHotUpdate (http://openlearning.test/media/chunks/entry/runtime.js:955:46)
+    at http://openlearning.test/media/chunks/runtime.340b81fea16ec32d.hot-update.js:10:25
+[   54455ms] [WARNING] [Deprecation Notice]: Use of dataLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   54668ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   54693ms] [LOG] i18next: languageChanged en @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   54693ms] [LOG] i18next: initialized {debug: true, initImmediate: true, ns: Array(1), defaultNS: common, fallbackLng: Array(1)} @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   54704ms] [WARNING] [Deprecation Notice]: Use of dataMultiLoader (and loading data from the DOM) is deprecated. @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55152ms] [LOG] [HMR] connected @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55250ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[   55250ms] [WARNING] The keyword 'slider-vertical' specified to an 'appearance' property is not standardized. It will be removed in the future. Use <input type=range style="writing-mode: vertical-lr; direction: rtl"> instead. @ webpack:///../node_modules/@openlearningnet/openlearningui/dist/main/index.js?:43
+[   55313ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55317ms] [ERROR] Warning: Failed %s type: %s%s prop The prop `loginSettings` is marked as required in `LoginModal`, but its value is `null`. 
+    at LoginModal (webpack:///./web/containers/LoginModal/LoginModal.jsx?:50:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55345ms] [ERROR] Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead. Until you switch to the new API, your app will behave as if it's running React 17. Learn more: https://reactjs.org/link/switch-to-createroot @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55353ms] [WARNING] Warning: componentWillMount has been renamed, and is not recommended for use. See https://reactjs.org/link/unsafe-component-lifecycles for details.
+
+* Move code with side effects to componentDidMount, and set initial state in the constructor.
+* Rename componentWillMount to UNSAFE_componentWillMount to suppress this warning in non-strict mode. In React 18.x, only the UNSAFE_ name will work. To rename all deprecated lifecycles to their new names, you can run `npx react-codemod rename-unsafe-lifecycles` in your project source folder.
+
+Please update the following components: %s LoadJsScript @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55371ms] [ERROR] Using kebab-case for css properties in objects is not supported. Did you mean WebkitOverflowScrolling? @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55393ms] [ERROR] Warning: Received `%s` for a non-boolean attribute `%s`.
+
+If you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.
+
+If you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.%s false highlight highlight false highlight highlight highlight 
+    at a
+    at LinkInner (webpack:///../node_modules/@respond-framework/react/es/link.js?:32:18)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at Link
+    at LinkInnerInner (webpack:///./web/containers/Link/component.jsx?:52:5)
+    at LinkInner
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RouteLink (webpack:///./web/components/RouteLink/component.tsx?:18:63)
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at li
+    at ul
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarUserMenu (webpack:///./web/containers/TopBar/TopBarUserMenu/component.tsx?:84:68)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarDropdown (webpack:///./web/containers/TopBar/TopBarDropdown/component.tsx?:38:28)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at TopBarItem (webpack:///./web/containers/TopBar/TopBarItem/component.tsx?:22:19)
+    at MenuItemUser (webpack:///./web/containers/TopBar/MenuItemUser/component.tsx?:34:19)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at div
+    at eval (webpack:///../node_modules/@emotion/react/dist/emotion-element-cbed451f.browser.esm.js?:57:66)
+    at _TopBar (webpack:///./web/containers/TopBar/component.tsx?:95:5)
+    at I18nextWithTranslation (webpack:///../node_modules/react-i18next/dist/es/withTranslation.js?:27:31)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55523ms] TypeError: Cannot set properties of undefined (setting './web/tailwind.css')
+    at self.webpackHotUpdate (http://openlearning.test/media/chunks/entry/runtime.js:951:39)
+    at http://openlearning.test/media/chunks/basePageLoader.340b81fea16ec32d.hot-update.js:10:25
+[   55490ms] [ERROR] Warning: Each child in a list should have a unique "key" prop.%s%s See https://reactjs.org/link/warning-keys for more information.%s 
+
+Check the render method of `Modal`.  
+    at Modal (webpack:///./web/components/Modals/Modal/component.tsx?:56:7)
+    at AcceptCustomTnc (webpack:///./web/components/AcceptCustomTnc/component.tsx?:41:88)
+    at Suspense
+    at WrappedComponent
+    at ErrorBoundary (webpack:///./web/components/Loadable/index.tsx?:40:7)
+    at RegionProvider (webpack:///./web/containers/BasePage/providers/RegionProvider.tsx?:34:66)
+    at t.QueryClientProvider (webpack:///../node_modules/@tanstack/react-query/build/umd/index.production.js?:21:40044)
+    at h (webpack:///../node_modules/react-google-recaptcha-v3/dist/react-google-recaptcha-v3.esm.js?:27:3189)
+    at BasePage (webpack:///./web/containers/BasePage/component.jsx?:176:5)
+    at ConnectFunction (webpack:///../node_modules/react-redux/es/components/connect.js?:240:114)
+    at RudyProvider (webpack:///../node_modules/@respond-framework/react/es/provider.js?:14:18)
+    at Provider (webpack:///../node_modules/react-redux/es/components/Provider.js?:16:3) @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55492ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   55501ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://openlearning.test/media/lib/dust/compiled_templates/misc.dust?_=1777340020487:0
+[   55504ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55504ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   55546ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://course-uploads-qa.openlearning.com/set-access-token:0
+[   55577ms] AxiosError
+[   55644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:7071/notifications/user/622957fd10b0fe1d3e63425b?page=1&page_size=10:0
+[   72903ms] [ERROR] WebSocket connection to 'ws://localhost:9000/socketcluster/' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack:///../node_modules/socketcluster-client/lib/sctransport.js?:9
+[   72905ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139
+[   72905ms] [ERROR] SocketProtocolError @ webpack:///../node_modules/@sentry/browser/node_modules/@sentry/utils/esm/instrument.js?:139

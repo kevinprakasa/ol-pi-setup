@@ -235,7 +235,7 @@ set -g status-fg white
 
 # Smart splits - new panes open in current pane's directory
 bind-key '"' split-window -h -c "#{pane_current_path}"
-bind-key '%' split-window -h -c "#{pane_current_path}"
+bind-key '%' split-window -v -c "#{pane_current_path}"
 bind-key '-' split-window -v -c "#{pane_current_path}"
 ```
 
@@ -243,7 +243,7 @@ Then reload: `tmux source-file ~/.tmux.conf`
 
 ## Tips & Best Practices
 
-✅ **Smart splits** — `Ctrl+B "` (horizontal), `Ctrl+B %` (horizontal), and `Ctrl+B -` (vertical) open new panes in the current pane's directory. This is configured automatically by the startup script.
+✅ **Smart splits** — `Ctrl+B "` (horizontal), `Ctrl+B %` (vertical), and `Ctrl+B -` (vertical) open new panes in the current pane's directory. This is configured automatically by the startup script.
 
 ✅ **Always use tmux for**:
 - Development work that lasts hours/days

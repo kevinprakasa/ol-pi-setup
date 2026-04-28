@@ -1,0 +1,68 @@
+- generic [active] [ref=e1]:
+  - button "Skip to main content" [ref=e3] [cursor=pointer]
+  - generic [ref=e6]:
+    - generic [ref=e7]:
+      - text: 
+      - generic [ref=e9]:
+        - button "Institutions" [ref=e11] [cursor=pointer]:
+          - generic [ref=e12]: Institutions
+          - img [ref=e13]: 
+        - button "Courses" [ref=e16] [cursor=pointer]:
+          - generic [ref=e17]: Courses
+          - img [ref=e18]: 
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - button "Notifications" [ref=e23] [cursor=pointer]:
+          - img [ref=e24]: 
+          - generic [ref=e26]: Notifications
+        - generic: 
+      - generic [ref=e27]:
+        - button "superadmin superuser" [ref=e28] [cursor=pointer]:
+          - img "superadmin" [ref=e31]
+          - generic [ref=e32]: superuser
+        - generic:         
+      - 'button "Selected language: English (EN)" [ref=e34] [cursor=pointer]':
+        - generic [ref=e35]: EN
+  - generic [ref=e37]:
+    - generic [ref=e40]:
+      - heading "institutiontest" [level=1] [ref=e41]
+      - generic:
+        - paragraph
+    - generic [ref=e42]:
+      - separator [ref=e44]
+      - heading "Your Courses" [level=2] [ref=e49]
+      - separator [ref=e54]
+      - generic [ref=e59]:
+        - heading "Educators" [level=2] [ref=e60]
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - link:
+              - /url: /u/superuser/
+              - img [ref=e63] [cursor=pointer]
+            - generic [ref=e64]:
+              - paragraph [ref=e65]:
+                - link "superadmin" [ref=e66] [cursor=pointer]:
+                  - /url: /u/superuser/
+              - paragraph [ref=e67]: Hello everyone, I'm a teacher and I can't wait to learn with all of you.
+          - generic [ref=e68]:
+            - link:
+              - /url: /u/eight/
+              - img [ref=e69] [cursor=pointer]
+            - generic [ref=e70]:
+              - paragraph [ref=e71]:
+                - link "eight" [ref=e72] [cursor=pointer]:
+                  - /url: /u/eight/
+              - paragraph [ref=e73]: Hello everyone, I'm a teacher and I can't wait to learn with all of you.
+      - contentinfo [ref=e74]:
+        - paragraph [ref=e79]:
+          - link "Feedback & Support" [ref=e80] [cursor=pointer]:
+            - /url: http://openlearning.test/sso/help/?redirect=https://help.openlearning.com
+      - heading "Chat" [level=1] [ref=e81]
+  - alertdialog [ref=e82]:
+    - alert [ref=e83]:
+      - generic [ref=e85]: 
+      - heading "Timezone has changed." [level=4] [ref=e86]
+      - alert [ref=e87]:
+        - text: "Your current timezone is set to: Asia/Jakarta but you are now in Pacific/Auckland. You can change timezone settings in your"
+        - link "account settings" [ref=e88] [cursor=pointer]:
+          - /url: http://openlearning.test/accounts/account-settings/
