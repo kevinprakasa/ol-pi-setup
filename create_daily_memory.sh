@@ -7,15 +7,20 @@
 DATE=${1:-$(date +%Y-%m-%d)}
 MEMORY_DIR="memory/$DATE"
 
-# Calculate yesterday's date using Python (cross-platform)
-YESTERDAY=$(python3 -c "from datetime import datetime, timedelta; print((datetime.strptime('$DATE', '%Y-%m-%d') - timedelta(days=1)).strftime('%Y-%m-%d'))" 2>/dev/null || echo "")
+# Find the latest memory folder (most recent date with tasks.md)
+get_latest_memory_dir() {
+    local latest=""
+    for dir in memory/????-??-??; do
+        if [ -d "$dir" ] && [ -f "$dir/tasks.md" ]; then
+            if [ -z "$latest" ] || [ "$dir" \> "$latest" ]; then
+                latest="$dir"
+            fi
+        fi
+    done
+    echo "$latest"
+}
 
-if [ -z "$YESTERDAY" ]; then
-    # Fallback: use current date minus 1 day
-    YESTERDAY=$(date -v-1d +%Y-%m-%d)
-fi
-
-YESTERDAY_DIR="memory/$YESTERDAY"
+LATEST_DIR=$(get_latest_memory_dir)
 
 # Function to extract unchecked items from a section
 get_unchecked() {
@@ -56,24 +61,26 @@ if [ -d "$MEMORY_DIR" ]; then
 else
     mkdir -p "$MEMORY_DIR"
     
-    # Check if yesterday's memory exists
+    # Check if latest memory exists
     CARRY_IN_PROGRESS=""
     CARRY_PLANNED=""
     CARRY_NEXT_STEPS=""
     CARRIED_COUNT=0
+    SOURCE_DATE=""
     
-    if [ -d "$YESTERDAY_DIR" ]; then
-        echo "📋 Carrying forward from $YESTERDAY..."
+    if [ -n "$LATEST_DIR" ]; then
+        SOURCE_DATE=$(basename "$LATEST_DIR")
+        echo "📋 Carrying forward from latest: $SOURCE_DATE..."
         
         # Get unchecked tasks
-        if [ -f "$YESTERDAY_DIR/tasks.md" ]; then
-            CARRY_IN_PROGRESS=$(get_unchecked "$YESTERDAY_DIR/tasks.md" "In Progress")
-            CARRY_PLANNED=$(get_unchecked "$YESTERDAY_DIR/tasks.md" "Planned")
+        if [ -f "$LATEST_DIR/tasks.md" ]; then
+            CARRY_IN_PROGRESS=$(get_unchecked "$LATEST_DIR/tasks.md" "In Progress")
+            CARRY_PLANNED=$(get_unchecked "$LATEST_DIR/tasks.md" "Planned")
         fi
         
         # Get next steps from notes
-        if [ -f "$YESTERDAY_DIR/notes.md" ]; then
-            CARRY_NEXT_STEPS=$(get_next_steps "$YESTERDAY_DIR/notes.md")
+        if [ -f "$LATEST_DIR/notes.md" ]; then
+            CARRY_NEXT_STEPS=$(get_next_steps "$LATEST_DIR/notes.md")
         fi
     fi
     
@@ -110,35 +117,40 @@ else
 ## Blocked
 - [ ] 
 
----
-
-## Carried from $YESTERDAY
 "
     
-    # Add carried items section
-    if [ -n "$CARRY_IN_PROGRESS" ]; then
-        TASKS_CONTENT="${TASKS_CONTENT}### Previous In Progress (still active)
+    # Only add carried section if we have a source
+    if [ -n "$SOURCE_DATE" ]; then
+        TASKS_CONTENT="${TASKS_CONTENT}---
+
+## Carried from $SOURCE_DATE
+"
+        
+        # Add carried items section
+        if [ -n "$CARRY_IN_PROGRESS" ]; then
+            TASKS_CONTENT="${TASKS_CONTENT}### Previous In Progress (still active)
 $CARRY_IN_PROGRESS
 
 "
-    fi
-    if [ -n "$CARRY_PLANNED" ]; then
-        TASKS_CONTENT="${TASKS_CONTENT}### Previous Planned (still pending)
+        fi
+        if [ -n "$CARRY_PLANNED" ]; then
+            TASKS_CONTENT="${TASKS_CONTENT}### Previous Planned (still pending)
 $CARRY_PLANNED
 
 "
-    fi
-    if [ -n "$CARRY_NEXT_STEPS" ]; then
-        TASKS_CONTENT="${TASKS_CONTENT}### Previous Next Steps
+        fi
+        if [ -n "$CARRY_NEXT_STEPS" ]; then
+            TASKS_CONTENT="${TASKS_CONTENT}### Previous Next Steps
 $CARRY_NEXT_STEPS
 "
+        fi
     fi
     
     # Write tasks.md
     echo "$TASKS_CONTENT" > "$MEMORY_DIR/tasks.md"
     
-    # Create notes.md
-    cat > "$MEMORY_DIR/notes.md" << 'NODES_EOF'
+    # Create notes.md with correct date
+    cat > "$MEMORY_DIR/notes.md" << EOF
 # Daily Notes - $DATE
 
 ## Summary
@@ -157,13 +169,13 @@ $CARRY_NEXT_STEPS
 
 ## Next Steps
 <!-- What to focus on next -->
-NODES_EOF
+EOF
     
     echo "✓ Created daily memory folder for $DATE"
     echo "  Location: $MEMORY_DIR"
     
-    if [ -d "$YESTERDAY_DIR" ] && [ "$CARRIED_COUNT" -gt 0 ]; then
+    if [ -n "$SOURCE_DATE" ] && [ "$CARRIED_COUNT" -gt 0 ]; then
         echo ""
-        echo "📦 Carried $CARRIED_COUNT items from $YESTERDAY"
+        echo "📦 Carried $CARRIED_COUNT items from $SOURCE_DATE"
     fi
 fi

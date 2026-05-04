@@ -1,0 +1,65 @@
+- generic [active] [ref=e1]:
+  - button "Skip to main content" [ref=e3]
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - link "OpenLearning" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+        - generic [ref=e13]: OpenLearning
+      - generic [ref=e15]:
+        - button "Sign up" [ref=e16]
+        - button "Log in" [ref=e17]
+        - 'button "Selected language: English (EN)" [ref=e19] [cursor=pointer]':
+          - generic [ref=e20]: EN
+    - generic [ref=e22]:
+      - banner [ref=e23]:
+        - img [ref=e24]
+      - generic [ref=e30]:
+        - list
+      - generic [ref=e33]:
+        - heading "Courses" [level=2] [ref=e34]
+        - heading [level=4]
+        - generic [ref=e39]:
+          - generic [ref=e41]: Search
+          - generic [ref=e42]:
+            - img
+            - textbox "Search" [ref=e43]:
+              - /placeholder: Search by name or keyword
+            - button "Clear" [ref=e44] [cursor=pointer]
+      - generic [ref=e47]:
+        - heading "Programs" [level=2] [ref=e48]
+        - heading [level=4]
+      - generic [ref=e52]:
+        - heading "Free To Learn| Pay To Certify" [level=3] [ref=e53]:
+          - generic [ref=e54]: Free To Learn|
+          - generic [ref=e55]: Pay To Certify
+        - generic [ref=e56]: Join and complete any courses for free and only pay IF you want to get certified. We don't ask you for payment details up front so it's risk-free to start learning.
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - heading "Learn It" [level=4] [ref=e59]:
+              - img [ref=e60]
+              - text: Learn It
+            - generic [ref=e62]:
+              - text: Complete any course
+              - generic [ref=e63]: for free
+          - generic [ref=e64]:
+            - heading "Love It" [level=4] [ref=e65]:
+              - img [ref=e66]
+              - text: Love It
+            - generic [ref=e68]: Experience first-hand quality online learning
+          - generic [ref=e69]:
+            - heading "Certify It" [level=4] [ref=e70]:
+              - img [ref=e71]
+              - text: Certify It
+            - generic [ref=e73]:
+              - text: Pay if you decide to
+              - generic [ref=e74]: get certified
+      - heading "What To Expect" [level=2] [ref=e78]
+      - heading "FAQ" [level=2] [ref=e82]
+      - list [ref=e89]:
+        - listitem [ref=e90]:
+          - strong
+        - listitem [ref=e91]:
+          - link "Contact us" [ref=e92] [cursor=pointer]:
+            - /url: https://tafensw.custhelp.com/app/contact-us/iatenquiry
+            - strong [ref=e93]: Contact us

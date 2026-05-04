@@ -1,0 +1,652 @@
+- generic [ref=e3]:
+  - generic [ref=e8]:
+    - generic [ref=e9]:
+      - img [ref=e12]
+      - paragraph [ref=e14]:
+        - strong [ref=e15]: Build Awesome is here!
+        - text: A new website platform from Font Awesome.
+    - generic [ref=e16]:
+      - generic [ref=e17]: 1 month left!
+      - link "Back the Kickstarter" [ref=e19] [cursor=pointer]:
+        - /url: https://www.kickstarter.com/projects/fontawesome/build-awesome-pro?ref=ascl53
+        - img [ref=e20]
+        - text: Back the Kickstarter
+  - banner [ref=e22]:
+    - navigation "Awesomeverse Products + Links" [ref=e24]:
+      - generic [ref=e25]:
+        - link "Font Awesome" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img [ref=e27]
+        - link "Web Awesome" [ref=e30] [cursor=pointer]:
+          - /url: https://webawesome.com
+          - img [ref=e32]
+          - text: Web Awesome
+        - link "Build Awesome" [ref=e34] [cursor=pointer]:
+          - /url: https://www.kickstarter.com/projects/fontawesome/build-awesome-pro?ref=90rgxp
+          - img [ref=e36]
+          - text: Build Awesome
+      - generic [ref=e38]:
+        - generic "Podcast Awesome" [ref=e39] [cursor=pointer]:
+          - link [ref=e40]:
+            - /url: https://www.podcastawesome.com
+            - img [ref=e42]
+          - text: Podcast Awesome
+        - generic "Blog Awesome" [ref=e44] [cursor=pointer]:
+          - link [ref=e45]:
+            - /url: https://blog.fontawesome.com
+            - img [ref=e47]
+          - text: Blog Awesome
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - text: Open Main Menu
+        - generic [ref=e53]:
+          - link "Start" [ref=e54] [cursor=pointer]:
+            - /url: /start
+          - link "Search Icons" [ref=e55] [cursor=pointer]:
+            - /url: /search
+            - img [ref=e56]
+            - generic [ref=e58]: Search Icons
+          - link "Icons" [ref=e59] [cursor=pointer]:
+            - /url: /icons
+          - link "Docs" [ref=e60] [cursor=pointer]:
+            - /url: /docs
+          - link "Plans" [ref=e61] [cursor=pointer]:
+            - /url: /plans
+          - link "Support" [ref=e62] [cursor=pointer]:
+            - /url: /support
+      - link "Sign In" [ref=e63] [cursor=pointer]:
+        - /url: /sessions/sign-in?next=%2Fsearch%3Fq%3Dlinkedin
+        - img [ref=e64]
+        - img [ref=e66]
+        - generic [ref=e68]: Sign In
+        - text: Sign In
+    - text: Web Awesome Build Awesome
+  - main [ref=e69]:
+    - generic [ref=e70]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - heading "Font Awesome Icons" [level=1] [ref=e74]
+          - generic [ref=e76]:
+            - generic [ref=e77]:
+              - img
+              - generic [ref=e78]: Search the v7 Icons
+              - textbox "Search 64,647 icons..." [active] [ref=e79]: linkedin
+            - button "Clear Current Search" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - text: Clear Current Search
+        - generic [ref=e84]:
+          - generic [ref=e86]:
+            - button "Icon Grid" [ref=e87] [cursor=pointer]:
+              - generic [ref=e89]: Icon Grid
+            - button "Icon Packs" [ref=e90] [cursor=pointer]:
+              - generic [ref=e92]: Icon Packs
+            - button "Categories" [ref=e93] [cursor=pointer]:
+              - generic [ref=e95]: Categories
+          - generic [ref=e96]:
+            - text: Show Filters
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - generic [ref=e99]:
+                  - button "Add color" [ref=e100] [cursor=pointer]: Add color
+                  - text: Reset
+                  - group:
+                    - generic: rgb
+                  - group:
+                    - generic: rgb
+                - button "Change background" [ref=e104] [cursor=pointer]:
+                  - img [ref=e105]
+                  - text: Change background
+                - button "Change layout" [ref=e108] [cursor=pointer]:
+                  - img [ref=e109]
+                  - text: Change layout
+              - generic [ref=e111]:
+                - button "All Icons" [ref=e112] [cursor=pointer]: All All Icons
+                - button "Pro Icons" [ref=e113] [cursor=pointer]: Pro Pro Icons
+                - button "Pro+ Icons" [ref=e114] [cursor=pointer]: Pro+ Pro+ Icons
+                - button "Free Icons" [ref=e115] [cursor=pointer]: Free Free Icons
+              - generic [ref=e117]:
+                - generic [ref=e118]: Choose a version of Font Awesome
+                - generic "Choose a version of Font Awesome" [ref=e119] [cursor=pointer]:
+                  - combobox "Choose a version of Font Awesome" [ref=e120]:
+                    - option "5.15.4"
+                    - option "6.7.2"
+                    - option "7.2.0" [selected]
+                    - option "See All"
+                  - text: Choose a version of Font Awesome
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - article [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e128]: Advertisement
+              - button "Remove Ad" [ref=e129] [cursor=pointer]:
+                - img [ref=e130]
+                - text: Remove Ad
+          - generic [ref=e134]:
+            - heading "Icon Packs" [level=3] [ref=e135]
+            - list [ref=e136]:
+              - listitem [ref=e137]:
+                - checkbox "Show Brands style icons 4 matching results" [ref=e138]
+                - generic [ref=e139] [cursor=pointer]:
+                  - generic [ref=e142]:
+                    - generic [ref=e143]: Show
+                    - text: Brands
+                    - generic [ref=e144]: style icons
+                  - generic [ref=e145]:
+                    - text: "4"
+                    - generic [ref=e146]: matching results
+              - listitem [ref=e147]:
+                - checkbox "Show Classic style icons 8 matching results" [ref=e148]
+                - generic [ref=e149] [cursor=pointer]:
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: Show
+                    - text: Classic
+                    - generic [ref=e154]: style icons
+                  - generic [ref=e155]:
+                    - text: "8"
+                    - generic [ref=e156]: matching results
+              - listitem [ref=e157]:
+                - checkbox "Show Duotone style icons 8 matching results" [ref=e158]
+                - generic [ref=e159] [cursor=pointer]:
+                  - generic [ref=e162]:
+                    - generic [ref=e163]: Show
+                    - text: Duotone
+                    - generic [ref=e164]: style icons
+                  - generic [ref=e165]:
+                    - text: "8"
+                    - generic [ref=e166]: matching results
+              - listitem [ref=e167]:
+                - checkbox "Show Sharp style icons 8 matching results" [ref=e168]
+                - generic [ref=e169] [cursor=pointer]:
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: Show
+                    - text: Sharp
+                    - generic [ref=e174]: style icons
+                  - generic [ref=e175]:
+                    - text: "8"
+                    - generic [ref=e176]: matching results
+              - listitem [ref=e177]:
+                - checkbox "Show Sharp Duotone style icons 8 matching results" [ref=e178]
+                - generic [ref=e179] [cursor=pointer]:
+                  - generic [ref=e182]:
+                    - generic [ref=e183]: Show
+                    - text: Sharp Duotone
+                    - generic [ref=e184]: style icons
+                  - generic [ref=e185]:
+                    - text: "8"
+                    - generic [ref=e186]: matching results
+          - generic [ref=e187]:
+            - heading "Style" [level=3] [ref=e188]
+            - list [ref=e189]:
+              - listitem [ref=e190]:
+                - checkbox "Show solid style icons 8 matching results" [ref=e191]
+                - generic [ref=e192] [cursor=pointer]:
+                  - img [ref=e194]
+                  - generic [ref=e196]:
+                    - generic [ref=e197]: Show
+                    - text: solid
+                    - generic [ref=e198]: style icons
+                  - generic [ref=e199]:
+                    - text: "8"
+                    - generic [ref=e200]: matching results
+              - listitem [ref=e201]:
+                - checkbox "Show regular style icons 8 matching results" [ref=e202]
+                - generic [ref=e203] [cursor=pointer]:
+                  - img [ref=e205]
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: Show
+                    - text: regular
+                    - generic [ref=e209]: style icons
+                  - generic [ref=e210]:
+                    - text: "8"
+                    - generic [ref=e211]: matching results
+              - listitem [ref=e212]:
+                - checkbox "Show light style icons 8 matching results" [ref=e213]
+                - generic [ref=e214] [cursor=pointer]:
+                  - img [ref=e216]
+                  - generic [ref=e218]:
+                    - generic [ref=e219]: Show
+                    - text: light
+                    - generic [ref=e220]: style icons
+                  - generic [ref=e221]:
+                    - text: "8"
+                    - generic [ref=e222]: matching results
+              - listitem [ref=e223]:
+                - checkbox "Show thin style icons 8 matching results" [ref=e224]
+                - generic [ref=e225] [cursor=pointer]:
+                  - img [ref=e227]
+                  - generic [ref=e229]:
+                    - generic [ref=e230]: Show
+                    - text: thin
+                    - generic [ref=e231]: style icons
+                  - generic [ref=e232]:
+                    - text: "8"
+                    - generic [ref=e233]: matching results
+          - generic [ref=e234]:
+            - heading "Icon Type" [level=3] [ref=e235]
+            - list [ref=e236]:
+              - listitem [ref=e237]:
+                - checkbox "Show Duotone style icons 16 matching results" [ref=e238]
+                - generic [ref=e239] [cursor=pointer]:
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: Show
+                    - text: Duotone
+                    - generic [ref=e244]: style icons
+                  - generic [ref=e245]:
+                    - text: "16"
+                    - generic [ref=e246]: matching results
+              - listitem [ref=e247]:
+                - checkbox "Show Filled style icons 8 matching results" [ref=e248]
+                - generic [ref=e249] [cursor=pointer]:
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: Show
+                    - text: Filled
+                    - generic [ref=e254]: style icons
+                  - generic [ref=e255]:
+                    - text: "8"
+                    - generic [ref=e256]: matching results
+              - listitem [ref=e257]:
+                - checkbox "Show Line style icons 24 matching results" [ref=e258]
+                - generic [ref=e259] [cursor=pointer]:
+                  - generic [ref=e262]:
+                    - generic [ref=e263]: Show
+                    - text: Line
+                    - generic [ref=e264]: style icons
+                  - generic [ref=e265]:
+                    - text: "24"
+                    - generic [ref=e266]: matching results
+              - listitem [ref=e267]:
+                - checkbox "Show Round style icons 16 matching results" [ref=e268]
+                - generic [ref=e269] [cursor=pointer]:
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: Show
+                    - text: Round
+                    - generic [ref=e274]: style icons
+                  - generic [ref=e275]:
+                    - text: "16"
+                    - generic [ref=e276]: matching results
+              - listitem [ref=e277]:
+                - checkbox "Show Sharp style icons 16 matching results" [ref=e278]
+                - generic [ref=e279] [cursor=pointer]:
+                  - generic [ref=e282]:
+                    - generic [ref=e283]: Show
+                    - text: Sharp
+                    - generic [ref=e284]: style icons
+                  - generic [ref=e285]:
+                    - text: "16"
+                    - generic [ref=e286]: matching results
+          - generic [ref=e287]:
+            - heading "Categories" [level=3] [ref=e288]
+            - list [ref=e289]:
+              - listitem [ref=e290]:
+                - checkbox "Show Coding category icons 16 matching results" [ref=e291]
+                - generic [ref=e292] [cursor=pointer]:
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: Show
+                    - text: Coding
+                    - generic [ref=e297]: category icons
+                  - generic [ref=e298]:
+                    - text: "16"
+                    - generic [ref=e299]: matching results
+              - listitem [ref=e300]:
+                - checkbox "Show Connectivity category icons 16 matching results" [ref=e301]
+                - generic [ref=e302] [cursor=pointer]:
+                  - generic [ref=e305]:
+                    - generic [ref=e306]: Show
+                    - text: Connectivity
+                    - generic [ref=e307]: category icons
+                  - generic [ref=e308]:
+                    - text: "16"
+                    - generic [ref=e309]: matching results
+              - listitem [ref=e310]:
+                - checkbox "Show Design category icons 16 matching results" [ref=e311]
+                - generic [ref=e312] [cursor=pointer]:
+                  - generic [ref=e315]:
+                    - generic [ref=e316]: Show
+                    - text: Design
+                    - generic [ref=e317]: category icons
+                  - generic [ref=e318]:
+                    - text: "16"
+                    - generic [ref=e319]: matching results
+              - listitem [ref=e320]:
+                - checkbox "Show Humanitarian category icons 16 matching results" [ref=e321]
+                - generic [ref=e322] [cursor=pointer]:
+                  - generic [ref=e325]:
+                    - generic [ref=e326]: Show
+                    - text: Humanitarian
+                    - generic [ref=e327]: category icons
+                  - generic [ref=e328]:
+                    - text: "16"
+                    - generic [ref=e329]: matching results
+              - listitem [ref=e330]:
+                - checkbox "Show Medical + Health category icons 16 matching results" [ref=e331]
+                - generic [ref=e332] [cursor=pointer]:
+                  - generic [ref=e335]:
+                    - generic [ref=e336]: Show
+                    - text: Medical + Health
+                    - generic [ref=e337]: category icons
+                  - generic [ref=e338]:
+                    - text: "16"
+                    - generic [ref=e339]: matching results
+              - listitem [ref=e340]:
+                - checkbox "Show Users + People category icons 16 matching results" [ref=e341]
+                - generic [ref=e342] [cursor=pointer]:
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: Show
+                    - text: Users + People
+                    - generic [ref=e347]: category icons
+                  - generic [ref=e348]:
+                    - text: "16"
+                    - generic [ref=e349]: matching results
+        - generic [ref=e350]:
+          - generic [ref=e352]:
+            - heading "36 Icons" [level=1] [ref=e354]
+            - list [ref=e357]:
+              - listitem [ref=e358]:
+                - button "“linkedin”" [ref=e359] [cursor=pointer]:
+                  - text: “linkedin”
+                  - img [ref=e360]
+              - listitem [ref=e362]:
+                - button "Reset All Filters + Queries" [ref=e363] [cursor=pointer]:
+                  - text: Reset
+                  - generic [ref=e364]: All Filters + Queries
+          - generic [ref=e366]:
+            - article [ref=e367]:
+              - button "linkedin" [ref=e368] [cursor=pointer]:
+                - generic [ref=e371]: linkedin
+            - article [ref=e372]:
+              - button "linkedin-in" [ref=e373] [cursor=pointer]:
+                - generic [ref=e376]: linkedin-in
+            - article [ref=e377]:
+              - button "square-linkedin" [ref=e378] [cursor=pointer]:
+                - generic [ref=e381]: square-linkedin
+              - generic "New in V7" [ref=e382] [cursor=pointer]:
+                - generic [ref=e383]: New in V7
+                - text: New New in V7
+            - article [ref=e384]:
+              - button "circle-nodes" [ref=e385] [cursor=pointer]:
+                - generic [ref=e388]: circle-nodes
+            - article [ref=e389]:
+              - button "circle-nodes" [ref=e390] [cursor=pointer]:
+                - generic [ref=e393]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e394] [cursor=pointer]:
+                - generic [ref=e395]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e396]:
+              - button "circle-nodes" [ref=e397] [cursor=pointer]:
+                - generic [ref=e400]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e401] [cursor=pointer]:
+                - generic [ref=e402]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e403]:
+              - button "circle-nodes" [ref=e404] [cursor=pointer]:
+                - generic [ref=e407]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e408] [cursor=pointer]:
+                - generic [ref=e409]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e410]:
+              - button "circle-nodes" [ref=e411] [cursor=pointer]:
+                - generic [ref=e414]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e415] [cursor=pointer]:
+                - generic [ref=e416]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e417]:
+              - button "circle-nodes" [ref=e418] [cursor=pointer]:
+                - generic [ref=e421]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e422] [cursor=pointer]:
+                - generic [ref=e423]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e424]:
+              - button "circle-nodes" [ref=e425] [cursor=pointer]:
+                - generic [ref=e428]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e429] [cursor=pointer]:
+                - generic [ref=e430]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e431]:
+              - button "circle-nodes" [ref=e432] [cursor=pointer]:
+                - generic [ref=e435]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e436] [cursor=pointer]:
+                - generic [ref=e437]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e438]:
+              - button "circle-nodes" [ref=e439] [cursor=pointer]:
+                - generic [ref=e442]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e443] [cursor=pointer]:
+                - generic [ref=e444]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e445]:
+              - button "circle-nodes" [ref=e446] [cursor=pointer]:
+                - generic [ref=e449]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e450] [cursor=pointer]:
+                - generic [ref=e451]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e452]:
+              - button "circle-nodes" [ref=e453] [cursor=pointer]:
+                - generic [ref=e456]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e457] [cursor=pointer]:
+                - generic [ref=e458]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e459]:
+              - button "circle-nodes" [ref=e460] [cursor=pointer]:
+                - generic [ref=e463]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e464] [cursor=pointer]:
+                - generic [ref=e465]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e466]:
+              - button "circle-nodes" [ref=e467] [cursor=pointer]:
+                - generic [ref=e470]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e471] [cursor=pointer]:
+                - generic [ref=e472]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e473]:
+              - button "circle-nodes" [ref=e474] [cursor=pointer]:
+                - generic [ref=e477]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e478] [cursor=pointer]:
+                - generic [ref=e479]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e480]:
+              - button "circle-nodes" [ref=e481] [cursor=pointer]:
+                - generic [ref=e484]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e485] [cursor=pointer]:
+                - generic [ref=e486]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e487]:
+              - button "circle-nodes" [ref=e488] [cursor=pointer]:
+                - generic [ref=e491]: circle-nodes
+              - generic "Font Awesome Pro Required" [ref=e492] [cursor=pointer]:
+                - generic [ref=e493]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e494]:
+              - button "person-dots-from-line" [ref=e495] [cursor=pointer]:
+                - generic [ref=e498]: person-dots-from-line
+            - article [ref=e499]:
+              - button "person-dots-from-line" [ref=e500] [cursor=pointer]:
+                - generic [ref=e503]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e504] [cursor=pointer]:
+                - generic [ref=e505]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e506]:
+              - button "person-dots-from-line" [ref=e507] [cursor=pointer]:
+                - generic [ref=e510]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e511] [cursor=pointer]:
+                - generic [ref=e512]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e513]:
+              - button "person-dots-from-line" [ref=e514] [cursor=pointer]:
+                - generic [ref=e517]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e518] [cursor=pointer]:
+                - generic [ref=e519]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e520]:
+              - button "person-dots-from-line" [ref=e521] [cursor=pointer]:
+                - generic [ref=e524]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e525] [cursor=pointer]:
+                - generic [ref=e526]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e527]:
+              - button "person-dots-from-line" [ref=e528] [cursor=pointer]:
+                - generic [ref=e531]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e532] [cursor=pointer]:
+                - generic [ref=e533]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e534]:
+              - button "person-dots-from-line" [ref=e535] [cursor=pointer]:
+                - generic [ref=e538]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e539] [cursor=pointer]:
+                - generic [ref=e540]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e541]:
+              - button "person-dots-from-line" [ref=e542] [cursor=pointer]:
+                - generic [ref=e545]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e546] [cursor=pointer]:
+                - generic [ref=e547]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e548]:
+              - button "person-dots-from-line" [ref=e549] [cursor=pointer]:
+                - generic [ref=e552]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e553] [cursor=pointer]:
+                - generic [ref=e554]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e555]:
+              - button "person-dots-from-line" [ref=e556] [cursor=pointer]:
+                - generic [ref=e559]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e560] [cursor=pointer]:
+                - generic [ref=e561]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e562]:
+              - button "person-dots-from-line" [ref=e563] [cursor=pointer]:
+                - generic [ref=e566]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e567] [cursor=pointer]:
+                - generic [ref=e568]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e569]:
+              - button "person-dots-from-line" [ref=e570] [cursor=pointer]:
+                - generic [ref=e573]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e574] [cursor=pointer]:
+                - generic [ref=e575]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e576]:
+              - button "person-dots-from-line" [ref=e577] [cursor=pointer]:
+                - generic [ref=e580]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e581] [cursor=pointer]:
+                - generic [ref=e582]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e583]:
+              - button "person-dots-from-line" [ref=e584] [cursor=pointer]:
+                - generic [ref=e587]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e588] [cursor=pointer]:
+                - generic [ref=e589]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e590]:
+              - button "person-dots-from-line" [ref=e591] [cursor=pointer]:
+                - generic [ref=e594]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e595] [cursor=pointer]:
+                - generic [ref=e596]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e597]:
+              - button "person-dots-from-line" [ref=e598] [cursor=pointer]:
+                - generic [ref=e601]: person-dots-from-line
+              - generic "Font Awesome Pro Required" [ref=e602] [cursor=pointer]:
+                - generic [ref=e603]: Font Awesome Pro Required
+                - text: Pro Font Awesome Pro Required
+            - article [ref=e604]:
+              - button "staylinked" [ref=e605] [cursor=pointer]:
+                - generic [ref=e608]: staylinked
+  - contentinfo [ref=e609]:
+    - generic [ref=e610]:
+      - generic [ref=e611]:
+        - generic [ref=e612]:
+          - heading "Font Awesome Font Awesome Go Make Something Awesome" [level=2] [ref=e613]:
+            - link "Font Awesome Font Awesome" [ref=e614] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e615]:
+                - img [ref=e616]
+                - generic [ref=e618]: Font Awesome
+              - generic [ref=e619]: Font Awesome
+            - text: Go Make Something Awesome
+          - paragraph [ref=e620]: Font Awesome is the internet's icon library and toolkit used by millions of designers, developers, and content creators.
+          - paragraph [ref=e621]:
+            - text: Made with
+            - img [ref=e622]
+            - text: and
+            - img [ref=e624]
+            - text: in
+            - link "Bentonville" [ref=e626] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Bentonville, AR
+            - text: ","
+            - link "Boston" [ref=e627] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Boston, MA
+            - text: ","
+            - link "Chicago" [ref=e628] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Chicago, IL
+            - text: ","
+            - link "Grand Rapids" [ref=e629] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Grand Rapids, MI
+            - text: ","
+            - link "Joplin" [ref=e630] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Joplin, MO
+            - text: ","
+            - link "Kansas City" [ref=e631] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Kansas City, MO
+            - text: ","
+            - link "Seattle" [ref=e632] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Seattle, WA
+            - text: ","
+            - link "Tampa" [ref=e633] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Tampa, FL
+            - text: ", and"
+            - link "Vergennes" [ref=e634] [cursor=pointer]:
+              - /url: https://www.google.com/maps/place/Vergennes, VT
+            - text: .
+        - generic [ref=e635]:
+          - generic [ref=e636]:
+            - heading "Awesomeverse" [level=3] [ref=e637]
+            - link "Web Awesome" [ref=e638] [cursor=pointer]:
+              - /url: https://webawesome.com/
+            - link "11ty" [ref=e639] [cursor=pointer]:
+              - /url: https://www.11ty.dev/
+            - link "Podcast Awesome" [ref=e640] [cursor=pointer]:
+              - /url: https://podcastawesome.com/
+            - link "Blog Awesome" [ref=e641] [cursor=pointer]:
+              - /url: https://blog.fontawesome.com
+          - generic [ref=e642]:
+            - heading "Font Awesome" [level=3] [ref=e643]
+            - link "Download" [ref=e644] [cursor=pointer]:
+              - /url: /download
+            - link "Changelog" [ref=e645] [cursor=pointer]:
+              - /url: /changelog
+            - link "All Versions" [ref=e646] [cursor=pointer]:
+              - /url: /versions
+            - link "Icon Requests" [ref=e647] [cursor=pointer]:
+              - /url: /leaderboard
+          - generic [ref=e648]:
+            - heading "Community" [level=3] [ref=e649]
+            - link "GitHub" [ref=e650] [cursor=pointer]:
+              - /url: https://github.com/FortAwesome/Font-Awesome
+            - link "YouTube" [ref=e651] [cursor=pointer]:
+              - /url: https://www.youtube.com/@font.awesome
+            - link "Threads" [ref=e652] [cursor=pointer]:
+              - /url: https://www.threads.net/@font.awesome
+            - link "Awesome Swag" [ref=e653] [cursor=pointer]:
+              - /url: https://cottonbureau.com/font-awesome
+          - generic [ref=e654]:
+            - heading "Help" [level=3] [ref=e655]
+            - link "Support" [ref=e656] [cursor=pointer]:
+              - /url: /support
+            - link "Troubleshooting" [ref=e657] [cursor=pointer]:
+              - /url: /docs/web/troubleshoot
+            - link "Contact Us" [ref=e658] [cursor=pointer]:
+              - /url: mailto:hello@fontawesome.com?subject=Hello, Font Awesome!
+            - link "Status" [ref=e659] [cursor=pointer]:
+              - /url: https://status.fortawesome.com/
+      - generic [ref=e660]:
+        - generic [ref=e661]:
+          - link "License" [ref=e662] [cursor=pointer]:
+            - /url: /license
+          - link "Terms of Service" [ref=e663] [cursor=pointer]:
+            - /url: /tos
+          - link "Privacy Policy" [ref=e664] [cursor=pointer]:
+            - /url: /privacy
+          - link "Refunds" [ref=e665] [cursor=pointer]:
+            - /url: /refunds
+          - button "Cookie Preferences" [ref=e666] [cursor=pointer]
+        - paragraph [ref=e668]: © Fonticons, Inc.
