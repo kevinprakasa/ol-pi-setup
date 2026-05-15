@@ -4,6 +4,9 @@
 
 Add a functional "Re-run integrations" button to `CodeWidgetGrading` that re-triggers code execution for a **single widget** and produces a correct aggregated score across all widgets for the question — by pre-populating non-target widgets' Redis state from their existing Stamps.
 
+> **Status:** Backend implemented and reviewed. Critical scoring bugs fixed (2026-05-13).
+> Remaining: Client-side wiring (TypeScript types, button enablement, polling UX).
+
 ---
 
 ## Data Flow
